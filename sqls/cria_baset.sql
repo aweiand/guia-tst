@@ -66,6 +66,16 @@ CREATE TABLE grupo_cipa(
 	CONSTRAINT FrKgrupo_cipa_intervalo FOREIGN KEY (id_intervalo) REFERENCES intervalo (id_intervalo)
 );
 
+CREATE TABLE grupo_cnae(
+	
+	cipa CHAR(4)NOT NULL,
+	cnae INT(5)NOT NULL,
+	
+	CONSTRAINT PrKgrupo_cnae PRIMARY KEY (cnae,cipa),
+	CONSTRAINT FrKgrupo_cnae_cnae FOREIGN KEY (cnae) REFERENCES cnae (cnae),
+	CONSTRAINT FrKgrupo_cnae_cipa FOREIGN KEY (cipa) REFERENCES grupo_cipa (cipa)
+);
+
 CREATE TABLE empregado_obrigatorio(
 	
 	id_emp_obg INT(4)NOT NULL AUTO_INCREMENT,
