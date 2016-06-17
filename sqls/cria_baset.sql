@@ -72,7 +72,7 @@ CREATE TABLE empregado_obrigatorio(
 	id_risco INT(4)NOT NULL,
 	id_intervalo INT(4)NOT NULL,
 	id_empregado INT(2)NOT NULL,
-	id_observacao INT(4),
+	id_observacao INT(4)NOT NULL,
 	quantidade INT(2)NOT NULL,
 	
 	CONSTRAINT PrKempregado_obrigatorio PRIMARY KEY (id_emp_obg),
