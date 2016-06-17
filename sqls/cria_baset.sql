@@ -38,7 +38,7 @@ CREATE TABLE empregado(
 
 CREATE TABLE grupo(
 	
-	cipa INT(4)NOT NULL,
+	cipa CHAR(4)NOT NULL,
 	descricao TEXT NOT NULL,
 	
 	CONSTRAINT PrKgrupo PRIMARY KEY (cipa)
@@ -50,13 +50,13 @@ CREATE TABLE cnae(
 	id_risco INT(1)NOT NULL,
 	descricao TEXT NOT NULL,
 	
-	CONSTRAINT PrKcnae PRIMARY KEY (CNAE),
+	CONSTRAINT PrKcnae PRIMARY KEY (cnae),
 	CONSTRAINT FrKrisco_cnae FOREIGN KEY (id_risco) REFERENCES risco (id_risco)
 );
 
 CREATE TABLE grupo_cipa(
 	
-	cipa INT(4)NOT NULL,
+	cipa CHAR(4)NOT NULL,
 	tipo BOOLEAN NOT NULL,
 	id_intervalo INT(4)NOT NULL,
 	quantidade INT(2)NOT NULL,
