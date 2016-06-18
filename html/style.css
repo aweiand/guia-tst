@@ -1,0 +1,53 @@
+.centraliza{
+	position: absolute;
+	text-align: center;
+	left: 35%;
+	top: 10%;
+	width: 50%;
+}
+
+.centraliza_linha{
+  position: absolute;
+  text-align: center;
+  left: 25%;
+  top: 10%;
+  width: 50%;
+  font-size: 20px;
+  border-style: solid;
+}
+
+.cabecalho{
+  position: relative;;
+  /*text-align: left;*/
+  left: 25%;
+  top: 10%;
+  width: 50%;
+  font-size: 20px;
+  border-style: solid;
+}
+
+.td{
+	border: 1px solid white;
+  border-collapse: collapse;
+}
+
+.bt{
+    border: none;
+    background: white;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+}
+
+.footer {
+  position: relative;
+  left: 25%;
+  width: 50%;
+  text-align: center;
+}
