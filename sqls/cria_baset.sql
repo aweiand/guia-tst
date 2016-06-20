@@ -73,7 +73,7 @@ CREATE TABLE grupo_cnae(
 	
 	CONSTRAINT PrKgrupo_cnae PRIMARY KEY (cnae,cipa),
 	CONSTRAINT FrKgrupo_cnae_cnae FOREIGN KEY (cnae) REFERENCES cnae (cnae),
-	CONSTRAINT FrKgrupo_cnae_cipa FOREIGN KEY (cipa) REFERENCES grupo_cipa (cipa)
+	CONSTRAINT FrKgrupo_cnae_cipa FOREIGN KEY (cipa) REFERENCES grupo (cipa)
 );
 
 CREATE TABLE empregado_obrigatorio(
