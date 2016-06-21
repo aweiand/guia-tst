@@ -1,1070 +1,1070 @@
-05.00-3;Extração de carvão mineral;C-1
-06.00-0;Extração de petróleo e gás natural;C-1
-07.10-3;Extração de minério de ferro;C-1
-07.21-9;Extração de minério de alumínio;C-1
-07.22-7;Extração de minério de estanho;C-1
-07.23-5;Extração de minério de manganês;C-1
-07.24-3;Extração de minério de metais preciosos;C-1
-07.25-1;Extração de minerais radioativos;C-1
-07.29-4;Extração de minerais metálicos não-ferrosos não especificados anteriormente;C-1
-08.10-0;Extração de pedra, areia e argila;C-1
-08.91-6;Extração de minerais para fabricação de adubos, fertilizantes e outros produtos químicos;C-1
-08.92-4;Extração e refino de sal marinho e sal-gema;C-1
-08.93-2;Extração de gemas (pedras preciosas e semipreciosas);C-1
-08.99-1;Extração de minerais não-metálicos não especificados anteriormente;C-1
-09.10-6;Atividades de apoio à extração de petróleo e gás natural;C-1
-09.90-4;Atividades de apoio à extração de minerais, exceto petróleo e gás natural;C-1
-10.11;Abate de reses, exceto suínos;C-2
-10.12-1;Abate de suínos, aves e outros pequenos animais;C-2
-10.13-9;Fabricação de produtos de carne;C-2
-10.20-1;Preservação do pescado e fabricação de produtos do pescado;C-2
-10.31-7;Fabricação de conservas de frutas;C-2
-10.32-5;Fabricação de conservas de legumes e outros vegetais;C-2
-10.33-3;Fabricação de sucos de frutas, hortaliças e legumes;C-2
-10.41-4;Fabricação de óleos vegetais em bruto, exceto óleo de milho;C-2
-10.42-2;Fabricação de óleos vegetais refinados, exceto óleo de milho;C-2
-10.43-1;Fabricação de margarina e outras gorduras vegetais e de óleos nãocomestíveis de animais;C-2
-10.51-1;Preparação do leite;C-2
-10.52-0;Fabricação de laticínios;C-2
-10.53-8;Fabricação de sorvetes e outros gelados comestíveis;C-2
-10.61-9;Beneficiamento de arroz e fabricação de produtos do arroz;C-2
-10.62-7;Moagem de trigo e fabricação de derivados;C-2
-10.63-5;Fabricação de farinha de mandioca e derivados;C-2
-10.64-3;Fabricação de farinha de milho e derivados, exceto óleos de milho;C-2
-10.65-1;Fabricação de amidos e féculas de vegetais e de óleos de milho;C-2
-10.66-0;Fabricação de alimentos para animais;C-2
-10.69-4;Moagem e fabricação de produtos de origem vegetal não especificados anteriormente;C-2
-10.71-6;Fabricação de açúcar em bruto;C-2
-10.72-4;Fabricação de açúcar refinado;C-2
-10.81-3;Torrefação e moagem de café;C-2
-10.82-1;Fabricação de produtos à base de café;C-2
-10.91-1;Fabricação de produtos de panificação;C-2
-10.92-9;Fabricação de biscoitos e bolachas;C-2
-10.93-7;Fabricação de produtos derivados do cacau, de chocolates e confeitos;C-2
-10.94-5;Fabricação de massas alimentícias;C-2
-10.95-3;Fabricação de especiarias, molhos, temperos e condimentos;C-2
-10.96-1;Fabricação de alimentos e pratos prontos;C-2
-10.99-6;Fabricação de produtos alimentícios não especificados anteriormente;C-2
-11.11;Fabricação de aguardentes e outras bebidas destiladas;C-2
-11.12;Fabricação de vinho;C-2
-11.13;Fabricação de malte, cervejas e chopes;C-2
-11.21;Fabricação de águas envasadas;C-2
-11.22;Fabricação de refrigerantes e de outras bebidas nãooólicas;C-2
-12.10-7;Processamento industrial do fumo;C-2
-12.20-4;Fabricação de produtos do fumo;C-2
-13.11;Preparação e fiação de fibras de algodão;C-3
-13.12-0;Preparação e fiação de fibras têxteis naturais, exceto algodão;C-3
-13.13-8;Fiação de fibras artificiais e sintéticas;C-3
-13.14-6;Fabricação de linhas para costurar e bordar;C-3
-13.21-9;Tecelagem de fios de algodão;C-3
-13.22-7;Tecelagem de fios de fibras têxteis naturais, exceto algodão;C-3
-13.23-5;Tecelagem de fios de fibras artificiais e sintéticas;C-3
-13.30-8;Fabricação de tecidos de malha;C-3a
-13.40-5;Acabamentos em fios, tecidos e artefatos têxteis;C-3
-13.51-1;Fabricação de artefatos têxteis para uso doméstico;C-3a
-13.52-9;Fabricação de artefatos de tapeçaria;C-3a
-13.53-7;Fabricação de artefatos de cordoaria;C-3a
-13.54-5;Fabricação de tecidos especiais, inclusive artefatos;C-3a
-13.59-6;Fabricação de outros produtos têxteis não especificados anteriormente;C-3a
-14.11;Confecção de roupas íntimas;C-4
-14.12-6;Confecção de peças do vestuário, exceto roupas íntimas;C-4
-14.13-4;Confecção de roupas profissionais;C-4
-14.14-2;Fabricação de acessórios do vestuário, exceto para segurança e proteção;C-4
-14.21-5;Fabricação de meias;C-3a
-14.22-3;Fabricação de artigos do vestuário, produzidos em malharias e tricotagens, exceto meias;C-3a
-15.10-6;Curtimento e outras preparações de couro;C-5
-15.21-1;Fabricação de artigos para viagem, bolsas e semelhantes de qualquer material;C-5a
-15.29-7;Fabricação de artefatos de couro não especificados anteriormente;C-5a
-15.31-9;Fabricação de calçados de couro;C-5
-15.32-7;Fabricação de tênis de qualquer material;C-5
-15.33-5;Fabricação de calçados de material sintético;C-5
-15.39-4;Fabricação de calçados de materiais não especificados anteriormente;C-5
-15.40-8;Fabricação de partes para calçados, de qualquer material;C-5
-16.10-2;Desdobramento de madeira;C-6
-16.21-8;Fabricação de madeira laminada e de chapas de madeira compensada, prensada e aglomerada;C-6
-16.22-6;Fabricação de estruturas de madeira e de artigos de carpintaria para construção;C-6
-16.23-4;Fabricação de artefatos de tanoaria e de embalagens de madeira;C-6
-16.29-3;Fabricação de artefatos de madeira, palha, cortiça, vime e material trançado não especificados anteriormente, exceto móveis;C-6
-17.10-9;Fabricação de celulose e outras pastas para a fabricação de papel;C-7a
-17.21-4;Fabricação de papel;C-7a
-17.22-2;Fabricação de cartolina e papel-cartão;C-7a
-17.31-1;Fabricação de embalagens de papel;C-7
-17.32-0;Fabricação de embalagens de cartolina e papel-cartão;C-7
-17.33-8;Fabricação de chapas e de embalagens de papelão ondulado;C-7
-17.41-9;Fabricação de produtos de papel, cartolina, papel-cartão e papelão ondulado para uso comercial e de escritório;C-7
-17.42-7;Fabricação de produtos de papel para usos doméstico e higiênicosanitário;C-7
-17.49-4;Fabricação de produtos de pastas celulósicas, papel, cartolina, papelcartão e papelão ondulado não especificados anteriormente;C-7
-18.11;Impressão de jornais, livros, revistas e outras publicações periódicas;C-8
-18.12-1;Impressão de material de segurança;C-8
-18.13-0;Impressão de materiais para outros usos;C-8
-18.21-1;Serviços de pré-impressão;C-8
-18.22-9;Serviços de acabamentos gráficos;C-8
-18.30-0;Reprodução de materiais gravados em qualquer suporte;C-9
-19.10-1;Coquerias;C-1
-19.21-7;Fabricação de produtos do refino de petróleo;C-1a
-19.22-5;Fabricação de produtos derivados do petróleo, exceto produtos do refino;C-1a
-19.31-4;Fabricação de álcool;C-1a
-19.32-2;Fabricação de biocombustíveis, exceto álcool;C-10
-20.11;Fabricação de cloro e álcalis;C-10
-20.12-6;Fabricação de intermediários para fertilizantes;C-10
-20.13-4;Fabricação de adubos e fertilizantes;C-10
-20.14-2;Fabricação de gases industriais;C-10
-20.19-3;Fabricação de produtos químicos inorgânicos não especificados anteriormente;C-10
-20.21-5;Fabricação de produtos petroquímicos básicos;C-10
-20.22-3;Fabricação de intermediários para plastificantes, resinas e fibras;C-10
-20.29-1;Fabricação de produtos químicos orgânicos não especificados anteriormente;C-10
-20.31-2;Fabricação de resinas termoplásticas;C-10
-20.32-1;Fabricação de resinas termofixas;C-10
-20.33-9;Fabricação de elastômeros;C-10
-20.40-1;Fabricação de fibras artificiais e sintéticas;C-10
-20.51-7;Fabricação de defensivos agrícolas;C-10
-20.52-5;Fabricação de desinfestantes domissanitários;C-10
-20.61-4;Fabricação de sabões e detergentes sintéticos;C-10
-20.62-2;Fabricação de produtos de limpeza e polimento;C-10
-20.63-1;Fabricação de cosméticos, produtos de perfumaria e de higiene pessoal;C-10
-20.71-1;Fabricação de tintas, vernizes, esmaltes e lacas;C-10
-20.72-0;Fabricação de tintas de impressão;C-10
-20.73-8;Fabricação de impermeabilizantes, solventes e produtos afins;C-10
-20.91-6;Fabricação de adesivos e selantes;C-10
-20.92-4;Fabricação de explosivos;C-15
-20.93-2;Fabricação de aditivos de uso industrial;C-10
-20.94-1;Fabricação de catalisadores;C-10
-20.99-1;Fabricação de produtos químicos não especificados anteriormente;C-10
-21.10-6;Fabricação de produtos farmoquímicos;C-10
-21.21-1;Fabricação de medicamentos para uso humano;C-10
-21.22-0;Fabricação de medicamentos para uso veterinário;C-10
-21.23-8;Fabricação de preparações farmacêuticas;C-10
-22.11-1;Fabricação de pneumáticos e de câmaras-de-ar;C-11
-22.12-9;Reforma de pneumáticos usados;C-11
-22.19-6;Fabricação de artefatos de borracha não especificados anteriormente;C-11
-22.21-8;Fabricação de laminados planos e tubulares de material plástico;C-10
-22.22-6;Fabricação de embalagens de material plástico;C-10
-22.23-4;Fabricação de tubos e acessórios de material plástico para uso na construção;C-10
-22.29-3;Fabricação de artefatos de material plástico não especificados anteriormente;C-10
-23.11-7;Fabricação de vidro plano e de segurança;C12
-23.12-5;Fabricação de embalagens de vidro;C12
-23.19-2;Fabricação de artigos de vidro;C-12
-23.20-6;Fabricação de cimento;C-1
-23.30-3;Fabricação de artefatos de concreto, cimento, fibrocimento, gesso e materiais semelhantes;C-12
-23.41-9;Fabricação de produtos cerâmicos refratários;C-12
-23.42-7;Fabricação de produtos cerâmicos não-refratários para uso estrutural na construção;C-12
-23.49-4;Fabricação de produtos cerâmicos não-refratários não especificados anteriormente;C-12
-23.91-5;Aparelhamento e outros trabalhos em pedras;C-1
-23.92-3;Fabricação de cal e gesso;C-12
-23.99-1;Fabricação de produtos de minerais não-metálicos não especificados anteriormente;C-12
-24.11-3;Produção de ferro-gusa;C-13
-24.12-1;Produção de ferroligas;C-13
-24.21-1;Produção de semi-acabados de aço;C-13
-24.22-9;Produção de laminados planos de aço;C-13
-24.23-7;Produção de laminados longos de aço;C-13
-24.24-5;Produção de relaminados, trefilados e perfilados de aço;C-13
-24.31-8;Produção de tubos de aço com costura;C-13
-24.39-3;Produção de outros tubos de ferro e aço;C-13
-24.41-5;Metalurgia do alumínio e suas ligas;C-13
-24.42-3;Metalurgia dos metais preciosos;C-13
-24.43-1;Metalurgia do cobre;C-13
-24.49-1;Metalurgia dos metais não-ferrosos e suas ligas não especificados anteriormente;C-13
-24.51-2;Fundição de ferro e aço;C-13
-24.52-1;Fundição de metais não-ferrosos e suas ligas;C-13
-25.11-0;Fabricação de estruturas metálicas;C-13
-25.12-8;Fabricação de esquadrias de metal;C-14
-25.13-6;Fabricação de obras de caldeiraria pesada;C-13
-25.21-7;Fabricação de tanques, reservatórios metálicos e caldeiras para aquecimento central;C-14
-25.22-5;Fabricação de caldeiras geradoras de vapor, exceto para aquecimento central e para veículos;C-14
-25.31-4;Produção de forjados de aço e de metais não-ferrosos e suas ligas;C-13
-25.32-2;"Produção de artefatos estampados de metal; metalurgia do pó";C-13
-25.39-0;Serviços de usinagem, solda, tratamento e revestimento em metais;C-13
-25.41-1;Fabricação de artigos de cutelaria;C-14
-25.42-0;Fabricação de artigos de serralheria, exceto esquadrias;C-14
-25.43-8;Fabricação de ferramentas;C-14
-25.50-1;Fabricação de equipamento bélico pesado, armas de fogo e munições;C-15
-25.91-8;Fabricação de embalagens metálicas;C-14
-25.92-6;Fabricação de produtos de trefilados de metal;C-13
-25.93-4;Fabricação de artigos de metal para uso doméstico e pessoal;C-14
-25.99-3;Fabricação de produtos de metal não especificados anteriormente;C-14
-26.10-8;Fabricação de componentes eletrônicos;C-14
-26.21-3;Fabricação de equipamentos de informática;C-14
-26.22-1;Fabricação de periféricos para equipamentos de informática;C-14
-26.31-1;Fabricação de equipamentos transmissores de comunicação;C-14
-26.32-9;Fabricação de aparelhos telefônicos e de outros equipamentos de comunicação;C-14
-26.40-0;Fabricação de aparelhos de recepção, reprodução, gravação e amplificação de áudio e vídeo;C-14
-26.51-5;Fabricação de aparelhos e equipamentos de medida, teste e controle;C-14
-26.52-3;Fabricação de cronômetros e relógios;C-14
-26.60-4;Fabricação de aparelhos eletromédicos e eletroterapêuticos e equipamentos de irradiação;C-14
-26.70-1;Fabricação de equipamentos e instrumentos ópticos, fotográficos e cinematográficos;C-14
-26.80-9;Fabricação de mídias virgens, magnéticas e ópticas;C-10
-27.10-4;Fabricação de geradores, transformadores e motores elétricos;C-14
-27.21-0;Fabricação de pilhas, baterias e acumuladores elétricos, exceto para veículos automotores;C-10
-27.22-8;Fabricação de baterias e acumuladores para veículos automotores;C-10
-27.31-7;Fabricação de aparelhos e equipamentos para distribuição e controle de energia elétrica;C-14
-27.32-5;Fabricação de material elétrico para instalações em circuito de consumo;C-14
-27.33-3;Fabricação de fios, cabos e condutores elétricos isolados;C-14
-27.40-6;Fabricação de lâmpadas e outros equipamentos de iluminação;C-14
-27.51-1;Fabricação de fogões, refrigeradores e máquinas de lavar e secar para uso doméstico;C-14
-27.59-7;Fabricação de aparelhos eletrodomésticos não especificados anteriormente;C-14
-27.90-2;Fabricação de equipamentos e aparelhos elétricos não especificados anteriormente;C-14
-28.11-9;Fabricação de motores e turbinas, exceto para aviões e veículos rodoviários;C-14
-28.12-7;Fabricação de equipamentos hidráulicos e pneumáticos, exceto válvulas;C-14
-28.13-5;Fabricação de válvulas, registros e dispositivos semelhantes;C-14
-28.14-3;Fabricação de compressores;C-14
-28.15-1;Fabricação de equipamentos de transmissão para fins industriais;C-14
-28.21-6;Fabricação de aparelhos e equipamentos para instalações térmicas;C-14
-28.22-4;Fabricação de máquinas, equipamentos e aparelhos para transporte e elevação de cargas e pessoas;C-14
-28.23-2;Fabricação de máquinas e aparelhos de refrigeração e ventilação para uso industrial e comercial;C-14
-28.24-1;Fabricação de aparelhos e equipamentos de ar condicionado;C-14
-28.25-9;Fabricação de máquinas e equipamentos para saneamento básico e ambiental;C-14
-28.29-1;Fabricação de máquinas e equipamentos de uso geral não especificados anteriormente;C-14a
-28.31-3;Fabricação de tratores agrícolas;C-16
-28.32-1;Fabricação de equipamentos para irrigação agrícola;C-14
-28.33-0;Fabricação de máquinas e equipamentos para a agricultura e pecuária, exceto para irrigação;C-14
-28.40-2;Fabricação de máquinas-ferramenta;C-14
-28.51-8;Fabricação de máquinas e equipamentos para a prospecção e extração de petróleo;C-14
-28.52-6;Fabricação de outras máquinas e equipamentos para uso na extração mineral, exceto na extração de petróleo;C-14
-28.53-4;Fabricação de tratores, exceto agrícolas;C-16
-28.54-2;Fabricação de máquinas e equipamentos para terraplenagem, pavimentação e construção, exceto tratores;C-14
-28.61-5;Fabricação de máquinas para a indústria metalúrgica, exceto máquinas- ferramenta;C-14
-28.62-3;Fabricação de máquinas e equipamentos para as indústrias de alimentos, bebidas e fumo;C-14
-28.63-1;Fabricação de máquinas e equipamentos para a indústria têxtil;C-14
-28.64-0;Fabricação de máquinas e equipamentos para as indústrias do vestuário, do couro e de calçados;C-14
-28.65-8;Fabricação de máquinas e equipamentos para as indústrias de celulose, papel e papelão e artefatos;C-14
-28.66-6;Fabricação de máquinas e equipamentos para a indústria do plástico;C-14
-28.69-1;Fabricação de máquinas e equipamentos para uso industrial específico não especificados anteriormente;C-14
-29.10-7;Fabricação de automóveis, camionetas e utilitários;C-16
-29.20-4;Fabricação de caminhões e ônibus;C-16
-29.30-1;Fabricação de cabines, carrocerias e reboques para veículos automotores;C-16
-29.41-7;Fabricação de peças e acessórios para o sistema motor de veículos automotores;C-16
-29.42-5;Fabricação de peças e acessórios para os sistemas de marcha e transmissão de veículos automotores;C-16
-29.43-3;Fabricação de peças e acessórios para o sistema de freios de veículos automotores;C-16
-29.44-1;Fabricação de peças e acessórios para o sistema de direção e suspensão de veículos automotores;C-16
-29.45-0;Fabricação de material elétrico e eletrônico para veículos automotores, exceto baterias;C-14
-29.49-2;Fabricação de peças e acessórios para veículos automotores não especificados anteriormente;C-16
-29.50-6;Recondicionamento e recuperação de motores para veículos automotores;C-16
-30.11-3;Construção de embarcações e estruturas flutuantes;C-16
-30.12-1;Construção de embarcações para esporte e lazer;C-16
-30.31-8;Fabricação de locomotivas, vagões e outros materiais rodantes;C-16
-30.32-6;Fabricação de peças e acessórios para veículos ferroviários;C-16
-30.41-5;Fabricação de aeronaves;C-16
-30.42-3;Fabricação de turbinas, motores e outros componentes e peças para aeronaves;C-16
-30.50-4;Fabricação de veículos militares de combate;C-16
-30.91-1;Fabricação de motocicletas;C-16
-30.92-0;Fabricação de bicicletas e triciclos não-motorizados;C-16
-30.99-7;Fabricação de equipamentos de transporte não especificados anteriormente;C-16
-31.01-2;Fabricação de móveis com predominância de madeira;C-6
-31.02-1;Fabricação de móveis com predominância de metal;C-14
-31.03-9;Fabricação de móveis de outros materiais, exceto madeira e metal;C-14
-31.04-7;Fabricação de colchões;C-10
-32.11-6;Lapidação de gemas e fabricação de artefatos de ourivesaria e joalheria;C-12
-32.12-4;Fabricação de bijuterias e artefatos semelhantes;C-14a
-32.20-5;Fabricação de instrumentos musicais;C-14a
-32.30-2;Fabricação de artefatos para pesca e esporte;C-14
-32.40-0;Fabricação de brinquedos e jogos recreativos;C-14
-32.50-7;Fabricação de instrumentos e materiais para uso médico e odontológico e de artigos ópticos;C-14
-32.91-4;Fabricação de escovas, pincéis e vassouras;C-14a
-32.92-2;Fabricação de equipamentos e acessórios para segurança e proteção pessoal e profissional;C-4
-32.99-0;Fabricação de produtos diversos não especificados anteriormente;C-14a
-33.11-2;Manutenção e reparação de tanques, reservatórios metálicos e caldeiras, exceto para veículos;C-14
-33.12-1;Manutenção e reparação de equipamentos eletrônicos e ópticos;C-14
-33.13-9;Manutenção e reparação de máquinas e equipamentos elétricos;C-14
-33.14-7;Manutenção e reparação de máquinas e equipamentos da indústria mecânica;C-14
-33.15-5;Manutenção e reparação de veículos ferroviários;C-16
-33.16-3;Manutenção e reparação de aeronaves;C-16
-33.17-1;Manutenção e reparação de embarcações;C-16
-33.19-8;Manutenção e reparação de equipamentos e produtos não especificados anteriormente;C-14
-33.21-0;Instalação de máquinas e equipamentos industriais;C-14
-33.29-5;Instalação de equipamentos não especificados anteriormente;C-14a
-35.11-5;Geração de energia elétrica;C-17
-35.12-3;Transmissão de energia elétrica;C-17
-35.13-1;Comércio atacadista de energia elétrica;C-17
-35.14-0;Distribuição de energia elétrica;C-17
-35.20-4;"Produção de gás; processamento de gás natural; distribuição de combustíveis gasosos por redes urbanas";C-17
-35.30-1;Produção e distribuição de vapor, água quente e ar condicionado;C-17
-36.00-6;Captação, tratamento e distribuição de água;C-17
-37.01-1;Gestão de redes de esgoto;C-17
-37.02-9;Atividades relacionadas a esgoto, exceto a gestão de redes;C-17
-38.11-4;Coleta de resíduos nãoigosos;C-17
-38.12-2;Coleta de resíduos perigosos;C-17
-38.21-1;Tratamento e disposição de resíduos não-perigosos;C-17
-38.22-0;Tratamento e disposição de resíduos perigosos;C-17
-38.31-9;Recuperação de materiais metálicos;C-14
-38.32-7;Recuperação de materiais plásticos;C-12
-38.39-4;Recuperação de materiais não especificados anteriormente;C-12
-39.00-5;Descontaminação e outros serviços de gestão de resíduos;C-17
-41.10-7;Incorporação de empreendimentos imobiliários;C-29
-41.20-4;Construção de edifícios;C-18a
-42.11-1;Construção de rodovias e ferrovias;C-18a
-42.12-0;Construção de obras-de-arte especiais;C-18a
-42.13-8;Obras de urbanização - ruas, praças e calçadas;C-18a
-42.21-9;Obras para geração e distribuição de energia elétrica e para telecomunicações;C-18a
-42.22-7;Construção de redes de abastecimento de água, coleta de esgoto e construções correlatas;C-18
-42.23-5;Construção de redes de transportes por dutos, exceto para água e esgoto;C-18
-42.91-0;Obras portuárias, marítimas e fluviais;C-18
-42.92-8;Montagem de instalações industriais e de estruturas metálicas;C-18a
-42.99-5;Obras de engenharia civil não especificadas anteriormente;C-18
-43.11-8;Demolição e preparação de canteiros de obras;C-18a
-43.12-6;Perfurações e sondagens;C-18a
-43.13-4;Obras de terraplenagem;C-18a
-43.19-3;Serviços de preparação do terreno não especificados anteriormente;C-18a
-43.21-5;Instalações elétricas;C-18
-43.22-3;Instalações hidráulicas, de sistemas de ventilação e refrigeração;C-18
-43.29-1;Obras de instalações em construções não especificadas anteriormente;C-18
-43.30-4;Obras de acabamento;C-18
-43.91-6;Obras de fundações;C-18a
-43.99-1;Serviços especializados para construção não especificados anteriormente;C-18
-45.11-1;Comércio a varejo e por atacado de veículos automotores;C-21
-45.12-9;Representantes comerciais e agentes do comércio de veículos automotores;C-21
-45.20-0;Manutenção e reparação de veículos automotores;C-16
-45.30-7;Comércio de peças e acessórios para veículos automotores;C-21
-45.41-2;Comércio por atacado e a varejo de motocicletas, peças e acessórios;C-21
-45.42-1;Representantes comerciais e agentes do comércio de motocicletas, peças e acessórios;C-21
-45.43-9;Manutenção e reparação de motocicletas;C-16
-46.11-7;Representantes comerciais e agentes do comércio de matériasmas agrícolas e animais vivos;C-19
-46.12-5;Representantes comerciais e agentes do comércio de combustíveis, minerais, produtos siderúrgicos e químicos;C-22
-46.13-3;Representantes comerciais e agentes do comércio de madeira, material de construção e ferragens;C-20
-46.14-1;Representantes comerciais e agentes do comércio de máquinas, equipamentos, embarcações e aeronaves;C-19
-46.15-0;Representantes comerciais e agentes do comércio de eletrodomésticos, móveis e artigos de uso doméstico;C-19
-46.16-8;Representantes comerciais e agentes do comércio de têxteis, vestuário, calçados e artigos de viagem;C-19
-46.17-6;Representantes comerciais e agentes do comércio de produtos alimentícios, bebidas e fumo;C-19
-46.18-4;Representantes comerciais e agentes do comércio especializado em produtos não especificados anteriormente;C-19
-46.19-2;Representantes comerciais e agentes do comércio de mercadorias em geral não especializado;C-19
-46.21-4;Comércio atacadista de café em grão;C-20
-46.22-2;Comércio atacadista de soja;C-20
-46.23-1;Comércio atacadista de animais vivos, alimentos para animais e matérias- primas agrícolas, exceto café e soja;C-20
-46.31-1;Comércio atacadista de leite e laticínios;C-20
-46.32-0;Comércio atacadista de cereais e leguminosas beneficiados, farinhas, amidos e féculas;C-20
-46.33-8;Comércio atacadista de hortifrutigranjeiros;C-20
-46.34-6;Comércio atacadista de carnes, produtos da carne e pescado;C-20
-46.35-4;Comércio atacadista de bebidas;C-20
-46.36-2;Comércio atacadista de produtos do fumo;C-20
-46.37-1;Comércio atacadista especializado em produtos alimentícios não especificados anteriormente;C-20
-46.39-7;Comércio atacadista de produtos alimentícios em geral;C-20
-20.71-1;Fabricação de tintas, vernizes, esmaltes e lacas;C-10
-20.72-0;Fabricação de tintas de impressão;C-10
-20.73-8;Fabricação de impermeabilizantes, solventes e produtos afins;C-10
-20.91-6;Fabricação de adesivos e selantes;C-10
-20.92-4;Fabricação de explosivos;C-15
-20.93-2;Fabricação de aditivos de uso industrial;C-10
-20.94-1;Fabricação de catalisadores;C-10
-20.99-1;Fabricação de produtos químicos não especificados anteriormente;C-10
-21.10-6;Fabricação de produtos farmoquímicos;C-10
-21.21-1;Fabricação de medicamentos para uso humano;C-10
-21.22-0;Fabricação de medicamentos para uso veterinário;C-10
-21.23-8;Fabricação de preparações farmacêuticas;C-10
-22.11-1;Fabricação de pneumáticos e de câmarasar;C11
-22.12-9;Reforma de pneumáticos usados;C11
-22.19-6;Fabricação de artefatos de borracha não especificados anteriormente;C11
-22.21-8;Fabricação de laminados planos e tubulares de material plástico;C-10
-22.22-6;Fabricação de embalagens de material plástico;C-10
-22.23-4;Fabricação de tubos e acessórios de material plástico para uso na construção;C-10
-22.29-3;Fabricação de artefatos de material plástico não especificados anteriormente;C-10
-23.11-7;Fabricação de vidro plano e de segurança;C12
-23.12-5;Fabricação de embalagens de vidro;C12
-23.19-2;Fabricação de artigos de vidro;C-12
-23.20-6;Fabricação de cimento;C-1
-23.30-3;Fabricação de artefatos de concreto, cimento, fibrocimento, gesso e materiais semelhantes;C-12
-23.41-9;Fabricação de produtos cerâmicos refratários;C-12
-23.42-7;Fabricação de produtos cerâmicos não-refratários para uso estrutural na construção;C-12
-23.49-4;Fabricação de produtos cerâmicos não-refratários não especificados anteriormente;C-12
-23.91-5;Aparelhamento e outros trabalhos em pedras;C-1
-23.92-3;Fabricação de cal e gesso;C-12
-23.99-1;Fabricação de produtos de minerais não-metálicos não especificados anteriormente;C-12
-24.11-3;Produção de ferroa;C-13
-24.12-1;Produção de ferroligas;C-13
-24.21-1;Produção de semi-acabados de aço;C-13
-24.22-9;Produção de laminados planos de aço;C-13
-24.23-7;Produção de laminados longos de aço;C-13
-24.24-5;Produção de relaminados, trefilados e perfilados de aço;C-13
-24.31-8;Produção de tubos de aço com costura;C-13
-24.39-3;Produção de outros tubos de ferro e aço;C-13
-24.41-5;Metalurgia do alumínio e suas ligas;C-13
-24.42-3;Metalurgia dos metais preciosos;C-13
-24.43-1;Metalurgia do cobre;C-13
-24.49-1;Metalurgia dos metais não-ferrosos e suas ligas não especificados anteriormente;C-13
-24.51-2;Fundição de ferro e aço;C-13
-24.52-1;Fundição de metais não-ferrosos e suas ligas;C-13
-25.11-0;Fabricação de estruturas metálicas;C-13
-25.12-8;Fabricação de esquadrias de metal;C-14
-25.13-6;Fabricação de obras de caldeiraria pesada;C-13
-25.21-7;Fabricação de tanques, reservatórios metálicos e caldeiras para aquecimento central;C-14
-25.22-5;Fabricação de caldeiras geradoras de vapor, exceto para aquecimento central e para veículos;C-14
-25.31-4;Produção de forjados de aço e de metais não-ferrosos e suas ligas;C-13
-25.32-2;"Produção de artefatos estampados de metal; metalurgia do pó";C-13
-25.39-0;Serviços de usinagem, solda, tratamento e revestimento em metais;C-13
-25.41-1;Fabricação de artigos de cutelaria;C-14
-25.42-0;Fabricação de artigos de serralheria, exceto esquadrias;C-14
-25.43-8;Fabricação de ferramentas;C-14
-25.50-1;Fabricação de equipamento bélico pesado, armas de fogo e munições;C-15
-25.91-8;Fabricação de embalagens metálicas;C-14
-25.92-6;Fabricação de produtos de trefilados de metal;C-13
-25.93-4;Fabricação de artigos de metal para uso doméstico e pessoal;C-14
-25.99-3;Fabricação de produtos de metal não especificados anteriormente;C-14
-26.10-8;Fabricação de componentes eletrônicos;C-14
-26.21-3;Fabricação de equipamentos de informática;C-14
-26.22-1;Fabricação de periféricos para equipamentos de informática;C-14
-26.31-1;Fabricação de equipamentos transmissores de comunicação;C-14
-26.32-9;Fabricação de aparelhos telefônicos e de outros equipamentos de Comunicação;C-14
-26.40-0;Fabricação de aparelhos de recepção, reprodução, gravação e amplificação de áudio e vídeo;C-14
-26.51-5;Fabricação de aparelhos e equipamentos de medida, teste e controle;C-14
-26.52-3;Fabricação de cronômetros e relógios;C-14
-26.60-4;Fabricação de aparelhos eletromédicos e eletroterapêuticos e equipamentos de irradiação;C-14
-26.70-1;Fabricação de equipamentos e instrumentos ópticos, fotográficos e cinematográficos;C-14
-26.80-9;Fabricação de mídias virgens, magnéticas e ópticas;C-10
-27.10-4;Fabricação de geradores, transformadores e motores elétricos;C-14
-27.21-0;Fabricação de pilhas, baterias e acumuladores elétricos, exceto para veículos automotores;C-10
-27.22-8;Fabricação de baterias e acumuladores para veículos automotores;C-10
-27.31-7;Fabricação de aparelhos e equipamentos para distribuição e controle de energia elétrica;C-14
-27.32-5;Fabricação de material elétrico para instalações em circuito de consumo;C-14
-27.33-3;Fabricação de fios, cabos e condutores elétricos isolados;C-14
-27.40-6;Fabricação de lâmpadas e outros equipamentos de iluminação;C-14
-27.51-1;Fabricação de fogões, refrigeradores e máquinas de lavar e secar para uso doméstico;C-14
-27.59-7;Fabricação de aparelhos eletrodomésticos não especificados anteriormente;C-14
-27.90-2;Fabricação de equipamentos e aparelhos elétricos não especificados anteriormente;C-14
-28.11- 9;Fabricação de motores e turbinas, exceto para aviões e veículos rodoviários;C-14
-28.12-7;Fabricação de equipamentos hidráulicos e pneumáticos, exceto válvulas;C-14
-28.13-5;Fabricação de válvulas, registros e dispositivos semelhantes;C-14
-28.14-3;Fabricação de compressores;C-14
-28.15-1;Fabricação de equipamentos de transmissão para fins industriais;C-14
-28.21-6;Fabricação de aparelhos e equipamentos para instalações térmicas;C-14
-28.22-4;Fabricação de máquinas, equipamentos e aparelhos para transporte e elevação de cargas e pessoas;C-14
-28.23-2;Fabricação de máquinas e aparelhos de refrigeração e ventilação para uso industrial e comercial;C-14
-28.24-1;Fabricação de aparelhos e equipamentos de ar condicionado;C-14
-28.25-9;Fabricação de máquinas e equipamentos para saneamento básico e ambiental;C-14
-28.29-1;Fabricação de máquinas e equipamentos de uso geral não especificados anteriormente;C-14a
-28.31-3;Fabricação de tratores agrícolas;C-16
-28.32-1;Fabricação de equipamentos para irrigação agrícola;C-14
-28.33-0;Fabricação de máquinas e equipamentos para a agricultura e pecuária, exceto para irrigação;C-14
-28.40-2;Fabricação de máquinas-ferramenta;C-14
-28.51-8;Fabricação de máquinas e equipamentos para a prospecção e extração de petróleo;C-14
-28.52-6;Fabricação de outras máquinas e equipamentos para uso na extração mineral, exceto na extração de petróleo;C-14
-28.53-4;Fabricação de tratores, exceto agrícolas;C-16
-28.54-2;Fabricação de máquinas e equipamentos para terraplenagem, pavimentação e construção, exceto tratores;C-14
-28.61-5;Fabricação de máquinas para a indústria metalúrgica, exceto máquinas-ferramenta;C-14
-28.62-3;Fabricação de máquinas e equipamentos para as indústrias de alimentos, bebidas e fumo;C-14
-28.63-1;Fabricação de máquinas e equipamentos para a indústria têxtil;C-14
-28.64-0;Fabricação de máquinas e equipamentos para as indústrias do vestuário, do couro e de calçados;C-14
-28.65-8;Fabricação de máquinas e equipamentos para as indústrias de celulose, papel e papelão e artefatos;C-14
-28.66-6;Fabricação de máquinas e equipamentos para a indústria do plástico;C-14
-28.69-1;Fabricação de máquinas e equipamentos para uso industrial específico não especificados anteriormente;C-14
-29.10-7;Fabricação de automóveis, camionetas e utilitários;C-16
-29.20-4;Fabricação de caminhões e ônibus;C-16
-29.30-1;Fabricação de cabines, carrocerias e reboques para veículos automotores;C-16
-29.41-7;Fabricação de peças e acessórios para o sistema motor de veículos automotores;C-16
-29.42-5;Fabricação de peças e acessórios para os sistemas de marcha e transmissão de veículos automotores;C-16
-29.43-3;Fabricação de peças e acessórios para o sistema de freios de veículos automotores;C-16
-29.44-1;Fabricação de peças e acessórios para o sistema de direção e suspensão de veículos automotores;C-16
-29.45-0;Fabricação de material elétrico e eletrônico para veículos automotores, exceto baterias;C-14
-29.49-2;Fabricação de peças e acessórios para veículos automotores não especificados anteriormente;C-16
-29.50-6;Recondicionamento e recuperação de motores para veículos automotores;C-16
-3 0.11-3;Construção de embarcações e estruturas flutuantes;C-16
-30.12-1;Construção de embarcações para esporte e lazer;C-16
-30.31-8;Fabricação de locomotivas, vagões e outros materiais rodantes;C-16
-30.32-6;Fabricação de peças e acessórios para veículos ferroviários;C-16
-30.41-5;Fabricação de aeronaves;C-16
-30.42-3;Fabricação de turbinas, motores e outros componentes e peças para aeronaves;C-16
-30.50-4;Fabricação de veículos militares de combate;C-16
-30.91-1;Fabricação de motocicletas;C-16
-30.92-0;Fabricação de bicicletas e triciclos não-motorizados;C-16
-30.99-7;Fabricação de equipamentos de transporte não especificados anteriormente;C-16
-31.01-2;Fabricação de móveis com predominância de madeira;C-6
-31.02-1;Fabricação de móveis com predominância de metal;C-14
-31.03-9;Fabricação de móveis de outros materiais, exceto madeira e metal;C-14
-31.04-7;Fabricação de colchões;C-10
-3 2.11-6;Lapidação de gemas e fabricação de artefatos de ourivesaria e joalheria;C-12
-32.12-4;Fabricação de bijuterias e artefatos semelhantes;C-14a
-32.20-5;Fabricação de instrumentos musicais;C-14a
-32.30-2;Fabricação de artefatos para pesca e esporte;C-14
-32.40-0;Fabricação de brinquedos e jogos recreativos;C-14
-32.50-7;Fabricação de instrumentos e materiais para uso médico e odontológico e de artigos ópticos;C-14
-32.91-4;Fabricação de escovas, pincéis e vassouras;C-14a
-32.92-2;Fabricação de equipamentos e acessórios para segurança e proteção pessoal e profissional;C-4
-32.99-0;Fabricação de produtos diversos não especificados anteriormente;C-14a
-3 3.11-2;Manutenção e reparação de tanques, reservatórios metálicos e caldeiras, exceto para veículos;C-14
-33.12-1;Manutenção e reparação de equipamentos eletrônicos e ópticos;C-14
-33.13-9;Manutenção e reparação de máquinas e equipamentos elétricos;C-14
-33.14-7;Manutenção e reparação de máquinas e equipamentos da indústria mecânica;C-14
-33.15-5;Manutenção e reparação de veículos ferroviários;C-16
-33.16-3;Manutenção e reparação de aeronaves;C-16
-33.17-1;Manutenção e reparação de embarcações;C-16
-33.19-8;Manutenção e reparação de equipamentos e produtos não especificados anteriormente;C-14
-33.21-0;Instalação de máquinas e equipamentos industriais;C-14
-33.29-5;Instalação de equipamentos não especificados anteriormente;C-14a
-35.11- 5;Geração de energia elétrica;C-17
-35.12-3;Transmissão de energia elétrica;C-17
-35.13-1;Comércio atacadista de energia elétrica;C-17
-35.14-0;Distribuição de energia elétrica;C-17
-35.20-4;"Produção de gás; processamento de gás natural; distribuição de combustíveis gasosos por redes urbanas";C-17
-35.30-1;Produção e distribuição de vapor, água quente e ar condicionado;C-17
-36.00-6;Captação, tratamento e distribuição de água;C-17
-37.01-1;Gestão de redes de esgoto;C-17
-37.02-9;Atividades relacionadas a esgoto, exceto a gestão de redes;C-17
-3 8.11-4;Coleta de resíduos não-perigosos;C-17
-38.12-2;Coleta de resíduos perigosos;C-17
-38.21-1;Tratamento e disposição de resíduos não-perigosos;C-17
-38.22-0;Tratamento e disposição de resíduos perigosos;C-17
-38.31-9;Recuperação de materiais metálicos;C-14
-38.32-7;Recuperação de materiais plásticos;C-12
-38.39-4;Recuperação de materiais não especificados anteriormente;C-12
-39.00-5;Descontaminação e outros serviços de gestão de resíduos;C-17
-41.10-7;Incorporação de empreendimentos imobiliários;C-29
-41.20-4;Construção de edifícios;C-18a
-42.11-1;Construção de rodovias e ferrovias;C-18a
-42.12-0;Construção de obras-de-arte especiais;C-18a
-42.13-8;Obras de urbanização - ruas, praças e calçadas;C-18a
-42.21-9;Obras para geração e distribuição de energia elétrica e para telecomunicações;C-18a
-42.22-7;Construção de redes de abastecimento de água, coleta de esgoto e construções correlatas;C-18
-42.23-5;Construção de redes de transportes por dutos, exceto para água e esgoto;C-18
-42.91-0;Obras portuárias, marítimas e fluviais;C-18
-42.92-8;Montagem de instalações industriais e de estruturas metálicas;C-18a
-42.99-5;Obras de engenharia civil não especificadas anteriormente;C-18
-4 3.11-8;Demolição e preparação de canteiros de obras;C-18a
-43.12-6;Perfurações e sondagens;C-18a
-43.13-4;Obras de terraplenagem;C-18a
-43.19-3;Serviços de preparação do terreno não especificados anteriormente;C-18a
-43.21-5;Instalações elétricas;C-18
-43.22-3;Instalações hidráulicas, de sistemas de ventilação e refrigeração;C-18
-43.29-1;Obras de instalações em construções não especificadas anteriormente;C-18
-43.30-4;Obras de acabamento;C-18
-43.91-6;Obras de fundações;C-18a
-43.99-1;Serviços especializados para construção não especificados anteriormente;C-18
-4 5.11-1;Comércio a varejo e por atacado de veículos automotores;C-21
-45.12-9;Representantes comerciais e agentes do comércio de veículos automotores;C-21
-45.20-0;Manutenção e reparação de veículos automotores;C-16
-45.30-7;Comércio de peças e acessórios para veículos automotores;C-21
-45.41-2;Comércio por atacado e a varejo de motocicletas, peças e acessórios;C-21
-45.42-1;Representantes comerciais e agentes do comércio de motocicletas, peças e acessórios;C-21
-45.43-9;Manutenção e reparação de motocicletas;C-16
-4 6.11-7;Representantes comerciais e agentes do comércio de matérias-primas agrícolas e animais vivos;C-19
-46.12-5;Representantes comerciais e agentes do comércio de combustíveis, minerais, produtos siderúrgicos e químicos;C-22
-46.13-3;Representantes comerciais e agentes do comércio de madeira, material de construção e ferragens;C-20
-46.14-1;Representantes comerciais e agentes do comércio de máquinas, equipamentos, embarcações e aeronaves;C-19
-46.15-0;Representantes comerciais e agentes do comércio de eletrodomésticos, móveis e artigos de uso doméstico;C-19
-46.16-8;Representantes comerciais e agentes do comércio de têxteis, vestuário, calçados e artigos de viagem;C-19
-46.17-6;Representantes comerciais e agentes do comércio de produtos alimentícios, bebidas e fumo;C-19
-46.18-4;Representantes comerciais e agentes do comércio especializado em produtos não especificados anteriormente;C-19
-46.19-2;Representantes comerciais e agentes do comércio de mercadorias em geral não especializado;C-19
-46.21-4;Comércio atacadista de café em grão;C-20
-46.22-2;Comércio atacadista de soja;C-20
-46.23-1;Comércio atacadista de animais vivos, alimentos para animais e matérias- primas agrícolas, exceto café e soja;C-20
-46.31-1;Comércio atacadista de leite e laticínios;C-20
-46.32-0;Comércio atacadista de cereais e leguminosas beneficiados, farinhas, amidos e féculas;C-20
-46.33-8;Comércio atacadista de hortifrutigranjeiros;C-20
-46.34-6;Comércio atacadista de carnes, produtos da carne e pescado;C-20
-46.35-4;Comércio atacadista de bebidas;C-20
-46.36-2;Comércio atacadista de produtos do fumo;C-20
-46.37-1;Comércio atacadista especializado em produtos alimentícios não especificados anteriormente;C-20
-46.39-7;Comércio atacadista de produtos alimentícios em geral;C-20
-20.71-1;Fabricação de tintas, vernizes, esmaltes e lacas;C-10
-20.72-0;Fabricação de tintas de impressão;C-10
-20.73-8;Fabricação de impermeabilizantes, solventes e produtos afins;C-10
-20.91-6;Fabricação de adesivos e selantes;C-10
-20.92-4;Fabricação de explosivos;C-15
-20.93-2;Fabricação de aditivos de uso industrial;C-10
-20.94-1;Fabricação de catalisadores;C-10
-20.99-1;Fabricação de produtos químicos não especificados anteriormente;C-10
-21.10-6;Fabricação de produtos farmoquímicos;C-10
-21.21-1;Fabricação de medicamentos para uso humano;C-10
-21.22-0;Fabricação de medicamentos para uso veterinário;C-10
-21.23-8;Fabricação de preparações farmacêuticas;C-10
-2 2.11-1;Fabricação de pneumáticos e de câmaras-de-ar;C-11
-22.12-9;Reforma de pneumáticos usados;C-11
-22.19-6;Fabricação de artefatos de borracha não especificados anteriormente;C-11
-22.21-8;Fabricação de laminados planos e tubulares de material plástico;C-10
-22.22-6;Fabricação de embalagens de material plástico;C-10
-22.23-4;Fabricação de tubos e acessórios de material plástico para uso na construção;C-10
-22.29-3;Fabricação de artefatos de material plástico não especificados anteriormente;C-10
-2 3.11-7;Fabricação de vidro plano e de segurança;C12
-23.12-5;Fabricação de embalagens de vidro;C12
-23.19-2;Fabricação de artigos de vidro;C-12
-23.20-6;Fabricação de cimento;C-1
-23.30-3;Fabricação de artefatos de concreto, cimento, fibrocimento, gesso e materiais semelhantes;C-12
-23.41-9;Fabricação de produtos cerâmicos refratários;C-12
-23.42-7;Fabricação de produtos cerâmicos não-refratários para uso estrutural na construção;C-12
-23.49-4;Fabricação de produtos cerâmicos não-refratários não especificados anteriormente;C-12
-23.91-5;Aparelhamento e outros trabalhos em pedras;C-1
-23.92-3;Fabricação de cal e gesso;C-12
-23.99-1;Fabricação de produtos de minerais não-metálicos não especificados anteriormente;C-12
-2 4.11-3;Produção de ferro-gusa;C-13
-24.12-1;Produção de ferroligas;C-13
-24.21-1;Produção de semi-acabados de aço;C-13
-24.22-9;Produção de laminados planos de aço;C-13
-24.23-7;Produção de laminados longos de aço;C-13
-24.24-5;Produção de relaminados, trefilados e perfilados de aço;C-13
-24.31-8;Produção de tubos de aço com costura;C-13
-24.39-3;Produção de outros tubos de ferro e aço;C-13
-24.41-5;Metalurgia do alumínio e suas ligas;C-13
-24.42-3;Metalurgia dos metais preciosos;C-13
-24.43-1;Metalurgia do cobre;C-13
-24.49-1;Metalurgia dos metais não-ferrosos e suas ligas não especificados anteriormente;C-13
-24.51-2;Fundição de ferro e aço;C-13
-24.52-1;Fundição de metais não-ferrosos e suas ligas;C-13
-2 5.11-0;Fabricação de estruturas metálicas;C-13
-25.12-8;Fabricação de esquadrias de metal;C-14
-25.13-6;Fabricação de obras de caldeiraria pesada;C-13
-25.21-7;Fabricação de tanques, reservatórios metálicos e caldeiras para aquecimento central;C-14
-25.22-5;Fabricação de caldeiras geradoras de vapor, exceto para aquecimento central e para veículos;C-14
-25.31-4;Produção de forjados de aço e de metais não-ferrosos e suas ligas;C-13
-25.32-2;"Produção de artefatos estampados de metal; metalurgia do pó";C-13
-25.39-0;Serviços de usinagem, solda, tratamento e revestimento em metais;C-13
-25.41-1;Fabricação de artigos de cutelaria;C-14
-25.42-0;Fabricação de artigos de serralheria, exceto esquadrias;C-14
-25.43-8;Fabricação de ferramentas;C-14
-25.50-1;Fabricação de equipamento bélico pesado, armas de fogo e munições;C-15
-25.91-8;Fabricação de embalagens metálicas;C-14
-25.92-6;Fabricação de produtos de trefilados de metal;C-13
-25.93-4;Fabricação de artigos de metal para uso doméstico e pessoal;C-14
-25.99-3;Fabricação de produtos de metal não especificados anteriormente;C-14
-26.10-8;Fabricação de componentes eletrônicos;C-14
-26.21-3;Fabricação de equipamentos de informática;C-14
-26.22-1;Fabricação de periféricos para equipamentos de informática;C-14
-26.31-1;Fabricação de equipamentos transmissores de comunicação;C-14
-26.32-9;Fabricação de aparelhos telefônicos e de outros equipamentos de comunicação;C-14
-26.40-0;Fabricação de aparelhos de recepção, reprodução, gravação e amplificação de áudio e vídeo;C-14
-26.51-5;Fabricação de aparelhos e equipamentos de medida, teste e controle;C-14
-26.52-3;Fabricação de cronômetros e relógios;C-14
-26.60-4;Fabricação de aparelhos eletromédicos e eletroterapêuticos e equipamentos de irradiação;C-14
-26.70-1;Fabricação de equipamentos e instrumentos ópticos, fotográficos e cinematográficos;C-14
-26.80-9;Fabricação de mídias virgens, magnéticas e ópticas;C-10
-27.10-4;Fabricação de geradores, transformadores e motores elétricos;C-14
-27.21-0;Fabricação de pilhas, baterias e acumuladores elétricos, exceto para veículos automotores;C-10
-27.22-8;Fabricação de baterias e acumuladores para veículos automotores;C-10
-27.31-7;Fabricação de aparelhos e equipamentos para distribuição e controle de energia elétrica;C-14
-27.32-5;Fabricação de material elétrico para instalações em circuito de consumo;C-14
-27.33-3;Fabricação de fios, cabos e condutores elétricos isolados;C-14
-27.40-6;Fabricação de lâmpadas e outros equipamentos de iluminação;C-14
-27.51-1;Fabricação de fogões, refrigeradores e máquinas de lavar e secar para uso doméstico;C-14
-27.59-7;Fabricação de aparelhos eletrodomésticos não especificados anteriormente;C-14
-27.90-2;Fabricação de equipamentos e aparelhos elétricos não especificados anteriormente;C-14
-2 8.11-9;Fabricação de motores e turbinas, exceto para aviões e veículos rodoviários;C-14
-28.12-7;Fabricação de equipamentos hidráulicos e pneumáticos, exceto válvulas;C-14
-28.13-5;Fabricação de válvulas, registros e dispositivos semelhantes;C-14
-28.14-3;Fabricação de compressores;C-14
-28.15-1;Fabricação de equipamentos de transmissão para fins industriais;C-14
-28.21-6;Fabricação de aparelhos e equipamentos para instalações térmicas;C-14
-28.22-4;Fabricação de máquinas, equipamentos e aparelhos para transporte e elevação de cargas e pessoas;C-14
-28.23-2;Fabricação de máquinas e aparelhos de refrigeração e ventilação para uso industrial e comercial;C-14
-28.24-1;Fabricação de aparelhos e equipamentos de ar condicionado;C-14
-28.25-9;Fabricação de máquinas e equipamentos para saneamento básico e ambiental;C-14
-28.29-1;Fabricação de máquinas e equipamentos de uso geral não especificados anteriormente;C-14a
-28.31-3;Fabricação de tratores agrícolas;C-16
-28.32-1;Fabricação de equipamentos para irrigação agrícola;C-14
-28.33-0;Fabricação de máquinas e equipamentos para a agricultura e pecuária, exceto para irrigação;C-14
-28.40-2;Fabricação de máquinas-ferramenta;C-14
-28.51-8;Fabricação de máquinas e equipamentos para a prospecção e extração de petróleo;C-14
-28.52-6;Fabricação de outras máquinas e equipamentos para uso na extração mineral, exceto na extração de petróleo;C-14
-28.53-4;Fabricação de tratores, exceto agrícolas;C-16
-28.54-2;Fabricação de máquinas e equipamentos para terraplenagem, pavimentação e construção, exceto tratores;C-14
-28.61-5;Fabricação de máquinas para a indústria metalúrgica, exceto máquinas-ferramenta;C-14
-28.62-3;Fabricação de máquinas e equipamentos para as indústrias de alimentos, bebidas e fumo;C-14
-28.63-1;Fabricação de máquinas e equipamentos para a indústria têxtil;C-14
-28.64-0;Fabricação de máquinas e equipamentos para as indústrias do vestuário, do couro e de calçados;C-14
-28.65-8;Fabricação de máquinas e equipamentos para as indústrias de celulose, papel e papelão e artefatos;C-14
-28.66-6;Fabricação de máquinas e equipamentos para a indústria do plástico;C-14
-28.69-1;Fabricação de máquinas e equipamentos para uso industrial específico não especificados anteriormente;C-14
-29.10-7;Fabricação de automóveis, camionetas e utilitários;C-16
-29.20-4;Fabricação de caminhões e ônibus;C-16
-29.30-1;Fabricação de cabines, carrocerias e reboques para veículos automotores;C-16
-29.41-7;Fabricação de peças e acessórios para o sistema motor de veículos automotores;C-16
-29.42-5;Fabricação de peças e acessórios para os sistemas de marcha e transmissão de veículos automotores;C-16
-29.43-3;Fabricação de peças e acessórios para o sistema de freios de veículos automotores;C-16
-29.44-1;Fabricação de peças e acessórios para o sistema de direção e suspensão de veículos automotores;C-16
-29.45-0;Fabricação de material elétrico e eletrônico para veículos automotores, exceto baterias;C-14
-29.49-2;Fabricação de peças e acessórios para veículos automotores não especificados anteriormente;C-16
-29.50-6;Recondicionamento e recuperação de motores para veículos automotores;C-16
-30.11-3;Construção de embarcações e estruturas flutuantes;C-16
-30.12-1;Construção de embarcações para esporte e lazer;C-16
-30.31-8;Fabricação de locomotivas, vagões e outros materiais rodantes;C-16
-30.32-6;Fabricação de peças e acessórios para veículos ferroviários;C-16
-30.41-5;Fabricação de aeronaves;C-16
-30.42-3;Fabricação de turbinas, motores e outros componentes e peças para aeronaves;C-16
-30.50-4;Fabricação de veículos militares de combate;C-16
-30.91-1;Fabricação de motocicletas;C-16
-30.92-0;Fabricação de bicicletas e triciclos não-motorizados;C-16
-30.99-7;Fabricação de equipamentos de transporte não especificados anteriormente;C-16
-31.01-2;Fabricação de móveis com predominância de madeira;C-6
-31.02-1;Fabricação de móveis com predominância de metal;C-14
-31.03-9;Fabricação de móveis de outros materiais, exceto madeira e metal;C-14
-31.04-7;Fabricação de colchões;C-10
-3 2.11-6;Lapidação de gemas e fabricação de artefatos de ourivesaria e joalheria;C-12
-32.12-4;Fabricação de bijuterias e artefatos semelhantes;C-14a
-32.20-5;Fabricação de instrumentos musicais;C-14a
-32.30-2;Fabricação de artefatos para pesca e esporte;C-14
-32.40-0;Fabricação de brinquedos e jogos recreativos;C-14
-32.50-7;Fabricação de instrumentos e materiais para uso médico e odontológico e de artigos ópticos;C-14
-32.91-4;Fabricação de escovas, pincéis e vassouras;C-14a
-32.92-2;Fabricação de equipamentos e acessórios para segurança e proteção pessoal e profissional;C-4
-32.99-0;Fabricação de produtos diversos não especificados anteriormente;C-14a
-3 3.11-2;Manutenção e reparação de tanques, reservatórios metálicos e caldeiras, exceto para veículos;C-14
-33.12-1;Manutenção e reparação de equipamentos eletrônicos e ópticos;C-14
-33.13-9;Manutenção e reparação de máquinas e equipamentos elétricos;C-14
-33.14-7;Manutenção e reparação de máquinas e equipamentos da indústria mecânica;C-14
-33.15-5;Manutenção e reparação de veículos ferroviários;C-16
-33.16-3;Manutenção e reparação de aeronaves;C-16
-33.17-1;Manutenção e reparação de embarcações;C-16
-33.19-8;Manutenção e reparação de equipamentos e produtos não especificados anteriormente;C-14
-33.21-0;Instalação de máquinas e equipamentos industriais;C-14
-33.29-5;Instalação de equipamentos não especificados anteriormente;C-14a
-3 5.11-5;Geração de energia elétrica;C-17
-35.12-3;Transmissão de energia elétrica;C-17
-35.13-1;Comércio atacadista de energia elétrica;C-17
-35.14-0;Distribuição de energia elétrica;C-17
-35.20-4;"Produção de gás; processamento de gás natural; distribuição de combustíveis gasosos por redes urbanas";C-17
-35.30-1;Produção e distribuição de vapor, água quente e ar condicionado;C-17
-36.00-6;Captação, tratamento e distribuição de água;C-17
-37.01-1;Gestão de redes de esgoto;C-17
-37.02-9;Atividades relacionadas a esgoto, exceto a gestão de redes;C-17
-3 8.11-4;Coleta de resíduos não-perigosos;C-17
-38.12-2;Coleta de resíduos perigosos;C-17
-38.21-1;Tratamento e disposição de resíduos não-perigosos;C-17
-38.22-0;Tratamento e disposição de resíduos perigosos;C-17
-38.31-9;Recuperação de materiais metálicos;C-14
-38.32-7;Recuperação de materiais plásticos;C-12
-38.39-4;Recuperação de materiais não especificados anteriormente;C-12
-39.00-5;Descontaminação e outros serviços de gestão de resíduos;C-17
-41.10-7;Incorporação de empreendimentos imobiliários;C-29
-41.20-4;Construção de edifícios;C-18a
-4 2.11-1;Construção de rodovias e ferrovias;C-18a
-42.12-0;Construção de obras-de-arte especiais;C-18a
-42.13-8;Obras de urbanização - ruas, praças e calçadas;C-18a
-42.21-9;Obras para geração e distribuição de energia elétrica e para telecomunicações;C-18ª
-42.22-7;Construção de redes de abastecimento de água, coleta de esgoto e construções correlatas;C-18
-42.23-5;Construção de redes de transportes por dutos, exceto para água e esgoto;C-18
-42.91-0;Obras portuárias, marítimas e fluviais;C-18
-42.92-8;Montagem de instalações industriais e de estruturas metálicas;C-18a
-42.99-5;Obras de engenharia civil não especificadas anteriormente;C-18
-4 3.11-8;Demolição e preparação de canteiros de obras;C-18a
-43.12-6;Perfurações e sondagens;C-18a
-43.13-4;Obras de terraplenagem;C-18a
-43.19-3;Serviços de preparação do terreno não especificados anteriormente;C-18a
-43.21-5;Instalações elétricas;C-18
-43.22-3;Instalações hidráulicas, de sistemas de ventilação e refrigeração;C-18
-43.29-1;Obras de instalações em construções não especificadas anteriormente;C-18
-43.30-4;Obras de acabamento;C-18
-43.91-6;Obras de fundações;C-18a
-43.99-1;Serviços especializados para construção não especificados anteriormente;C-18
-45.11-1;Comércio a varejo e por atacado de veículos automotores;C-21
-45.12-9;Representantes comerciais e agentes do comércio de veículos automotores;C-21
-45.20-0;Manutenção e reparação de veículos automotores;C-16
-45.30-7;Comércio de peças e acessórios para veículos automotores;C-21
-45.41-2;Comércio por atacado e a varejo de motocicletas, peças e acessórios;C-21
-45.42-1;Representantes comerciais e agentes do comércio de motocicletas, peças e acessórios;C-21
-45.43-9;Manutenção e reparação de motocicletas;C-16
-4 6.11-7;Representantes comerciais e agentes do comércio de matérias-primas agrícolas e animais vivos;C-19
-46.12-5;Representantes comerciais e agentes do comércio de combustíveis, minerais, produtos siderúrgicos e químicos;C-22
-46.13-3;Representantes comerciais e agentes do comércio de madeira, material de construção e ferragens;C-20
-46.14-1;Representantes comerciais e agentes do comércio de máquinas, equipamentos, embarcações e aeronaves;C-19
-46.15-0;Representantes comerciais e agentes do comércio de eletrodomésticos, móveis e artigos de uso doméstico;C-19
-46.16-8;Representantes comerciais e agentes do comércio de têxteis, vestuário, calçados e artigos de viagem;C-19
-46.17-6;Representantes comerciais e agentes do comércio de produtos alimentícios, bebidas e fumo;C-19
-46.18-4;Representantes comerciais e agentes do comércio especializado em produtos não especificados anteriormente;C-19
-46.19-2;Representantes comerciais e agentes do comércio de mercadorias em geral não especializado;C-19
-46.21-4;Comércio atacadista de café em grão;C-20
-46.22-2;Comércio atacadista de soja;C-20
-46.23-1;Comércio atacadista de animais vivos, alimentos para animais e matérias- primas agrícolas, exceto café e soja;C-20
-46.31-1;Comércio atacadista de leite e laticínios;C-20
-46.32-0;Comércio atacadista de cereais e leguminosas beneficiados, farinhas, amidos e féculas;C-20
-46.33-8;Comércio atacadista de hortifrutigranjeiros;C-20
-46.34-6;Comércio atacadista de carnes, produtos da carne e pescado;C-20
-46.35-4;Comércio atacadista de bebidas;C-20
-46.36-2;Comércio atacadista de produtos do fumo;C-20
-46.37-1;Comércio atacadista especializado em produtos alimentícios não especificados anteriormente;C-20
-46.39-7;Comércio atacadista de produtos alimentícios em geral;C-20
-46.41-9;Comércio atacadista de tecidos, artefatos de tecidos e de armarinho;C-20
-46.42-7;Comércio atacadista de artigos do vestuário e acessórios;C-20
-46.43-5;Comércio atacadista de calçados e artigos de viagem;C-20
-46.44-3;Comércio atacadista de produtos farmacêuticos para uso humano e veterinário;C-20
-46.45-1;Comércio atacadista de instrumentos e materiais para uso médico, cirúrgico, ortopédico e odontológico;C-20
-46.46-0;Comércio atacadista de cosméticos, produtos de perfumaria e de higiene pessoal;C-22
-46.47-8;"Comércio atacadista de artigos de escritório e de papelaria; livros, jornais e outras publicações";C-20
-46.49-4;Comércio atacadista de equipamentos e artigos de uso pessoal e doméstico não especificados anteriormente;C-20
-46.51-6;Comércio atacadista de computadores, periféricos e suprimentos de informática;C-20
-46.52-4;Comércio atacadista de componentes eletrônicos e equipamentos de telefonia e comunicação;C-20
-46.61-3;"Comércio atacadista de máquinas, aparelhos e equipamentos para uso agropecuário; partes e peças";C-20
-46.62-1;"Comércio atacadista de máquinas, equipamentos para terraplenagem, mineração e construção; partes e peças";C-20
-46.63-0;"Comércio atacadista de máquinas e equipamentos para uso industrial; partes e peças";C-20
-46.64-8;"Comércio atacadista de máquinas, aparelhos e equipamentos para uso odonto-médico-hospitalar; partes e peças";C-20
-46.65-6;"Comércio atacadista de máquinas e equipamentos para uso comercial; partes e peças";C-20
-46.69-9;"Comércio atacadista de máquinas, aparelhos e equipamentos não especificados anteriormente; partes e peças";C-20
-46.71-1;Comércio atacadista de madeira e produtos derivados;C-20
-46.72-9;Comércio atacadista de ferragens e ferramentas;C-20
-46.73-7;Comércio atacadista de material elétrico;C-20
-46.74-5;Comércio atacadista de cimento;C-20
-46.79-6;Comércio atacadista especializado de materiais de construção não especificados anteriormente e de materiais de construção em geral;C-20
-46.81-8;Comércio atacadista de combustíveis sólidos, líquidos e gasosos, exceto gás natural e GLP;C-22
-46.82-6;Comércio atacadista de gás liqüefeito de petróleo (GLP);C-22
-46.83-4;Comércio atacadista de defensivos agrícolas, adubos, fertilizantes e corretivos do solo;C-22
-46.84-2;Comércio atacadista de produtos químicos e petroquímicos, exceto agroquímicos;C-22
-46.85-1;Comércio atacadista de produtos siderúrgicos e metalúrgicos, exceto para construção;C-20
-46.86-9;Comércio atacadista de papel e papelão em bruto e de embalagens;C-20
-46.87-7;Comércio atacadista de resíduos e sucatas;C-22
-46.89-3;Comércio atacadista especializado de outros produtos intermediários não especificados anteriormente;C-20
-46.91-5;Comércio atacadista de mercadorias em geral, com predominância de produtos alimentícios;C-20
-46.92-3;Comércio atacadista de mercadorias em geral, com predominância de insumos agropecuários;C-20
-46.93-1;Comércio atacadista de mercadorias em geral, sem predominância de alimentos ou de insumos agropecuários;C-20
-47.11-3;Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - hipermercados e supermercados;C-21
-47.12-1;Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - minimercados, mercearias e armazéns;C-21
-47.13-0;Comércio varejista de mercadorias em geral, sem predominância de produtos alimentícios;C-21
-47.21-1;Comércio varejista de produtos de padaria, laticínio, doces, balas e semelhantes;C-21
-47.22-9;Comércio varejista de carnes e pescados - açougues e peixarias;C-21
-47.23-7;Comércio varejista de bebidas;C-21
-47.24-5;Comércio varejista de hortifrutigranjeiros;C-21
-47.29-6;"Comércio varejista de produtos alimentícios em geral ou especializado em produtos alimentícios não especificados anteriormente; produtos do fumo";C-21
-47.31-8;Comércio varejista de combustíveis para veículos automotores;C-22
-47.32-6;Comércio varejista de lubrificantes;C-22
-47.41-5;Comércio varejista de tintas e materiais para pintura;C-21
-47.42-3;Comércio varejista de material elétrico;C-21
-47.43-1;Comércio varejista de vidros;C-21
-47.44-0;Comércio varejista de ferragens, madeira e materiais de construção;C-21
-47.51-2;Comércio varejista especializado de equipamentos e suprimentos de informática;C-21
-47.52-1;Comércio varejista especializado de equipamentos de telefonia e comunicação;C-21
-47.53-9;Comércio varejista especializado de eletrodomésticos e equipamentos de áudio e vídeo;C-21
-47.54-7;Comércio varejista especializado de móveis, colchoaria e artigos de iluminação;C-21
-47.55-5;Comércio varejista especializado de tecidos e artigos de cama, mesa e banho;C-21
-47.56-3;Comércio varejista especializado de instrumentos musicais e acessórios;C-21
-47.57-1;Comércio varejista especializado de peças e acessórios para aparelhos eletroeletrônicos para uso doméstico, exceto informática e comunicação;C-21
-47.59-8;Comércio varejista de artigos de uso doméstico não especificados anteriormente;C-21
-47.61-0;Comércio varejista de livros, jornais, revistas e papelaria;C-21
-47.62-8;Comércio varejista de discos, CDs, DVDs e fitas;C-21
-47.63-6;Comércio varejista de artigos recreativos e esportivos;C-21
-47.71-7;Comércio varejista de produtos farmacêuticos para uso humano e veterinário;C-21
-47.72-5;Comércio varejista de cosméticos, produtos de perfumaria e de higiene pessoal;C-21
-47.73-3;Comércio varejista de artigos médicos e ortopédicos;C-21
-47.74-1;Comércio varejista de artigos de óptica;C-21
-47.81-4;Comércio varejista de artigos do vestuário e acessórios;C-21
-47.82-2;Comércio varejista de calçados e artigos de viagem;C-21
-47.83-1;Comércio varejista de jóias e relógios;C-21
-47.84-9;Comércio varejista de gás liqüefeito de petróleo (GLP);C-22
-47.85-7;Comércio varejista de artigos usados;C-21
-47.89-0;Comércio varejista de outros produtos novos não especificados anteriormente;C-21
-47.90-3;Comércio ambulante e outros tipos de comércio varejista;C-21
-4 9.11-6;Transporte ferroviário de carga;C-24d
-49.12-4;Transporte metroferroviário de passageiros;C-24d
-49.21-3;Transporte rodoviário coletivo de passageiros, com itinerário fixo, municipal e em região metropolitana;C-24c
-49.22-1;Transporte rodoviário coletivo de passageiros, com itinerário fixo, intermunicipal, interestadual e internacional;C-24c
-49.23-0;Transporte rodoviário de táxi;C-24c
-49.24-8;Transporte escolar;C-24c
-49.29-9;Transporte rodoviário coletivo de passageiros, sob regime de fretamento, e outros transportes rodoviários não especificados anteriormente;C-24c
-49.30-2;Transporte rodoviário de carga;C-24c
-49.30-2;Transporte rodoviário de carga;C-24c
-49.40-0;Transporte dutoviário;C-24
-49.50-7;Trens turísticos, teleféricos e similares;C-24
-5 0.11-4;Transporte marítimo de cabotagem;C-24b
-50.12-2;Transporte marítimo de longo curso;C-24b
-50.21-1;Transporte por navegação interior de carga;C-24b
-50.22-0;Transporte por navegação interior de passageiros em linhas regulares;C-24
-50.30-1;Navegação de apoio;C-24a
-50.91-2;Transporte por navegação de travessia;C-24
-50.99-8;Transportes aquaviários não especificados anteriormente;C-24
-51.11-1;Transporte aéreo de passageiros regular;C-24
-51.12-9;Transporte aéreo de passageiros não-regular;C-24
-51.20-0;Transporte aéreo de carga;C-24
-51.30-7;Transporte espacial;C-24b
-52.11-7;Armazenamento;C-24
-52.12-5;Carga e descarga;C-24
-52.21-4;Concessionárias de rodovias, pontes, túneis e serviços relacionados;C-24a
-52.22-2;Terminais rodoviários e ferroviários;C-24a
-52.23-1;Estacionamento de veículos;C-24a
-52.29-0;Atividades auxiliares dos transportes terrestres não especificadas anteriormente;C-24a
-52.31-1;Gestão de portos e terminais;C-24a
-52.32-0;Atividades de agenciamento marítimo;C-24a
-52.39-7;Atividades auxiliares dos transportes aquaviários não especificadas anteriormente;C-24a
-52.40-1;Atividades auxiliares dos transportes aéreos;C-24
-52.50-8;Atividades relacionadas à organização do transporte de carga;C-24a
-53.10-5;Atividades de Correio;C-25
-53.20-2;Atividades de malote e de entrega;C-25
-55.10-8;Hotéis e similares;C-23
-55.90-6;Outros tipos de alojamento não especificados anteriormente;C-23
-56.11-2;Restaurantes e outros estabelecimentos de serviços de alimentação e bebidas;C-23
-56.12-1;Serviços ambulantes de alimentação;C-23
-56.20-1;Serviços de catering, bufê e outros serviços de comida preparada;C-23
-58.11-5;Edição de livros;C-8
-58.12-3;Edição de jornais;C-8
-58.13-1;Edição de revistas;C-8
-58.19-1;Edição de cadastros, listas e outros produtos gráficos;C-8
-58.21-2;Edição integrada à impressão de livros;C-8
-58.22-1;Edição integrada à impressão de jornais;C-8
-58.23-9;Edição integrada à impressão de revistas;C-8
-58.29-8;Edição integrada à impressão de cadastros, listas e outros produtos gráficos;C-8
-59.11-1;Atividades de produção cinematográfica, de vídeos e de programas de televisão;C-9
-59.12-0;Atividades de pós-produção cinematográfica, de vídeos e de programas de televisão;C-9
-59.13-8;Distribuição cinematográfica, de vídeo e de programas de televisão;C-9
-59.14-6;Atividades de exibição cinematográfica;C-9
-59.20-1;Atividades de gravação de som e de edição de música;C-9
-60.10-1;Atividades de rádio;C-9
-60.21-7;Atividades de televisão aberta;C-9
-60.22-5;Programadoras e atividades relacionadas à televisão por assinatura;C-9
-61.10-8;Telecomunicações por fio;C-25
-61.20-5;Telecomunicações sem fio;C-25
-61.30-2;Telecomunicações por satélite;C-25
-61.41-8;Operadoras de televisão por assinatura por cabo;C-25
-61.42-6;Operadoras de televisão por assinatura por microondas;C-25
-61.43-4;Operadoras de televisão por assinatura por satélite;C-25
-61.90-6;Outras atividades de telecomunicações;C-25
-62.01-5;Desenvolvimento de programas de computador sob encomenda;C-35
-62.02-3;Desenvolvimento e licenciamento de programas de computador customizáveis;C-35
-62.03-1;Desenvolvimento e licenciamento de programas de computador nãocustomizáveis;C-35
-62.04-0;Consultoria em tecnologia da informação;C-35
-62.09-1;Suporte técnico, manutenção e outros serviços em tecnologia da informação;C-35
-63.11-9;Tratamento de dados, provedores de serviços de aplicação e serviços de hospedagem na internet;C-35
-63.19-4;Portais, provedores de conteúdo e outros serviços de informação na internet;C-35
-63.91-7;Agências de notícias;C-8
-63.99-2;Outras atividades de prestação de serviços de informação não especificadas anteriormente;C-35
-64.10-7;Banco Central;C-28
-64.21-2;Bancos comerciais;C-28
-64.22-1;Bancos múltiplos, com carteira comercial;C-28
-64.23-9;Caixas econômicas;C-28
-64.24-7;Crédito cooperativo;C-28
-64.31-0;Bancos múltiplos, sem carteira comercial;C-28
-64.32-8;Bancos de investimento;C-28
-64.33-6;Bancos de desenvolvimento;C-28
-64.34-4;Agências de fomento;C-28
-64.35-2;Crédito imobiliário;C-28
-64.36-1;Sociedades de crédito, financiamento e investimento - financeiras;C-28
-64.37-9;Sociedades de crédito ao microempreendedor;C-28
-64.40-9;Arrendamento mercantil;C-28
-64.50-6;Sociedades de capitalização;C-28
-64.61-1;Holdings de instituições financeiras;C-28
-64.62-0;Holdings de instituições não-financeiras;C-29
-64.63-8;Outras sociedades de participação, exceto holdings;C-28
-64.70-1;Fundos de investimento;C-28
-64.91-3;Sociedades de fomento mercantil - factoring;C-28
-64.92-1;Securitização de créditos;C-28
-64.93-0;Administração de consórcios para aquisição de bens e direitos;C-28
-64.99-9;Outras atividades de serviços financeiros não especificadas anteriormente;C-28
-65.11-1;Seguros de vida;C-26
-65.12-0;Seguros não-vida;C-26
-65.20-1;Seguros-saúde;C-26
-65.30-8;Resseguros;C-26
-65.41-3;Previdência complementar fechada;C-26
-65.42-1;Previdência complementar aberta;C-26
-65.50-2;Planos de saúde;C-26
-66.11-8;Administração de bolsas e mercados de balcão organizados;C-27
-66.12-6;Atividades de intermediários em transações de títulos, valores mobiliários e mercadorias;C-27
-66.13-4;Administração de cartões de crédito;C-28
-66.19-3;Atividades auxiliares dos serviços financeiros não especificadas anteriormente;C-27
-66.21-5;Avaliação de riscos e perdas;C-27
-66.22-3;Corretores e agentes de seguros, de planos de previdência complementar e de saúde;C-27
-66.29-1;Atividades auxiliares dos seguros, da previdência complementar e dos planos de saúde não especificadas anteriormente;C-27
-66.30-4;Atividades de administração de fundos por contrato ou comissão;C-27
-68.10-2;Atividades imobiliárias de imóveis próprios;C-29
-68.21-8;Intermediação na compra, venda e aluguel de imóveis;C-29
-68.22-6;Gestão e administração da propriedade imobiliária;C-29
-69.11-7;Atividades jurídicas, exceto cartórios;C-29
-69.12-5;Cartórios;C-29
-69.20-6;Atividades de contabilidade, consultoria e auditoria contábil e tributária;C-29
-70.10-7;Sedes de empresas e unidades administrativas locais;C-29
-70.20-4;Atividades de consultoria em gestão empresarial;C-29
-71.11-1;Serviços de arquitetura;C-35
-71.12-0;Serviços de engenharia;C-35
-71.19-7;Atividades técnicas relacionadas à arquitetura e engenharia;C-35
-71.20-1;Testes e análises técnicas;C-32
-72.10-0;Pesquisa e desenvolvimento experimental em ciências físicas e naturais;C-32
-72.20-7;Pesquisa e desenvolvimento experimental em ciências sociais e humanas;C-32
-73.11-4;Agências de publicidade;C-35
-73.12-2;Agenciamento de espaços para publicidade, exceto em veículos de comunicação;C-35
-73.19-0;Atividades de publicidade não especificadas anteriormente;C-35
-73.20-3;Pesquisas de mercado e de opinião pública;C-29
-74.10-2;Design e decoração de interiores;C-35
-74.20-0;Atividades fotográficas e similares;C-9
-74.90-1;Atividades profissionais, científicas e técnicas não especificadas anteriormente;C-35
-75.00-1;Atividades veterinárias;C-34
-77.11-0;Locação de automóveis sem condutor;C-35
-77.19-5;Locação de meios de transporte, exceto automóveis, sem condutor;C-35
-77.21-7;Aluguel de equipamentos recreativos e esportivos;C-29
-77.22-5;Aluguel de fitas de vídeo, DVDs e similares;C-29
-77.23-3;Aluguel de objetos do vestuário, jóias e acessórios;C-29
-77.29-2;Aluguel de objetos pessoais e domésticos não especificados anteriormente;C-29
-77.31-4;Aluguel de máquinas e equipamentos agrícolas sem operador;C-35
-77.32-2;Aluguel de máquinas e equipamentos para construção sem operador;C-35
-77.33-1;Aluguel de máquinas e equipamentos para escritório;C-35
-77.39-0;Aluguel de máquinas e equipamentos não especificados anteriormente;C-35
-77.40-3;Gestão de ativos intangíveis não-financeiros;C-28
-78.10-8;Seleção e agenciamento de mão-de-obra;C-35
-78.20-5;Locação de mão-de-obra temporária;C-35
-78.30-2;Fornecimento e gestão de recursos humanos para terceiros;C-35
-79.11-2;Agências de viagens;C-29
-79.12-1;Operadores turísticos;C-29
-79.90-2;Serviços de reservas e outros serviços de turismo não especificados anteriormente;C-29
-80.11-1;Atividades de vigilância e segurança privada;C-30
-80.12-9;Atividades de transporte de valores;C-30
-80.20-0;Atividades de monitoramento de sistemas de segurança;C-30
-80.30-7;Atividades de investigação particular;C-30
-81.11-7;Serviços combinados para apoio a edifícios, exceto condomínios prediais;C-29
-81.12-5;Condomínios prediais;C-35
-81.21-4;Limpeza em prédios e em domicílios;C-30
-81.22-2;Imunização e controle de pragas urbanas;C-30
-81.29-0;Atividades de limpeza não especificadas anteriormente;C-30
-81.30-3;Atividades paisagísticas;C-30
-82.11-3;Serviços combinados de escritório e apoio administrativo;C-35
-82.19-9;Fotocópias, preparação de documentos e outros serviços especializados de apoio administrativo;C-35
-82.20-2;Atividades de teleatendimento;C-35
-82.30-0;Atividades de organização de eventos, exceto culturais e esportivos;C-35
-82.91-1;Atividades de cobrança e informações cadastrais;C-35
-82.92-0;Envasamento e empacotamento sob contrato;C-35
-82.99-7;Atividades de serviços prestados principalmente às empresas não especificadas anteriormente;C-35
-84.11-6;Administração pública em geral;C-33
-84.12-4;Regulação das atividades de saúde, educação, serviços culturais e outros serviços sociais;C-33
-84.13-2;Regulação das atividades econômicas;C-33
-84.21-3;Relações exteriores;C-33
-84.22-1;Defesa;C-33
-84.23-0;Justiça;C-33
-84.24-8;Segurança e ordem pública;C-33
-84.25-6;Defesa Civil;C-33
-84.30-2;Seguridade social obrigatória;C-33
-85.11-2;Educação infantil - creche;C-31
-85.12-1;Educação infantil - pré-escola;C-31
-85.13-9;Ensino fundamental;C-31
-85.20-1;Ensino médio;C-31
-85.31-7;Educação superior - graduação;C-31
-85.32-5;Educação superior - graduação e pós-graduação;C-31
-85.33-3;Educação superior - pós-graduação e extensão;C-31
-85.41-4;Educação profissional de nível técnico;C-31
-85.42-2;Educação profissional de nível tecnológico;C-31
-85.50-3;Atividades de apoio à educação;C-29
-85.91-1;Ensino de esportes;C-31
-85.92-9;Ensino de arte e cultura;C-31
-85.93-7;Ensino de idiomas;C-31
-85.99-6;Atividades de ensino não especificadas anteriormente;C-31
-86.10-1;Atividades de atendimento hospitalar;C-34
-86.21-6;Serviços móveis de atendimento a urgências;C-34
-86.22-4;Serviços de remoção de pacientes, exceto os serviços móveis de atendimento a urgências;C-34
-86.30-5;Atividades de atenção ambulatorial executadas por médicos e odontólogos;C-34
-86.40-2;Atividades de serviços de complementação diagnóstica e terapêutica;C-34
-86.50-0;Atividades de profissionais da área de saúde, exceto médicos e odontólogos;C-34
-86.60-7;Atividades de apoio à gestão de saúde;C-34
-86.90-9;Atividades de atenção à saúde humana não especificadas anteriormente;C-34
-87.11-5;Atividades de assistência a idosos, deficientes físicos, imunodeprimidos e convalescentes prestadas em residências coletivas e particulares;C-34
-87.12-3;Atividades de fornecimento de infra-estrutura de apoio e assistência a paciente no domicílio;C-34
-87.20-4;Atividades de assistência psicossocial e à saúde a portadores de distúrbios psíquicos, deficiência mental e dependência química;C-34
-87.30-1;Atividades de assistência social prestadas em residências coletivas e particulares;C-34
-88.00-6;Serviços de assistência social sem alojamento;C-23
-90.01-9;Artes cênicas, espetáculos e atividades complementares;C-9
-90.02-7;Criação artística;C-9
-90.03-5;Gestão de espaços para artes cênicas, espetáculos e outras atividades artísticas;C-9
-91.01-5;Atividades de bibliotecas e arquivos;C-31
-91.02-3;Atividades de museus e de exploração, restauração artística e conservação de lugares e prédios históricos e atrações similares;C-31
-91.03-1;Atividades de jardins botânicos, zoológicos, parques nacionais, reservas ecológicas e áreas de proteção ambiental;C-31
-92.00-3;Atividades de exploração de jogos de azar e apostas;C-35
-93.11-5;Gestão de instalações de esportes;C-31
-93.12-3;Clubes sociais, esportivos e similares;C-31
-93.13-1;Atividades de condicionamento físico;C-31
-93.19-1;Atividades esportivas não especificadas anteriormente;C-31
-93.21-2;Parques de diversão e parques temáticos;C-35
-93.29-8;Atividades de recreação e lazer não especificadas anteriormente;C-35
-94.11-1;Atividades de organizações associativas patronais e empresariais;C-29
-94.12-0;Atividades de organizações associativas profissionais;C-29
-94.20-1;Atividades de organizações sindicais;C-29
-94.30-8;Atividades de associações de defesa de direitos sociais;C-29
-94.91-0;Atividades de organizações religiosas;C-29
-94.92-8;Atividades de organizações políticas;C-29
-94.93-6;Atividades de organizações associativas ligadas à cultura e à arte;C-29
-94.99-5;Atividades associativas não especificadas anteriormente;C-29
-95.11-8;Reparação e manutenção de computadores e de equipamentos periféricos;C-14a
-95.12-6;Reparação e manutenção de equipamentos de comunicação;C-14
-95.21-5;Reparação e manutenção de equipamentos eletroeletrônicos de uso pessoal e doméstico;C-14
-95.29-1;Reparação e manutenção de objetos e equipamentos pessoais e domésticos não especificados anteriormente;C-35
-95.29-1;Reparação e manutenção de objetos e equipamentos pessoais e domésticos não especificados anteriormente;C-35
-96.01-7;Lavanderias, tinturarias e toalheiros;C-30
-96.02-5;Cabeleireiros e outras atividades de tratamento de beleza;C-35
-96.03-3;Atividades funerárias e serviços relacionados;C-34
-96.09-2;Atividades de serviços pessoais não especificadas anteriormente;C-35
-97.00-5;Serviços domésticos;C-35
-99.00-8;Organismos internacionais e outras instituições extraterritoriais;C-33
+"05.00-3","ExtraÃ§Ã£o de carvÃ£o mineral","C-1"
+"06.00-0","ExtraÃ§Ã£o de petrÃ³leo e gÃ¡s natural","C-1"
+"07.10-3","ExtraÃ§Ã£o de minÃ©rio de ferro","C-1"
+"07.21-9","ExtraÃ§Ã£o de minÃ©rio de alumÃ­nio","C-1"
+"07.22-7","ExtraÃ§Ã£o de minÃ©rio de estanho","C-1"
+"07.23-5","ExtraÃ§Ã£o de minÃ©rio de manganÃªs","C-1"
+"07.24-3","ExtraÃ§Ã£o de minÃ©rio de metais preciosos","C-1"
+"07.25-1","ExtraÃ§Ã£o de minerais radioativos","C-1"
+"07.29-4","ExtraÃ§Ã£o de minerais metÃ¡licos nÃ£o-ferrosos nÃ£o especificados anteriormente","C-1"
+"08.10-0","ExtraÃ§Ã£o de pedra, areia e argila","C-1"
+"08.91-6","ExtraÃ§Ã£o de minerais para fabricaÃ§Ã£o de adubos, fertilizantes e outros produtos quÃ­micos","C-1"
+"08.92-4","ExtraÃ§Ã£o e refino de sal marinho e sal-gema","C-1"
+"08.93-2","ExtraÃ§Ã£o de gemas (pedras preciosas e semipreciosas)","C-1"
+"08.99-1","ExtraÃ§Ã£o de minerais nÃ£o-metÃ¡licos nÃ£o especificados anteriormente","C-1"
+"09.10-6","Atividades de apoio Ã  extraÃ§Ã£o de petrÃ³leo e gÃ¡s natural","C-1"
+"09.90-4","Atividades de apoio Ã  extraÃ§Ã£o de minerais, exceto petrÃ³leo e gÃ¡s natural","C-1"
+"10.11","Abate de reses, exceto suÃ­nos","C-2"
+"10.12-1","Abate de suÃ­nos, aves e outros pequenos animais","C-2"
+"10.13-9","FabricaÃ§Ã£o de produtos de carne","C-2"
+"10.20-1","PreservaÃ§Ã£o do pescado e fabricaÃ§Ã£o de produtos do pescado","C-2"
+"10.31-7","FabricaÃ§Ã£o de conservas de frutas","C-2"
+"10.32-5","FabricaÃ§Ã£o de conservas de legumes e outros vegetais","C-2"
+"10.33-3","FabricaÃ§Ã£o de sucos de frutas, hortaliÃ§as e legumes","C-2"
+"10.41-4","FabricaÃ§Ã£o de Ã³leos vegetais em bruto, exceto Ã³leo de milho","C-2"
+"10.42-2","FabricaÃ§Ã£o de Ã³leos vegetais refinados, exceto Ã³leo de milho","C-2"
+"10.43-1","FabricaÃ§Ã£o de margarina e outras gorduras vegetais e de Ã³leos nÃ£ocomestÃ­veis de animais","C-2"
+"10.51-1","PreparaÃ§Ã£o do leite","C-2"
+"10.52-0","FabricaÃ§Ã£o de laticÃ­nios","C-2"
+"10.53-8","FabricaÃ§Ã£o de sorvetes e outros gelados comestÃ­veis","C-2"
+"10.61-9","Beneficiamento de arroz e fabricaÃ§Ã£o de produtos do arroz","C-2"
+"10.62-7","Moagem de trigo e fabricaÃ§Ã£o de derivados","C-2"
+"10.63-5","FabricaÃ§Ã£o de farinha de mandioca e derivados","C-2"
+"10.64-3","FabricaÃ§Ã£o de farinha de milho e derivados, exceto Ã³leos de milho","C-2"
+"10.65-1","FabricaÃ§Ã£o de amidos e fÃ©culas de vegetais e de Ã³leos de milho","C-2"
+"10.66-0","FabricaÃ§Ã£o de alimentos para animais","C-2"
+"10.69-4","Moagem e fabricaÃ§Ã£o de produtos de origem vegetal nÃ£o especificados anteriormente","C-2"
+"10.71-6","FabricaÃ§Ã£o de aÃ§Ãºcar em bruto","C-2"
+"10.72-4","FabricaÃ§Ã£o de aÃ§Ãºcar refinado","C-2"
+"10.81-3","TorrefaÃ§Ã£o e moagem de cafÃ©","C-2"
+"10.82-1","FabricaÃ§Ã£o de produtos Ã  base de cafÃ©","C-2"
+"10.91-1","FabricaÃ§Ã£o de produtos de panificaÃ§Ã£o","C-2"
+"10.92-9","FabricaÃ§Ã£o de biscoitos e bolachas","C-2"
+"10.93-7","FabricaÃ§Ã£o de produtos derivados do cacau, de chocolates e confeitos","C-2"
+"10.94-5","FabricaÃ§Ã£o de massas alimentÃ­cias","C-2"
+"10.95-3","FabricaÃ§Ã£o de especiarias, molhos, temperos e condimentos","C-2"
+"10.96-1","FabricaÃ§Ã£o de alimentos e pratos prontos","C-2"
+"10.99-6","FabricaÃ§Ã£o de produtos alimentÃ­cios nÃ£o especificados anteriormente","C-2"
+"11.11","FabricaÃ§Ã£o de aguardentes e outras bebidas destiladas","C-2"
+"11.12","FabricaÃ§Ã£o de vinho","C-2"
+"11.13","FabricaÃ§Ã£o de malte, cervejas e chopes","C-2"
+"11.21","FabricaÃ§Ã£o de Ã¡guas envasadas","C-2"
+"11.22","FabricaÃ§Ã£o de refrigerantes e de outras bebidas nÃ£ooÃ³licas","C-2"
+"12.10-7","Processamento industrial do fumo","C-2"
+"12.20-4","FabricaÃ§Ã£o de produtos do fumo","C-2"
+"13.11","PreparaÃ§Ã£o e fiaÃ§Ã£o de fibras de algodÃ£o","C-3"
+"13.12-0","PreparaÃ§Ã£o e fiaÃ§Ã£o de fibras tÃªxteis naturais, exceto algodÃ£o","C-3"
+"13.13-8","FiaÃ§Ã£o de fibras artificiais e sintÃ©ticas","C-3"
+"13.14-6","FabricaÃ§Ã£o de linhas para costurar e bordar","C-3"
+"13.21-9","Tecelagem de fios de algodÃ£o","C-3"
+"13.22-7","Tecelagem de fios de fibras tÃªxteis naturais, exceto algodÃ£o","C-3"
+"13.23-5","Tecelagem de fios de fibras artificiais e sintÃ©ticas","C-3"
+"13.30-8","FabricaÃ§Ã£o de tecidos de malha","C-3a"
+"13.40-5","Acabamentos em fios, tecidos e artefatos tÃªxteis","C-3"
+"13.51-1","FabricaÃ§Ã£o de artefatos tÃªxteis para uso domÃ©stico","C-3a"
+"13.52-9","FabricaÃ§Ã£o de artefatos de tapeÃ§aria","C-3a"
+"13.53-7","FabricaÃ§Ã£o de artefatos de cordoaria","C-3a"
+"13.54-5","FabricaÃ§Ã£o de tecidos especiais, inclusive artefatos","C-3a"
+"13.59-6","FabricaÃ§Ã£o de outros produtos tÃªxteis nÃ£o especificados anteriormente","C-3a"
+"14.11","ConfecÃ§Ã£o de roupas Ã­ntimas","C-4"
+"14.12-6","ConfecÃ§Ã£o de peÃ§as do vestuÃ¡rio, exceto roupas Ã­ntimas","C-4"
+"14.13-4","ConfecÃ§Ã£o de roupas profissionais","C-4"
+"14.14-2","FabricaÃ§Ã£o de acessÃ³rios do vestuÃ¡rio, exceto para seguranÃ§a e proteÃ§Ã£o","C-4"
+"14.21-5","FabricaÃ§Ã£o de meias","C-3a"
+"14.22-3","FabricaÃ§Ã£o de artigos do vestuÃ¡rio, produzidos em malharias e tricotagens, exceto meias","C-3a"
+"15.10-6","Curtimento e outras preparaÃ§Ãµes de couro","C-5"
+"15.21-1","FabricaÃ§Ã£o de artigos para viagem, bolsas e semelhantes de qualquer material","C-5a"
+"15.29-7","FabricaÃ§Ã£o de artefatos de couro nÃ£o especificados anteriormente","C-5a"
+"15.31-9","FabricaÃ§Ã£o de calÃ§ados de couro","C-5"
+"15.32-7","FabricaÃ§Ã£o de tÃªnis de qualquer material","C-5"
+"15.33-5","FabricaÃ§Ã£o de calÃ§ados de material sintÃ©tico","C-5"
+"15.39-4","FabricaÃ§Ã£o de calÃ§ados de materiais nÃ£o especificados anteriormente","C-5"
+"15.40-8","FabricaÃ§Ã£o de partes para calÃ§ados, de qualquer material","C-5"
+"16.10-2","Desdobramento de madeira","C-6"
+"16.21-8","FabricaÃ§Ã£o de madeira laminada e de chapas de madeira compensada, prensada e aglomerada","C-6"
+"16.22-6","FabricaÃ§Ã£o de estruturas de madeira e de artigos de carpintaria para construÃ§Ã£o","C-6"
+"16.23-4","FabricaÃ§Ã£o de artefatos de tanoaria e de embalagens de madeira","C-6"
+"16.29-3","FabricaÃ§Ã£o de artefatos de madeira, palha, cortiÃ§a, vime e material tranÃ§ado nÃ£o especificados anteriormente, exceto mÃ³veis","C-6"
+"17.10-9","FabricaÃ§Ã£o de celulose e outras pastas para a fabricaÃ§Ã£o de papel","C-7a"
+"17.21-4","FabricaÃ§Ã£o de papel","C-7a"
+"17.22-2","FabricaÃ§Ã£o de cartolina e papel-cartÃ£o","C-7a"
+"17.31-1","FabricaÃ§Ã£o de embalagens de papel","C-7"
+"17.32-0","FabricaÃ§Ã£o de embalagens de cartolina e papel-cartÃ£o","C-7"
+"17.33-8","FabricaÃ§Ã£o de chapas e de embalagens de papelÃ£o ondulado","C-7"
+"17.41-9","FabricaÃ§Ã£o de produtos de papel, cartolina, papel-cartÃ£o e papelÃ£o ondulado para uso comercial e de escritÃ³rio","C-7"
+"17.42-7","FabricaÃ§Ã£o de produtos de papel para usos domÃ©stico e higiÃªnicosanitÃ¡rio","C-7"
+"17.49-4","FabricaÃ§Ã£o de produtos de pastas celulÃ³sicas, papel, cartolina, papelcartÃ£o e papelÃ£o ondulado nÃ£o especificados anteriormente","C-7"
+"18.11","ImpressÃ£o de jornais, livros, revistas e outras publicaÃ§Ãµes periÃ³dicas","C-8"
+"18.12-1","ImpressÃ£o de material de seguranÃ§a","C-8"
+"18.13-0","ImpressÃ£o de materiais para outros usos","C-8"
+"18.21-1","ServiÃ§os de prÃ©-impressÃ£o","C-8"
+"18.22-9","ServiÃ§os de acabamentos grÃ¡ficos","C-8"
+"18.30-0","ReproduÃ§Ã£o de materiais gravados em qualquer suporte","C-9"
+"19.10-1","Coquerias","C-1"
+"19.21-7","FabricaÃ§Ã£o de produtos do refino de petrÃ³leo","C-1a"
+"19.22-5","FabricaÃ§Ã£o de produtos derivados do petrÃ³leo, exceto produtos do refino","C-1a"
+"19.31-4","FabricaÃ§Ã£o de Ã¡lcool","C-1a"
+"19.32-2","FabricaÃ§Ã£o de biocombustÃ­veis, exceto Ã¡lcool","C-10"
+"20.11","FabricaÃ§Ã£o de cloro e Ã¡lcalis","C-10"
+"20.12-6","FabricaÃ§Ã£o de intermediÃ¡rios para fertilizantes","C-10"
+"20.13-4","FabricaÃ§Ã£o de adubos e fertilizantes","C-10"
+"20.14-2","FabricaÃ§Ã£o de gases industriais","C-10"
+"20.19-3","FabricaÃ§Ã£o de produtos quÃ­micos inorgÃ¢nicos nÃ£o especificados anteriormente","C-10"
+"20.21-5","FabricaÃ§Ã£o de produtos petroquÃ­micos bÃ¡sicos","C-10"
+"20.22-3","FabricaÃ§Ã£o de intermediÃ¡rios para plastificantes, resinas e fibras","C-10"
+"20.29-1","FabricaÃ§Ã£o de produtos quÃ­micos orgÃ¢nicos nÃ£o especificados anteriormente","C-10"
+"20.31-2","FabricaÃ§Ã£o de resinas termoplÃ¡sticas","C-10"
+"20.32-1","FabricaÃ§Ã£o de resinas termofixas","C-10"
+"20.33-9","FabricaÃ§Ã£o de elastÃ´meros","C-10"
+"20.40-1","FabricaÃ§Ã£o de fibras artificiais e sintÃ©ticas","C-10"
+"20.51-7","FabricaÃ§Ã£o de defensivos agrÃ­colas","C-10"
+"20.52-5","FabricaÃ§Ã£o de desinfestantes domissanitÃ¡rios","C-10"
+"20.61-4","FabricaÃ§Ã£o de sabÃµes e detergentes sintÃ©ticos","C-10"
+"20.62-2","FabricaÃ§Ã£o de produtos de limpeza e polimento","C-10"
+"20.63-1","FabricaÃ§Ã£o de cosmÃ©ticos, produtos de perfumaria e de higiene pessoal","C-10"
+"20.71-1","FabricaÃ§Ã£o de tintas, vernizes, esmaltes e lacas","C-10"
+"20.72-0","FabricaÃ§Ã£o de tintas de impressÃ£o","C-10"
+"20.73-8","FabricaÃ§Ã£o de impermeabilizantes, solventes e produtos afins","C-10"
+"20.91-6","FabricaÃ§Ã£o de adesivos e selantes","C-10"
+"20.92-4","FabricaÃ§Ã£o de explosivos","C-15"
+"20.93-2","FabricaÃ§Ã£o de aditivos de uso industrial","C-10"
+"20.94-1","FabricaÃ§Ã£o de catalisadores","C-10"
+"20.99-1","FabricaÃ§Ã£o de produtos quÃ­micos nÃ£o especificados anteriormente","C-10"
+"21.10-6","FabricaÃ§Ã£o de produtos farmoquÃ­micos","C-10"
+"21.21-1","FabricaÃ§Ã£o de medicamentos para uso humano","C-10"
+"21.22-0","FabricaÃ§Ã£o de medicamentos para uso veterinÃ¡rio","C-10"
+"21.23-8","FabricaÃ§Ã£o de preparaÃ§Ãµes farmacÃªuticas","C-10"
+"22.11-1","FabricaÃ§Ã£o de pneumÃ¡ticos e de cÃ¢maras-de-ar","C-11"
+"22.12-9","Reforma de pneumÃ¡ticos usados","C-11"
+"22.19-6","FabricaÃ§Ã£o de artefatos de borracha nÃ£o especificados anteriormente","C-11"
+"22.21-8","FabricaÃ§Ã£o de laminados planos e tubulares de material plÃ¡stico","C-10"
+"22.22-6","FabricaÃ§Ã£o de embalagens de material plÃ¡stico","C-10"
+"22.23-4","FabricaÃ§Ã£o de tubos e acessÃ³rios de material plÃ¡stico para uso na construÃ§Ã£o","C-10"
+"22.29-3","FabricaÃ§Ã£o de artefatos de material plÃ¡stico nÃ£o especificados anteriormente","C-10"
+"23.11-7","FabricaÃ§Ã£o de vidro plano e de seguranÃ§a","C12"
+"23.12-5","FabricaÃ§Ã£o de embalagens de vidro","C12"
+"23.19-2","FabricaÃ§Ã£o de artigos de vidro","C-12"
+"23.20-6","FabricaÃ§Ã£o de cimento","C-1"
+"23.30-3","FabricaÃ§Ã£o de artefatos de concreto, cimento, fibrocimento, gesso e materiais semelhantes","C-12"
+"23.41-9","FabricaÃ§Ã£o de produtos cerÃ¢micos refratÃ¡rios","C-12"
+"23.42-7","FabricaÃ§Ã£o de produtos cerÃ¢micos nÃ£o-refratÃ¡rios para uso estrutural na construÃ§Ã£o","C-12"
+"23.49-4","FabricaÃ§Ã£o de produtos cerÃ¢micos nÃ£o-refratÃ¡rios nÃ£o especificados anteriormente","C-12"
+"23.91-5","Aparelhamento e outros trabalhos em pedras","C-1"
+"23.92-3","FabricaÃ§Ã£o de cal e gesso","C-12"
+"23.99-1","FabricaÃ§Ã£o de produtos de minerais nÃ£o-metÃ¡licos nÃ£o especificados anteriormente","C-12"
+"24.11-3","ProduÃ§Ã£o de ferro-gusa","C-13"
+"24.12-1","ProduÃ§Ã£o de ferroligas","C-13"
+"24.21-1","ProduÃ§Ã£o de semi-acabados de aÃ§o","C-13"
+"24.22-9","ProduÃ§Ã£o de laminados planos de aÃ§o","C-13"
+"24.23-7","ProduÃ§Ã£o de laminados longos de aÃ§o","C-13"
+"24.24-5","ProduÃ§Ã£o de relaminados, trefilados e perfilados de aÃ§o","C-13"
+"24.31-8","ProduÃ§Ã£o de tubos de aÃ§o com costura","C-13"
+"24.39-3","ProduÃ§Ã£o de outros tubos de ferro e aÃ§o","C-13"
+"24.41-5","Metalurgia do alumÃ­nio e suas ligas","C-13"
+"24.42-3","Metalurgia dos metais preciosos","C-13"
+"24.43-1","Metalurgia do cobre","C-13"
+"24.49-1","Metalurgia dos metais nÃ£o-ferrosos e suas ligas nÃ£o especificados anteriormente","C-13"
+"24.51-2","FundiÃ§Ã£o de ferro e aÃ§o","C-13"
+"24.52-1","FundiÃ§Ã£o de metais nÃ£o-ferrosos e suas ligas","C-13"
+"25.11-0","FabricaÃ§Ã£o de estruturas metÃ¡licas","C-13"
+"25.12-8","FabricaÃ§Ã£o de esquadrias de metal","C-14"
+"25.13-6","FabricaÃ§Ã£o de obras de caldeiraria pesada","C-13"
+"25.21-7","FabricaÃ§Ã£o de tanques, reservatÃ³rios metÃ¡licos e caldeiras para aquecimento central","C-14"
+"25.22-5","FabricaÃ§Ã£o de caldeiras geradoras de vapor, exceto para aquecimento central e para veÃ­culos","C-14"
+"25.31-4","ProduÃ§Ã£o de forjados de aÃ§o e de metais nÃ£o-ferrosos e suas ligas","C-13"
+"25.32-2","ProduÃ§Ã£o de artefatos estampados de metal; metalurgia do pÃ³","C-13"
+"25.39-0","ServiÃ§os de usinagem, solda, tratamento e revestimento em metais","C-13"
+"25.41-1","FabricaÃ§Ã£o de artigos de cutelaria","C-14"
+"25.42-0","FabricaÃ§Ã£o de artigos de serralheria, exceto esquadrias","C-14"
+"25.43-8","FabricaÃ§Ã£o de ferramentas","C-14"
+"25.50-1","FabricaÃ§Ã£o de equipamento bÃ©lico pesado, armas de fogo e muniÃ§Ãµes","C-15"
+"25.91-8","FabricaÃ§Ã£o de embalagens metÃ¡licas","C-14"
+"25.92-6","FabricaÃ§Ã£o de produtos de trefilados de metal","C-13"
+"25.93-4","FabricaÃ§Ã£o de artigos de metal para uso domÃ©stico e pessoal","C-14"
+"25.99-3","FabricaÃ§Ã£o de produtos de metal nÃ£o especificados anteriormente","C-14"
+"26.10-8","FabricaÃ§Ã£o de componentes eletrÃ´nicos","C-14"
+"26.21-3","FabricaÃ§Ã£o de equipamentos de informÃ¡tica","C-14"
+"26.22-1","FabricaÃ§Ã£o de perifÃ©ricos para equipamentos de informÃ¡tica","C-14"
+"26.31-1","FabricaÃ§Ã£o de equipamentos transmissores de comunicaÃ§Ã£o","C-14"
+"26.32-9","FabricaÃ§Ã£o de aparelhos telefÃ´nicos e de outros equipamentos de comunicaÃ§Ã£o","C-14"
+"26.40-0","FabricaÃ§Ã£o de aparelhos de recepÃ§Ã£o, reproduÃ§Ã£o, gravaÃ§Ã£o e amplificaÃ§Ã£o de Ã¡udio e vÃ­deo","C-14"
+"26.51-5","FabricaÃ§Ã£o de aparelhos e equipamentos de medida, teste e controle","C-14"
+"26.52-3","FabricaÃ§Ã£o de cronÃ´metros e relÃ³gios","C-14"
+"26.60-4","FabricaÃ§Ã£o de aparelhos eletromÃ©dicos e eletroterapÃªuticos e equipamentos de irradiaÃ§Ã£o","C-14"
+"26.70-1","FabricaÃ§Ã£o de equipamentos e instrumentos Ã³pticos, fotogrÃ¡ficos e cinematogrÃ¡ficos","C-14"
+"26.80-9","FabricaÃ§Ã£o de mÃ­dias virgens, magnÃ©ticas e Ã³pticas","C-10"
+"27.10-4","FabricaÃ§Ã£o de geradores, transformadores e motores elÃ©tricos","C-14"
+"27.21-0","FabricaÃ§Ã£o de pilhas, baterias e acumuladores elÃ©tricos, exceto para veÃ­culos automotores","C-10"
+"27.22-8","FabricaÃ§Ã£o de baterias e acumuladores para veÃ­culos automotores","C-10"
+"27.31-7","FabricaÃ§Ã£o de aparelhos e equipamentos para distribuiÃ§Ã£o e controle de energia elÃ©trica","C-14"
+"27.32-5","FabricaÃ§Ã£o de material elÃ©trico para instalaÃ§Ãµes em circuito de consumo","C-14"
+"27.33-3","FabricaÃ§Ã£o de fios, cabos e condutores elÃ©tricos isolados","C-14"
+"27.40-6","FabricaÃ§Ã£o de lÃ¢mpadas e outros equipamentos de iluminaÃ§Ã£o","C-14"
+"27.51-1","FabricaÃ§Ã£o de fogÃµes, refrigeradores e mÃ¡quinas de lavar e secar para uso domÃ©stico","C-14"
+"27.59-7","FabricaÃ§Ã£o de aparelhos eletrodomÃ©sticos nÃ£o especificados anteriormente","C-14"
+"27.90-2","FabricaÃ§Ã£o de equipamentos e aparelhos elÃ©tricos nÃ£o especificados anteriormente","C-14"
+"28.11-9","FabricaÃ§Ã£o de motores e turbinas, exceto para aviÃµes e veÃ­culos rodoviÃ¡rios","C-14"
+"28.12-7","FabricaÃ§Ã£o de equipamentos hidrÃ¡ulicos e pneumÃ¡ticos, exceto vÃ¡lvulas","C-14"
+"28.13-5","FabricaÃ§Ã£o de vÃ¡lvulas, registros e dispositivos semelhantes","C-14"
+"28.14-3","FabricaÃ§Ã£o de compressores","C-14"
+"28.15-1","FabricaÃ§Ã£o de equipamentos de transmissÃ£o para fins industriais","C-14"
+"28.21-6","FabricaÃ§Ã£o de aparelhos e equipamentos para instalaÃ§Ãµes tÃ©rmicas","C-14"
+"28.22-4","FabricaÃ§Ã£o de mÃ¡quinas, equipamentos e aparelhos para transporte e elevaÃ§Ã£o de cargas e pessoas","C-14"
+"28.23-2","FabricaÃ§Ã£o de mÃ¡quinas e aparelhos de refrigeraÃ§Ã£o e ventilaÃ§Ã£o para uso industrial e comercial","C-14"
+"28.24-1","FabricaÃ§Ã£o de aparelhos e equipamentos de ar condicionado","C-14"
+"28.25-9","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para saneamento bÃ¡sico e ambiental","C-14"
+"28.29-1","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos de uso geral nÃ£o especificados anteriormente","C-14a"
+"28.31-3","FabricaÃ§Ã£o de tratores agrÃ­colas","C-16"
+"28.32-1","FabricaÃ§Ã£o de equipamentos para irrigaÃ§Ã£o agrÃ­cola","C-14"
+"28.33-0","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para a agricultura e pecuÃ¡ria, exceto para irrigaÃ§Ã£o","C-14"
+"28.40-2","FabricaÃ§Ã£o de mÃ¡quinas-ferramenta","C-14"
+"28.51-8","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para a prospecÃ§Ã£o e extraÃ§Ã£o de petrÃ³leo","C-14"
+"28.52-6","FabricaÃ§Ã£o de outras mÃ¡quinas e equipamentos para uso na extraÃ§Ã£o mineral, exceto na extraÃ§Ã£o de petrÃ³leo","C-14"
+"28.53-4","FabricaÃ§Ã£o de tratores, exceto agrÃ­colas","C-16"
+"28.54-2","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para terraplenagem, pavimentaÃ§Ã£o e construÃ§Ã£o, exceto tratores","C-14"
+"28.61-5","FabricaÃ§Ã£o de mÃ¡quinas para a indÃºstria metalÃºrgica, exceto mÃ¡quinas- ferramenta","C-14"
+"28.62-3","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para as indÃºstrias de alimentos, bebidas e fumo","C-14"
+"28.63-1","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para a indÃºstria tÃªxtil","C-14"
+"28.64-0","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para as indÃºstrias do vestuÃ¡rio, do couro e de calÃ§ados","C-14"
+"28.65-8","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para as indÃºstrias de celulose, papel e papelÃ£o e artefatos","C-14"
+"28.66-6","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para a indÃºstria do plÃ¡stico","C-14"
+"28.69-1","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para uso industrial especÃ­fico nÃ£o especificados anteriormente","C-14"
+"29.10-7","FabricaÃ§Ã£o de automÃ³veis, camionetas e utilitÃ¡rios","C-16"
+"29.20-4","FabricaÃ§Ã£o de caminhÃµes e Ã´nibus","C-16"
+"29.30-1","FabricaÃ§Ã£o de cabines, carrocerias e reboques para veÃ­culos automotores","C-16"
+"29.41-7","FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para o sistema motor de veÃ­culos automotores","C-16"
+"29.42-5","FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para os sistemas de marcha e transmissÃ£o de veÃ­culos automotores","C-16"
+"29.43-3","FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para o sistema de freios de veÃ­culos automotores","C-16"
+"29.44-1","FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para o sistema de direÃ§Ã£o e suspensÃ£o de veÃ­culos automotores","C-16"
+"29.45-0","FabricaÃ§Ã£o de material elÃ©trico e eletrÃ´nico para veÃ­culos automotores, exceto baterias","C-14"
+"29.49-2","FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para veÃ­culos automotores nÃ£o especificados anteriormente","C-16"
+"29.50-6","Recondicionamento e recuperaÃ§Ã£o de motores para veÃ­culos automotores","C-16"
+"30.11-3","ConstruÃ§Ã£o de embarcaÃ§Ãµes e estruturas flutuantes","C-16"
+"30.12-1","ConstruÃ§Ã£o de embarcaÃ§Ãµes para esporte e lazer","C-16"
+"30.31-8","FabricaÃ§Ã£o de locomotivas, vagÃµes e outros materiais rodantes","C-16"
+"30.32-6","FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para veÃ­culos ferroviÃ¡rios","C-16"
+"30.41-5","FabricaÃ§Ã£o de aeronaves","C-16"
+"30.42-3","FabricaÃ§Ã£o de turbinas, motores e outros componentes e peÃ§as para aeronaves","C-16"
+"30.50-4","FabricaÃ§Ã£o de veÃ­culos militares de combate","C-16"
+"30.91-1","FabricaÃ§Ã£o de motocicletas","C-16"
+"30.92-0","FabricaÃ§Ã£o de bicicletas e triciclos nÃ£o-motorizados","C-16"
+"30.99-7","FabricaÃ§Ã£o de equipamentos de transporte nÃ£o especificados anteriormente","C-16"
+"31.01-2","FabricaÃ§Ã£o de mÃ³veis com predominÃ¢ncia de madeira","C-6"
+"31.02-1","FabricaÃ§Ã£o de mÃ³veis com predominÃ¢ncia de metal","C-14"
+"31.03-9","FabricaÃ§Ã£o de mÃ³veis de outros materiais, exceto madeira e metal","C-14"
+"31.04-7","FabricaÃ§Ã£o de colchÃµes","C-10"
+"32.11-6","LapidaÃ§Ã£o de gemas e fabricaÃ§Ã£o de artefatos de ourivesaria e joalheria","C-12"
+"32.12-4","FabricaÃ§Ã£o de bijuterias e artefatos semelhantes","C-14a"
+"32.20-5","FabricaÃ§Ã£o de instrumentos musicais","C-14a"
+"32.30-2","FabricaÃ§Ã£o de artefatos para pesca e esporte","C-14"
+"32.40-0","FabricaÃ§Ã£o de brinquedos e jogos recreativos","C-14"
+"32.50-7","FabricaÃ§Ã£o de instrumentos e materiais para uso mÃ©dico e odontolÃ³gico e de artigos Ã³pticos","C-14"
+"32.91-4","FabricaÃ§Ã£o de escovas, pincÃ©is e vassouras","C-14a"
+"32.92-2","FabricaÃ§Ã£o de equipamentos e acessÃ³rios para seguranÃ§a e proteÃ§Ã£o pessoal e profissional","C-4"
+"32.99-0","FabricaÃ§Ã£o de produtos diversos nÃ£o especificados anteriormente","C-14a"
+"33.11-2","ManutenÃ§Ã£o e reparaÃ§Ã£o de tanques, reservatÃ³rios metÃ¡licos e caldeiras, exceto para veÃ­culos","C-14"
+"33.12-1","ManutenÃ§Ã£o e reparaÃ§Ã£o de equipamentos eletrÃ´nicos e Ã³pticos","C-14"
+"33.13-9","ManutenÃ§Ã£o e reparaÃ§Ã£o de mÃ¡quinas e equipamentos elÃ©tricos","C-14"
+"33.14-7","ManutenÃ§Ã£o e reparaÃ§Ã£o de mÃ¡quinas e equipamentos da indÃºstria mecÃ¢nica","C-14"
+"33.15-5","ManutenÃ§Ã£o e reparaÃ§Ã£o de veÃ­culos ferroviÃ¡rios","C-16"
+"33.16-3","ManutenÃ§Ã£o e reparaÃ§Ã£o de aeronaves","C-16"
+"33.17-1","ManutenÃ§Ã£o e reparaÃ§Ã£o de embarcaÃ§Ãµes","C-16"
+"33.19-8","ManutenÃ§Ã£o e reparaÃ§Ã£o de equipamentos e produtos nÃ£o especificados anteriormente","C-14"
+"33.21-0","InstalaÃ§Ã£o de mÃ¡quinas e equipamentos industriais","C-14"
+"33.29-5","InstalaÃ§Ã£o de equipamentos nÃ£o especificados anteriormente","C-14a"
+"35.11-5","GeraÃ§Ã£o de energia elÃ©trica","C-17"
+"35.12-3","TransmissÃ£o de energia elÃ©trica","C-17"
+"35.13-1","ComÃ©rcio atacadista de energia elÃ©trica","C-17"
+"35.14-0","DistribuiÃ§Ã£o de energia elÃ©trica","C-17"
+"35.20-4","ProduÃ§Ã£o de gÃ¡s; processamento de gÃ¡s natural; distribuiÃ§Ã£o de combustÃ­veis gasosos por redes urbanas","C-17"
+"35.30-1","ProduÃ§Ã£o e distribuiÃ§Ã£o de vapor, Ã¡gua quente e ar condicionado","C-17"
+"36.00-6","CaptaÃ§Ã£o, tratamento e distribuiÃ§Ã£o de Ã¡gua","C-17"
+"37.01-1","GestÃ£o de redes de esgoto","C-17"
+"37.02-9","Atividades relacionadas a esgoto, exceto a gestÃ£o de redes","C-17"
+"38.11-4","Coleta de resÃ­duos nÃ£oigosos","C-17"
+"38.12-2","Coleta de resÃ­duos perigosos","C-17"
+"38.21-1","Tratamento e disposiÃ§Ã£o de resÃ­duos nÃ£o-perigosos","C-17"
+"38.22-0","Tratamento e disposiÃ§Ã£o de resÃ­duos perigosos","C-17"
+"38.31-9","RecuperaÃ§Ã£o de materiais metÃ¡licos","C-14"
+"38.32-7","RecuperaÃ§Ã£o de materiais plÃ¡sticos","C-12"
+"38.39-4","RecuperaÃ§Ã£o de materiais nÃ£o especificados anteriormente","C-12"
+"39.00-5","DescontaminaÃ§Ã£o e outros serviÃ§os de gestÃ£o de resÃ­duos","C-17"
+"41.10-7","IncorporaÃ§Ã£o de empreendimentos imobiliÃ¡rios","C-29"
+"41.20-4","ConstruÃ§Ã£o de edifÃ­cios","C-18a"
+"42.11-1","ConstruÃ§Ã£o de rodovias e ferrovias","C-18a"
+"42.12-0","ConstruÃ§Ã£o de obras-de-arte especiais","C-18a"
+"42.13-8","Obras de urbanizaÃ§Ã£o - ruas, praÃ§as e calÃ§adas","C-18a"
+"42.21-9","Obras para geraÃ§Ã£o e distribuiÃ§Ã£o de energia elÃ©trica e para telecomunicaÃ§Ãµes","C-18a"
+"42.22-7","ConstruÃ§Ã£o de redes de abastecimento de Ã¡gua, coleta de esgoto e construÃ§Ãµes correlatas","C-18"
+"42.23-5","ConstruÃ§Ã£o de redes de transportes por dutos, exceto para Ã¡gua e esgoto","C-18"
+"42.91-0","Obras portuÃ¡rias, marÃ­timas e fluviais","C-18"
+"42.92-8","Montagem de instalaÃ§Ãµes industriais e de estruturas metÃ¡licas","C-18a"
+"42.99-5","Obras de engenharia civil nÃ£o especificadas anteriormente","C-18"
+"43.11-8","DemoliÃ§Ã£o e preparaÃ§Ã£o de canteiros de obras","C-18a"
+"43.12-6","PerfuraÃ§Ãµes e sondagens","C-18a"
+"43.13-4","Obras de terraplenagem","C-18a"
+"43.19-3","ServiÃ§os de preparaÃ§Ã£o do terreno nÃ£o especificados anteriormente","C-18a"
+"43.21-5","InstalaÃ§Ãµes elÃ©tricas","C-18"
+"43.22-3","InstalaÃ§Ãµes hidrÃ¡ulicas, de sistemas de ventilaÃ§Ã£o e refrigeraÃ§Ã£o","C-18"
+"43.29-1","Obras de instalaÃ§Ãµes em construÃ§Ãµes nÃ£o especificadas anteriormente","C-18"
+"43.30-4","Obras de acabamento","C-18"
+"43.91-6","Obras de fundaÃ§Ãµes","C-18a"
+"43.99-1","ServiÃ§os especializados para construÃ§Ã£o nÃ£o especificados anteriormente","C-18"
+"45.11-1","ComÃ©rcio a varejo e por atacado de veÃ­culos automotores","C-21"
+"45.12-9","Representantes comerciais e agentes do comÃ©rcio de veÃ­culos automotores","C-21"
+"45.20-0","ManutenÃ§Ã£o e reparaÃ§Ã£o de veÃ­culos automotores","C-16"
+"45.30-7","ComÃ©rcio de peÃ§as e acessÃ³rios para veÃ­culos automotores","C-21"
+"45.41-2","ComÃ©rcio por atacado e a varejo de motocicletas, peÃ§as e acessÃ³rios","C-21"
+"45.42-1","Representantes comerciais e agentes do comÃ©rcio de motocicletas, peÃ§as e acessÃ³rios","C-21"
+"45.43-9","ManutenÃ§Ã£o e reparaÃ§Ã£o de motocicletas","C-16"
+"46.11-7","Representantes comerciais e agentes do comÃ©rcio de matÃ©riasmas agrÃ­colas e animais vivos","C-19"
+"46.12-5","Representantes comerciais e agentes do comÃ©rcio de combustÃ­veis, minerais, produtos siderÃºrgicos e quÃ­micos","C-22"
+"46.13-3","Representantes comerciais e agentes do comÃ©rcio de madeira, material de construÃ§Ã£o e ferragens","C-20"
+"46.14-1","Representantes comerciais e agentes do comÃ©rcio de mÃ¡quinas, equipamentos, embarcaÃ§Ãµes e aeronaves","C-19"
+"46.15-0","Representantes comerciais e agentes do comÃ©rcio de eletrodomÃ©sticos, mÃ³veis e artigos de uso domÃ©stico","C-19"
+"46.16-8","Representantes comerciais e agentes do comÃ©rcio de tÃªxteis, vestuÃ¡rio, calÃ§ados e artigos de viagem","C-19"
+"46.17-6","Representantes comerciais e agentes do comÃ©rcio de produtos alimentÃ­cios, bebidas e fumo","C-19"
+"46.18-4","Representantes comerciais e agentes do comÃ©rcio especializado em produtos nÃ£o especificados anteriormente","C-19"
+"46.19-2","Representantes comerciais e agentes do comÃ©rcio de mercadorias em geral nÃ£o especializado","C-19"
+"46.21-4","ComÃ©rcio atacadista de cafÃ© em grÃ£o","C-20"
+"46.22-2","ComÃ©rcio atacadista de soja","C-20"
+"46.23-1","ComÃ©rcio atacadista de animais vivos, alimentos para animais e matÃ©rias- primas agrÃ­colas, exceto cafÃ© e soja","C-20"
+"46.31-1","ComÃ©rcio atacadista de leite e laticÃ­nios","C-20"
+"46.32-0","ComÃ©rcio atacadista de cereais e leguminosas beneficiados, farinhas, amidos e fÃ©culas","C-20"
+"46.33-8","ComÃ©rcio atacadista de hortifrutigranjeiros","C-20"
+"46.34-6","ComÃ©rcio atacadista de carnes, produtos da carne e pescado","C-20"
+"46.35-4","ComÃ©rcio atacadista de bebidas","C-20"
+"46.36-2","ComÃ©rcio atacadista de produtos do fumo","C-20"
+"46.37-1","ComÃ©rcio atacadista especializado em produtos alimentÃ­cios nÃ£o especificados anteriormente","C-20"
+"46.39-7","ComÃ©rcio atacadista de produtos alimentÃ­cios em geral","C-20"
+"20.71-1","FabricaÃ§Ã£o de tintas, vernizes, esmaltes e lacas","C-10"
+"20.72-0","FabricaÃ§Ã£o de tintas de impressÃ£o","C-10"
+"20.73-8","FabricaÃ§Ã£o de impermeabilizantes, solventes e produtos afins","C-10"
+"20.91-6","FabricaÃ§Ã£o de adesivos e selantes","C-10"
+"20.92-4","FabricaÃ§Ã£o de explosivos","C-15"
+"20.93-2","FabricaÃ§Ã£o de aditivos de uso industrial","C-10"
+"20.94-1","FabricaÃ§Ã£o de catalisadores","C-10"
+"20.99-1","FabricaÃ§Ã£o de produtos quÃ­micos nÃ£o especificados anteriormente","C-10"
+"21.10-6","FabricaÃ§Ã£o de produtos farmoquÃ­micos","C-10"
+"21.21-1","FabricaÃ§Ã£o de medicamentos para uso humano","C-10"
+"21.22-0","FabricaÃ§Ã£o de medicamentos para uso veterinÃ¡rio","C-10"
+"21.23-8","FabricaÃ§Ã£o de preparaÃ§Ãµes farmacÃªuticas","C-10"
+"22.11-1","FabricaÃ§Ã£o de pneumÃ¡ticos e de cÃ¢marasar","C11"
+"22.12-9","Reforma de pneumÃ¡ticos usados","C11"
+"22.19-6","FabricaÃ§Ã£o de artefatos de borracha nÃ£o especificados anteriormente","C11"
+"22.21-8","FabricaÃ§Ã£o de laminados planos e tubulares de material plÃ¡stico","C-10"
+"22.22-6","FabricaÃ§Ã£o de embalagens de material plÃ¡stico","C-10"
+"22.23-4","FabricaÃ§Ã£o de tubos e acessÃ³rios de material plÃ¡stico para uso na construÃ§Ã£o","C-10"
+"22.29-3","FabricaÃ§Ã£o de artefatos de material plÃ¡stico nÃ£o especificados anteriormente","C-10"
+"23.11-7","FabricaÃ§Ã£o de vidro plano e de seguranÃ§a","C12"
+"23.12-5","FabricaÃ§Ã£o de embalagens de vidro","C12"
+"23.19-2","FabricaÃ§Ã£o de artigos de vidro","C-12"
+"23.20-6","FabricaÃ§Ã£o de cimento","C-1"
+"23.30-3","FabricaÃ§Ã£o de artefatos de concreto, cimento, fibrocimento, gesso e materiais semelhantes","C-12"
+"23.41-9","FabricaÃ§Ã£o de produtos cerÃ¢micos refratÃ¡rios","C-12"
+"23.42-7","FabricaÃ§Ã£o de produtos cerÃ¢micos nÃ£o-refratÃ¡rios para uso estrutural na construÃ§Ã£o","C-12"
+"23.49-4","FabricaÃ§Ã£o de produtos cerÃ¢micos nÃ£o-refratÃ¡rios nÃ£o especificados anteriormente","C-12"
+"23.91-5","Aparelhamento e outros trabalhos em pedras","C-1"
+"23.92-3","FabricaÃ§Ã£o de cal e gesso","C-12"
+"23.99-1","FabricaÃ§Ã£o de produtos de minerais nÃ£o-metÃ¡licos nÃ£o especificados anteriormente","C-12"
+"24.11-3","ProduÃ§Ã£o de ferroa","C-13"
+"24.12-1","ProduÃ§Ã£o de ferroligas","C-13"
+"24.21-1","ProduÃ§Ã£o de semi-acabados de aÃ§o","C-13"
+"24.22-9","ProduÃ§Ã£o de laminados planos de aÃ§o","C-13"
+"24.23-7","ProduÃ§Ã£o de laminados longos de aÃ§o","C-13"
+"24.24-5","ProduÃ§Ã£o de relaminados, trefilados e perfilados de aÃ§o","C-13"
+"24.31-8","ProduÃ§Ã£o de tubos de aÃ§o com costura","C-13"
+"24.39-3","ProduÃ§Ã£o de outros tubos de ferro e aÃ§o","C-13"
+"24.41-5","Metalurgia do alumÃ­nio e suas ligas","C-13"
+"24.42-3","Metalurgia dos metais preciosos","C-13"
+"24.43-1","Metalurgia do cobre","C-13"
+"24.49-1","Metalurgia dos metais nÃ£o-ferrosos e suas ligas nÃ£o especificados anteriormente","C-13"
+"24.51-2","FundiÃ§Ã£o de ferro e aÃ§o","C-13"
+"24.52-1","FundiÃ§Ã£o de metais nÃ£o-ferrosos e suas ligas","C-13"
+"25.11-0","FabricaÃ§Ã£o de estruturas metÃ¡licas","C-13"
+"25.12-8","FabricaÃ§Ã£o de esquadrias de metal","C-14"
+"25.13-6","FabricaÃ§Ã£o de obras de caldeiraria pesada","C-13"
+"25.21-7","FabricaÃ§Ã£o de tanques, reservatÃ³rios metÃ¡licos e caldeiras para aquecimento central","C-14"
+"25.22-5","FabricaÃ§Ã£o de caldeiras geradoras de vapor, exceto para aquecimento central e para veÃ­culos","C-14"
+"25.31-4","ProduÃ§Ã£o de forjados de aÃ§o e de metais nÃ£o-ferrosos e suas ligas","C-13"
+"25.32-2","ProduÃ§Ã£o de artefatos estampados de metal; metalurgia do pÃ³","C-13"
+"25.39-0","ServiÃ§os de usinagem, solda, tratamento e revestimento em metais","C-13"
+"25.41-1","FabricaÃ§Ã£o de artigos de cutelaria","C-14"
+"25.42-0","FabricaÃ§Ã£o de artigos de serralheria, exceto esquadrias","C-14"
+"25.43-8","FabricaÃ§Ã£o de ferramentas","C-14"
+"25.50-1","FabricaÃ§Ã£o de equipamento bÃ©lico pesado, armas de fogo e muniÃ§Ãµes","C-15"
+"25.91-8","FabricaÃ§Ã£o de embalagens metÃ¡licas","C-14"
+"25.92-6","FabricaÃ§Ã£o de produtos de trefilados de metal","C-13"
+"25.93-4","FabricaÃ§Ã£o de artigos de metal para uso domÃ©stico e pessoal","C-14"
+"25.99-3","FabricaÃ§Ã£o de produtos de metal nÃ£o especificados anteriormente","C-14"
+"26.10-8","FabricaÃ§Ã£o de componentes eletrÃ´nicos","C-14"
+"26.21-3","FabricaÃ§Ã£o de equipamentos de informÃ¡tica","C-14"
+"26.22-1","FabricaÃ§Ã£o de perifÃ©ricos para equipamentos de informÃ¡tica","C-14"
+"26.31-1","FabricaÃ§Ã£o de equipamentos transmissores de comunicaÃ§Ã£o","C-14"
+"26.32-9","FabricaÃ§Ã£o de aparelhos telefÃ´nicos e de outros equipamentos de ComunicaÃ§Ã£o","C-14"
+"26.40-0","FabricaÃ§Ã£o de aparelhos de recepÃ§Ã£o, reproduÃ§Ã£o, gravaÃ§Ã£o e amplificaÃ§Ã£o de Ã¡udio e vÃ­deo","C-14"
+"26.51-5","FabricaÃ§Ã£o de aparelhos e equipamentos de medida, teste e controle","C-14"
+"26.52-3","FabricaÃ§Ã£o de cronÃ´metros e relÃ³gios","C-14"
+"26.60-4","FabricaÃ§Ã£o de aparelhos eletromÃ©dicos e eletroterapÃªuticos e equipamentos de irradiaÃ§Ã£o","C-14"
+"26.70-1","FabricaÃ§Ã£o de equipamentos e instrumentos Ã³pticos, fotogrÃ¡ficos e cinematogrÃ¡ficos","C-14"
+"26.80-9","FabricaÃ§Ã£o de mÃ­dias virgens, magnÃ©ticas e Ã³pticas","C-10"
+"27.10-4","FabricaÃ§Ã£o de geradores, transformadores e motores elÃ©tricos","C-14"
+"27.21-0","FabricaÃ§Ã£o de pilhas, baterias e acumuladores elÃ©tricos, exceto para veÃ­culos automotores","C-10"
+"27.22-8","FabricaÃ§Ã£o de baterias e acumuladores para veÃ­culos automotores","C-10"
+"27.31-7","FabricaÃ§Ã£o de aparelhos e equipamentos para distribuiÃ§Ã£o e controle de energia elÃ©trica","C-14"
+"27.32-5","FabricaÃ§Ã£o de material elÃ©trico para instalaÃ§Ãµes em circuito de consumo","C-14"
+"27.33-3","FabricaÃ§Ã£o de fios, cabos e condutores elÃ©tricos isolados","C-14"
+"27.40-6","FabricaÃ§Ã£o de lÃ¢mpadas e outros equipamentos de iluminaÃ§Ã£o","C-14"
+"27.51-1","FabricaÃ§Ã£o de fogÃµes, refrigeradores e mÃ¡quinas de lavar e secar para uso domÃ©stico","C-14"
+"27.59-7","FabricaÃ§Ã£o de aparelhos eletrodomÃ©sticos nÃ£o especificados anteriormente","C-14"
+"27.90-2","FabricaÃ§Ã£o de equipamentos e aparelhos elÃ©tricos nÃ£o especificados anteriormente","C-14"
+"28.11- 9","FabricaÃ§Ã£o de motores e turbinas, exceto para aviÃµes e veÃ­culos rodoviÃ¡rios","C-14"
+"28.12-7","FabricaÃ§Ã£o de equipamentos hidrÃ¡ulicos e pneumÃ¡ticos, exceto vÃ¡lvulas","C-14"
+"28.13-5","FabricaÃ§Ã£o de vÃ¡lvulas, registros e dispositivos semelhantes","C-14"
+"28.14-3","FabricaÃ§Ã£o de compressores","C-14"
+"28.15-1","FabricaÃ§Ã£o de equipamentos de transmissÃ£o para fins industriais","C-14"
+"28.21-6","FabricaÃ§Ã£o de aparelhos e equipamentos para instalaÃ§Ãµes tÃ©rmicas","C-14"
+"28.22-4","FabricaÃ§Ã£o de mÃ¡quinas, equipamentos e aparelhos para transporte e elevaÃ§Ã£o de cargas e pessoas","C-14"
+"28.23-2","FabricaÃ§Ã£o de mÃ¡quinas e aparelhos de refrigeraÃ§Ã£o e ventilaÃ§Ã£o para uso industrial e comercial","C-14"
+"28.24-1","FabricaÃ§Ã£o de aparelhos e equipamentos de ar condicionado","C-14"
+"28.25-9","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para saneamento bÃ¡sico e ambiental","C-14"
+"28.29-1","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos de uso geral nÃ£o especificados anteriormente","C-14a"
+"28.31-3","FabricaÃ§Ã£o de tratores agrÃ­colas","C-16"
+"28.32-1","FabricaÃ§Ã£o de equipamentos para irrigaÃ§Ã£o agrÃ­cola","C-14"
+"28.33-0","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para a agricultura e pecuÃ¡ria, exceto para irrigaÃ§Ã£o","C-14"
+"28.40-2","FabricaÃ§Ã£o de mÃ¡quinas-ferramenta","C-14"
+"28.51-8","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para a prospecÃ§Ã£o e extraÃ§Ã£o de petrÃ³leo","C-14"
+"28.52-6","FabricaÃ§Ã£o de outras mÃ¡quinas e equipamentos para uso na extraÃ§Ã£o mineral, exceto na extraÃ§Ã£o de petrÃ³leo","C-14"
+"28.53-4","FabricaÃ§Ã£o de tratores, exceto agrÃ­colas","C-16"
+"28.54-2","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para terraplenagem, pavimentaÃ§Ã£o e construÃ§Ã£o, exceto tratores","C-14"
+"28.61-5","FabricaÃ§Ã£o de mÃ¡quinas para a indÃºstria metalÃºrgica, exceto mÃ¡quinas-ferramenta","C-14"
+"28.62-3","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para as indÃºstrias de alimentos, bebidas e fumo","C-14"
+"28.63-1","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para a indÃºstria tÃªxtil","C-14"
+"28.64-0","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para as indÃºstrias do vestuÃ¡rio, do couro e de calÃ§ados","C-14"
+"28.65-8","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para as indÃºstrias de celulose, papel e papelÃ£o e artefatos","C-14"
+"28.66-6","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para a indÃºstria do plÃ¡stico","C-14"
+"28.69-1","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para uso industrial especÃ­fico nÃ£o especificados anteriormente","C-14"
+"29.10-7","FabricaÃ§Ã£o de automÃ³veis, camionetas e utilitÃ¡rios","C-16"
+"29.20-4","FabricaÃ§Ã£o de caminhÃµes e Ã´nibus","C-16"
+"29.30-1","FabricaÃ§Ã£o de cabines, carrocerias e reboques para veÃ­culos automotores","C-16"
+"29.41-7","FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para o sistema motor de veÃ­culos automotores","C-16"
+"29.42-5","FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para os sistemas de marcha e transmissÃ£o de veÃ­culos automotores","C-16"
+"29.43-3","FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para o sistema de freios de veÃ­culos automotores","C-16"
+"29.44-1","FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para o sistema de direÃ§Ã£o e suspensÃ£o de veÃ­culos automotores","C-16"
+"29.45-0","FabricaÃ§Ã£o de material elÃ©trico e eletrÃ´nico para veÃ­culos automotores, exceto baterias","C-14"
+"29.49-2","FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para veÃ­culos automotores nÃ£o especificados anteriormente","C-16"
+"29.50-6","Recondicionamento e recuperaÃ§Ã£o de motores para veÃ­culos automotores","C-16"
+"3 0.11-3","ConstruÃ§Ã£o de embarcaÃ§Ãµes e estruturas flutuantes","C-16"
+"30.12-1","ConstruÃ§Ã£o de embarcaÃ§Ãµes para esporte e lazer","C-16"
+"30.31-8","FabricaÃ§Ã£o de locomotivas, vagÃµes e outros materiais rodantes","C-16"
+"30.32-6","FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para veÃ­culos ferroviÃ¡rios","C-16"
+"30.41-5","FabricaÃ§Ã£o de aeronaves","C-16"
+"30.42-3","FabricaÃ§Ã£o de turbinas, motores e outros componentes e peÃ§as para aeronaves","C-16"
+"30.50-4","FabricaÃ§Ã£o de veÃ­culos militares de combate","C-16"
+"30.91-1","FabricaÃ§Ã£o de motocicletas","C-16"
+"30.92-0","FabricaÃ§Ã£o de bicicletas e triciclos nÃ£o-motorizados","C-16"
+"30.99-7","FabricaÃ§Ã£o de equipamentos de transporte nÃ£o especificados anteriormente","C-16"
+"31.01-2","FabricaÃ§Ã£o de mÃ³veis com predominÃ¢ncia de madeira","C-6"
+"31.02-1","FabricaÃ§Ã£o de mÃ³veis com predominÃ¢ncia de metal","C-14"
+"31.03-9","FabricaÃ§Ã£o de mÃ³veis de outros materiais, exceto madeira e metal","C-14"
+"31.04-7","FabricaÃ§Ã£o de colchÃµes","C-10"
+"3 2.11-6","LapidaÃ§Ã£o de gemas e fabricaÃ§Ã£o de artefatos de ourivesaria e joalheria","C-12"
+"32.12-4","FabricaÃ§Ã£o de bijuterias e artefatos semelhantes","C-14a"
+"32.20-5","FabricaÃ§Ã£o de instrumentos musicais","C-14a"
+"32.30-2","FabricaÃ§Ã£o de artefatos para pesca e esporte","C-14"
+"32.40-0","FabricaÃ§Ã£o de brinquedos e jogos recreativos","C-14"
+"32.50-7","FabricaÃ§Ã£o de instrumentos e materiais para uso mÃ©dico e odontolÃ³gico e de artigos Ã³pticos","C-14"
+"32.91-4","FabricaÃ§Ã£o de escovas, pincÃ©is e vassouras","C-14a"
+"32.92-2","FabricaÃ§Ã£o de equipamentos e acessÃ³rios para seguranÃ§a e proteÃ§Ã£o pessoal e profissional","C-4"
+"32.99-0","FabricaÃ§Ã£o de produtos diversos nÃ£o especificados anteriormente","C-14a"
+"3 3.11-2","ManutenÃ§Ã£o e reparaÃ§Ã£o de tanques, reservatÃ³rios metÃ¡licos e caldeiras, exceto para veÃ­culos","C-14"
+"33.12-1","ManutenÃ§Ã£o e reparaÃ§Ã£o de equipamentos eletrÃ´nicos e Ã³pticos","C-14"
+"33.13-9","ManutenÃ§Ã£o e reparaÃ§Ã£o de mÃ¡quinas e equipamentos elÃ©tricos","C-14"
+"33.14-7","ManutenÃ§Ã£o e reparaÃ§Ã£o de mÃ¡quinas e equipamentos da indÃºstria mecÃ¢nica","C-14"
+"33.15-5","ManutenÃ§Ã£o e reparaÃ§Ã£o de veÃ­culos ferroviÃ¡rios","C-16"
+"33.16-3","ManutenÃ§Ã£o e reparaÃ§Ã£o de aeronaves","C-16"
+"33.17-1","ManutenÃ§Ã£o e reparaÃ§Ã£o de embarcaÃ§Ãµes","C-16"
+"33.19-8","ManutenÃ§Ã£o e reparaÃ§Ã£o de equipamentos e produtos nÃ£o especificados anteriormente","C-14"
+"33.21-0","InstalaÃ§Ã£o de mÃ¡quinas e equipamentos industriais","C-14"
+"33.29-5","InstalaÃ§Ã£o de equipamentos nÃ£o especificados anteriormente","C-14a"
+"35.11- 5","GeraÃ§Ã£o de energia elÃ©trica","C-17"
+"35.12-3","TransmissÃ£o de energia elÃ©trica","C-17"
+"35.13-1","ComÃ©rcio atacadista de energia elÃ©trica","C-17"
+"35.14-0","DistribuiÃ§Ã£o de energia elÃ©trica","C-17"
+"35.20-4","ProduÃ§Ã£o de gÃ¡s; processamento de gÃ¡s natural; distribuiÃ§Ã£o de combustÃ­veis gasosos por redes urbanas","C-17"
+"35.30-1","ProduÃ§Ã£o e distribuiÃ§Ã£o de vapor, Ã¡gua quente e ar condicionado","C-17"
+"36.00-6","CaptaÃ§Ã£o, tratamento e distribuiÃ§Ã£o de Ã¡gua","C-17"
+"37.01-1","GestÃ£o de redes de esgoto","C-17"
+"37.02-9","Atividades relacionadas a esgoto, exceto a gestÃ£o de redes","C-17"
+"3 8.11-4","Coleta de resÃ­duos nÃ£o-perigosos","C-17"
+"38.12-2","Coleta de resÃ­duos perigosos","C-17"
+"38.21-1","Tratamento e disposiÃ§Ã£o de resÃ­duos nÃ£o-perigosos","C-17"
+"38.22-0","Tratamento e disposiÃ§Ã£o de resÃ­duos perigosos","C-17"
+"38.31-9","RecuperaÃ§Ã£o de materiais metÃ¡licos","C-14"
+"38.32-7","RecuperaÃ§Ã£o de materiais plÃ¡sticos","C-12"
+"38.39-4","RecuperaÃ§Ã£o de materiais nÃ£o especificados anteriormente","C-12"
+"39.00-5","DescontaminaÃ§Ã£o e outros serviÃ§os de gestÃ£o de resÃ­duos","C-17"
+"41.10-7","IncorporaÃ§Ã£o de empreendimentos imobiliÃ¡rios","C-29"
+"41.20-4","ConstruÃ§Ã£o de edifÃ­cios","C-18a"
+"42.11-1","ConstruÃ§Ã£o de rodovias e ferrovias","C-18a"
+"42.12-0","ConstruÃ§Ã£o de obras-de-arte especiais","C-18a"
+"42.13-8","Obras de urbanizaÃ§Ã£o - ruas, praÃ§as e calÃ§adas","C-18a"
+"42.21-9","Obras para geraÃ§Ã£o e distribuiÃ§Ã£o de energia elÃ©trica e para telecomunicaÃ§Ãµes","C-18a"
+"42.22-7","ConstruÃ§Ã£o de redes de abastecimento de Ã¡gua, coleta de esgoto e construÃ§Ãµes correlatas","C-18"
+"42.23-5","ConstruÃ§Ã£o de redes de transportes por dutos, exceto para Ã¡gua e esgoto","C-18"
+"42.91-0","Obras portuÃ¡rias, marÃ­timas e fluviais","C-18"
+"42.92-8","Montagem de instalaÃ§Ãµes industriais e de estruturas metÃ¡licas","C-18a"
+"42.99-5","Obras de engenharia civil nÃ£o especificadas anteriormente","C-18"
+"4 3.11-8","DemoliÃ§Ã£o e preparaÃ§Ã£o de canteiros de obras","C-18a"
+"43.12-6","PerfuraÃ§Ãµes e sondagens","C-18a"
+"43.13-4","Obras de terraplenagem","C-18a"
+"43.19-3","ServiÃ§os de preparaÃ§Ã£o do terreno nÃ£o especificados anteriormente","C-18a"
+"43.21-5","InstalaÃ§Ãµes elÃ©tricas","C-18"
+"43.22-3","InstalaÃ§Ãµes hidrÃ¡ulicas, de sistemas de ventilaÃ§Ã£o e refrigeraÃ§Ã£o","C-18"
+"43.29-1","Obras de instalaÃ§Ãµes em construÃ§Ãµes nÃ£o especificadas anteriormente","C-18"
+"43.30-4","Obras de acabamento","C-18"
+"43.91-6","Obras de fundaÃ§Ãµes","C-18a"
+"43.99-1","ServiÃ§os especializados para construÃ§Ã£o nÃ£o especificados anteriormente","C-18"
+"4 5.11-1","ComÃ©rcio a varejo e por atacado de veÃ­culos automotores","C-21"
+"45.12-9","Representantes comerciais e agentes do comÃ©rcio de veÃ­culos automotores","C-21"
+"45.20-0","ManutenÃ§Ã£o e reparaÃ§Ã£o de veÃ­culos automotores","C-16"
+"45.30-7","ComÃ©rcio de peÃ§as e acessÃ³rios para veÃ­culos automotores","C-21"
+"45.41-2","ComÃ©rcio por atacado e a varejo de motocicletas, peÃ§as e acessÃ³rios","C-21"
+"45.42-1","Representantes comerciais e agentes do comÃ©rcio de motocicletas, peÃ§as e acessÃ³rios","C-21"
+"45.43-9","ManutenÃ§Ã£o e reparaÃ§Ã£o de motocicletas","C-16"
+"4 6.11-7","Representantes comerciais e agentes do comÃ©rcio de matÃ©rias-primas agrÃ­colas e animais vivos","C-19"
+"46.12-5","Representantes comerciais e agentes do comÃ©rcio de combustÃ­veis, minerais, produtos siderÃºrgicos e quÃ­micos","C-22"
+"46.13-3","Representantes comerciais e agentes do comÃ©rcio de madeira, material de construÃ§Ã£o e ferragens","C-20"
+"46.14-1","Representantes comerciais e agentes do comÃ©rcio de mÃ¡quinas, equipamentos, embarcaÃ§Ãµes e aeronaves","C-19"
+"46.15-0","Representantes comerciais e agentes do comÃ©rcio de eletrodomÃ©sticos, mÃ³veis e artigos de uso domÃ©stico","C-19"
+"46.16-8","Representantes comerciais e agentes do comÃ©rcio de tÃªxteis, vestuÃ¡rio, calÃ§ados e artigos de viagem","C-19"
+"46.17-6","Representantes comerciais e agentes do comÃ©rcio de produtos alimentÃ­cios, bebidas e fumo","C-19"
+"46.18-4","Representantes comerciais e agentes do comÃ©rcio especializado em produtos nÃ£o especificados anteriormente","C-19"
+"46.19-2","Representantes comerciais e agentes do comÃ©rcio de mercadorias em geral nÃ£o especializado","C-19"
+"46.21-4","ComÃ©rcio atacadista de cafÃ© em grÃ£o","C-20"
+"46.22-2","ComÃ©rcio atacadista de soja","C-20"
+"46.23-1","ComÃ©rcio atacadista de animais vivos, alimentos para animais e matÃ©rias- primas agrÃ­colas, exceto cafÃ© e soja","C-20"
+"46.31-1","ComÃ©rcio atacadista de leite e laticÃ­nios","C-20"
+"46.32-0","ComÃ©rcio atacadista de cereais e leguminosas beneficiados, farinhas, amidos e fÃ©culas","C-20"
+"46.33-8","ComÃ©rcio atacadista de hortifrutigranjeiros","C-20"
+"46.34-6","ComÃ©rcio atacadista de carnes, produtos da carne e pescado","C-20"
+"46.35-4","ComÃ©rcio atacadista de bebidas","C-20"
+"46.36-2","ComÃ©rcio atacadista de produtos do fumo","C-20"
+"46.37-1","ComÃ©rcio atacadista especializado em produtos alimentÃ­cios nÃ£o especificados anteriormente","C-20"
+"46.39-7","ComÃ©rcio atacadista de produtos alimentÃ­cios em geral","C-20"
+"20.71-1","FabricaÃ§Ã£o de tintas, vernizes, esmaltes e lacas","C-10"
+"20.72-0","FabricaÃ§Ã£o de tintas de impressÃ£o","C-10"
+"20.73-8","FabricaÃ§Ã£o de impermeabilizantes, solventes e produtos afins","C-10"
+"20.91-6","FabricaÃ§Ã£o de adesivos e selantes","C-10"
+"20.92-4","FabricaÃ§Ã£o de explosivos","C-15"
+"20.93-2","FabricaÃ§Ã£o de aditivos de uso industrial","C-10"
+"20.94-1","FabricaÃ§Ã£o de catalisadores","C-10"
+"20.99-1","FabricaÃ§Ã£o de produtos quÃ­micos nÃ£o especificados anteriormente","C-10"
+"21.10-6","FabricaÃ§Ã£o de produtos farmoquÃ­micos","C-10"
+"21.21-1","FabricaÃ§Ã£o de medicamentos para uso humano","C-10"
+"21.22-0","FabricaÃ§Ã£o de medicamentos para uso veterinÃ¡rio","C-10"
+"21.23-8","FabricaÃ§Ã£o de preparaÃ§Ãµes farmacÃªuticas","C-10"
+"2 2.11-1","FabricaÃ§Ã£o de pneumÃ¡ticos e de cÃ¢maras-de-ar","C-11"
+"22.12-9","Reforma de pneumÃ¡ticos usados","C-11"
+"22.19-6","FabricaÃ§Ã£o de artefatos de borracha nÃ£o especificados anteriormente","C-11"
+"22.21-8","FabricaÃ§Ã£o de laminados planos e tubulares de material plÃ¡stico","C-10"
+"22.22-6","FabricaÃ§Ã£o de embalagens de material plÃ¡stico","C-10"
+"22.23-4","FabricaÃ§Ã£o de tubos e acessÃ³rios de material plÃ¡stico para uso na construÃ§Ã£o","C-10"
+"22.29-3","FabricaÃ§Ã£o de artefatos de material plÃ¡stico nÃ£o especificados anteriormente","C-10"
+"2 3.11-7","FabricaÃ§Ã£o de vidro plano e de seguranÃ§a","C12"
+"23.12-5","FabricaÃ§Ã£o de embalagens de vidro","C12"
+"23.19-2","FabricaÃ§Ã£o de artigos de vidro","C-12"
+"23.20-6","FabricaÃ§Ã£o de cimento","C-1"
+"23.30-3","FabricaÃ§Ã£o de artefatos de concreto, cimento, fibrocimento, gesso e materiais semelhantes","C-12"
+"23.41-9","FabricaÃ§Ã£o de produtos cerÃ¢micos refratÃ¡rios","C-12"
+"23.42-7","FabricaÃ§Ã£o de produtos cerÃ¢micos nÃ£o-refratÃ¡rios para uso estrutural na construÃ§Ã£o","C-12"
+"23.49-4","FabricaÃ§Ã£o de produtos cerÃ¢micos nÃ£o-refratÃ¡rios nÃ£o especificados anteriormente","C-12"
+"23.91-5","Aparelhamento e outros trabalhos em pedras","C-1"
+"23.92-3","FabricaÃ§Ã£o de cal e gesso","C-12"
+"23.99-1","FabricaÃ§Ã£o de produtos de minerais nÃ£o-metÃ¡licos nÃ£o especificados anteriormente","C-12"
+"2 4.11-3","ProduÃ§Ã£o de ferro-gusa","C-13"
+"24.12-1","ProduÃ§Ã£o de ferroligas","C-13"
+"24.21-1","ProduÃ§Ã£o de semi-acabados de aÃ§o","C-13"
+"24.22-9","ProduÃ§Ã£o de laminados planos de aÃ§o","C-13"
+"24.23-7","ProduÃ§Ã£o de laminados longos de aÃ§o","C-13"
+"24.24-5","ProduÃ§Ã£o de relaminados, trefilados e perfilados de aÃ§o","C-13"
+"24.31-8","ProduÃ§Ã£o de tubos de aÃ§o com costura","C-13"
+"24.39-3","ProduÃ§Ã£o de outros tubos de ferro e aÃ§o","C-13"
+"24.41-5","Metalurgia do alumÃ­nio e suas ligas","C-13"
+"24.42-3","Metalurgia dos metais preciosos","C-13"
+"24.43-1","Metalurgia do cobre","C-13"
+"24.49-1","Metalurgia dos metais nÃ£o-ferrosos e suas ligas nÃ£o especificados anteriormente","C-13"
+"24.51-2","FundiÃ§Ã£o de ferro e aÃ§o","C-13"
+"24.52-1","FundiÃ§Ã£o de metais nÃ£o-ferrosos e suas ligas","C-13"
+"2 5.11-0","FabricaÃ§Ã£o de estruturas metÃ¡licas","C-13"
+"25.12-8","FabricaÃ§Ã£o de esquadrias de metal","C-14"
+"25.13-6","FabricaÃ§Ã£o de obras de caldeiraria pesada","C-13"
+"25.21-7","FabricaÃ§Ã£o de tanques, reservatÃ³rios metÃ¡licos e caldeiras para aquecimento central","C-14"
+"25.22-5","FabricaÃ§Ã£o de caldeiras geradoras de vapor, exceto para aquecimento central e para veÃ­culos","C-14"
+"25.31-4","ProduÃ§Ã£o de forjados de aÃ§o e de metais nÃ£o-ferrosos e suas ligas","C-13"
+"25.32-2","ProduÃ§Ã£o de artefatos estampados de metal; metalurgia do pÃ³","C-13"
+"25.39-0","ServiÃ§os de usinagem, solda, tratamento e revestimento em metais","C-13"
+"25.41-1","FabricaÃ§Ã£o de artigos de cutelaria","C-14"
+"25.42-0","FabricaÃ§Ã£o de artigos de serralheria, exceto esquadrias","C-14"
+"25.43-8","FabricaÃ§Ã£o de ferramentas","C-14"
+"25.50-1","FabricaÃ§Ã£o de equipamento bÃ©lico pesado, armas de fogo e muniÃ§Ãµes","C-15"
+"25.91-8","FabricaÃ§Ã£o de embalagens metÃ¡licas","C-14"
+"25.92-6","FabricaÃ§Ã£o de produtos de trefilados de metal","C-13"
+"25.93-4","FabricaÃ§Ã£o de artigos de metal para uso domÃ©stico e pessoal","C-14"
+"25.99-3","FabricaÃ§Ã£o de produtos de metal nÃ£o especificados anteriormente","C-14"
+"26.10-8","FabricaÃ§Ã£o de componentes eletrÃ´nicos","C-14"
+"26.21-3","FabricaÃ§Ã£o de equipamentos de informÃ¡tica","C-14"
+"26.22-1","FabricaÃ§Ã£o de perifÃ©ricos para equipamentos de informÃ¡tica","C-14"
+"26.31-1","FabricaÃ§Ã£o de equipamentos transmissores de comunicaÃ§Ã£o","C-14"
+"26.32-9","FabricaÃ§Ã£o de aparelhos telefÃ´nicos e de outros equipamentos de comunicaÃ§Ã£o","C-14"
+"26.40-0","FabricaÃ§Ã£o de aparelhos de recepÃ§Ã£o, reproduÃ§Ã£o, gravaÃ§Ã£o e amplificaÃ§Ã£o de Ã¡udio e vÃ­deo","C-14"
+"26.51-5","FabricaÃ§Ã£o de aparelhos e equipamentos de medida, teste e controle","C-14"
+"26.52-3","FabricaÃ§Ã£o de cronÃ´metros e relÃ³gios","C-14"
+"26.60-4","FabricaÃ§Ã£o de aparelhos eletromÃ©dicos e eletroterapÃªuticos e equipamentos de irradiaÃ§Ã£o","C-14"
+"26.70-1","FabricaÃ§Ã£o de equipamentos e instrumentos Ã³pticos, fotogrÃ¡ficos e cinematogrÃ¡ficos","C-14"
+"26.80-9","FabricaÃ§Ã£o de mÃ­dias virgens, magnÃ©ticas e Ã³pticas","C-10"
+"27.10-4","FabricaÃ§Ã£o de geradores, transformadores e motores elÃ©tricos","C-14"
+"27.21-0","FabricaÃ§Ã£o de pilhas, baterias e acumuladores elÃ©tricos, exceto para veÃ­culos automotores","C-10"
+"27.22-8","FabricaÃ§Ã£o de baterias e acumuladores para veÃ­culos automotores","C-10"
+"27.31-7","FabricaÃ§Ã£o de aparelhos e equipamentos para distribuiÃ§Ã£o e controle de energia elÃ©trica","C-14"
+"27.32-5","FabricaÃ§Ã£o de material elÃ©trico para instalaÃ§Ãµes em circuito de consumo","C-14"
+"27.33-3","FabricaÃ§Ã£o de fios, cabos e condutores elÃ©tricos isolados","C-14"
+"27.40-6","FabricaÃ§Ã£o de lÃ¢mpadas e outros equipamentos de iluminaÃ§Ã£o","C-14"
+"27.51-1","FabricaÃ§Ã£o de fogÃµes, refrigeradores e mÃ¡quinas de lavar e secar para uso domÃ©stico","C-14"
+"27.59-7","FabricaÃ§Ã£o de aparelhos eletrodomÃ©sticos nÃ£o especificados anteriormente","C-14"
+"27.90-2","FabricaÃ§Ã£o de equipamentos e aparelhos elÃ©tricos nÃ£o especificados anteriormente","C-14"
+"2 8.11-9","FabricaÃ§Ã£o de motores e turbinas, exceto para aviÃµes e veÃ­culos rodoviÃ¡rios","C-14"
+"28.12-7","FabricaÃ§Ã£o de equipamentos hidrÃ¡ulicos e pneumÃ¡ticos, exceto vÃ¡lvulas","C-14"
+"28.13-5","FabricaÃ§Ã£o de vÃ¡lvulas, registros e dispositivos semelhantes","C-14"
+"28.14-3","FabricaÃ§Ã£o de compressores","C-14"
+"28.15-1","FabricaÃ§Ã£o de equipamentos de transmissÃ£o para fins industriais","C-14"
+"28.21-6","FabricaÃ§Ã£o de aparelhos e equipamentos para instalaÃ§Ãµes tÃ©rmicas","C-14"
+"28.22-4","FabricaÃ§Ã£o de mÃ¡quinas, equipamentos e aparelhos para transporte e elevaÃ§Ã£o de cargas e pessoas","C-14"
+"28.23-2","FabricaÃ§Ã£o de mÃ¡quinas e aparelhos de refrigeraÃ§Ã£o e ventilaÃ§Ã£o para uso industrial e comercial","C-14"
+"28.24-1","FabricaÃ§Ã£o de aparelhos e equipamentos de ar condicionado","C-14"
+"28.25-9","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para saneamento bÃ¡sico e ambiental","C-14"
+"28.29-1","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos de uso geral nÃ£o especificados anteriormente","C-14a"
+"28.31-3","FabricaÃ§Ã£o de tratores agrÃ­colas","C-16"
+"28.32-1","FabricaÃ§Ã£o de equipamentos para irrigaÃ§Ã£o agrÃ­cola","C-14"
+"28.33-0","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para a agricultura e pecuÃ¡ria, exceto para irrigaÃ§Ã£o","C-14"
+"28.40-2","FabricaÃ§Ã£o de mÃ¡quinas-ferramenta","C-14"
+"28.51-8","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para a prospecÃ§Ã£o e extraÃ§Ã£o de petrÃ³leo","C-14"
+"28.52-6","FabricaÃ§Ã£o de outras mÃ¡quinas e equipamentos para uso na extraÃ§Ã£o mineral, exceto na extraÃ§Ã£o de petrÃ³leo","C-14"
+"28.53-4","FabricaÃ§Ã£o de tratores, exceto agrÃ­colas","C-16"
+"28.54-2","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para terraplenagem, pavimentaÃ§Ã£o e construÃ§Ã£o, exceto tratores","C-14"
+"28.61-5","FabricaÃ§Ã£o de mÃ¡quinas para a indÃºstria metalÃºrgica, exceto mÃ¡quinas-ferramenta","C-14"
+"28.62-3","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para as indÃºstrias de alimentos, bebidas e fumo","C-14"
+"28.63-1","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para a indÃºstria tÃªxtil","C-14"
+"28.64-0","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para as indÃºstrias do vestuÃ¡rio, do couro e de calÃ§ados","C-14"
+"28.65-8","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para as indÃºstrias de celulose, papel e papelÃ£o e artefatos","C-14"
+"28.66-6","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para a indÃºstria do plÃ¡stico","C-14"
+"28.69-1","FabricaÃ§Ã£o de mÃ¡quinas e equipamentos para uso industrial especÃ­fico nÃ£o especificados anteriormente","C-14"
+"29.10-7","FabricaÃ§Ã£o de automÃ³veis, camionetas e utilitÃ¡rios","C-16"
+"29.20-4","FabricaÃ§Ã£o de caminhÃµes e Ã´nibus","C-16"
+"29.30-1","FabricaÃ§Ã£o de cabines, carrocerias e reboques para veÃ­culos automotores","C-16"
+"29.41-7","FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para o sistema motor de veÃ­culos automotores","C-16"
+"29.42-5","FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para os sistemas de marcha e transmissÃ£o de veÃ­culos automotores","C-16"
+"29.43-3","FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para o sistema de freios de veÃ­culos automotores","C-16"
+"29.44-1","FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para o sistema de direÃ§Ã£o e suspensÃ£o de veÃ­culos automotores","C-16"
+"29.45-0","FabricaÃ§Ã£o de material elÃ©trico e eletrÃ´nico para veÃ­culos automotores, exceto baterias","C-14"
+"29.49-2","FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para veÃ­culos automotores nÃ£o especificados anteriormente","C-16"
+"29.50-6","Recondicionamento e recuperaÃ§Ã£o de motores para veÃ­culos automotores","C-16"
+"30.11-3","ConstruÃ§Ã£o de embarcaÃ§Ãµes e estruturas flutuantes","C-16"
+"30.12-1","ConstruÃ§Ã£o de embarcaÃ§Ãµes para esporte e lazer","C-16"
+"30.31-8","FabricaÃ§Ã£o de locomotivas, vagÃµes e outros materiais rodantes","C-16"
+"30.32-6","FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para veÃ­culos ferroviÃ¡rios","C-16"
+"30.41-5","FabricaÃ§Ã£o de aeronaves","C-16"
+"30.42-3","FabricaÃ§Ã£o de turbinas, motores e outros componentes e peÃ§as para aeronaves","C-16"
+"30.50-4","FabricaÃ§Ã£o de veÃ­culos militares de combate","C-16"
+"30.91-1","FabricaÃ§Ã£o de motocicletas","C-16"
+"30.92-0","FabricaÃ§Ã£o de bicicletas e triciclos nÃ£o-motorizados","C-16"
+"30.99-7","FabricaÃ§Ã£o de equipamentos de transporte nÃ£o especificados anteriormente","C-16"
+"31.01-2","FabricaÃ§Ã£o de mÃ³veis com predominÃ¢ncia de madeira","C-6"
+"31.02-1","FabricaÃ§Ã£o de mÃ³veis com predominÃ¢ncia de metal","C-14"
+"31.03-9","FabricaÃ§Ã£o de mÃ³veis de outros materiais, exceto madeira e metal","C-14"
+"31.04-7","FabricaÃ§Ã£o de colchÃµes","C-10"
+"3 2.11-6","LapidaÃ§Ã£o de gemas e fabricaÃ§Ã£o de artefatos de ourivesaria e joalheria","C-12"
+"32.12-4","FabricaÃ§Ã£o de bijuterias e artefatos semelhantes","C-14a"
+"32.20-5","FabricaÃ§Ã£o de instrumentos musicais","C-14a"
+"32.30-2","FabricaÃ§Ã£o de artefatos para pesca e esporte","C-14"
+"32.40-0","FabricaÃ§Ã£o de brinquedos e jogos recreativos","C-14"
+"32.50-7","FabricaÃ§Ã£o de instrumentos e materiais para uso mÃ©dico e odontolÃ³gico e de artigos Ã³pticos","C-14"
+"32.91-4","FabricaÃ§Ã£o de escovas, pincÃ©is e vassouras","C-14a"
+"32.92-2","FabricaÃ§Ã£o de equipamentos e acessÃ³rios para seguranÃ§a e proteÃ§Ã£o pessoal e profissional","C-4"
+"32.99-0","FabricaÃ§Ã£o de produtos diversos nÃ£o especificados anteriormente","C-14a"
+"3 3.11-2","ManutenÃ§Ã£o e reparaÃ§Ã£o de tanques, reservatÃ³rios metÃ¡licos e caldeiras, exceto para veÃ­culos","C-14"
+"33.12-1","ManutenÃ§Ã£o e reparaÃ§Ã£o de equipamentos eletrÃ´nicos e Ã³pticos","C-14"
+"33.13-9","ManutenÃ§Ã£o e reparaÃ§Ã£o de mÃ¡quinas e equipamentos elÃ©tricos","C-14"
+"33.14-7","ManutenÃ§Ã£o e reparaÃ§Ã£o de mÃ¡quinas e equipamentos da indÃºstria mecÃ¢nica","C-14"
+"33.15-5","ManutenÃ§Ã£o e reparaÃ§Ã£o de veÃ­culos ferroviÃ¡rios","C-16"
+"33.16-3","ManutenÃ§Ã£o e reparaÃ§Ã£o de aeronaves","C-16"
+"33.17-1","ManutenÃ§Ã£o e reparaÃ§Ã£o de embarcaÃ§Ãµes","C-16"
+"33.19-8","ManutenÃ§Ã£o e reparaÃ§Ã£o de equipamentos e produtos nÃ£o especificados anteriormente","C-14"
+"33.21-0","InstalaÃ§Ã£o de mÃ¡quinas e equipamentos industriais","C-14"
+"33.29-5","InstalaÃ§Ã£o de equipamentos nÃ£o especificados anteriormente","C-14a"
+"3 5.11-5","GeraÃ§Ã£o de energia elÃ©trica","C-17"
+"35.12-3","TransmissÃ£o de energia elÃ©trica","C-17"
+"35.13-1","ComÃ©rcio atacadista de energia elÃ©trica","C-17"
+"35.14-0","DistribuiÃ§Ã£o de energia elÃ©trica","C-17"
+"35.20-4","ProduÃ§Ã£o de gÃ¡s; processamento de gÃ¡s natural; distribuiÃ§Ã£o de combustÃ­veis gasosos por redes urbanas","C-17"
+"35.30-1","ProduÃ§Ã£o e distribuiÃ§Ã£o de vapor, Ã¡gua quente e ar condicionado","C-17"
+"36.00-6","CaptaÃ§Ã£o, tratamento e distribuiÃ§Ã£o de Ã¡gua","C-17"
+"37.01-1","GestÃ£o de redes de esgoto","C-17"
+"37.02-9","Atividades relacionadas a esgoto, exceto a gestÃ£o de redes","C-17"
+"3 8.11-4","Coleta de resÃ­duos nÃ£o-perigosos","C-17"
+"38.12-2","Coleta de resÃ­duos perigosos","C-17"
+"38.21-1","Tratamento e disposiÃ§Ã£o de resÃ­duos nÃ£o-perigosos","C-17"
+"38.22-0","Tratamento e disposiÃ§Ã£o de resÃ­duos perigosos","C-17"
+"38.31-9","RecuperaÃ§Ã£o de materiais metÃ¡licos","C-14"
+"38.32-7","RecuperaÃ§Ã£o de materiais plÃ¡sticos","C-12"
+"38.39-4","RecuperaÃ§Ã£o de materiais nÃ£o especificados anteriormente","C-12"
+"39.00-5","DescontaminaÃ§Ã£o e outros serviÃ§os de gestÃ£o de resÃ­duos","C-17"
+"41.10-7","IncorporaÃ§Ã£o de empreendimentos imobiliÃ¡rios","C-29"
+"41.20-4","ConstruÃ§Ã£o de edifÃ­cios","C-18a"
+"4 2.11-1","ConstruÃ§Ã£o de rodovias e ferrovias","C-18a"
+"42.12-0","ConstruÃ§Ã£o de obras-de-arte especiais","C-18a"
+"42.13-8","Obras de urbanizaÃ§Ã£o - ruas, praÃ§as e calÃ§adas","C-18a"
+"42.21-9","Obras para geraÃ§Ã£o e distribuiÃ§Ã£o de energia elÃ©trica e para telecomunicaÃ§Ãµes","C-18Âª"
+"42.22-7","ConstruÃ§Ã£o de redes de abastecimento de Ã¡gua, coleta de esgoto e construÃ§Ãµes correlatas","C-18"
+"42.23-5","ConstruÃ§Ã£o de redes de transportes por dutos, exceto para Ã¡gua e esgoto","C-18"
+"42.91-0","Obras portuÃ¡rias, marÃ­timas e fluviais","C-18"
+"42.92-8","Montagem de instalaÃ§Ãµes industriais e de estruturas metÃ¡licas","C-18a"
+"42.99-5","Obras de engenharia civil nÃ£o especificadas anteriormente","C-18"
+"4 3.11-8","DemoliÃ§Ã£o e preparaÃ§Ã£o de canteiros de obras","C-18a"
+"43.12-6","PerfuraÃ§Ãµes e sondagens","C-18a"
+"43.13-4","Obras de terraplenagem","C-18a"
+"43.19-3","ServiÃ§os de preparaÃ§Ã£o do terreno nÃ£o especificados anteriormente","C-18a"
+"43.21-5","InstalaÃ§Ãµes elÃ©tricas","C-18"
+"43.22-3","InstalaÃ§Ãµes hidrÃ¡ulicas, de sistemas de ventilaÃ§Ã£o e refrigeraÃ§Ã£o","C-18"
+"43.29-1","Obras de instalaÃ§Ãµes em construÃ§Ãµes nÃ£o especificadas anteriormente","C-18"
+"43.30-4","Obras de acabamento","C-18"
+"43.91-6","Obras de fundaÃ§Ãµes","C-18a"
+"43.99-1","ServiÃ§os especializados para construÃ§Ã£o nÃ£o especificados anteriormente","C-18"
+"45.11-1","ComÃ©rcio a varejo e por atacado de veÃ­culos automotores","C-21"
+"45.12-9","Representantes comerciais e agentes do comÃ©rcio de veÃ­culos automotores","C-21"
+"45.20-0","ManutenÃ§Ã£o e reparaÃ§Ã£o de veÃ­culos automotores","C-16"
+"45.30-7","ComÃ©rcio de peÃ§as e acessÃ³rios para veÃ­culos automotores","C-21"
+"45.41-2","ComÃ©rcio por atacado e a varejo de motocicletas, peÃ§as e acessÃ³rios","C-21"
+"45.42-1","Representantes comerciais e agentes do comÃ©rcio de motocicletas, peÃ§as e acessÃ³rios","C-21"
+"45.43-9","ManutenÃ§Ã£o e reparaÃ§Ã£o de motocicletas","C-16"
+"4 6.11-7","Representantes comerciais e agentes do comÃ©rcio de matÃ©rias-primas agrÃ­colas e animais vivos","C-19"
+"46.12-5","Representantes comerciais e agentes do comÃ©rcio de combustÃ­veis, minerais, produtos siderÃºrgicos e quÃ­micos","C-22"
+"46.13-3","Representantes comerciais e agentes do comÃ©rcio de madeira, material de construÃ§Ã£o e ferragens","C-20"
+"46.14-1","Representantes comerciais e agentes do comÃ©rcio de mÃ¡quinas, equipamentos, embarcaÃ§Ãµes e aeronaves","C-19"
+"46.15-0","Representantes comerciais e agentes do comÃ©rcio de eletrodomÃ©sticos, mÃ³veis e artigos de uso domÃ©stico","C-19"
+"46.16-8","Representantes comerciais e agentes do comÃ©rcio de tÃªxteis, vestuÃ¡rio, calÃ§ados e artigos de viagem","C-19"
+"46.17-6","Representantes comerciais e agentes do comÃ©rcio de produtos alimentÃ­cios, bebidas e fumo","C-19"
+"46.18-4","Representantes comerciais e agentes do comÃ©rcio especializado em produtos nÃ£o especificados anteriormente","C-19"
+"46.19-2","Representantes comerciais e agentes do comÃ©rcio de mercadorias em geral nÃ£o especializado","C-19"
+"46.21-4","ComÃ©rcio atacadista de cafÃ© em grÃ£o","C-20"
+"46.22-2","ComÃ©rcio atacadista de soja","C-20"
+"46.23-1","ComÃ©rcio atacadista de animais vivos, alimentos para animais e matÃ©rias- primas agrÃ­colas, exceto cafÃ© e soja","C-20"
+"46.31-1","ComÃ©rcio atacadista de leite e laticÃ­nios","C-20"
+"46.32-0","ComÃ©rcio atacadista de cereais e leguminosas beneficiados, farinhas, amidos e fÃ©culas","C-20"
+"46.33-8","ComÃ©rcio atacadista de hortifrutigranjeiros","C-20"
+"46.34-6","ComÃ©rcio atacadista de carnes, produtos da carne e pescado","C-20"
+"46.35-4","ComÃ©rcio atacadista de bebidas","C-20"
+"46.36-2","ComÃ©rcio atacadista de produtos do fumo","C-20"
+"46.37-1","ComÃ©rcio atacadista especializado em produtos alimentÃ­cios nÃ£o especificados anteriormente","C-20"
+"46.39-7","ComÃ©rcio atacadista de produtos alimentÃ­cios em geral","C-20"
+"46.41-9","ComÃ©rcio atacadista de tecidos, artefatos de tecidos e de armarinho","C-20"
+"46.42-7","ComÃ©rcio atacadista de artigos do vestuÃ¡rio e acessÃ³rios","C-20"
+"46.43-5","ComÃ©rcio atacadista de calÃ§ados e artigos de viagem","C-20"
+"46.44-3","ComÃ©rcio atacadista de produtos farmacÃªuticos para uso humano e veterinÃ¡rio","C-20"
+"46.45-1","ComÃ©rcio atacadista de instrumentos e materiais para uso mÃ©dico, cirÃºrgico, ortopÃ©dico e odontolÃ³gico","C-20"
+"46.46-0","ComÃ©rcio atacadista de cosmÃ©ticos, produtos de perfumaria e de higiene pessoal","C-22"
+"46.47-8","ComÃ©rcio atacadista de artigos de escritÃ³rio e de papelaria; livros, jornais e outras publicaÃ§Ãµes","C-20"
+"46.49-4","ComÃ©rcio atacadista de equipamentos e artigos de uso pessoal e domÃ©stico nÃ£o especificados anteriormente","C-20"
+"46.51-6","ComÃ©rcio atacadista de computadores, perifÃ©ricos e suprimentos de informÃ¡tica","C-20"
+"46.52-4","ComÃ©rcio atacadista de componentes eletrÃ´nicos e equipamentos de telefonia e comunicaÃ§Ã£o","C-20"
+"46.61-3","ComÃ©rcio atacadista de mÃ¡quinas, aparelhos e equipamentos para uso agropecuÃ¡rio; partes e peÃ§as","C-20"
+"46.62-1","ComÃ©rcio atacadista de mÃ¡quinas, equipamentos para terraplenagem, mineraÃ§Ã£o e construÃ§Ã£o; partes e peÃ§as","C-20"
+"46.63-0","ComÃ©rcio atacadista de mÃ¡quinas e equipamentos para uso industrial; partes e peÃ§as","C-20"
+"46.64-8","ComÃ©rcio atacadista de mÃ¡quinas, aparelhos e equipamentos para uso odonto-mÃ©dico-hospitalar; partes e peÃ§as","C-20"
+"46.65-6","ComÃ©rcio atacadista de mÃ¡quinas e equipamentos para uso comercial; partes e peÃ§as","C-20"
+"46.69-9","ComÃ©rcio atacadista de mÃ¡quinas, aparelhos e equipamentos nÃ£o especificados anteriormente; partes e peÃ§as","C-20"
+"46.71-1","ComÃ©rcio atacadista de madeira e produtos derivados","C-20"
+"46.72-9","ComÃ©rcio atacadista de ferragens e ferramentas","C-20"
+"46.73-7","ComÃ©rcio atacadista de material elÃ©trico","C-20"
+"46.74-5","ComÃ©rcio atacadista de cimento","C-20"
+"46.79-6","ComÃ©rcio atacadista especializado de materiais de construÃ§Ã£o nÃ£o especificados anteriormente e de materiais de construÃ§Ã£o em geral","C-20"
+"46.81-8","ComÃ©rcio atacadista de combustÃ­veis sÃ³lidos, lÃ­quidos e gasosos, exceto gÃ¡s natural e GLP","C-22"
+"46.82-6","ComÃ©rcio atacadista de gÃ¡s liqÃ¼efeito de petrÃ³leo (GLP)","C-22"
+"46.83-4","ComÃ©rcio atacadista de defensivos agrÃ­colas, adubos, fertilizantes e corretivos do solo","C-22"
+"46.84-2","ComÃ©rcio atacadista de produtos quÃ­micos e petroquÃ­micos, exceto agroquÃ­micos","C-22"
+"46.85-1","ComÃ©rcio atacadista de produtos siderÃºrgicos e metalÃºrgicos, exceto para construÃ§Ã£o","C-20"
+"46.86-9","ComÃ©rcio atacadista de papel e papelÃ£o em bruto e de embalagens","C-20"
+"46.87-7","ComÃ©rcio atacadista de resÃ­duos e sucatas","C-22"
+"46.89-3","ComÃ©rcio atacadista especializado de outros produtos intermediÃ¡rios nÃ£o especificados anteriormente","C-20"
+"46.91-5","ComÃ©rcio atacadista de mercadorias em geral, com predominÃ¢ncia de produtos alimentÃ­cios","C-20"
+"46.92-3","ComÃ©rcio atacadista de mercadorias em geral, com predominÃ¢ncia de insumos agropecuÃ¡rios","C-20"
+"46.93-1","ComÃ©rcio atacadista de mercadorias em geral, sem predominÃ¢ncia de alimentos ou de insumos agropecuÃ¡rios","C-20"
+"47.11-3","ComÃ©rcio varejista de mercadorias em geral, com predominÃ¢ncia de produtos alimentÃ­cios - hipermercados e supermercados","C-21"
+"47.12-1","ComÃ©rcio varejista de mercadorias em geral, com predominÃ¢ncia de produtos alimentÃ­cios - minimercados, mercearias e armazÃ©ns","C-21"
+"47.13-0","ComÃ©rcio varejista de mercadorias em geral, sem predominÃ¢ncia de produtos alimentÃ­cios","C-21"
+"47.21-1","ComÃ©rcio varejista de produtos de padaria, laticÃ­nio, doces, balas e semelhantes","C-21"
+"47.22-9","ComÃ©rcio varejista de carnes e pescados - aÃ§ougues e peixarias","C-21"
+"47.23-7","ComÃ©rcio varejista de bebidas","C-21"
+"47.24-5","ComÃ©rcio varejista de hortifrutigranjeiros","C-21"
+"47.29-6","ComÃ©rcio varejista de produtos alimentÃ­cios em geral ou especializado em produtos alimentÃ­cios nÃ£o especificados anteriormente; produtos do fumo","C-21"
+"47.31-8","ComÃ©rcio varejista de combustÃ­veis para veÃ­culos automotores","C-22"
+"47.32-6","ComÃ©rcio varejista de lubrificantes","C-22"
+"47.41-5","ComÃ©rcio varejista de tintas e materiais para pintura","C-21"
+"47.42-3","ComÃ©rcio varejista de material elÃ©trico","C-21"
+"47.43-1","ComÃ©rcio varejista de vidros","C-21"
+"47.44-0","ComÃ©rcio varejista de ferragens, madeira e materiais de construÃ§Ã£o","C-21"
+"47.51-2","ComÃ©rcio varejista especializado de equipamentos e suprimentos de informÃ¡tica","C-21"
+"47.52-1","ComÃ©rcio varejista especializado de equipamentos de telefonia e comunicaÃ§Ã£o","C-21"
+"47.53-9","ComÃ©rcio varejista especializado de eletrodomÃ©sticos e equipamentos de Ã¡udio e vÃ­deo","C-21"
+"47.54-7","ComÃ©rcio varejista especializado de mÃ³veis, colchoaria e artigos de iluminaÃ§Ã£o","C-21"
+"47.55-5","ComÃ©rcio varejista especializado de tecidos e artigos de cama, mesa e banho","C-21"
+"47.56-3","ComÃ©rcio varejista especializado de instrumentos musicais e acessÃ³rios","C-21"
+"47.57-1","ComÃ©rcio varejista especializado de peÃ§as e acessÃ³rios para aparelhos eletroeletrÃ´nicos para uso domÃ©stico, exceto informÃ¡tica e comunicaÃ§Ã£o","C-21"
+"47.59-8","ComÃ©rcio varejista de artigos de uso domÃ©stico nÃ£o especificados anteriormente","C-21"
+"47.61-0","ComÃ©rcio varejista de livros, jornais, revistas e papelaria","C-21"
+"47.62-8","ComÃ©rcio varejista de discos, CDs, DVDs e fitas","C-21"
+"47.63-6","ComÃ©rcio varejista de artigos recreativos e esportivos","C-21"
+"47.71-7","ComÃ©rcio varejista de produtos farmacÃªuticos para uso humano e veterinÃ¡rio","C-21"
+"47.72-5","ComÃ©rcio varejista de cosmÃ©ticos, produtos de perfumaria e de higiene pessoal","C-21"
+"47.73-3","ComÃ©rcio varejista de artigos mÃ©dicos e ortopÃ©dicos","C-21"
+"47.74-1","ComÃ©rcio varejista de artigos de Ã³ptica","C-21"
+"47.81-4","ComÃ©rcio varejista de artigos do vestuÃ¡rio e acessÃ³rios","C-21"
+"47.82-2","ComÃ©rcio varejista de calÃ§ados e artigos de viagem","C-21"
+"47.83-1","ComÃ©rcio varejista de jÃ³ias e relÃ³gios","C-21"
+"47.84-9","ComÃ©rcio varejista de gÃ¡s liqÃ¼efeito de petrÃ³leo (GLP)","C-22"
+"47.85-7","ComÃ©rcio varejista de artigos usados","C-21"
+"47.89-0","ComÃ©rcio varejista de outros produtos novos nÃ£o especificados anteriormente","C-21"
+"47.90-3","ComÃ©rcio ambulante e outros tipos de comÃ©rcio varejista","C-21"
+"4 9.11-6","Transporte ferroviÃ¡rio de carga","C-24d"
+"49.12-4","Transporte metroferroviÃ¡rio de passageiros","C-24d"
+"49.21-3","Transporte rodoviÃ¡rio coletivo de passageiros, com itinerÃ¡rio fixo, municipal e em regiÃ£o metropolitana","C-24c"
+"49.22-1","Transporte rodoviÃ¡rio coletivo de passageiros, com itinerÃ¡rio fixo, intermunicipal, interestadual e internacional","C-24c"
+"49.23-0","Transporte rodoviÃ¡rio de tÃ¡xi","C-24c"
+"49.24-8","Transporte escolar","C-24c"
+"49.29-9","Transporte rodoviÃ¡rio coletivo de passageiros, sob regime de fretamento, e outros transportes rodoviÃ¡rios nÃ£o especificados anteriormente","C-24c"
+"49.30-2","Transporte rodoviÃ¡rio de carga","C-24c"
+"49.30-2","Transporte rodoviÃ¡rio de carga","C-24c"
+"49.40-0","Transporte dutoviÃ¡rio","C-24"
+"49.50-7","Trens turÃ­sticos, telefÃ©ricos e similares","C-24"
+"5 0.11-4","Transporte marÃ­timo de cabotagem","C-24b"
+"50.12-2","Transporte marÃ­timo de longo curso","C-24b"
+"50.21-1","Transporte por navegaÃ§Ã£o interior de carga","C-24b"
+"50.22-0","Transporte por navegaÃ§Ã£o interior de passageiros em linhas regulares","C-24"
+"50.30-1","NavegaÃ§Ã£o de apoio","C-24a"
+"50.91-2","Transporte por navegaÃ§Ã£o de travessia","C-24"
+"50.99-8","Transportes aquaviÃ¡rios nÃ£o especificados anteriormente","C-24"
+"51.11-1","Transporte aÃ©reo de passageiros regular","C-24"
+"51.12-9","Transporte aÃ©reo de passageiros nÃ£o-regular","C-24"
+"51.20-0","Transporte aÃ©reo de carga","C-24"
+"51.30-7","Transporte espacial","C-24b"
+"52.11-7","Armazenamento","C-24"
+"52.12-5","Carga e descarga","C-24"
+"52.21-4","ConcessionÃ¡rias de rodovias, pontes, tÃºneis e serviÃ§os relacionados","C-24a"
+"52.22-2","Terminais rodoviÃ¡rios e ferroviÃ¡rios","C-24a"
+"52.23-1","Estacionamento de veÃ­culos","C-24a"
+"52.29-0","Atividades auxiliares dos transportes terrestres nÃ£o especificadas anteriormente","C-24a"
+"52.31-1","GestÃ£o de portos e terminais","C-24a"
+"52.32-0","Atividades de agenciamento marÃ­timo","C-24a"
+"52.39-7","Atividades auxiliares dos transportes aquaviÃ¡rios nÃ£o especificadas anteriormente","C-24a"
+"52.40-1","Atividades auxiliares dos transportes aÃ©reos","C-24"
+"52.50-8","Atividades relacionadas Ã  organizaÃ§Ã£o do transporte de carga","C-24a"
+"53.10-5","Atividades de Correio","C-25"
+"53.20-2","Atividades de malote e de entrega","C-25"
+"55.10-8","HotÃ©is e similares","C-23"
+"55.90-6","Outros tipos de alojamento nÃ£o especificados anteriormente","C-23"
+"56.11-2","Restaurantes e outros estabelecimentos de serviÃ§os de alimentaÃ§Ã£o e bebidas","C-23"
+"56.12-1","ServiÃ§os ambulantes de alimentaÃ§Ã£o","C-23"
+"56.20-1","ServiÃ§os de catering, bufÃª e outros serviÃ§os de comida preparada","C-23"
+"58.11-5","EdiÃ§Ã£o de livros","C-8"
+"58.12-3","EdiÃ§Ã£o de jornais","C-8"
+"58.13-1","EdiÃ§Ã£o de revistas","C-8"
+"58.19-1","EdiÃ§Ã£o de cadastros, listas e outros produtos grÃ¡ficos","C-8"
+"58.21-2","EdiÃ§Ã£o integrada Ã  impressÃ£o de livros","C-8"
+"58.22-1","EdiÃ§Ã£o integrada Ã  impressÃ£o de jornais","C-8"
+"58.23-9","EdiÃ§Ã£o integrada Ã  impressÃ£o de revistas","C-8"
+"58.29-8","EdiÃ§Ã£o integrada Ã  impressÃ£o de cadastros, listas e outros produtos grÃ¡ficos","C-8"
+"59.11-1","Atividades de produÃ§Ã£o cinematogrÃ¡fica, de vÃ­deos e de programas de televisÃ£o","C-9"
+"59.12-0","Atividades de pÃ³s-produÃ§Ã£o cinematogrÃ¡fica, de vÃ­deos e de programas de televisÃ£o","C-9"
+"59.13-8","DistribuiÃ§Ã£o cinematogrÃ¡fica, de vÃ­deo e de programas de televisÃ£o","C-9"
+"59.14-6","Atividades de exibiÃ§Ã£o cinematogrÃ¡fica","C-9"
+"59.20-1","Atividades de gravaÃ§Ã£o de som e de ediÃ§Ã£o de mÃºsica","C-9"
+"60.10-1","Atividades de rÃ¡dio","C-9"
+"60.21-7","Atividades de televisÃ£o aberta","C-9"
+"60.22-5","Programadoras e atividades relacionadas Ã  televisÃ£o por assinatura","C-9"
+"61.10-8","TelecomunicaÃ§Ãµes por fio","C-25"
+"61.20-5","TelecomunicaÃ§Ãµes sem fio","C-25"
+"61.30-2","TelecomunicaÃ§Ãµes por satÃ©lite","C-25"
+"61.41-8","Operadoras de televisÃ£o por assinatura por cabo","C-25"
+"61.42-6","Operadoras de televisÃ£o por assinatura por microondas","C-25"
+"61.43-4","Operadoras de televisÃ£o por assinatura por satÃ©lite","C-25"
+"61.90-6","Outras atividades de telecomunicaÃ§Ãµes","C-25"
+"62.01-5","Desenvolvimento de programas de computador sob encomenda","C-35"
+"62.02-3","Desenvolvimento e licenciamento de programas de computador customizÃ¡veis","C-35"
+"62.03-1","Desenvolvimento e licenciamento de programas de computador nÃ£ocustomizÃ¡veis","C-35"
+"62.04-0","Consultoria em tecnologia da informaÃ§Ã£o","C-35"
+"62.09-1","Suporte tÃ©cnico, manutenÃ§Ã£o e outros serviÃ§os em tecnologia da informaÃ§Ã£o","C-35"
+"63.11-9","Tratamento de dados, provedores de serviÃ§os de aplicaÃ§Ã£o e serviÃ§os de hospedagem na internet","C-35"
+"63.19-4","Portais, provedores de conteÃºdo e outros serviÃ§os de informaÃ§Ã£o na internet","C-35"
+"63.91-7","AgÃªncias de notÃ­cias","C-8"
+"63.99-2","Outras atividades de prestaÃ§Ã£o de serviÃ§os de informaÃ§Ã£o nÃ£o especificadas anteriormente","C-35"
+"64.10-7","Banco Central","C-28"
+"64.21-2","Bancos comerciais","C-28"
+"64.22-1","Bancos mÃºltiplos, com carteira comercial","C-28"
+"64.23-9","Caixas econÃ´micas","C-28"
+"64.24-7","CrÃ©dito cooperativo","C-28"
+"64.31-0","Bancos mÃºltiplos, sem carteira comercial","C-28"
+"64.32-8","Bancos de investimento","C-28"
+"64.33-6","Bancos de desenvolvimento","C-28"
+"64.34-4","AgÃªncias de fomento","C-28"
+"64.35-2","CrÃ©dito imobiliÃ¡rio","C-28"
+"64.36-1","Sociedades de crÃ©dito, financiamento e investimento - financeiras","C-28"
+"64.37-9","Sociedades de crÃ©dito ao microempreendedor","C-28"
+"64.40-9","Arrendamento mercantil","C-28"
+"64.50-6","Sociedades de capitalizaÃ§Ã£o","C-28"
+"64.61-1","Holdings de instituiÃ§Ãµes financeiras","C-28"
+"64.62-0","Holdings de instituiÃ§Ãµes nÃ£o-financeiras","C-29"
+"64.63-8","Outras sociedades de participaÃ§Ã£o, exceto holdings","C-28"
+"64.70-1","Fundos de investimento","C-28"
+"64.91-3","Sociedades de fomento mercantil - factoring","C-28"
+"64.92-1","SecuritizaÃ§Ã£o de crÃ©ditos","C-28"
+"64.93-0","AdministraÃ§Ã£o de consÃ³rcios para aquisiÃ§Ã£o de bens e direitos","C-28"
+"64.99-9","Outras atividades de serviÃ§os financeiros nÃ£o especificadas anteriormente","C-28"
+"65.11-1","Seguros de vida","C-26"
+"65.12-0","Seguros nÃ£o-vida","C-26"
+"65.20-1","Seguros-saÃºde","C-26"
+"65.30-8","Resseguros","C-26"
+"65.41-3","PrevidÃªncia complementar fechada","C-26"
+"65.42-1","PrevidÃªncia complementar aberta","C-26"
+"65.50-2","Planos de saÃºde","C-26"
+"66.11-8","AdministraÃ§Ã£o de bolsas e mercados de balcÃ£o organizados","C-27"
+"66.12-6","Atividades de intermediÃ¡rios em transaÃ§Ãµes de tÃ­tulos, valores mobiliÃ¡rios e mercadorias","C-27"
+"66.13-4","AdministraÃ§Ã£o de cartÃµes de crÃ©dito","C-28"
+"66.19-3","Atividades auxiliares dos serviÃ§os financeiros nÃ£o especificadas anteriormente","C-27"
+"66.21-5","AvaliaÃ§Ã£o de riscos e perdas","C-27"
+"66.22-3","Corretores e agentes de seguros, de planos de previdÃªncia complementar e de saÃºde","C-27"
+"66.29-1","Atividades auxiliares dos seguros, da previdÃªncia complementar e dos planos de saÃºde nÃ£o especificadas anteriormente","C-27"
+"66.30-4","Atividades de administraÃ§Ã£o de fundos por contrato ou comissÃ£o","C-27"
+"68.10-2","Atividades imobiliÃ¡rias de imÃ³veis prÃ³prios","C-29"
+"68.21-8","IntermediaÃ§Ã£o na compra, venda e aluguel de imÃ³veis","C-29"
+"68.22-6","GestÃ£o e administraÃ§Ã£o da propriedade imobiliÃ¡ria","C-29"
+"69.11-7","Atividades jurÃ­dicas, exceto cartÃ³rios","C-29"
+"69.12-5","CartÃ³rios","C-29"
+"69.20-6","Atividades de contabilidade, consultoria e auditoria contÃ¡bil e tributÃ¡ria","C-29"
+"70.10-7","Sedes de empresas e unidades administrativas locais","C-29"
+"70.20-4","Atividades de consultoria em gestÃ£o empresarial","C-29"
+"71.11-1","ServiÃ§os de arquitetura","C-35"
+"71.12-0","ServiÃ§os de engenharia","C-35"
+"71.19-7","Atividades tÃ©cnicas relacionadas Ã  arquitetura e engenharia","C-35"
+"71.20-1","Testes e anÃ¡lises tÃ©cnicas","C-32"
+"72.10-0","Pesquisa e desenvolvimento experimental em ciÃªncias fÃ­sicas e naturais","C-32"
+"72.20-7","Pesquisa e desenvolvimento experimental em ciÃªncias sociais e humanas","C-32"
+"73.11-4","AgÃªncias de publicidade","C-35"
+"73.12-2","Agenciamento de espaÃ§os para publicidade, exceto em veÃ­culos de comunicaÃ§Ã£o","C-35"
+"73.19-0","Atividades de publicidade nÃ£o especificadas anteriormente","C-35"
+"73.20-3","Pesquisas de mercado e de opiniÃ£o pÃºblica","C-29"
+"74.10-2","Design e decoraÃ§Ã£o de interiores","C-35"
+"74.20-0","Atividades fotogrÃ¡ficas e similares","C-9"
+"74.90-1","Atividades profissionais, cientÃ­ficas e tÃ©cnicas nÃ£o especificadas anteriormente","C-35"
+"75.00-1","Atividades veterinÃ¡rias","C-34"
+"77.11-0","LocaÃ§Ã£o de automÃ³veis sem condutor","C-35"
+"77.19-5","LocaÃ§Ã£o de meios de transporte, exceto automÃ³veis, sem condutor","C-35"
+"77.21-7","Aluguel de equipamentos recreativos e esportivos","C-29"
+"77.22-5","Aluguel de fitas de vÃ­deo, DVDs e similares","C-29"
+"77.23-3","Aluguel de objetos do vestuÃ¡rio, jÃ³ias e acessÃ³rios","C-29"
+"77.29-2","Aluguel de objetos pessoais e domÃ©sticos nÃ£o especificados anteriormente","C-29"
+"77.31-4","Aluguel de mÃ¡quinas e equipamentos agrÃ­colas sem operador","C-35"
+"77.32-2","Aluguel de mÃ¡quinas e equipamentos para construÃ§Ã£o sem operador","C-35"
+"77.33-1","Aluguel de mÃ¡quinas e equipamentos para escritÃ³rio","C-35"
+"77.39-0","Aluguel de mÃ¡quinas e equipamentos nÃ£o especificados anteriormente","C-35"
+"77.40-3","GestÃ£o de ativos intangÃ­veis nÃ£o-financeiros","C-28"
+"78.10-8","SeleÃ§Ã£o e agenciamento de mÃ£o-de-obra","C-35"
+"78.20-5","LocaÃ§Ã£o de mÃ£o-de-obra temporÃ¡ria","C-35"
+"78.30-2","Fornecimento e gestÃ£o de recursos humanos para terceiros","C-35"
+"79.11-2","AgÃªncias de viagens","C-29"
+"79.12-1","Operadores turÃ­sticos","C-29"
+"79.90-2","ServiÃ§os de reservas e outros serviÃ§os de turismo nÃ£o especificados anteriormente","C-29"
+"80.11-1","Atividades de vigilÃ¢ncia e seguranÃ§a privada","C-30"
+"80.12-9","Atividades de transporte de valores","C-30"
+"80.20-0","Atividades de monitoramento de sistemas de seguranÃ§a","C-30"
+"80.30-7","Atividades de investigaÃ§Ã£o particular","C-30"
+"81.11-7","ServiÃ§os combinados para apoio a edifÃ­cios, exceto condomÃ­nios prediais","C-29"
+"81.12-5","CondomÃ­nios prediais","C-35"
+"81.21-4","Limpeza em prÃ©dios e em domicÃ­lios","C-30"
+"81.22-2","ImunizaÃ§Ã£o e controle de pragas urbanas","C-30"
+"81.29-0","Atividades de limpeza nÃ£o especificadas anteriormente","C-30"
+"81.30-3","Atividades paisagÃ­sticas","C-30"
+"82.11-3","ServiÃ§os combinados de escritÃ³rio e apoio administrativo","C-35"
+"82.19-9","FotocÃ³pias, preparaÃ§Ã£o de documentos e outros serviÃ§os especializados de apoio administrativo","C-35"
+"82.20-2","Atividades de teleatendimento","C-35"
+"82.30-0","Atividades de organizaÃ§Ã£o de eventos, exceto culturais e esportivos","C-35"
+"82.91-1","Atividades de cobranÃ§a e informaÃ§Ãµes cadastrais","C-35"
+"82.92-0","Envasamento e empacotamento sob contrato","C-35"
+"82.99-7","Atividades de serviÃ§os prestados principalmente Ã s empresas nÃ£o especificadas anteriormente","C-35"
+"84.11-6","AdministraÃ§Ã£o pÃºblica em geral","C-33"
+"84.12-4","RegulaÃ§Ã£o das atividades de saÃºde, educaÃ§Ã£o, serviÃ§os culturais e outros serviÃ§os sociais","C-33"
+"84.13-2","RegulaÃ§Ã£o das atividades econÃ´micas","C-33"
+"84.21-3","RelaÃ§Ãµes exteriores","C-33"
+"84.22-1","Defesa","C-33"
+"84.23-0","JustiÃ§a","C-33"
+"84.24-8","SeguranÃ§a e ordem pÃºblica","C-33"
+"84.25-6","Defesa Civil","C-33"
+"84.30-2","Seguridade social obrigatÃ³ria","C-33"
+"85.11-2","EducaÃ§Ã£o infantil - creche","C-31"
+"85.12-1","EducaÃ§Ã£o infantil - prÃ©-escola","C-31"
+"85.13-9","Ensino fundamental","C-31"
+"85.20-1","Ensino mÃ©dio","C-31"
+"85.31-7","EducaÃ§Ã£o superior - graduaÃ§Ã£o","C-31"
+"85.32-5","EducaÃ§Ã£o superior - graduaÃ§Ã£o e pÃ³s-graduaÃ§Ã£o","C-31"
+"85.33-3","EducaÃ§Ã£o superior - pÃ³s-graduaÃ§Ã£o e extensÃ£o","C-31"
+"85.41-4","EducaÃ§Ã£o profissional de nÃ­vel tÃ©cnico","C-31"
+"85.42-2","EducaÃ§Ã£o profissional de nÃ­vel tecnolÃ³gico","C-31"
+"85.50-3","Atividades de apoio Ã  educaÃ§Ã£o","C-29"
+"85.91-1","Ensino de esportes","C-31"
+"85.92-9","Ensino de arte e cultura","C-31"
+"85.93-7","Ensino de idiomas","C-31"
+"85.99-6","Atividades de ensino nÃ£o especificadas anteriormente","C-31"
+"86.10-1","Atividades de atendimento hospitalar","C-34"
+"86.21-6","ServiÃ§os mÃ³veis de atendimento a urgÃªncias","C-34"
+"86.22-4","ServiÃ§os de remoÃ§Ã£o de pacientes, exceto os serviÃ§os mÃ³veis de atendimento a urgÃªncias","C-34"
+"86.30-5","Atividades de atenÃ§Ã£o ambulatorial executadas por mÃ©dicos e odontÃ³logos","C-34"
+"86.40-2","Atividades de serviÃ§os de complementaÃ§Ã£o diagnÃ³stica e terapÃªutica","C-34"
+"86.50-0","Atividades de profissionais da Ã¡rea de saÃºde, exceto mÃ©dicos e odontÃ³logos","C-34"
+"86.60-7","Atividades de apoio Ã  gestÃ£o de saÃºde","C-34"
+"86.90-9","Atividades de atenÃ§Ã£o Ã  saÃºde humana nÃ£o especificadas anteriormente","C-34"
+"87.11-5","Atividades de assistÃªncia a idosos, deficientes fÃ­sicos, imunodeprimidos e convalescentes prestadas em residÃªncias coletivas e particulares","C-34"
+"87.12-3","Atividades de fornecimento de infra-estrutura de apoio e assistÃªncia a paciente no domicÃ­lio","C-34"
+"87.20-4","Atividades de assistÃªncia psicossocial e Ã  saÃºde a portadores de distÃºrbios psÃ­quicos, deficiÃªncia mental e dependÃªncia quÃ­mica","C-34"
+"87.30-1","Atividades de assistÃªncia social prestadas em residÃªncias coletivas e particulares","C-34"
+"88.00-6","ServiÃ§os de assistÃªncia social sem alojamento","C-23"
+"90.01-9","Artes cÃªnicas, espetÃ¡culos e atividades complementares","C-9"
+"90.02-7","CriaÃ§Ã£o artÃ­stica","C-9"
+"90.03-5","GestÃ£o de espaÃ§os para artes cÃªnicas, espetÃ¡culos e outras atividades artÃ­sticas","C-9"
+"91.01-5","Atividades de bibliotecas e arquivos","C-31"
+"91.02-3","Atividades de museus e de exploraÃ§Ã£o, restauraÃ§Ã£o artÃ­stica e conservaÃ§Ã£o de lugares e prÃ©dios histÃ³ricos e atraÃ§Ãµes similares","C-31"
+"91.03-1","Atividades de jardins botÃ¢nicos, zoolÃ³gicos, parques nacionais, reservas ecolÃ³gicas e Ã¡reas de proteÃ§Ã£o ambiental","C-31"
+"92.00-3","Atividades de exploraÃ§Ã£o de jogos de azar e apostas","C-35"
+"93.11-5","GestÃ£o de instalaÃ§Ãµes de esportes","C-31"
+"93.12-3","Clubes sociais, esportivos e similares","C-31"
+"93.13-1","Atividades de condicionamento fÃ­sico","C-31"
+"93.19-1","Atividades esportivas nÃ£o especificadas anteriormente","C-31"
+"93.21-2","Parques de diversÃ£o e parques temÃ¡ticos","C-35"
+"93.29-8","Atividades de recreaÃ§Ã£o e lazer nÃ£o especificadas anteriormente","C-35"
+"94.11-1","Atividades de organizaÃ§Ãµes associativas patronais e empresariais","C-29"
+"94.12-0","Atividades de organizaÃ§Ãµes associativas profissionais","C-29"
+"94.20-1","Atividades de organizaÃ§Ãµes sindicais","C-29"
+"94.30-8","Atividades de associaÃ§Ãµes de defesa de direitos sociais","C-29"
+"94.91-0","Atividades de organizaÃ§Ãµes religiosas","C-29"
+"94.92-8","Atividades de organizaÃ§Ãµes polÃ­ticas","C-29"
+"94.93-6","Atividades de organizaÃ§Ãµes associativas ligadas Ã  cultura e Ã  arte","C-29"
+"94.99-5","Atividades associativas nÃ£o especificadas anteriormente","C-29"
+"95.11-8","ReparaÃ§Ã£o e manutenÃ§Ã£o de computadores e de equipamentos perifÃ©ricos","C-14a"
+"95.12-6","ReparaÃ§Ã£o e manutenÃ§Ã£o de equipamentos de comunicaÃ§Ã£o","C-14"
+"95.21-5","ReparaÃ§Ã£o e manutenÃ§Ã£o de equipamentos eletroeletrÃ´nicos de uso pessoal e domÃ©stico","C-14"
+"95.29-1","ReparaÃ§Ã£o e manutenÃ§Ã£o de objetos e equipamentos pessoais e domÃ©sticos nÃ£o especificados anteriormente","C-35"
+"95.29-1","ReparaÃ§Ã£o e manutenÃ§Ã£o de objetos e equipamentos pessoais e domÃ©sticos nÃ£o especificados anteriormente","C-35"
+"96.01-7","Lavanderias, tinturarias e toalheiros","C-30"
+"96.02-5","Cabeleireiros e outras atividades de tratamento de beleza","C-35"
+"96.03-3","Atividades funerÃ¡rias e serviÃ§os relacionados","C-34"
+"96.09-2","Atividades de serviÃ§os pessoais nÃ£o especificadas anteriormente","C-35"
+"97.00-5","ServiÃ§os domÃ©sticos","C-35"
+"99.00-8","Organismos internacionais e outras instituiÃ§Ãµes extraterritoriais","C-33"

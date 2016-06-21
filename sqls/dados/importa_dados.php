@@ -3,7 +3,7 @@ $impdados = "dados.sql";
 $fp = fopen($impdados,"wr+");
 
 $cnae = "cnae.csv";
-$grupo = "grupo.csv";
+$grupo = "grupos.csv";
 
 
 $sql="-- INICIO DA SQL PARA INSERIR RISCOS --\n";
@@ -31,9 +31,9 @@ $csv = array_map ("str_getcsv",file($grupo));
 
 foreach ($csv as $campo){
 	if ($campo[1]!=null and $campo[2]!=null){
-		$pontos = array(".","-");
-		$result = str_replace ($pontos, "",$campo[0]);
-		$sql="INSERT INTO cnae (cipa, descricao) VALUES (".$result.", '".$campo[1]."', ".$campo[2].");";
+		$pontos = array("-");
+		$result = str_replace ($pontos, "",$campo[2]);
+		$sql="INSERT INTO grupo (cipa, descricao) VALUES ('".$result."', '".$campo[1]."');";
 		fwrite($fp, $sql. "\n");
 	}
 }
