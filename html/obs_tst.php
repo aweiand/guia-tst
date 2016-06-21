@@ -8,7 +8,7 @@
 		<form method="GET" action="">
 		Observação
 		<br />
-		<textarea name="observacao" ></textarea>
+		<textarea name="observacao" required="required"></textarea>
 		<br />	
 		<button>Enviar</button>
 	</body>
