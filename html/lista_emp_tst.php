@@ -11,11 +11,13 @@
 	<table style="width:50%">
 		  <tr>
 		    <!--Nomes Campos-->
+		    <th>Empregado</th><th>Descrição</th>
+		  </tr>
 			<?php
 			$resultado = $bd->get_all('empregado');
 			while($linha = mysqli_fetch_array($resultado)){
 					echo '<tr>';
-					echo "<td>".$linha['empregado']."</td> <td>'.$linha['descricao'].'</td>';
+					echo "<td>".$linha['empregado']."</td><td>".$linha['descricao'].'</td>';
 					echo '<td class="td"><a href="edita_tst.php">Edita</a></td><td> <a href="deleta_tst.php">Deleta</a></td>';
 					echo '</tr>';
 				}
