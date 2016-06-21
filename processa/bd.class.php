@@ -41,7 +41,7 @@
 				// echo "teste id";
 				$bd = new bd;
 				$consulta = "SELECT * FROM $tabela WHERE $id";
-				echo $consulta;
+				// echo $consulta;
 				// echo $this->conexao;
 				$resultado = mysqli_query($this->conexao, $consulta);
 			}
@@ -49,11 +49,11 @@
 		}
 		function get_all_array($tabela, $id = NULL){
 			if(is_null($id)){
-				echo "teste<br>";
+				// echo "teste<br>";
 				$bd = new bd;
 				$consulta = "SELECT * FROM $tabela";
-				echo $consulta;
-				echo "<br>";
+				// echo $consulta;
+				// echo "<br>";
 				$resultado = mysqli_query($this->conexao, $consulta);
 				$resultado = mysqli_fetch_array($resultado);
 
@@ -61,7 +61,7 @@
 				// echo "teste id";
 				$bd = new bd;
 				$consulta = "SELECT * FROM $tabela WHERE $id";
-				echo $consulta;
+				// echo $consulta;
 				// echo $this->conexao;
 				$resultado = mysqli_fetch_array($resultado);
 			}
