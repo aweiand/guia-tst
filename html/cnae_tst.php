@@ -8,17 +8,17 @@
 		<form method="GET" action="">
 		CNAE
 		<br />
-		<input type="number" name="cnae" />
+		<input type="number" name="cnae" required="required"/>
 		<br />
 		Risco
 		<br />
-		<select name="id_risco">
+		<select name="id_risco" required="required"/>
 				<option value="">id risco</option>
 		</select>
 		<br />
 		Descrição
 		<br />
-		<textarea name="descricao"></textarea>
+		<textarea name="descricao" required="required" /></textarea>
 		
 		<br />
 		<button>Enviar</button>

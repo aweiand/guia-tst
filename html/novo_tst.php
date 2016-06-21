@@ -14,15 +14,15 @@
 			<br />
 			Código
 			<br />
-			<input type="text" name="n" value="" />
+			<input type="text" name="n" value="" required="required"/>
 			<br />
 			Denominação
 			<br />
-			<input type="text" name="" value=""  />
+			<input type="text" name="n2" value="" required="required"/>
 			<br />
 			GR
 			<br />
-			<input type="number" name="" value=""  />
+			<input type="number" name="n3" value=""  required="required"/>
 			<br />
 			<br />
 			<a href="lista_cnae.php" style='text-decoration: none;'> 

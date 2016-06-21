@@ -83,14 +83,14 @@
 	}
 	//Adicione os dados nessas variaveis para fazer a conexão no banco de dados
 	$usuario = "root";
-	$senha = "1234";
+	$senha = "";
 	$endereco = "localhost";
 	$nome_bd = "tst";
 
 	$bd = new bd();
 	$bd->add_banco($usuario, $senha, $endereco, $nome_bd);
 	// $a = $bd->get_all("carro");
-	// var_dump($a);
+	// var_dump($a);	
 
 	// $resultado = $bd->get_all("carro", "placa = '123-1re'");
 	// var_dump($resultado);
