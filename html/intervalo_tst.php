@@ -8,11 +8,11 @@
 		<form method="GET" action="">
 		Maximo
 		<br />
-		<input type="number" name="maximo" />
+		<input type="number" name="maximo" required="required"/>
 		<br />
 		Minimo
 		<br />
-		<input type="number" name="minimo" />
+		<input type="number" name="minimo"required="required" />
 		<br />
 		<button>Enviar</button>
 	</body>

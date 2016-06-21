@@ -8,6 +8,6 @@
 		<form method="GET" action="">
 		Descrição
 		<br />
-		<textarea name="descricao"></textarea>
+		<textarea name="descricao" required="required"></textarea>
 		<br />
 		<button>Enviar</button>
