@@ -24,7 +24,7 @@
 		<br />
 		Quantidade
 		<br />
-		<input type="text" name="quantidade" required="required"/>
+		<input type="text" name="quantidade"/>
 		</table>
 	</body>
 </html>

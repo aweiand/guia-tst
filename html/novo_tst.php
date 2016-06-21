@@ -18,7 +18,7 @@
 			<br />
 			Denominação
 			<br />
-			<input type="text" name="n2" value="" required/>
+			<input type="text" name="n2" value="" required="required"/>
 			<br />
 			GR
 			<br />
