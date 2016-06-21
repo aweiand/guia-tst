@@ -55,9 +55,9 @@
 	}
 	//Adicione os dados nessas variaveis para fazer a conexão no banco de dados
 	$usuario = "root";
-	$senha = "1234";
+	$senha = "";
 	$endereco = "localhost";
-	$nome_bd = "estacionamento";
+	$nome_bd = "tst";
 
 	$bd = new bd();
 	$bd->add_banco($usuario, $senha, $endereco, $nome_bd);
