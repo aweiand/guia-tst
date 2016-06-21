@@ -67,13 +67,17 @@ th, td {
 .fundo_home {
 	background-color: #c9c0c8;
 }
+
 .engrenagem{
 	float:left;
 	margin-left:1%;
 	margin-top: 1%;
 }
+
 .logo{
 	width:65%;
 	height: auto;
 	margin: auto;
 }
+
+
