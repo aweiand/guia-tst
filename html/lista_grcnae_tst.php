@@ -24,7 +24,7 @@
 			while($linha = mysqli_fetch_array($resultado)){
 					echo '<tr>';
 					echo "<td>".$linha['cnae']."</td> <td>".$linha['cipa'].'</td>';
-					echo '<td class="td"><a href="edita_tst.php?COD=$linha['cipa'] . $linha['cnae']">Edita</a></td><td> <a href="deleta_tst.php?COD=$linha['cipa'] . $linha['cnae']" onclick="confirma()">Deleta</a></td>';
+					echo '<td class="td"><a href="edita_tst.php?COD=$linha['cipa']&&$linha['cnae']">Edita</a></td><td> <a href="deleta_tst.php?COD=$linha['cipa']&&$linha['cnae']" onclick="confirma()">Deleta</a></td>';
 					echo '</tr>';
 				}
 			?>
