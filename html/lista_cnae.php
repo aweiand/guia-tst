@@ -1,4 +1,4 @@
-<?php require_once '../processa/bd.class.php'?>
+<?php require_once '../processa/bd.class.php' ?>
 <html>
 	<head>
 		<link rel="stylesheet" href="style.css">
@@ -30,7 +30,7 @@
 				while($linha_risco = mysqli_fetch_array($resultado_risco)){
 					echo '<tr>';
 					echo "<td>".$linha['cnae']."</td> <td>".$linha_risco['risco'].'</td> <td>'.$linha['descricao'].'</td>';
-					echo '<td class="td"><a href="edita_tst.php">Edita</a></td><td class="td"> <a href="deleta_tst.php" onclick="confirma()";>Deleta</a></td>';
+					echo '<td class="td"><a href="edita_tst.php?COD=$linha['cnae']">Edita</a></td><td class="td"> <a href="deleta_tst.php?COD=$linha['cnae']" onclick="confirma()">Deleta</a></td>';
 					echo '</tr>';
 				}
 			}
