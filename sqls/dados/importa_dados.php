@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 <?php
-require "../../processa/bd.class.php";
-
-$a = new bd();
-
 $cnae = "cnae.csv";
 $intervalo = " intervalo.csv";
 $risco = "risco.csv";
@@ -14,10 +9,9 @@ $empregado = "empregado.csv";
 $csv = array_map ("str_getcsv",file($cnae));
 
 foreach ($csv as $campo){
-	$campo[0]
+	$campo[0];
 }
-=======
-﻿<?php
+
 $impdados = "dados.sql";
 $fp = fopen($impdados,"wr+");
 
@@ -80,6 +74,12 @@ $sql.="-- FIM DA SQL PARA INSERIR intervalo --\n\n";
 
 fwrite($fp, $sql);
 
+$sql="-- INICIO DA SQL PARA INSERIR cnae --\n";
+$sql.="INSERT INTO cnae (num_cnae, descricao, id_risco) VALUES ('10694', 'Moagem e fabricação de produtos de origem vegetal não especificados', 3);\n";
+$sql.="-- FIM DA SQL PARA INSERIR cnae --\n\n";
+
+fwrite($fp, $sql);
+
 
 $csv = array_map ("str_getcsv",file($cnae));
 
@@ -114,5 +114,3 @@ foreach ($csv as $campo){
 
 fclose($fp);
 ?>
-
->>>>>>> eb272be475d6cac1118c5e3df412015e34c95662
