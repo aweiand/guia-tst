@@ -46,11 +46,11 @@ CREATE TABLE grupo(
 
 CREATE TABLE cnae(
 	
-	cnae INT(5)NOT NULL,
+	num_cnae CHAR(5)NOT NULL,
 	id_risco INT(1)NOT NULL,
 	descricao TEXT NOT NULL,
 	
-	CONSTRAINT PrKcnae PRIMARY KEY (cnae),
+	CONSTRAINT PrKcnae PRIMARY KEY (num_cnae),
 	CONSTRAINT FrKrisco_cnae FOREIGN KEY (id_risco) REFERENCES risco (id_risco)
 );
 
@@ -69,10 +69,10 @@ CREATE TABLE grupo_cipa(
 CREATE TABLE grupo_cnae(
 	
 	cipa CHAR(4)NOT NULL,
-	cnae INT(5)NOT NULL,
+	num_cnae CHAR(5)NOT NULL,
 	
-	CONSTRAINT PrKgrupo_cnae PRIMARY KEY (cnae,cipa),
-	CONSTRAINT FrKgrupo_cnae_cnae FOREIGN KEY (cnae) REFERENCES cnae (cnae),
+	CONSTRAINT PrKgrupo_cnae PRIMARY KEY (num_cnae,cipa),
+	CONSTRAINT FrKgrupo_cnae_cnae FOREIGN KEY (num_cnae) REFERENCES cnae (num_cnae),
 	CONSTRAINT FrKgrupo_cnae_cipa FOREIGN KEY (cipa) REFERENCES grupo (cipa)
 );
 
