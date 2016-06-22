@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .centraliza{
 	position: absolute;
 	text-align: center;
@@ -77,3 +78,88 @@ th, td {
 	height: auto;
 	margin: auto;
 }
+=======
+.centraliza{
+	position: absolute;
+	text-align: center;
+	left: 35%;
+	top: 10%;
+	width: 50%;
+}
+
+.centraliza_linha{
+  position: absolute;
+  text-align: center;
+  left: 25%;
+  top: 10%;
+  width: 50%;
+  font-size: 20px;
+  border-style: solid;
+}
+
+.cabecalho{
+  position: relative;
+  /*text-align: left;*/
+  left: 25%;
+  top: 10%;
+  width: 50%;
+  font-size: 20px;
+  border-style: solid;
+}
+
+.td{
+	border: 1px solid white;
+  border-collapse: collapse;
+}
+
+.bt{
+    border: none;
+    background: white;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+}
+
+.footer {
+  position: relative;
+  left: 25%;
+  width: 50%;
+  text-align: center;
+}
+
+.home {
+	position: relative;
+	text-align: center;
+	left: 25%;
+	top: 10%;
+	width: 50%;
+	font-size: 20px;
+	background-color: #ffffff;
+	box-shadow: 3px 2px 1px #999999;
+	border-radius: 10px;
+}
+
+.fundo_home {
+	background-color: #c9c0c8;
+}
+
+.engrenagem{
+	float:left;
+	margin-left:1%;
+	margin-top: 1%;
+}
+
+.logo{
+	width:65%;
+	height: auto;
+	margin: auto;
+}
+
+
+>>>>>>> 8475213d0e3090e314f75da8ac632918fe61de55
