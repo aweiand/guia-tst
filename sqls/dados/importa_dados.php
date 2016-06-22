@@ -1,6 +1,6 @@
 ﻿<?php
 $impdados = "dados.sql";
-$fp = fopen($impdados,"wr+", "utf8");
+$fp = fopen($impdados,"wr+");
 
 $cnae = "cnae.csv";
 $grupo = "grupos.csv";
@@ -66,7 +66,7 @@ $csv = array_map ("str_getcsv",file($cnae));
 
 foreach ($csv as $campo){
 	if ($campo[0]!=null and $campo[1]!=null and $campo[2]!=null){
-		$pontos = array(".","-");
+		$pontos = array(".","-", " ");
 		$result = str_replace ($pontos, "",$campo[0]);
 		$sql="INSERT INTO cnae (num_cnae, descricao, id_risco) VALUES ('".$result."', '".$campo[1]."', ".$campo[2].");";
 		fwrite($fp, $sql. "\n");
@@ -85,10 +85,9 @@ foreach ($csv as $campo){
 $csv = array_map ("str_getcsv",file($grupo));
 
 foreach ($csv as $campo){
-	var_dump ($campo);
-	$pontos = array("-");
+	$pontos = array("-"," ");
 	$result = str_replace ($pontos, "",$campo[2]);
-	$pontos2 = array(".","-",);
+	$pontos2 = array(".","-"," ");
 	$result2 = str_replace ($pontos2, "",$campo[0]);
 	$sql="INSERT INTO grupo_cnae (cipa, num_cnae) VALUES ('".$result."', '".$result2."');";
 	fwrite($fp, $sql. "\n");
