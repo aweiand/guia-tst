@@ -1,3 +1,22 @@
+<<<<<<< HEAD
+<?php
+require "../../processa/bd.class.php";
+
+$a = new bd();
+
+$cnae = "cnae.csv";
+$intervalo = " intervalo.csv";
+$risco = "risco.csv";
+$grupo = "grupo.csv";
+$observacao = "observacao.csv";
+$empregado = "empregado.csv";
+
+$csv = array_map ("str_getcsv",file($cnae));
+
+foreach ($csv as $campo){
+	$campo[0]
+}
+=======
 ﻿<?php
 $impdados = "dados.sql";
 $fp = fopen($impdados,"wr+");
@@ -96,3 +115,4 @@ foreach ($csv as $campo){
 fclose($fp);
 ?>
 
+>>>>>>> eb272be475d6cac1118c5e3df412015e34c95662

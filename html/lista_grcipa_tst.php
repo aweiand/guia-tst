@@ -10,19 +10,20 @@
 		<table style="width:50%">
 		  <tr>
 		    <!--Nomes Campos-->
-			<th>Código</th> <th>Deniminação</th> <th>GR</th>
+			<th>CIPA</th> <th>Tipo</th> <th>maximo</th><th>minimo</th>
 		  </tr>
-		  <tr>
-		    <td>01</td> <td>AGRICULTURA, PECUÁRIA E SERVIÇOS RELACIONADOS</td> <td>-</td>
-			<td class="td"><a href="edita_tst.php">Edita</a> <a href="deleta_tst.php">Deleta</a></td>
-		  </tr>
-		  <tr>
-		    <td>01.1</td> <td>Produção de lavouras temporárias</td> <td>-</td>
-			<td class="td"><a href="edita_tst.php">Edita</a> <a href="deleta_tst.php">Deleta</a></td>
-		  </tr>
-		  <tr>
-		    <td>01.11-3</td> <td>Cultivo de cereais</td> <td>3</td>
-			<td class="td"><a href="edita_tst.php">Edita</a> <a href="deleta_tst.php">Deleta</a></td>
+		  <?php
+			$resultado = $bd->get_all('grupo_cipa');
+			while($linha = mysqli_fetch_array($resultado)){
+				$resultado_intervalo = $bd->get_all('intervalo', "id_intervalo = '".$linha['id_intervalo']."'");
+				while($linha_intervalo = mysqli_fetch_array($resultado_intervalo)){
+					echo '<tr>';
+					echo "<td>".$linha['cipa']."</td> <td>".$linha['tipo'].'</td><td>'.$linha_intervalo['maximo'].'</td><td>'.$linha_intervalo['minimo'].'</td>';
+					echo '<td class="td"><a href="edita_tst.php?COD=$idx">Edita</a></td><td class="td"> <a href="deleta_tst.php?COD=$idx" onclick="confirma()">Deleta</a></td>';
+					echo '</tr>';
+				}
+			}
+			?>
 		  </tr>
 		</table>
 	</body>

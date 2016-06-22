@@ -1,3 +1,1071 @@
+<<<<<<< HEAD
+C¢digos;DENOMINA€ÇO;GR
+A;AGRICULTURA, PECUµRIA, PRODU€ÇO FLORESTAL, PESCA E AQUICULTURA;
+1;AGRICULTURA, PECUµRIA E SERVI€OS RELACIONADOS;
+01.1;Produ‡Æo de lavouras tempor rias;
+01.11-3;Cultivo de cereais;3
+01.12-1;Cultivo de algodÆo herb ceo e de outras fibras de lavoura tempor ria;3
+01.13-0;Cultivo de cana-de-a‡£car;3
+01.14-8;Cultivo de fumo;3
+01.15-6;Cultivo de soja;3
+01.16-4;Cultivo de oleaginosas de lavoura tempor ria, exceto soja;3
+01.19-9;Cultivo de plantas de lavoura tempor ria nÆo especificadas anteriormente;3
+01.2;Horticultura e floricultura;
+01.21-1;Horticultura;3
+01.22-9;Cultivo de flores e plantas ornamentais;3
+01.3;Produ‡Æo de lavouras permanentes;
+01.31-8;Cultivo de laranja;3
+01.32-6;Cultivo de uva;3
+01.33-4;Cultivo de frutas de lavoura permanente, exceto laranja e uva;3
+01.34-2;Cultivo de caf‚;3
+01.35-1;Cultivo de cacau;3
+01.39-3;Cultivo de plantas de lavoura permanente nÆo especificadas anteriormente;3
+01.4;Produ‡Æo de sementes e mudas certificadas;
+01.41-5;Produ‡Æo de sementes certificadas;3
+01.42-3;Produ‡Æo de mudas e outras formas de propaga‡Æo vegetal, certificadas;3
+01.5;Pecu ria;
+01.51-2;Cria‡Æo de bovinos;3
+01.52-1;Cria‡Æo de outros animais de grande porte;3
+01.53-9;Cria‡Æo de caprinos e ovinos;3
+01.54-7;Cria‡Æo de su¡nos;3
+01.55-5;Cria‡Æo de aves;3
+01.59-8;Cria‡Æo de animais nÆo especificados anteriormente;3
+01.6;"Atividades de apoio … agricultura e … pecu ria; atividades de p¢s-colheita";
+01.61-0;Atividades de apoio … agricultura;3
+01.62-8;Atividades de apoio … pecu ria;3
+01.63-6;Atividades de p¢s-colheita;3
+01.7;Ca‡a e servi‡os relacionados;
+01.70-9;Ca‡a e servi‡os relacionados;3
+2;PRODU€ÇO FLORESTAL;
+02.1;Produ‡Æo florestal - florestas plantadas;
+02.10-1;Produ‡Æo florestal - florestas plantadas;3
+02.2;Produ‡Æo florestal - florestas nativas;
+02.20-9;Produ‡Æo florestal - florestas nativas;4
+02.3;Atividades de apoio … produ‡Æo florestal;
+02.30-6;Atividades de apoio … produ‡Æo florestal;3
+3;PESCA E AQUICULTURA;
+03.1;Pesca;
+03.11-6;Pesca em  gua salgada;3
+03.12-4;Pesca em  gua doce;3
+03.2;Aquicultura;
+03.21-3;Aquicultura em  gua salgada e salobra;3
+03.22-1;Aquicultura em  gua doce;3
+B;INDéSTRIAS EXTRATIVAS;
+5;EXTRA€ÇO DE CARVÇO MINERAL;
+05.0;Extra‡Æo de carvÆo mineral;
+05.00-3;Extra‡Æo de carvÆo mineral;4
+6;EXTRA€ÇO DE PETRàLEO E GµS NATURAL;
+06.0;Extra‡Æo de petr¢leo e g s natural;
+06.00-0;Extra‡Æo de petr¢leo e g s natural;4
+7;EXTRA€ÇO DE MINERAIS METµLICOS;
+07.1;Extra‡Æo de min‚rio de ferro;
+07.10-3;Extra‡Æo de min‚rio de ferro;4
+07.2;Extra‡Æo de minerais met licos nÆo ferrosos;
+07.21-9;Extra‡Æo de min‚rio de alum¡nio;4
+07.22-7;Extra‡Æo de min‚rio de estanho;4
+07.23-5;Extra‡Æo de min‚rio de manganˆs;4
+07.24-3;Extra‡Æo de min‚rio de metais preciosos;4
+07.25-1;Extra‡Æo de minerais radioativos;4
+07.29-4;Extra‡Æo de minerais met licos nÆo ferrosos nÆo especificados anteriormente;4
+8;EXTRA€ÇO DE MINERAIS NÇO METµLICOS;
+08.1;Extra‡Æo de pedra, areia e argila;
+08.10-0;Extra‡Æo de pedra, areia e argila;4
+08.9;Extra‡Æo de outros minerais nÆo met licos;
+08.91-6;Extra‡Æo de minerais para fabrica‡Æo de adubos, fertilizantes e outros produtos qu¡micos;4
+08.92-4;Extra‡Æo e refino de sal marinho e sal-gema;4
+08.93-2;Extra‡Æo de gemas (pedras preciosas e semipreciosas);4
+08.99-1;Extra‡Æo de minerais nÆo met licos nÆo especificados anteriormente;4
+9;ATIVIDADES DE APOIO · EXTRA€ÇO DE MINERAIS;
+09.1;Atividades de apoio … extra‡Æo de petr¢leo e g s natural;
+09.10-6;Atividades de apoio … extra‡Æo de petr¢leo e g s natural;4
+09.9;Atividades de apoio … extra‡Æo de minerais, exceto petr¢leo e g s natural;
+09.90-4;Atividades de apoio … extra‡Æo de minerais, exceto petr¢leo e g s natural;4
+C;INDéSTRIAS DE TRANSFORMA€ÇO;
+10;FABRICA€ÇO DE PRODUTOS ALIMENTÖCIOS;
+10.1;Abate e fabrica‡Æo de produtos de carne;
+10.11-2;Abate de reses, exceto su¡nos;3
+10.12-1;Abate de su¡nos, aves e outros pequenos animais;3
+10.13-9;Fabrica‡Æo de produtos de carne;3
+10.2;Preserva‡Æo do pescado e fabrica‡Æo de produtos do pescado;
+10.20-1;Preserva‡Æo do pescado e fabrica‡Æo de produtos do pescado;3
+10.3;Fabrica‡Æo de conservas de frutas, legumes e outros vegetais;
+10.31-7;Fabrica‡Æo de conservas de frutas;3
+10.32-5;Fabrica‡Æo de conservas de legumes e outros vegetais;3
+10.33-3;Fabrica‡Æo de sucos de frutas, hortali‡as e legumes;3
+10.4;Fabrica‡Æo de ¢leos e gorduras vegetais e animais;
+10.41-4;Fabrica‡Æo de ¢leos vegetais em bruto, exceto ¢leo de milho;3
+10.42-2;Fabrica‡Æo de ¢leos vegetais refinados, exceto ¢leo de milho;3
+10.43-1;Fabrica‡Æo de margarina e outras gorduras vegetais e de ¢leos nÆo comest¡veis de animais;3
+10.5;Latic¡nios;
+10.51-1;Prepara‡Æo do leite;3
+10.52-0;Fabrica‡Æo de latic¡nios;3
+10.53-8;Fabrica‡Æo de sorvetes e outros gelados comest¡veis;3
+10.6;Moagem, fabrica‡Æo de produtos amil ceos e de alimentos para animais;
+10.61-9;Beneficiamento de arroz e fabrica‡Æo de produtos do arroz;3
+10.62-7;Moagem de trigo e fabrica‡Æo de derivados;3
+10.63-5;Fabrica‡Æo de farinha de mandioca e derivados;3
+10.64-3;Fabrica‡Æo de farinha de milho e derivados, exceto ¢leos de milho;3
+10.65-1;Fabrica‡Æo de amidos e f‚culas de vegetais e de ¢leos de milho;3
+10.66-0;Fabrica‡Æo de alimentos para animais;3
+10.69-4;Moagem e fabrica‡Æo de produtos de origem vegetal nÆo especificados;
+anteriormente;3;
+10.7;Fabrica‡Æo e refino de a‡£car;
+10.71-6;Fabrica‡Æo de a‡£car em bruto;3
+10.72-4;Fabrica‡Æo de a‡£car refinado;3
+10.8;Torrefa‡Æo e moagem de caf‚;
+10.81-3;Torrefa‡Æo e moagem de caf‚;3
+10.82-1;Fabrica‡Æo de produtos … base de caf‚;3
+10.9;Fabrica‡Æo de outros produtos aliment¡cios;
+10.91-1;Fabrica‡Æo de produtos de panifica‡Æo;3
+10.92-9;Fabrica‡Æo de biscoitos e bolachas;3
+10.93-7;Fabrica‡Æo de produtos derivados do cacau, de chocolates e confeitos;3
+10.94-5;Fabrica‡Æo de massas aliment¡cias;3
+10.95-3;Fabrica‡Æo de especiarias, molhos, temperos e condimentos;3
+10.96-1;Fabrica‡Æo de alimentos e pratos prontos;3
+10.99-6;Fabrica‡Æo de produtos aliment¡cios nÆo especificados anteriormente;3
+11;FABRICA€ÇO DE BEBIDAS;
+11.1;Fabrica‡Æo de bebidas alco¢licas;
+11.11-9;Fabrica‡Æo de aguardentes e outras bebidas destiladas;3
+11.12-7;Fabrica‡Æo de vinho;3
+11.13-5;Fabrica‡Æo de malte, cervejas e chopes;3
+11.2;Fabrica‡Æo de bebidas nÆo alco¢licas;
+11.21-6;Fabrica‡Æo de  guas envasadas;3
+11.22-4;Fabrica‡Æo de refrigerantes e de outras bebidas nÆo alco¢licas;3
+12;FABRICA€ÇO DE PRODUTOS DO FUMO;
+12.1;Processamento industrial do fumo;
+12.10-7;Processamento industrial do fumo;3
+12.2;Fabrica‡Æo de produtos do fumo;
+12.20-4;Fabrica‡Æo de produtos do fumo;3
+13;FABRICA€ÇO DE PRODUTOS TÒXTEIS;
+13.1;Prepara‡Æo e fia‡Æo de fibras tˆxteis;
+13.11-1;Prepara‡Æo e fia‡Æo de fibras de algodÆo;3
+13.12-0;Prepara‡Æo e fia‡Æo de fibras tˆxteis naturais, exceto algodÆo;3
+13.13-8;Fia‡Æo de fibras artificiais e sint‚ticas;3
+13.14-6;Fabrica‡Æo de linhas para costurar e bordar;3
+13.2;Tecelagem, exceto malha;
+13.21-9;Tecelagem de fios de algodÆo;3
+13.22-7;Tecelagem de fios de fibras tˆxteis naturais, exceto algodÆo;3
+13.23-5;Tecelagem de fios de fibras artificiais e sint‚ticas;3
+13.3;Fabrica‡Æo de tecidos de malha;
+13.30-8;Fabrica‡Æo de tecidos de malha;3
+13.4;Acabamentos em fios, tecidos e artefatos tˆxteis;
+13.40-5;Acabamentos em fios, tecidos e artefatos tˆxteis;3
+13.5;Fabrica‡Æo de artefatos tˆxteis, exceto vestu rio;
+13.51-1;Fabrica‡Æo de artefatos tˆxteis para uso dom‚stico;3
+13.52-9;Fabrica‡Æo de artefatos de tape‡aria;3
+13.53-7;Fabrica‡Æo de artefatos de cordoaria;3
+13.54-5;Fabrica‡Æo de tecidos especiais, inclusive artefatos;3
+13.59-6;Fabrica‡Æo de outros produtos tˆxteis nÆo especificados anteriormente;3
+14;CONFEC€ÇO DE ARTIGOS DO VESTUµRIO E ACESSàRIOS;
+14.1;Confec‡Æo de artigos do vestu rio e acess¢rios;
+14.11-8;Confec‡Æo de roupas ¡ntimas;2
+14.12-6;Confec‡Æo de pe‡as do vestu rio, exceto roupas ¡ntimas;2
+14.13-4;Confec‡Æo de roupas profissionais;2
+14.14-2;Fabrica‡Æo de acess¢rios do vestu rio, exceto para seguran‡a e prote‡Æo;2
+14.2;Fabrica‡Æo de artigos de malharia e tricotagem;
+14.21-5;Fabrica‡Æo de meias;2
+14.22-3;Fabrica‡Æo de artigos do vestu rio, produzidos em malharias e tricotagens, exceto meias;2
+15;PREPARA€ÇO DE COUROS E FABRICA€ÇO DE ARTEFATOS DE COURO, ARTIGOS PARA VIAGEM E CAL€ADOS;
+15.1;Curtimento e outras prepara‡äes de couro;
+15.10-6;Curtimento e outras prepara‡äes de couro;3
+15.2;Fabrica‡Æo de artigos para viagem e de artefatos diversos de couro;
+15.21-1;Fabrica‡Æo de artigos para viagem, bolsas e semelhantes de qualquer material;2
+15.29-7;Fabrica‡Æo de artefatos de couro nÆo especificados anteriormente;2
+15.3;Fabrica‡Æo de cal‡ados;
+15.31-9;Fabrica‡Æo de cal‡ados de couro;3
+15.32-7;Fabrica‡Æo de tˆnis de qualquer material;3
+15.33-5;Fabrica‡Æo de cal‡ados de material sint‚tico;3
+15.39-4;Fabrica‡Æo de cal‡ados de materiais nÆo especificados anteriormente;3
+15.4;Fabrica‡Æo de partes para cal‡ados, de qualquer material;
+15.40-8;Fabrica‡Æo de partes para cal‡ados, de qualquer material;3
+16;FABRICA€ÇO DE PRODUTOS DE MADEIRA;
+16.1;Desdobramento de madeira;
+16.10-2;Desdobramento de madeira;3
+16.2;Fabrica‡Æo de produtos de madeira, corti‡a e material tran‡ado, exceto m¢veis;
+16.21-8;Fabrica‡Æo de madeira laminada e de chapas de madeira compensada, prensada e aglomerada;3
+16.22-6;Fabrica‡Æo de estruturas de madeira e de artigos de carpintaria para constru‡Æo;3
+16.23-4;Fabrica‡Æo de artefatos de tanoaria e de embalagens de madeira;3
+16.29-3;Fabrica‡Æo de artefatos de madeira, palha, corti‡a, vime e material tran‡ado nÆo especificados anteriormente, exceto m¢veis;3
+17;FABRICA€ÇO DE CELULOSE, PAPEL E PRODUTOS DE PAPEL;
+17.1;Fabrica‡Æo de celulose e outras pastas para a fabrica‡Æo de papel;
+17.10-9;Fabrica‡Æo de celulose e outras pastas para a fabrica‡Æo de papel;3
+17.2;Fabrica‡Æo de papel, cartolina e papel-cartÆo;
+17.21-4;Fabrica‡Æo de papel;3
+17.22-2;Fabrica‡Æo de cartolina e papel-cartÆo;3
+17.3;Fabrica‡Æo de embalagens de papel, cartolina, papel-cartÆo e papelÆo ondulado;
+17.31-1;Fabrica‡Æo de embalagens de papel;2
+17.32-0;Fabrica‡Æo de embalagens de cartolina e papel-cartÆo;2
+17.33-8;Fabrica‡Æo de chapas e de embalagens de papelÆo ondulado;2
+17.4;Fabrica‡Æo de produtos diversos de papel, cartolina, papel-cartÆo e papelÆo ondulado;
+17.41-9;Fabrica‡Æo de produtos de papel, cartolina, papel-cartÆo e papelÆo ondulado para uso comercial e de escrit¢rio;2
+17.42-7;Fabrica‡Æo de produtos de papel para usos dom‚stico e higiˆnico-sanit rio;2
+17.49-4;Fabrica‡Æo de produtos de pastas celul¢sicas, papel, cartolina, papel-cartÆo e papelÆo ondulado nÆo especificados anteriormente;2
+18;IMPRESSÇO E REPRODU€ÇO DE GRAVA€åES;
+18.1;Atividade de impressÆo;
+18.11-3;ImpressÆo de jornais, livros, revistas e outras publica‡äes peri¢dicas;3
+18.12-1;ImpressÆo de material de seguran‡a;3
+18.13-0;ImpressÆo de materiais para outros usos;3
+18.2;Servi‡os de pr‚-impressÆo e acabamentos gr ficos;
+18.21-1;Servi‡os de pr‚-impressÆo;3
+18.22-9;Servi‡os de acabamentos gr ficos;3
+18.3;Reprodu‡Æo de materiais gravados em qualquer suporte;
+18.30-0;Reprodu‡Æo de materiais gravados em qualquer suporte;3
+19;FABRICA€ÇO DE COQUE, DE PRODUTOS DERIVADOS DO PETRàLEO E DE BIOCOMBUSTÖVEIS;
+19.1;Coquerias;
+19.10-1;Coquerias;3
+19.2;Fabrica‡Æo de produtos derivados do petr¢leo;
+19.21-7;Fabrica‡Æo de produtos do refino de petr¢leo;3
+19.22-5;Fabrica‡Æo de produtos derivados do petr¢leo, exceto produtos do refino;3
+19.3;Fabrica‡Æo de biocombust¡veis;
+19.31-4;Fabrica‡Æo de  lcool;3
+19.32-2;Fabrica‡Æo de biocombust¡veis, exceto  lcool;3
+20;FABRICA€ÇO DE PRODUTOS QUÖMICOS;
+20.1;Fabrica‡Æo de produtos qu¡micos inorgƒnicos;
+20.11-8;Fabrica‡Æo de cloro e  lcalis;3
+20.12-6;Fabrica‡Æo de intermedi rios para fertilizantes;3
+20.13-4;Fabrica‡Æo de adubos e fertilizantes;3
+20.14-2;Fabrica‡Æo de gases industriais;3
+20.19-3;Fabrica‡Æo de produtos qu¡micos inorgƒnicos nÆo especificados anteriormente;3
+20.2;Fabrica‡Æo de produtos qu¡micos orgƒnicos;
+20.21-5;Fabrica‡Æo de produtos petroqu¡micos b sicos;3
+20.22-3;Fabrica‡Æo de intermedi rios para plastificantes, resinas e fibras;3
+20.29-1;Fabrica‡Æo de produtos qu¡micos orgƒnicos nÆo especificados anteriormente;3
+20.3;Fabrica‡Æo de resinas e elast“meros;
+20.31-2;Fabrica‡Æo de resinas termopl sticas;3
+20.32-1;Fabrica‡Æo de resinas termofixas;3
+20.33-9;Fabrica‡Æo de elast“meros;3
+20.4;Fabrica‡Æo de fibras artificiais e sint‚ticas;
+20.40-1;Fabrica‡Æo de fibras artificiais e sint‚ticas;3
+20.5;Fabrica‡Æo de defensivos agr¡colas e desinfetantes domissanit rios;
+20.51-7;Fabrica‡Æo de defensivos agr¡colas;3
+20.52-5;Fabrica‡Æo de desinfetantes domissanit rios;3
+20.6;Fabrica‡Æo de sabäes, detergentes, produtos de limpeza, cosm‚ticos, produtos de perfumaria e de higiene pessoal;
+20.61-4;Fabrica‡Æo de sabäes e detergentes sint‚ticos;3
+20.62-2;Fabrica‡Æo de produtos de limpeza e polimento;3
+20.63-1;Fabrica‡Æo de cosm‚ticos, produtos de perfumaria e de higiene pessoal;2
+20.7;Fabrica‡Æo de tintas, vernizes, esmaltes, lacas e produtos afins;
+20.71-1;Fabrica‡Æo de tintas, vernizes, esmaltes e lacas;3
+20.72-0;Fabrica‡Æo de tintas de impressÆo;3
+20.73-8;Fabrica‡Æo de impermeabilizantes, solventes e produtos afins;3
+20.9;Fabrica‡Æo de produtos e preparados qu¡micos diversos;
+20.91-6;Fabrica‡Æo de adesivos e selantes;3
+20.92-4;Fabrica‡Æo de explosivos;4
+20.93-2;Fabrica‡Æo de aditivos de uso industrial;3
+20.94-1;Fabrica‡Æo de catalisadores;3
+20.99-1;Fabrica‡Æo de produtos qu¡micos nÆo especificados anteriormente;3
+21.10-6;Fabrica‡Æo de produtos farmoqu¡micos;3
+21.2;Fabrica‡Æo de produtos farmacˆuticos;
+21.21-1;Fabrica‡Æo de medicamentos para uso humano;3
+21.22-0;Fabrica‡Æo de medicamentos para uso veterin rio;3
+21.23-8;Fabrica‡Æo de prepara‡äes farmacˆuticas;3
+22;FABRICA€ÇO DE PRODUTOS DE BORRACHA E DE MATERIAL PLµSTICO;
+22.1;Fabrica‡Æo de produtos de borracha;
+22.11-1;Fabrica‡Æo de pneum ticos e de cƒmaras de ar;3
+22.12-9;Reforma de pneum ticos usados;3
+22.19-6;Fabrica‡Æo de artefatos de borracha nÆo especificados anteriormente;3
+22.2;Fabrica‡Æo de produtos de material pl stico;
+22.21-8;Fabrica‡Æo de laminados planos e tubulares de material pl stico;3
+22.22-6;Fabrica‡Æo de embalagens de material pl stico;3
+22.23-4;Fabrica‡Æo de tubos e acess¢rios de material pl stico para uso na constru‡Æo;3
+22.29-3;Fabrica‡Æo de artefatos de material pl stico nÆo especificados anteriormente;3
+23;FABRICA€ÇO DE PRODUTOS DE MINERAIS NÇO METµLICOS;
+23.1;Fabrica‡Æo de vidro e de produtos do vidro;
+23.11-7;Fabrica‡Æo de vidro plano e de seguran‡a;3
+23.12-5;Fabrica‡Æo de embalagens de vidro;3
+23.19-2;Fabrica‡Æo de artigos de vidro;3
+23.2;Fabrica‡Æo de cimento;
+23.20-6;Fabrica‡Æo de cimento;4
+23.3;Fabrica‡Æo de artefatos de concreto, cimento, fibrocimento, gesso e materiais semelhantes;
+23.30-3;Fabrica‡Æo de artefatos de concreto, cimento, fibrocimento, gesso e materiais semelhantes;4
+23.4;Fabrica‡Æo de produtos cerƒmicos;
+23.41-9;Fabrica‡Æo de produtos cerƒmicos refrat rios;4
+23.42-7;Fabrica‡Æo de produtos cerƒmicos nÆo-refrat rios para uso estrutural na constru‡Æo;3
+23.49-4;Fabrica‡Æo de produtos cerƒmicos nÆo refrat rios nÆo especificados anteriormente;4
+23.9;Aparelhamento de pedras e fabrica‡Æo de outros produtos de minerais nÆo met licos;
+23.91-5;Aparelhamento e outros trabalhos em pedras;3
+23.92-3;Fabrica‡Æo de cal e gesso;4
+23.99-1;Fabrica‡Æo de produtos de minerais nÆo met licos nÆo especificados anteriormente;3
+24;METALURGIA;
+24.1;Produ‡Æo de ferro-gusa e de ferroligas;
+24.11-3;Produ‡Æo de ferro-gusa;4
+24.12-1;Produ‡Æo de ferroligas;4
+24.2;Siderurgia;
+24.21-1;Produ‡Æo de semi-acabados de a‡o;4
+24.22-9;Produ‡Æo de laminados planos de a‡o;4
+24.23-7;Produ‡Æo de laminados longos de a‡o;4
+24.24-5;Produ‡Æo de relaminados, trefilados e perfilados de a‡o;4
+24.3;Produ‡Æo de tubos de a‡o, exceto tubos sem costura;
+24.31-8;Produ‡Æo de tubos de a‡o com costura;4
+24.39-3;Produ‡Æo de outros tubos de ferro e a‡o;4
+24.4;Metalurgia dos metais nÆo-ferrosos;
+24.41-5;Metalurgia do alum¡nio e suas ligas;4
+24.42-3;Metalurgia dos metais preciosos;4
+24.43-1;Metalurgia do cobre;4
+24.49-1;Metalurgia dos metais nÆo-ferrosos e suas ligas nÆo especificados anteriormente;4
+24.5;Fundi‡Æo;
+24.51-2;Fundi‡Æo de ferro e a‡o;4
+24.52-1;Fundi‡Æo de metais nÆo-ferrosos e suas ligas;4
+25;FABRICA€ÇO DE PRODUTOS DE METAL, EXCETO MµQUINAS E EQUIPAMENTOS;
+25.1;Fabrica‡Æo de estruturas met licas e obras de caldeiraria pesada;
+25.11-0;Fabrica‡Æo de estruturas met licas;4
+25.12-8;Fabrica‡Æo de esquadrias de metal;3
+25.13-6;Fabrica‡Æo de obras de caldeiraria pesada;3
+25.2;Fabrica‡Æo de tanques, reservat¢rios met licos e caldeiras;
+25.21-7;Fabrica‡Æo de tanques, reservat¢rios met licos e caldeiras para aquecimento central;3
+25.22-5;Fabrica‡Æo de caldeiras geradoras de vapor, exceto para aquecimento central e para ve¡culos;3
+25.3;Forjaria, estamparia, metalurgia do p¢ e servi‡os de tratamento de metais;
+25.31-4;Produ‡Æo de forjados de a‡o e de metais nÆo-ferrosos e suas ligas;4
+25.32-2;"Produ‡Æo de artefatos estampados de metal; metalurgia do p¢";4
+25.39-0;Servi‡os de usinagem, solda, tratamento e revestimento em metais;4
+25.4;Fabrica‡Æo de artigos de cutelaria, de serralheria e ferramentas;
+25.41-1;Fabrica‡Æo de artigos de cutelaria;3
+25.42-0;Fabrica‡Æo de artigos de serralheria, exceto esquadrias;3
+25.43-8;Fabrica‡Æo de ferramentas;3
+25.5;Fabrica‡Æo de equipamento b‚lico pesado, armas de fogo e muni‡äes;
+25.50-1;Fabrica‡Æo de equipamento b‚lico pesado, armas de fogo e muni‡äes;4
+25.9;Fabrica‡Æo de produtos de metal nÆo especificados anteriormente;
+25.91-8;Fabrica‡Æo de embalagens met licas;3
+25.92-6;Fabrica‡Æo de produtos de trefilados de metal;4
+25.93-4;Fabrica‡Æo de artigos de metal para uso dom‚stico e pessoal;3
+25.99-3;Fabrica‡Æo de produtos de metal nÆo especificados anteriormente;3
+26;FABRICA€ÇO DE EQUIPAMENTOS DE INFORMµTICA, PRODUTOS ELETRâNICOS E àPTICOS;
+26.1;Fabrica‡Æo de componentes eletr“nicos;
+26.10-8;Fabrica‡Æo de componentes eletr“nicos;3
+26.2;Fabrica‡Æo de equipamentos de inform tica e perif‚ricos;
+26.21-3;Fabrica‡Æo de equipamentos de inform tica;3
+26.22-1;Fabrica‡Æo de perif‚ricos para equipamentos de inform tica;3
+26.3;Fabrica‡Æo de equipamentos de comunica‡Æo;
+26.31-1;Fabrica‡Æo de equipamentos transmissores de comunica‡Æo;3
+26.32-9;Fabrica‡Æo de aparelhos telef“nicos e de outros equipamentos de comunica‡Æo;3
+26.4;Fabrica‡Æo de aparelhos de recep‡Æo, reprodu‡Æo, grava‡Æo e amplifica‡Æo de  udio e v¡deo;
+26.40-0;Fabrica‡Æo de aparelhos de recep‡Æo, reprodu‡Æo, grava‡Æo e amplifica‡Æo de  udio e v¡deo;3
+26.5;"Fabrica‡Æo de aparelhos e instrumentos de medida, teste e controle; cron“metros e rel¢gios";
+26.51-5;Fabrica‡Æo de aparelhos e equipamentos de medida, teste e controle;3
+26.52-3;Fabrica‡Æo de cron“metros e rel¢gios;3
+26.6;Fabrica‡Æo de aparelhos eletrom‚dicos e eletroterapˆuticos e equipamentos de irradia‡Æo;
+26.60-4;Fabrica‡Æo de aparelhos eletrom‚dicos e eletroterapˆuticos e equipamentos de irradia‡Æo;3
+26.7;Fabrica‡Æo de equipamentos e instrumentos ¢pticos, fotogr ficos e cinematogr ficos;
+26.70-1;Fabrica‡Æo de equipamentos e instrumentos ¢pticos, fotogr ficos e cinematogr ficos;3
+26.8;Fabrica‡Æo de m¡dias virgens, magn‚ticas e ¢pticas;
+26.80-9;Fabrica‡Æo de m¡dias virgens, magn‚ticas e ¢pticas;3
+27;FABRICA€ÇO DE MµQUINAS, APARELHOS E MATERIAIS ELTRICOS;
+27.1;Fabrica‡Æo de geradores, transformadores e motores el‚tricos;
+27.10-4;Fabrica‡Æo de geradores, transformadores e motores el‚tricos;3
+27.2;Fabrica‡Æo de pilhas, baterias e acumuladores el‚tricos;
+27.21-0;Fabrica‡Æo de pilhas, baterias e acumuladores el‚tricos, exceto para ve¡culos automotores;3
+27.22-8;Fabrica‡Æo de baterias e acumuladores para ve¡culos automotores;3
+27.3;Fabrica‡Æo de equipamentos para distribui‡Æo e controle de energia el‚trica;
+27.31-7;Fabrica‡Æo de aparelhos e equipamentos para distribui‡Æo e controle de energia el‚trica;3
+27.32-5;Fabrica‡Æo de material el‚trico para instala‡äes em circuito de consumo;3
+27.33-3;Fabrica‡Æo de fios, cabos e condutores el‚tricos isolados;3
+27.4;Fabrica‡Æo de lƒmpadas e outros equipamentos de ilumina‡Æo;
+27.40-6;Fabrica‡Æo de lƒmpadas e outros equipamentos de ilumina‡Æo;3
+27.5;Fabrica‡Æo de eletrodom‚sticos;
+27.51-1;Fabrica‡Æo de fogäes, refrigeradores e m quinas de lavar e secar para uso dom‚stico;3
+27.59-7;Fabrica‡Æo de aparelhos eletrodom‚sticos nÆo especificados anteriormente;3
+27.9;Fabrica‡Æo de equipamentos e aparelhos el‚tricos nÆo especificados anteriormente;
+27.90-2;Fabrica‡Æo de equipamentos e aparelhos el‚tricos nÆo especificados anteriormente;3
+28;FABRICA€ÇO DE MµQUINAS E EQUIPAMENTOS;
+28.1;Fabrica‡Æo de motores, bombas, compressores e equipamentos de transmissÆo;
+28.11-9;Fabrica‡Æo de motores e turbinas, exceto para aviäes e ve¡culos rodovi rios;3
+28.12-7;Fabrica‡Æo de equipamentos hidr ulicos e pneum ticos, exceto v lvulas;3
+28.13-5;Fabrica‡Æo de v lvulas, registros e dispositivos semelhantes;3
+28.14-3;Fabrica‡Æo de compressores;3
+28.15-1;Fabrica‡Æo de equipamentos de transmissÆo para fins industriais;3
+28.2;Fabrica‡Æo de m quinas e equipamentos de uso geral;
+28.21-6;Fabrica‡Æo de aparelhos e equipamentos para instala‡äes t‚rmicas;3
+28.22-4;Fabrica‡Æo de m quinas, equipamentos e aparelhos para transporte e eleva‡Æo de cargas e pessoas;3
+28.23-2;Fabrica‡Æo de m quinas e aparelhos de refrigera‡Æo e ventila‡Æo para uso industrial e comercial;3
+28.24-1;Fabrica‡Æo de aparelhos e equipamentos de ar condicionado;3
+28.25-9;Fabrica‡Æo de m quinas e equipamentos para saneamento b sico e ambiental;3
+28.29-1;Fabrica‡Æo de m quinas e equipamentos de uso geral nÆo especificados anteriormente;3
+28.3;Fabrica‡Æo de tratores e de m quinas e equipamentos para a agricultura e pecu ria;
+28.31-3;Fabrica‡Æo de tratores agr¡colas;3
+28.32-1;Fabrica‡Æo de equipamentos para irriga‡Æo agr¡cola;3
+28.33-0;Fabrica‡Æo de m quinas e equipamentos para a agricultura e pecu ria, exceto para irriga‡Æo;3
+28.4;Fabrica‡Æo de m quinas-ferramenta;
+28.40-2;Fabrica‡Æo de m quinas-ferramenta;3
+28.5;Fabrica‡Æo de m quinas e equipamentos de uso na extra‡Æo mineral e na constru‡Æo;
+28.51-8;Fabrica‡Æo de m quinas e equipamentos para a prospec‡Æo e extra‡Æo de petr¢leo;3
+28.52-6;Fabrica‡Æo de outras m quinas e equipamentos para uso na extra‡Æo mineral, exceto na extra‡Æo de petr¢leo;3
+28.53-4;Fabrica‡Æo de tratores, exceto agr¡colas;3
+28.54-2;Fabrica‡Æo de m quinas e equipamentos para terraplenagem, pavimenta‡Æo e constru‡Æo, exceto tratores;3
+28.6;Fabrica‡Æo de m quinas e equipamentos de uso industrial espec¡fico;
+28.61-5;Fabrica‡Æo de m quinas para a ind£stria metal£rgica, exceto m quinas-ferramenta;3
+28.62-3;Fabrica‡Æo de m quinas e equipamentos para as ind£strias de alimentos, bebidas e fumo;3
+28.63-1;Fabrica‡Æo de m quinas e equipamentos para a ind£stria tˆxtil;3
+28.64-0;Fabrica‡Æo de m quinas e equipamentos para as ind£strias do vestu rio, do couro e de cal‡ados;3
+28.65-8;Fabrica‡Æo de m quinas e equipamentos para as ind£strias de celulose, papel e papelÆo e artefatos;3
+28.66-6;Fabrica‡Æo de m quinas e equipamentos para a ind£stria do pl stico;3
+28.69-1;Fabrica‡Æo de m quinas e equipamentos para uso industrial espec¡fico nÆo especificados anteriormente;3
+29;FABRICA€ÇO DE VEÖCULOS AUTOMOTORES, REBOQUES E CARROCERIAS;
+29.1;Fabrica‡Æo de autom¢veis, camionetas e utilit rios;
+29.10-7;Fabrica‡Æo de autom¢veis, camionetas e utilit rios;3
+29.2;Fabrica‡Æo de caminhäes e “nibus;
+29.20-4;Fabrica‡Æo de caminhäes e “nibus;3
+29.3;Fabrica‡Æo de cabines, carrocerias e reboques para ve¡culos automotores;
+29.30-1;Fabrica‡Æo de cabines, carrocerias e reboques para ve¡culos automotores;3
+29.4;Fabrica‡Æo de pe‡as e acess¢rios para ve¡culos automotores;
+29.41-7;Fabrica‡Æo de pe‡as e acess¢rios para o sistema motor de ve¡culos automotores;3
+29.42-5;Fabrica‡Æo de pe‡as e acess¢rios para os sistemas de marcha e transmissÆo de ve¡culos automotores;3
+29.43-3;Fabrica‡Æo de pe‡as e acess¢rios para o sistema de freios de ve¡culos automotores;3
+29.44-1;Fabrica‡Æo de pe‡as e acess¢rios para o sistema de dire‡Æo e suspensÆo de ve¡culos automotores;3
+29.45-0;Fabrica‡Æo de material el‚trico e eletr“nico para ve¡culos automotores, exceto baterias;3
+29.49-2;Fabrica‡Æo de pe‡as e acess¢rios para ve¡culos automotores nÆo especificados anteriormente;3
+29.5;Recondicionamento e recupera‡Æo de motores para ve¡culos automotores;
+29.50-6;Recondicionamento e recupera‡Æo de motores para ve¡culos automotores;3
+30;FABRICA€ÇO DE OUTROS EQUIPAMENTOS DE TRANSPORTE, EXCETO VEÖCULOS AUTOMOTORES;
+30.1;Constru‡Æo de embarca‡äes;
+30.11-3;Constru‡Æo de embarca‡äes e estruturas flutuantes;3
+30.12-1;Constru‡Æo de embarca‡äes para esporte e lazer;3
+30.3;Fabrica‡Æo de ve¡culos ferrovi rios;
+30.31-8;Fabrica‡Æo de locomotivas, vagäes e outros materiais rodantes;3
+30.32-6;Fabrica‡Æo de pe‡as e acess¢rios para ve¡culos ferrovi rios;3
+30.4;Fabrica‡Æo de aeronaves;
+30.41-5;Fabrica‡Æo de aeronaves;3
+30.42-3;Fabrica‡Æo de turbinas, motores e outros componentes e pe‡as para aeronaves;3
+30.5;Fabrica‡Æo de ve¡culos militares de combate;
+30.50-4;Fabrica‡Æo de ve¡culos militares de combate;3
+30.9;Fabrica‡Æo de equipamentos de transporte nÆo especificados anteriormente;
+30.91-1;Fabrica‡Æo de motocicletas;3
+30.92-0;Fabrica‡Æo de bicicletas e triciclos nÆo motorizados;3
+30.99-7;Fabrica‡Æo de equipamentos de transporte nÆo especificados anteriormente;3
+31;FABRICA€ÇO DE MàVEIS;
+31.0;Fabrica‡Æo de m¢veis;
+31.01-2;Fabrica‡Æo de m¢veis com predominƒncia de madeira;3
+31.02-1;Fabrica‡Æo de m¢veis com predominƒncia de metal;3
+31.03-9;Fabrica‡Æo de m¢veis de outros materiais, exceto madeira e metal;3
+31.04-7;Fabrica‡Æo de colchäes;2
+32;FABRICA€ÇO DE PRODUTOS DIVERSOS;
+32.1;Fabrica‡Æo de artigos de joalheria, bijuteria e semelhantes;
+32.11-6;Lapida‡Æo de gemas e fabrica‡Æo de artefatos de ourivesaria e joalheria;3
+32.12-4;Fabrica‡Æo de bijuterias e artefatos semelhantes;3
+32.2;Fabrica‡Æo de instrumentos musicais;
+32.20-5;Fabrica‡Æo de instrumentos musicais;3
+32.3;Fabrica‡Æo de artefatos para pesca e esporte;
+32.30-2;Fabrica‡Æo de artefatos para pesca e esporte;3
+32.4;Fabrica‡Æo de brinquedos e jogos recreativos;
+32.40-0;Fabrica‡Æo de brinquedos e jogos recreativos;3
+32.5;Fabrica‡Æo de instrumentos e materiais para uso m‚dico e odontol¢gico e de artigos ¢pticos;
+32.50-7;Fabrica‡Æo de instrumentos e materiais para uso m‚dico e odontol¢gico e de artigos ¢pticos;3
+32.9;Fabrica‡Æo de produtos diversos;
+32.91-4;Fabrica‡Æo de escovas, pinc‚is e vassouras;3
+32.92-2;Fabrica‡Æo de equipamentos e acess¢rios para seguran‡a e prote‡Æo pessoal e profissional;3
+32.99-0;Fabrica‡Æo de produtos diversos nÆo especificados anteriormente;3
+33;MANUTEN€ÇO, REPARA€ÇO E INSTALA€ÇO DE MµQUINAS E EQUIPAMENTOS;
+33.1;Manuten‡Æo e repara‡Æo de m quinas e equipamentos;
+33.11-2;Manuten‡Æo e repara‡Æo de tanques, reservat¢rios met licos e caldeiras, exceto para ve¡culos;3
+33.12-1;Manuten‡Æo e repara‡Æo de equipamentos eletr“nicos e ¢pticos;3
+33.13-9;Manuten‡Æo e repara‡Æo de m quinas e equipamentos el‚tricos;3
+33.14-7;Manuten‡Æo e repara‡Æo de m quinas e equipamentos da ind£stria mecƒnica;3
+33.15-5;Manuten‡Æo e repara‡Æo de ve¡culos ferrovi rios;3
+33.16-3;Manuten‡Æo e repara‡Æo de aeronaves;3
+33.17-1;Manuten‡Æo e repara‡Æo de embarca‡äes;3
+33.19-8;Manuten‡Æo e repara‡Æo de equipamentos e produtos nÆo especificados anteriormente;3
+33.2;Instala‡Æo de m quinas e equipamentos;
+33.21-0;Instala‡Æo de m quinas e equipamentos industriais;3
+33.29-5;Instala‡Æo de equipamentos nÆo especificados anteriormente;3
+D;ELETRICIDADE E GµS;
+35;ELETRICIDADE, GµS E OUTRAS UTILIDADES;
+35.1;Gera‡Æo, transmissÆo e distribui‡Æo de energia el‚trica;
+35.11-5;Gera‡Æo de energia el‚trica;3
+35.12-3;TransmissÆo de energia el‚trica;3
+35.13-1;Com‚rcio atacadista de energia el‚trica;3
+35.14-0;Distribui‡Æo de energia el‚trica;3
+35.2;Produ‡Æo e distribui‡Æo de combust¡veis gasosos por redes urbanas;
+35.20-4;"Produ‡Æo de g s; processamento de g s natural; distribui‡Æo de combust¡veis gasosos por redes urbanas";3
+35.3;Produ‡Æo e distribui‡Æo de vapor,  gua quente e ar condicionado;
+35.30-1;Produ‡Æo e distribui‡Æo de vapor,  gua quente e ar condicionado;3
+E;µGUA, ESGOTO, ATIVIDADES DE GESTÇO DE RESÖDUOS E DESCONTAMINA€ÇO;
+36;CAPTA€ÇO, TRATAMENTO E DISTRIBUI€ÇO DE µGUA;
+36.0;Capta‡Æo, tratamento e distribui‡Æo de  gua;
+36.00-6;Capta‡Æo, tratamento e distribui‡Æo de  gua;3
+37;ESGOTO E ATIVIDADES RELACIONADAS;
+37.0;Esgoto e atividades relacionadas;
+37.01-1;GestÆo de redes de esgoto;3
+37.02-9;Atividades relacionadas a esgoto, exceto a gestÆo de redes;3
+38;"COLETA, TRATAMENTO E DISPOSI€ÇO DE RESÖDUOS; RECUPERA€ÇO DE MATERIAIS";
+38.1;Coleta de res¡duos;
+38.11-4;Coleta de res¡duos nÆo perigosos;3
+38.12-2;Coleta de res¡duos perigosos;3
+38.2;Tratamento e disposi‡Æo de res¡duos;
+38.21-1;Tratamento e disposi‡Æo de res¡duos nÆo perigosos;3
+38.22-0;Tratamento e disposi‡Æo de res¡duos perigosos;3
+38.3;Recupera‡Æo de materiais;
+38.31-9;Recupera‡Æo de materiais met licos;3
+38.32-7;Recupera‡Æo de materiais pl sticos;3
+38.39-4;Recupera‡Æo de materiais nÆo especificados anteriormente;3
+39;DESCONTAMINA€ÇO E OUTROS SERVI€OS DE GESTÇO DE RESÖDUOS;
+39.0;Descontamina‡Æo e outros servi‡os de gestÆo de res¡duos;
+39.00-5;Descontamina‡Æo e outros servi‡os de gestÆo de res¡duos;3
+F;CONSTRU€ÇO;
+41;CONSTRU€ÇO DE EDIFÖCIOS;
+41.1;Incorpora‡Æo de empreendimentos imobili rios;
+41.10-7;Incorpora‡Æo de empreendimentos imobili rios;1
+41.2;Constru‡Æo de edif¡cios;
+41.20-4;Constru‡Æo de edif¡cios;3
+42;OBRAS DE INFRAESTRUTURA;
+42.1;Constru‡Æo de rodovias, ferrovias, obras urbanas e obras-de-arte especiais;
+42.11-1;Constru‡Æo de rodovias e ferrovias;4
+42.12-0;Constru‡Æo de obras-de-arte especiais;4
+42.13-8;Obras de urbaniza‡Æo - ruas, pra‡as e cal‡adas;3
+42.2;Obras de infraestrutura para energia el‚trica, telecomunica‡äes,  gua, esgoto e transporte por dutos;
+42.21-9;Obras para gera‡Æo e distribui‡Æo de energia el‚trica e para telecomunica‡äes;4
+42.22-7;Constru‡Æo de redes de abastecimento de  gua, coleta de esgoto e constru‡äes correlatas;4
+42.23-5;Constru‡Æo de redes de transportes por dutos, exceto para  gua e esgoto;4
+42.9;Constru‡Æo de outras obras de infraestrutura;
+42.91-0;Obras portu rias, mar¡timas e fluviais;4
+42.92-8;Montagem de instala‡äes industriais e de estruturas met licas;4
+42.99-5;Obras de engenharia civil nÆo especificadas anteriormente;3
+43;SERVI€OS ESPECIALIZADOS PARA CONSTRU€ÇO;
+43.1;Demoli‡Æo e prepara‡Æo do terreno;
+43.11-8;Demoli‡Æo e prepara‡Æo de canteiros de obras;4
+43.12-6;Perfura‡äes e sondagens;4
+43.13-4;Obras de terraplenagem;3
+43.19-3;Servi‡os de prepara‡Æo do terreno nÆo especificados anteriormente;3
+43.2;Instala‡äes el‚tricas, hidr ulicas e outras instala‡äes em constru‡äes;
+43.21-5;Instala‡äes el‚tricas;3
+43.22-3;Instala‡äes hidr ulicas, de sistemas de ventila‡Æo e refrigera‡Æo;3
+43.29-1;Obras de instala‡äes em constru‡äes nÆo especificadas anteriormente;3
+43.3;Obras de acabamento;
+43.30-4;Obras de acabamento;3
+43.9;Outros servi‡os especializados para constru‡Æo;
+43.91-6;Obras de funda‡äes;4
+43.99-1;Servi‡os especializados para constru‡Æo nÆo especificados anteriormente;3
+G;"COMRCIO; REPARA€ÇO DE VEÖCULOS AUTOMOTORES E MOTOCICLETAS";
+45;COMRCIO E REPARA€ÇO DE VEÖCULOS AUTOMOTORES E MOTOCICLETAS;
+45.1;Com‚rcio de ve¡culos automotores;
+45.11-1;Com‚rcio a varejo e por atacado de ve¡culos automotores;2
+45.12-9;Representantes comerciais e agentes do com‚rcio de ve¡culos automotores;2
+45.2;Manuten‡Æo e repara‡Æo de ve¡culos automotores;
+45.20-0;Manuten‡Æo e repara‡Æo de ve¡culos automotores;3
+45.3;Com‚rcio de pe‡as e acess¢rios para ve¡culos automotores;
+45.30-7;Com‚rcio de pe‡as e acess¢rios para ve¡culos automotores;2
+45.4;Com‚rcio, manuten‡Æo e repara‡Æo de motocicletas, pe‡as e acess¢rios;
+45.41-2;Com‚rcio por atacado e a varejo de motocicletas, pe‡as e acess¢rios;2
+45.42-1;Representantes comerciais e agentes do com‚rcio de motocicletas, pe‡as e acess¢rios;2
+45.43-9;Manuten‡Æo e repara‡Æo de motocicletas;3
+46;COMRCIO POR ATACADO, EXCETO VEÖCULOS AUTOMOTORES E MOTOCICLETAS;
+46.1;Representantes comerciais e agentes do com‚rcio, exceto de ve¡culos automotores e motocicletas;
+46.11-7;Representantes comerciais e agentes do com‚rcio de mat‚rias-primas agr¡colas e animais vivos;2
+46.12-5;Representantes comerciais e agentes do com‚rcio de combust¡veis, minerais, produtos sider£rgicos e qu¡micos;2
+46.13-3;Representantes comerciais e agentes do com‚rcio de madeira, material de constru‡Æo e ferragens;2
+46.14-1;Representantes comerciais e agentes do com‚rcio de m quinas, equipamentos, embarca‡äes e aeronaves;2
+46.15-0;Representantes comerciais e agentes do com‚rcio de eletrodom‚sticos, m¢veis e artigos de uso dom‚stico;2
+46.16-8;Representantes comerciais e agentes do com‚rcio de tˆxteis, vestu rio, cal‡ados e artigos de viagem;2
+46.17-6;Representantes comerciais e agentes do com‚rcio de produtos aliment¡cios, bebidas e fumo;2
+46.18-4;Representantes comerciais e agentes do com‚rcio especializado em produtos nÆo especificados anteriormente;2
+46.19-2;Representantes comerciais e agentes do com‚rcio de mercadorias em geral nÆo especializado;2
+46.2;Com‚rcio atacadista de mat‚rias-primas agr¡colas e animais vivos;
+46.21-4;Com‚rcio atacadista de caf‚ em grÆo;2
+46.22-2;Com‚rcio atacadista de soja;2
+46.23-1;Com‚rcio atacadista de animais vivos, alimentos para animais e mat‚rias-primas agr¡colas, exceto caf‚ e soja;2
+46.3;Com‚rcio atacadista especializado em produtos aliment¡cios, bebidas e fumo;
+46.31-1;Com‚rcio atacadista de leite e latic¡nios;2
+46.32-0;Com‚rcio atacadista de cereais e leguminosas beneficiados, farinhas, amidos e f‚culas;2
+46.33-8;Com‚rcio atacadista de hortifrutigranjeiros;2
+46.34-6;Com‚rcio atacadista de carnes, produtos da carne e pescado;2
+46.35-4;Com‚rcio atacadista de bebidas;2
+46.36-2;Com‚rcio atacadista de produtos do fumo;2
+46.37-1;Com‚rcio atacadista especializado em produtos aliment¡cios nÆo especificados anteriormente;2
+46.39-7;Com‚rcio atacadista de produtos aliment¡cios em geral;2
+46.4;Com‚rcio atacadista de produtos de consumo nÆo alimentar;
+46.41-9;Com‚rcio atacadista de tecidos, artefatos de tecidos e de armarinho;2
+46.42-7;Com‚rcio atacadista de artigos do vestu rio e acess¢rios;2
+46.43-5;Com‚rcio atacadista de cal‡ados e artigos de viagem;2
+46.44-3;Com‚rcio atacadista de produtos farmacˆuticos para uso humano e veterin rio;2
+46.45-1;Com‚rcio atacadista de instrumentos e materiais para uso m‚dico, cir£rgico, ortop‚dico e odontol¢gico;2
+46.46-0;Com‚rcio atacadista de cosm‚ticos, produtos de perfumaria e de higiene pessoal;2
+46.47-8;"Com‚rcio atacadista de artigos de escrit¢rio e de papelaria; livros, jornais e outras publica‡äes";2
+46.49-4;Com‚rcio atacadista de equipamentos e artigos de uso pessoal e dom‚stico nÆo especificados anteriormente;2
+46.5;Com‚rcio atacadista de equipamentos e produtos de tecnologias de informa‡Æo e comunica‡Æo;
+46.51-6;Com‚rcio atacadista de computadores, perif‚ricos e suprimentos de inform tica;3
+46.52-4;Com‚rcio atacadista de componentes eletr“nicos e equipamentos de telefonia e comunica‡Æo;3
+46.6;Com‚rcio atacadista de m quinas, aparelhos e equipamentos, exceto de tecnologias de informa‡Æo e comunica‡Æo;
+46.61-3;"Com‚rcio atacadista de m quinas, aparelhos e equipamentos para uso agropecu rio; partes e pe‡as";3
+46.62-1;"Com‚rcio atacadista de m quinas, equipamentos para terraplenagem, minera‡Æo e constru‡Æo; partes e pe‡as";3
+46.63-0;"Com‚rcio atacadista de m quinas e equipamentos para uso industrial; partes e pe‡as";3
+46.64-8;"Com‚rcio atacadista de m quinas, aparelhos e equipamentos para uso odonto-m‚dico-hospitalar; partes e pe‡as";3
+46.65-6;"Com‚rcio atacadista de m quinas e equipamentos para uso comercial; partes e pe‡as";3
+46.69-9;"Com‚rcio atacadista de m quinas, aparelhos e equipamentos nÆo especificados anteriormente; partes e pe‡as";3
+46.7;Com‚rcio atacadista de madeira, ferragens, ferramentas, material el‚trico e material de constru‡Æo;
+46.71-1;Com‚rcio atacadista de madeira e produtos derivados;3
+46.72-9;Com‚rcio atacadista de ferragens e ferramentas;3
+46.73-7;Com‚rcio atacadista de material el‚trico;3
+46.74-5;Com‚rcio atacadista de cimento;3
+46.79-6;Com‚rcio atacadista especializado de materiais de constru‡Æo nÆo especificados anteriormente e de materiais de constru‡Æo em geral;3
+46.8;Com‚rcio atacadista especializado em outros produtos;
+46.81-8;Com‚rcio atacadista de combust¡veis s¢lidos, l¡quidos e gasosos, exceto g s natural e GLP;3
+46.82-6;Com‚rcio atacadista de g s liquefeito de petr¢leo (GLP);3
+46.83-4;Com‚rcio atacadista de defensivos agr¡colas, adubos, fertilizantes e corretivos do solo;3
+46.84-2;Com‚rcio atacadista de produtos qu¡micos e petroqu¡micos, exceto agroqu¡micos;3
+46.85-1;Com‚rcio atacadista de produtos sider£rgicos e metal£rgicos, exceto para constru‡Æo;3
+46.86-9;Com‚rcio atacadista de papel e papelÆo em bruto e de embalagens;3
+46.87-7;Com‚rcio atacadista de res¡duos e sucatas;3
+46.89-3;Com‚rcio atacadista especializado de outros produtos intermedi rios nÆo especificados anteriormente;3
+46.9;Com‚rcio atacadista nÆo especializado;
+46.91-5;Com‚rcio atacadista de mercadorias em geral, com predominƒncia de produtos aliment¡cios;2
+46.92-3;Com‚rcio atacadista de mercadorias em geral, com predominƒncia de insumos agropecu rios;2
+46.93-1;Com‚rcio atacadista de mercadorias em geral, sem predominƒncia de alimentos ou de insumos agropecu rios;2
+47;COMRCIO VAREJISTA;
+47.1;Com‚rcio varejista nÆo especializado;
+47.11-3;Com‚rcio varejista de mercadorias em geral, com predominƒncia de produtos aliment¡cios - hipermercados e supermercados;2
+47.12-1;Com‚rcio varejista de mercadorias em geral, com predominƒncia de produtos aliment¡cios - minimercados, mercearias e armaz‚ns;2
+47.13-0;Com‚rcio varejista de mercadorias em geral, sem predominƒncia de produtos aliment¡cios;2
+47.2;Com‚rcio varejista de produtos aliment¡cios, bebidas e fumo;
+47.21-1;Com‚rcio varejista de produtos de padaria, latic¡nio, doces, balas e semelhantes;2
+47.22-9;Com‚rcio varejista de carnes e pescados - a‡ougues e peixarias;3
+47.23-7;Com‚rcio varejista de bebidas;2
+47.24-5;Com‚rcio varejista de hortifrutigranjeiros;2
+47.29-6;"Com‚rcio varejista de produtos aliment¡cios em geral ou especializado em produtos aliment¡cios nÆo especificados anteriormente; produtos do fumo";2
+47.3;Com‚rcio varejista de combust¡veis para ve¡culos automotores;
+47.31-8;Com‚rcio varejista de combust¡veis para ve¡culos automotores;3
+47.32-6;Com‚rcio varejista de lubrificantes;3
+47.4;Com‚rcio varejista de material de constru‡Æo;
+47.41-5;Com‚rcio varejista de tintas e materiais para pintura;2
+47.42-3;Com‚rcio varejista de material el‚trico;1
+47.43-1;Com‚rcio varejista de vidros;2
+47.44-0;Com‚rcio varejista de ferragens, madeira e materiais de constru‡Æo;2
+47.5;"Com‚rcio varejista de equipamentos de inform tica e comunica‡Æo; equipamentos e artigos de uso dom‚stico";
+47.51-2;Com‚rcio varejista especializado de equipamentos e suprimentos de inform tica;1
+47.52-1;Com‚rcio varejista especializado de equipamentos de telefonia e comunica‡Æo;1
+47.53-9;Com‚rcio varejista especializado de eletrodom‚sticos e equipamentos de  udio e v¡deo;1
+47.54-7;Com‚rcio varejista especializado de m¢veis, colchoaria e artigos de ilumina‡Æo;1
+47.55-5;Com‚rcio varejista especializado de tecidos e artigos de cama, mesa e banho;1
+47.56-3;Com‚rcio varejista especializado de instrumentos musicais e acess¢rios;1
+47.57-1;Com‚rcio varejista especializado de pe‡as e acess¢rios para aparelhos eletroeletr“nicos para uso dom‚stico, exceto inform tica e comunica‡Æo;1
+47.59-8;Com‚rcio varejista de artigos de uso dom‚stico nÆo especificados anteriormente;1
+47.6;Com‚rcio varejista de artigos culturais, recreativos e esportivos;
+47.61-0;Com‚rcio varejista de livros, jornais, revistas e papelaria;1
+47.62-8;Com‚rcio varejista de discos, CDs, DVDs e fitas;1
+47.63-6;Com‚rcio varejista de artigos recreativos e esportivos;1
+47.7;Com‚rcio varejista de produtos farmacˆuticos, perfumaria e cosm‚ticos e artigos m‚dicos, ¢pticos e ortop‚dicos;
+47.71-7;Com‚rcio varejista de produtos farmacˆuticos para uso humano e veterin rio;2
+47.72-5;Com‚rcio varejista de cosm‚ticos, produtos de perfumaria e de higiene pessoal;1
+47.73-3;Com‚rcio varejista de artigos m‚dicos e ortop‚dicos;1
+47.74-1;Com‚rcio varejista de artigos de ¢ptica;1
+47.8;Com‚rcio varejista de produtos novos nÆo especificados anteriormente e de produtos usados;
+47.81-4;Com‚rcio varejista de artigos do vestu rio e acess¢rios;1
+47.82-2;Com‚rcio varejista de cal‡ados e artigos de viagem;1
+47.83-1;Com‚rcio varejista de joias e rel¢gios;1
+47.84-9;Com‚rcio varejista de g s liquefeito de petr¢leo (GLP);3
+47.85-7;Com‚rcio varejista de artigos usados;2
+47.89-0;Com‚rcio varejista de outros produtos novos nÆo especificados anteriormente;1
+47.9;Com‚rcio ambulante e outros tipos de com‚rcio varejista;
+47.90-3;Com‚rcio ambulante e outros tipos de com‚rcio varejista;2
+H;TRANSPORTE, ARMAZENAGEM E CORREIO;
+49;TRANSPORTE TERRESTRE;
+49.1;Transporte ferrovi rio e metro ferrovi rio;
+49.11-6;Transporte ferrovi rio de carga;3
+49.12-4;Transporte metro ferrovi rio de passageiros;3
+49.2;Transporte rodovi rio de passageiros;
+49.21-3;Transporte rodovi rio coletivo de passageiros, com itiner rio fixo, municipal e em regiÆo metropolitana;3
+49.22-1;Transporte rodovi rio coletivo de passageiros, com itiner rio fixo, intermunicipal, interestadual e internacional;3
+49.23-0;Transporte rodovi rio de t xi;3
+49.24-8;Transporte escolar;3
+49.29-9;Transporte rodovi rio coletivo de passageiros, sob regime de fretamento, e outros transportes rodovi rios nÆo especificados anteriormente;3
+49.3;Transporte rodovi rio de carga;
+49.30-2;Transporte rodovi rio de carga;3
+49.4;Transporte dutovi rio;
+49.40-0;Transporte dutovi rio;3
+49.5;Trens tur¡sticos, telef‚ricos e similares;
+49.50-7;Trens tur¡sticos, telef‚ricos e similares;3
+50;TRANSPORTE AQUAVIµRIO;
+50.1;Transporte mar¡timo de cabotagem e longo curso;
+50.11-4;Transporte mar¡timo de cabotagem;3
+50.12-2;Transporte mar¡timo de longo curso;3
+50.2;Transporte por navega‡Æo interior;
+50.21-1;Transporte por navega‡Æo interior de carga;3
+50.22-0;Transporte por navega‡Æo interior de passageiros em linhas regulares;3
+50.3;Navega‡Æo de apoio;
+50.30-1;Navega‡Æo de apoio;3
+50.9;Outros transportes aquavi rios;
+50.91-2;Transporte por navega‡Æo de travessia;3
+50.99-8;Transportes aquavi rios nÆo especificados anteriormente;3
+51;TRANSPORTE AREO;
+51.1;Transporte a‚reo de passageiros;
+51.11-1;Transporte a‚reo de passageiros regular;3
+51.12-9;Transporte a‚reo de passageiros nÆo regular;3
+51.2;Transporte a‚reo de carga;
+51.20-0;Transporte a‚reo de carga;3
+51.3;Transporte espacial;
+51.30-7;Transporte espacial;3
+52;ARMAZENAMENTO E ATIVIDADES AUXILIARES DOS TRANSPORTES;
+52.1;Armazenamento, carga e descarga;
+52.11-7;Armazenamento;3
+52.12-5;Carga e descarga;3
+52.2;Atividades auxiliares dos transportes terrestres;
+52.21-4;Concession rias de rodovias, pontes, t£neis e servi‡os relacionados;3
+52.22-2;Terminais rodovi rios e ferrovi rios;3
+52.23-1;Estacionamento de ve¡culos;3
+52.29-0;Atividades auxiliares dos transportes terrestres nÆo especificadas anteriormente;3
+52.3;Atividades auxiliares dos transportes aquavi rios;
+52.31-1;GestÆo de portos e terminais;3
+52.32-0;Atividades de agenciamento mar¡timo;3
+52.39-7;Atividades auxiliares dos transportes aquavi rios nÆo especificadas anteriormente;3
+52.4;Atividades auxiliares dos transportes a‚reos;
+52.40-1;Atividades auxiliares dos transportes a‚reos;3
+52.5;Atividades relacionadas … organiza‡Æo do transporte de carga;
+52.50-8;Atividades relacionadas … organiza‡Æo do transporte de carga;3
+53;CORREIO E OUTRAS ATIVIDADES DE ENTREGA;
+53.1;Atividades de Correio;
+53.10-5;Atividades de Correio;2
+53.2;Atividades de malote e de entrega;
+53.20-2;Atividades de malote e de entrega;2
+I;ALOJAMENTO E ALIMENTA€ÇO;
+55;ALOJAMENTO;
+55.1;Hot‚is e similares;
+55.10-8;Hot‚is e similares;2
+55.9;Outros tipos de alojamento nÆo especificados anteriormente;
+55.90-6;Outros tipos de alojamento nÆo especificados anteriormente;2
+56;ALIMENTA€ÇO;
+56.1;Restaurantes e outros servi‡os de alimenta‡Æo e bebidas;
+56.11-2;Restaurantes e outros estabelecimentos de servi‡os de alimenta‡Æo e bebidas;2
+56.12-1;Servi‡os ambulantes de alimenta‡Æo;2
+56.2;Servi‡os de catering, bufˆ e outros servi‡os de comida preparada;
+56.20-1;Servi‡os de catering, bufˆ e outros servi‡os de comida preparada;2
+J;INFORMA€ÇO E COMUNICA€ÇO;
+58;EDI€ÇO E EDI€ÇO INTEGRADA · IMPRESSÇO;
+58.1;Edi‡Æo de livros, jornais, revistas e outras atividades de edi‡Æo;
+58.11-5;Edi‡Æo de livros;3
+58.12-3;Edi‡Æo de jornais;3
+58.13-1;Edi‡Æo de revistas;3
+58.19-1;Edi‡Æo de cadastros, listas e outros produtos gr ficos;3
+58.2;Edi‡Æo integrada … impressÆo de livros, jornais, revistas e outras publica‡äes;
+58.21-2;Edi‡Æo integrada … impressÆo de livros;3
+58.22-1;Edi‡Æo integrada … impressÆo de jornais;3
+58.23-9;Edi‡Æo integrada … impressÆo de revistas;3
+58.29-8;Edi‡Æo integrada … impressÆo de cadastros, listas e outros produtos gr ficos;3
+59;"ATIVIDADES CINEMATOGRµFICAS, PRODU€ÇO DE VÖDEOS E DE PROGRAMAS DE TELEVISÇO; GRAVA€ÇO DE SOM E EDI€ÇO DE MéSICA";
+59.1;Atividades cinematogr ficas, produ‡Æo de v¡deos e de programas de televisÆo;
+59.11-1;Atividades de produ‡Æo cinematogr fica, de v¡deos e de programas de televisÆo;2
+59.12-0;Atividades de p¢s-produ‡Æo cinematogr fica, de v¡deos e de programas de televisÆo;2
+59.13-8;Distribui‡Æo cinematogr fica, de v¡deo e de programas de televisÆo;2
+59.14-6;Atividades de exibi‡Æo cinematogr fica;2
+59.2;Atividades de grava‡Æo de som e de edi‡Æo de m£sica;
+59.20-1;Atividades de grava‡Æo de som e de edi‡Æo de m£sica;2
+60;ATIVIDADES DE RµDIO E DE TELEVISÇO;
+60.1;Atividades de r dio;
+60.10-1;Atividades de r dio;2
+60.2;Atividades de televisÆo;
+60.21-7;Atividades de televisÆo aberta;2
+60.22-5;Programadoras e atividades relacionadas … televisÆo por assinatura;2
+61;TELECOMUNICA€åES;
+61.1;Telecomunica‡äes por fio;
+61.10-8;Telecomunica‡äes por fio;2
+61.2;Telecomunica‡äes sem fio;
+61.20-5;Telecomunica‡äes sem fio 2;
+61.3;Telecomunica‡äes por sat‚lite;
+61.30-2;Telecomunica‡äes por sat‚lite;2
+61.4;Operadoras de televisÆo por assinatura;
+61.41-8;Operadoras de televisÆo por assinatura por cabo;2
+61.42-6;Operadoras de televisÆo por assinatura por microondas;2
+61.43-4;Operadoras de televisÆo por assinatura por sat‚lite;2
+61.9;Outras atividades de telecomunica‡äes;
+61.90-6;Outras atividades de telecomunica‡äes;2
+62;ATIVIDADES DOS SERVI€OS DE TECNOLOGIA DA INFORMA€ÇO;
+62.0;Atividades dos servi‡os de tecnologia da informa‡Æo;
+62.01-5;Desenvolvimento de programas de computador sob encomenda;2
+62.02-3;Desenvolvimento e licenciamento de programas de computador customiz veis;2
+62.03-1;Desenvolvimento e licenciamento de programas de computador nÆo-customiz veis;2
+62.04-0;Consultoria em tecnologia da informa‡Æo;2
+62.09-1;Suporte t‚cnico, manuten‡Æo e outros servi‡os em tecnologia da informa‡Æo;2
+63;ATIVIDADES DE PRESTA€ÇO DE SERVI€OS DE INFORMA€ÇO;
+63.1;Tratamento de dados, hospedagem na internet e outras atividades relacionadas;
+63.11-9;Tratamento de dados, provedores de servi‡os de aplica‡Æo e servi‡os de hospedagem na internet;2
+63.19-4;Portais, provedores de conte£do e outros servi‡os de informa‡Æo na internet;2
+63.9;Outras atividades de presta‡Æo de servi‡os de informa‡Æo;
+63.91-7;Agˆncias de not¡cias;2
+63.99-2;Outras atividades de presta‡Æo de servi‡os de informa‡Æo nÆo especificadas anteriormente;2
+K;ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVI€OS RELACIONADOS;
+64;ATIVIDADES DE SERVI€OS FINANCEIROS;
+64.1;Banco Central;1
+64.10-7;Banco Central;1
+64.2;Intermedia‡Æo monet ria - dep¢sitos … vista;
+64.21-2;Bancos comerciais;1
+64.22-1;Bancos m£ltiplos, com carteira comercial;1
+64.23-9;Caixas econ“micas;1
+64.24-7;Cr‚dito cooperativo;1
+64.3;Intermedia‡Æo nÆo monet ria - outros instrumentos de capta‡Æo;
+64.31-0;Bancos m£ltiplos, sem carteira comercial;1
+64.32-8;Bancos de investimento;1
+64.33-6;Bancos de desenvolvimento;1
+64.34-4;Agˆncias de fomento;1
+64.35-2;Cr‚dito imobili rio;1
+64.36-1;Sociedades de cr‚dito, financiamento e investimento - financeiras;1
+64.37-9;Sociedades de cr‚dito ao microempreendedor;1
+64.38-7;Bancos de cƒmbio e outras institui‡äes de intermedia‡Æo nÆo monet ria;1
+64.4;Arrendamento mercantil;
+64.40-9;Arrendamento mercantil;1
+64.5;Sociedades de capitaliza‡Æo;
+64.50-6;Sociedades de capitaliza‡Æo;1
+64.6;Atividades de sociedades de participa‡Æo;
+64.61-1;Holdings de institui‡äes financeiras;1
+64.62-0;Holdings de institui‡äes nÆo financeiras;1
+64.63-8;Outras sociedades de participa‡Æo, exceto holdings;1
+64.7;Fundos de investimento;
+64.70-1;Fundos de investimento;1
+64.9;Atividades de servi‡os financeiros nÆo especificadas anteriormente;
+64.91-3;Sociedades de fomento mercantil -ÿfactoring;1
+64.92-1;Securitiza‡Æo de cr‚ditos;1
+64.93-0;Administra‡Æo de cons¢rcios para aquisi‡Æo de bens e direitos;1
+64.99-9;Outras atividades de servi‡os financeiros nÆo especificadas anteriormente;1
+65;SEGUROS, RESSEGUROS, PREVIDÒNCIA COMPLEMENTAR E PLANOS DE SAéDE;
+65.1;Seguros de vida e nÆo-vida;
+65.11-1;Seguros de vida;1
+65.12-0;Seguros nÆo-vida;1
+65.2;Seguros-sa£de;
+65.20-1;Seguros-sa£de;1
+65.3;Resseguros;
+65.30-8;Resseguros;1
+65.4;Previdˆncia complementar;
+65.41-3;Previdˆncia complementar fechada;1
+65.42-1;Previdˆncia complementar aberta;1
+65.5;Planos de sa£de;
+65.50-2;Planos de sa£de;1
+66;ATIVIDADES AUXILIARES DOS SERVI€OS FINANCEIROS, SEGUROS, PREVIDÒNCIA COMPLEMENTAR E PLANOS DE SAéDE;
+66.1;Atividades auxiliares dos servi‡os financeiros;
+66.11-8;Administra‡Æo de bolsas e mercados de balcÆo organizados;1
+66.12-6;Atividades de intermedi rios em transa‡äes de t¡tulos, valores mobili rios e mercadorias;1
+66.13-4;Administra‡Æo de cartäes de cr‚dito;1
+66.19-3;Atividades auxiliares dos servi‡os financeiros nÆo especificadas anteriormente;1
+66.2;Atividades auxiliares dos seguros, da previdˆncia complementar e dos planos de sa£de;
+66.21-5;Avalia‡Æo de riscos e perdas;1
+66.22-3;Corretores e agentes de seguros, de planos de previdˆncia complementar e de sa£de;1
+66.29-1;Atividades auxiliares dos seguros, da previdˆncia complementar e dos planos de sa£de nÆo especificadas anteriormente;1
+66.3;Atividades de administra‡Æo de fundos por contrato ou comissÆo;
+66.30-4;Atividades de administra‡Æo de fundos por contrato ou comissÆo;1
+L;ATIVIDADES IMOBILIµRIAS;
+68;ATIVIDADES IMOBILIµRIAS;
+68.1;Atividades imobili rias de im¢veis pr¢prios;
+68.10-2;Atividades imobili rias de im¢veis pr¢prios;1
+68.2;Atividades imobili rias por contrato ou comissÆo;
+68.21-8;Intermedia‡Æo na compra, venda e aluguel de im¢veis;1
+68.22-6;GestÆo e administra‡Æo da propriedade imobili ria;1
+M;ATIVIDADES PROFISSIONAIS, CIENTÖFICAS E TCNICAS;
+69;ATIVIDADES JURÖDICAS, DE CONTABILIDADE E DE AUDITORIA;
+69.1;Atividades jur¡dicas;
+69.11-7;Atividades jur¡dicas, exceto cart¢rios;1
+69.12-5;Cart¢rios;1
+69.2;Atividades de contabilidade, consultoria e auditoria cont bil e tribut ria;
+69.20-6;Atividades de contabilidade, consultoria e auditoria cont bil e tribut ria;1
+70;ATIVIDADES DE SEDES DE EMPRESAS E DE CONSULTORIA EM GESTÇO EMPRESARIAL;
+70.1;Sedes de empresas e unidades administrativas locais;
+70.10-7;Sedes de empresas e unidades administrativas locais;1
+70.2;Atividades de consultoria em gestÆo empresarial;
+70.20-4;Atividades de consultoria em gestÆo empresarial;1
+71;"SERVI€OS DE ARQUITETURA E ENGENHARIA; TESTES E ANµLISES TCNICAS";
+71.1;Servi‡os de arquitetura e engenharia e atividades t‚cnicas relacionadas;
+71.11-1;Servi‡os de arquitetura;1
+71.12-0;Servi‡os de engenharia;1
+71.19-7;Atividades t‚cnicas relacionadas … arquitetura e engenharia;1
+71.2;Testes e an lises t‚cnicas;
+71.20-1;Testes e an lises t‚cnicas;2
+72;PESQUISA E DESENVOLVIMENTO CIENTÖFICO;
+72.1;Pesquisa e desenvolvimento experimental em ciˆncias f¡sicas e naturais;
+72.10-0;Pesquisa e desenvolvimento experimental em ciˆncias f¡sicas e naturais;2
+72.2;Pesquisa e desenvolvimento experimental em ciˆncias sociais e humanas;
+72.20-7;Pesquisa e desenvolvimento experimental em ciˆncias sociais e humanas;2
+73;PUBLICIDADE E PESQUISA DE MERCADO;
+73.1;Publicidade;
+73.11-4;Agˆncias de publicidade;1
+73.12-2;Agenciamento de espa‡os para publicidade, exceto em ve¡culos de comunica‡Æo;1
+73.19-0;Atividades de publicidade nÆo especificadas anteriormente;1
+73.2;Pesquisas de mercado e de opiniÆo p£blica;
+73.20-3;Pesquisas de mercado e de opiniÆo p£blica;1
+7475;OUTRAS ATIVIDADES PROFISSIONAIS, CIENTÖFICAS E TCNICAS;
+74.1;Design e decora‡Æo de interiores;
+74.10-2;Design e decora‡Æo de interiores;1
+74.2;Atividades fotogr ficas e similares;
+74.20-0;Atividades fotogr ficas e similares 2;
+74.9;Atividades profissionais, cient¡ficas e t‚cnicas nÆo especificadas anteriormente;
+74.90-1;Atividades profissionais, cient¡ficas e t‚cnicas nÆo especificadas anteriormente;1
+;ATIVIDADES VETERINµRIAS;
+75.0;Atividades veterin rias;
+75.00-1;Atividades veterin rias;3
+N;ATIVIDADES ADMINISTRATIVAS E SERVI€OS COMPLEMENTARES;
+77;ALUGUIS NÇO IMOBILIµRIOS E GESTÇO DE ATIVOS INTANGÖVEIS NÇO FINANCEIROS;
+77.1;Loca‡Æo de meios de transporte sem condutor;
+77.11-0;Loca‡Æo de autom¢veis sem condutor;1
+77.19-5;Loca‡Æo de meios de transporte, exceto autom¢veis, sem condutor;1
+77.2;Aluguel de objetos pessoais e dom‚sticos;
+77.21-7;Aluguel de equipamentos recreativos e esportivos;1
+77.22-5;Aluguel de fitas de v¡deo, DVDs e similares;1
+77.23-3;Aluguel de objetos do vestu rio, joias e acess¢rios;1
+77.29-2;Aluguel de objetos pessoais e dom‚sticos nÆo especificados anteriormente;1
+77.3;Aluguel de m quinas e equipamentos sem operador;
+77.31-4;Aluguel de m quinas e equipamentos agr¡colas sem operador;1
+77.32-2;Aluguel de m quinas e equipamentos para constru‡Æo sem operador;1
+77.33-1;Aluguel de m quinas e equipamentos para escrit¢rio;1
+77.39-0;Aluguel de m quinas e equipamentos nÆo especificados anteriormente;1
+77.4;GestÆo de ativos intang¡veis nÆo financeiros;
+77.40-3;GestÆo de ativos intang¡veis nÆo financeiros;1
+78;SELE€ÇO, AGENCIAMENTO E LOCA€ÇO DE MÇO DE OBRA;
+78.1;Sele‡Æo e agenciamento de mÆo de obra;
+78.10-8;Sele‡Æo e agenciamento de mÆo de obra;1
+78.2;Loca‡Æo de mÆo de obra tempor ria;
+78.20-5;Loca‡Æo de mÆo de obra tempor ria;1
+78.3;Fornecimento e gestÆo de recursos humanos para terceiros;
+78.30-2;Fornecimento e gestÆo de recursos humanos para terceiros;1
+79;AGÒNCIAS DE VIAGENS, OPERADORES TURÖSTICOS E SERVI€OS DE RESERVAS;
+79.1;Agˆncias de viagens e operadores tur¡sticos;
+79.11-2;Agˆncias de viagens;1
+79.12-1;Operadores tur¡sticos;1
+79.9;Servi‡os de reservas e outros servi‡os de turismo nÆo especificados anteriormente;
+79.90-2;Servi‡os de reservas e outros servi‡os de turismo nÆo especificados anteriormente;1
+80;ATIVIDADES DE VIGIL¶NCIA, SEGURAN€A E INVESTIGA€ÇO;
+80.1;Atividades de vigilƒncia, seguran‡a privada e transporte de valores;
+80.11-1;Atividades de vigilƒncia e seguran‡a privada;3
+80.12-9;Atividades de transporte de valores;3
+80.2;Atividades de monitoramento de sistemas de seguran‡a;
+80.20-0;Atividades de monitoramento de sistemas de seguran‡a;3
+80.3;Atividades de investiga‡Æo particular;
+80.30-7;Atividades de investiga‡Æo particular;3
+81;SERVI€OS PARA EDIFÖCIOS E ATIVIDADES PAISAGÖSTICAS;
+81.1;Servi‡os combinados para apoio a edif¡cios;
+81.11-7;Servi‡os combinados para apoio a edif¡cios, exceto condom¡nios prediais;2
+81.12-5;Condom¡nios prediais;2
+81.2;Atividades de limpeza;
+81.21-4;Limpeza em pr‚dios e em domic¡lios;3
+81.22-2;Imuniza‡Æo e controle de pragas urbanas;3
+81.29-0;Atividades de limpeza nÆo especificadas anteriormente;3
+81.3;Atividades paisag¡sticas;
+81.30-3;Atividades paisag¡sticas;1
+82;SERVI€OS DE ESCRITàRIO, DE APOIO ADMINISTRATIVO E OUTROS SERVI€OS PRESTADOS ·S EMPRESAS;
+82.1;Servi‡os de escrit¢rio e apoio administrativo;
+82.11-3;Servi‡os combinados de escrit¢rio e apoio administrativo;1
+82.19-9;Fotoc¢pias, prepara‡Æo de documentos e outros servi‡os especializados de apoio administrativo;2
+82.2;Atividades de teleatendimento;
+82.20-2;Atividades de teleatendimento;2
+82.3;Atividades de organiza‡Æo de eventos, exceto culturais e esportivos;
+82.30-0;Atividades de organiza‡Æo de eventos, exceto culturais e esportivos;2
+82.9;Outras atividades de servi‡os prestados principalmente …s empresas;
+82.91-1;Atividades de cobran‡a e informa‡äes cadastrais;2
+82.92-0;Envasamento e empacotamento sob contrato;2
+82.99-7;Atividades de servi‡os prestados principalmente …s empresas nÆo especificadas anteriormente;2
+O;ADMINISTRA€ÇO PéBLICA, DEFESA E SEGURIDADE SOCIAL;
+84;ADMINISTRA€ÇO PéBLICA, DEFESA E SEGURIDADE SOCIAL;
+84.1;Administra‡Æo do estado e da pol¡tica econ“mica e social;
+84.11-6;Administra‡Æo p£blica em geral;1
+84.12-4;Regula‡Æo das atividades de sa£de, educa‡Æo, servi‡os culturais e outros servi‡os sociais;1
+84.13-2;Regula‡Æo das atividades econ“micas;1
+84.2;Servi‡os coletivos prestados pela administra‡Æo p£blica;
+84.21-3;Rela‡äes exteriores;1
+84.22-1;Defesa;1
+84.23-0;Justi‡a;1
+84.24-8;Seguran‡a e ordem p£blica;1
+84.25-6;Defesa Civil;1
+84.3;Seguridade social obrigat¢ria;
+84.30-2;Seguridade social obrigat¢ria;1
+P;EDUCA€ÇO;
+85;EDUCA€ÇO;
+85.1;Educa‡Æo infantil e ensino fundamental;
+85.11-2;Educa‡Æo infantil - creche;2
+85.12-1;Educa‡Æo infantil - pr‚-escola;2
+85.13-9;Ensino fundamental;2
+85.2;Ensino m‚dio;
+85.20-1;Ensino m‚dio;2
+85.3;Educa‡Æo superior;
+85.31-7;Educa‡Æo superior - gradua‡Æo;2
+85.32-5;Educa‡Æo superior - gradua‡Æo e p¢s-gradua‡Æo;2
+85.33-3;Educa‡Æo superior - p¢s-gradua‡Æo e extensÆo;2
+85.4;Educa‡Æo profissional de n¡vel t‚cnico e tecnol¢gico;
+85.41-4;Educa‡Æo profissional de n¡vel t‚cnico;2
+85.42-2;Educa‡Æo profissional de n¡vel tecnol¢gico;2
+85.5;Atividades de apoio … educa‡Æo;
+85.50-3;Atividades de apoio … educa‡Æo;2
+85.9;Outras atividades de ensino;
+85.91-1;Ensino de esportes;2
+85.92-9;Ensino de arte e cultura;2
+85.93-7;Ensino de idiomas;2
+85.99-6;Atividades de ensino nÆo especificadas anteriormente;2
+Q;SAéDE HUMANA E SERVI€OS SOCIAIS;
+86;ATIVIDADES DE ATEN€ÇO · SAéDE HUMANA;
+86.1;Atividades de atendimento hospitalar;
+86.10-1;Atividades de atendimento hospitalar;3
+86.2;Servi‡os m¢veis de atendimento a urgˆncias e de remo‡Æo de pacientes;
+86.21-6;Servi‡os m¢veis de atendimento a urgˆncias;3
+86.22-4;Servi‡os de remo‡Æo de pacientes, exceto os servi‡os m¢veis de atendimento a urgˆncias;3
+86.3;Atividades de aten‡Æo ambulatorial executadas por m‚dicos e odont¢logos;
+86.30-5;Atividades de aten‡Æo ambulatorial executadas por m‚dicos e odont¢logos;3
+86.4;Atividades de servi‡os de complementa‡Æo diagn¢stica e terapˆutica;
+86.40-2;Atividades de servi‡os de complementa‡Æo diagn¢stica e terapˆutica;3
+86.5;Atividades de profissionais da  rea de sa£de, exceto m‚dicos e odont¢logos;
+86.50-0;Atividades de profissionais da  rea de sa£de, exceto m‚dicos e odont¢logos;2
+86.6;Atividades de apoio … gestÆo de sa£de;
+86.60-7;Atividades de apoio … gestÆo de sa£de;1
+86.9;Atividades de aten‡Æo … sa£de humana nÆo especificadas anteriormente;
+86.90-9;Atividades de aten‡Æo … sa£de humana nÆo especificadas anteriormente;1
+87;ATIVIDADES DE ATEN€ÇO · SAéDE HUMANA INTEGRADAS COM ASSISTÒNCIA SOCIAL, PRESTADAS EM RESIDÒNCIAS COLETIVAS E PARTICULARES;
+87.1;Atividades de assistˆncia a idosos, deficientes f¡sicos, imunodeprimidos e convalescentes, e de infraestrutura e apoio a pacientes prestadas em residˆncias coletivas e particulares;
+87.11-5;Atividades de assistˆncia a idosos, deficientes f¡sicos, imunodeprimidos e convalescentes prestadas em residˆncias coletivas e particulares;1
+87.12-3;Atividades de fornecimento de infraestrutura de apoio e assistˆncia a paciente no domic¡lio;1
+87.2;Atividades de assistˆncia psicossocial e … sa£de a portadores de dist£rbios ps¡quicos, deficiˆncia mental e dependˆncia qu¡mica;
+87.20-4;Atividades de assistˆncia psicossocial e … sa£de a portadores de dist£rbios ps¡quicos, deficiˆncia mental e dependˆncia qu¡mica;1
+87.3;Atividades de assistˆncia social prestadas em residˆncias coletivas e particulares;1
+87.30-1;Atividades de assistˆncia social prestadas em residˆncias coletivas e particulares;1
+88;SERVI€OS DE ASSISTÒNCIA SOCIAL SEM ALOJAMENTO;
+88.0;Servi‡os de assistˆncia social sem alojamento;
+88.00-6;Servi‡os de assistˆncia social sem alojamento;1
+R;ARTES, CULTURA, ESPORTE E RECREA€ÇO;
+90;ATIVIDADES ARTÖSTICAS, CRIATIVAS E DE ESPETµCULOS;
+90.0;Atividades art¡sticas, criativas e de espet culos;
+90.01-9;Artes cˆnicas, espet culos e atividades complementares;2
+90.02-7;Cria‡Æo art¡stica;2
+90.03-5;GestÆo de espa‡os para artes cˆnicas, espet culos e outras atividades art¡sticas;1
+91;ATIVIDADES LIGADAS AO PATRIMâNIO CULTURAL E AMBIENTAL;
+91.0;Atividades ligadas ao patrim“nio cultural e ambiental;
+91.01-5;Atividades de bibliotecas e arquivos;2
+91.02-3;Atividades de museus e de explora‡Æo, restaura‡Æo art¡stica e conserva‡Æo de lugares e pr‚dios hist¢ricos e atra‡äes similares;2
+91.03-1;Atividades de jardins botƒnicos, zool¢gicos, parques nacionais, reservas ecol¢gicas e  reas de prote‡Æo ambiental;2
+92;ATIVIDADES DE EXPLORA€ÇO DE JOGOS DE AZAR E APOSTAS;
+92.0;Atividades de explora‡Æo de jogos de azar e apostas;
+92.00-3;Atividades de explora‡Æo de jogos de azar e apostas;1
+93;ATIVIDADES ESPORTIVAS E DE RECREA€ÇO E LAZER;
+93.1;Atividades esportivas;
+93.11-5;GestÆo de instala‡äes de esportes;1
+93.12-3;Clubes sociais, esportivos e similares;2
+93.13-1;Atividades de condicionamento f¡sico;2
+93.19-1;Atividades esportivas nÆo especificadas anteriormente;2
+93.2;Atividades de recrea‡Æo e lazer;
+93.21-2;Parques de diversÆo e parques tem ticos;2
+93.29-8;Atividades de recrea‡Æo e lazer nÆo especificadas anteriormente;2
+S;OUTRAS ATIVIDADES DE SERVI€OS;
+94;ATIVIDADES DE ORGANIZA€åES ASSOCIATIVAS;
+94.1;Atividades de organiza‡äes associativas patronais, empresariais e profissionais;
+94.11-1;Atividades de organiza‡äes associativas patronais e empresariais;1
+94.12-0;Atividades de organiza‡äes associativas profissionais;1
+94.2;Atividades de organiza‡äes sindicais;
+94.20-1;Atividades de organiza‡äes sindicais;1
+94.3;Atividades de associa‡äes de defesa de direitos sociais;
+94.30-8;Atividades de associa‡äes de defesa de direitos sociais;1
+94.9;Atividades de organiza‡äes associativas nÆo especificadas anteriormente;
+94.91-0;Atividades de organiza‡äes religiosas;1
+94.92-8;Atividades de organiza‡äes pol¡ticas;1
+94.93-6;Atividades de organiza‡äes associativas ligadas … cultura e … arte;1
+94.99-5;Atividades associativas nÆo especificadas anteriormente;1
+95;REPARA€ÇO E MANUTEN€ÇO DE EQUIPAMENTOS DE INFORMµTICA E COMUNICA€ÇO E DE OBJETOS PESSOAIS E DOMSTICOS;
+95.1;Repara‡Æo e manuten‡Æo de equipamentos de inform tica e comunica‡Æo;
+95.11-8;Repara‡Æo e manuten‡Æo de computadores e de equipamentos perif‚ricos;3
+95.12-6;Repara‡Æo e manuten‡Æo de equipamentos de comunica‡Æo;3
+95.2;Repara‡Æo e manuten‡Æo de objetos e equipamentos pessoais e dom‚sticos;
+95.21-5;Repara‡Æo e manuten‡Æo de equipamentos eletroeletr“nicos de uso pessoal e dom‚stico;3
+95.29-1;Repara‡Æo e manuten‡Æo de objetos e equipamentos pessoais e dom‚sticos nÆo especificados anteriormente;3
+96;OUTRAS ATIVIDADES DE SERVI€OS PESSOAIS;
+96.0;Outras atividades de servi‡os pessoais;
+96.01-7;Lavanderias, tinturarias e toalheiros;2
+96.02-5;Cabeleireiros e outras atividades de tratamento de beleza;2
+96.03-3;Atividades funer rias e servi‡os relacionados;2
+96.09-2;Atividades de servi‡os pessoais nÆo especificadas anteriormente;2
+T;SERVI€OS DOMSTICOS;
+97;SERVI€OS DOMSTICOS;
+97.0;Servi‡os dom‚sticos;
+97.00-5;Servi‡os dom‚sticos;2
+U;ORGANISMOS INTERNACIONAIS E OUTRAS INSTITUI€åES EXTRATERRITORIAIS;
+99;ORGANISMOS INTERNACIONAIS E OUTRAS INSTITUI€åES EXTRATERRITORIAIS;
+99.0;Organismos internacionais e outras institui‡äes extraterritoriais;
+99.00-8;Organismos internacionais e outras institui‡äes extraterritoriais;1
+=======
 "01.11-3","Cultivo de cereais",3
 "01.12-1","Cultivo de algodÃ£o herbÃ¡ceo e de outras fibras de lavoura temporÃ¡ria",3
 "01.13-0","Cultivo de cana-de-aÃ§Ãºcar",3
@@ -670,3 +1738,4 @@
 "96.09-2","Atividades de serviÃ§os pessoais nÃ£o especificadas anteriormente",2
 "97.00-5","ServiÃ§os domÃ©sticos",2
 "99.00-8","Organismos internacionais e outras instituiÃ§Ãµes extraterritoriais",1
+>>>>>>> eb272be475d6cac1118c5e3df412015e34c95662
