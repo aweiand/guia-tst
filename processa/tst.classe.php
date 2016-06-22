@@ -19,8 +19,8 @@ class cnae extends risco{
 		$this->descricao = desc;
 	}
 }
-//------------------------------------------------------
-class empregado extends risco{
+//--------------------------------------------------------------------
+class empregado extends risco{  
 	private $descricao_empregado;
 	
 	function setdescricao_empregado($d){

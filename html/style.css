@@ -17,7 +17,7 @@
 }
 
 .cabecalho{
-  position: relative;;
+  position: relative;
   /*text-align: left;*/
   left: 25%;
   top: 10%;
@@ -51,3 +51,33 @@ th, td {
   width: 50%;
   text-align: center;
 }
+
+.home {
+	position: relative;
+	text-align: center;
+	left: 25%;
+	top: 10%;
+	width: 50%;
+	font-size: 20px;
+	background-color: #ffffff;
+	box-shadow: 3px 2px 1px #999999;
+	border-radius: 10px;
+}
+
+.fundo_home {
+	background-color: #c9c0c8;
+}
+
+.engrenagem{
+	float:left;
+	margin-left:1%;
+	margin-top: 1%;
+}
+
+.logo{
+	width:65%;
+	height: auto;
+	margin: auto;
+}
+
+

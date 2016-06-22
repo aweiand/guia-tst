@@ -8,11 +8,11 @@
 		<form method="GET" action="">
 		Risco
 		<br />
-		<input type="number" name="risco" />
+		<input type="number" name="risco" required="required" />
 		<br />
 		Descrição
 		<br />
-		<textarea name="descricao"></textarea>
+		<textarea name="descricao" required="required" /></textarea> 
 		
 		<br />
 		<button>Enviar</button>
