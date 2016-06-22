@@ -1,3 +1,13 @@
+body {
+		margin: 0px;
+}
+
+.pesquisa-funcionario, .pesquisa-codigo {
+	padding: 10px;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
 .centraliza{
 	position: absolute;
 	text-align: center;
@@ -36,13 +46,18 @@
     background: white;
 }
 
-table, th, td {
-    border: 1px solid black;
+table, td {
+    border: 1px solid white;
     border-collapse: collapse;
+	width: 100%;
+	
 }
 
 th, td {
-    padding: 5px;
+    padding: 20px;
+	
+	height: 50px;
+	border: 5px solid white;
 }
 
 .footer {
@@ -80,4 +95,16 @@ th, td {
 	margin: auto;
 }
 
+.topo_lista{
+	background-color:#566857;
+	padding: 5%;
+	color: #ffffff;
+	font-size: 300%;
+	text-align: center;
+}
 
+.topo_tabela{
+	background-color:#566857;
+	padding: 20px;
+	width: 200%;
+}

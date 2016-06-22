@@ -6,6 +6,7 @@
 
 	</head>
 	<body>
+		<?php include "menu.php"; ?>	
 		<p class="centraliza">
 		<a href="novo_tst.php" style='text-decoration: none;'>Novo</a>
 	<table style="width:50%">

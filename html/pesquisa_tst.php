@@ -20,9 +20,9 @@
 			</div>
 			
 				<br><label><b>Código CNAE</b></label><br>
-			<input type="text" name="n" required="required" placeholder="00.00-0" maxlength="7"/><br>
+			<input type="text" class="pesquisa-codigo" autofocus="autofocus" name="n" required="required" placeholder="00.00-0" maxlength="7"/><br>
 				<label><b>Funcionários</b></label><br>
-			<input type="text" name="n1" required="required" placeholder="000000" maxlength="6"/>
+			<input type="text" class="pesquisa-funcionario" name="n1" required="required" placeholder="000000" maxlength="6"/>
 			<br><br><button class="bt">
 			<i  class="fa fa-3x fa-check-square-o fa-lg"></i>
 			</button>			
