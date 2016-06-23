@@ -12,20 +12,43 @@
 		</script>
 	</head>
 	<body>
+		<?php include "menu.php"; ?>
 		<p class="centraliza">
-		<a href="novo_tst.php" style='text-decoration: none;'>Novo</a>
-	<table style="width:50%">
-		  <tr>
+		<table>
+			<thead class="topo_lista">
+				<tr>
+					<td colspan="4">
+						<strong>Lista de Grupos<strong>
+					</td>
+				</tr>
+			</thead>
+
+
+
+		 <tr class="topo_tabela">
 		    <!--Nomes Campos-->
-			<th>cipa</th> <th>Descrição</th>
+			<th>CIPA</th>
+			<th>Descrição</th>
+			<th colspan="2">
+				<a href="novo_tst.php" style='text-decoration: none;'>Novo</a>
 		  </tr>
 			 <?php
 				$resultado = $bd->get_all('grupo');
 				while($linha = mysqli_fetch_array($resultado)){
-						echo '<tr>';
-						echo "<td>".$linha['cipa']."</td><td>".$linha['descricao'].'</td>';
-						echo '<td class="td"><a href="edita_tst.php?COD=$linha['cipa']">Edita</a></td><td> <a href="deleta_tst.php?COD=$linha['cipa']" onclick="confirma()">Deleta</a></td>';
-						echo '</tr>';
+						echo "<tr>;
+								<td style='width: 10%;'>".
+									$linha['cipa']
+								."</td>
+								<td style='width: 80%;'>".
+									$linha['descricao']
+								."</td>
+								'<td class='td' style='width: 5%;'>
+									<a href='edita_tst.php?COD=".$linha['cipa']."'>Edita</a>
+								</td>
+								<td style='width: 5%;'>
+									<a href='deleta_tst.php?menu=grupo&COD=".$linha['cipa']."&descricao=". $linha['descricao']."' onclick='confirma()'>Deleta</a>
+								</td>
+							</tr>";
 					}
 				?>
 		  </tr>

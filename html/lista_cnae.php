@@ -12,15 +12,28 @@
 		</script>
 	</head>
 	<body>
+		<?php include "menu.php"; ?>
 		<p class="centraliza">
-		<a href="novo_tst.php" style='text-decoration: none;'>Novo</a>
-	<table style="width:50%">
-		  <tr>
+		<table>
+			<thead class="topo_lista">
+				<tr>
+					<td colspan="5">
+						<strong>Lista de CNAE<strong>
+					</td>
+				</tr>
+			</thead>
+
+
+		 <tr class="topo_tabela">
 		    <!--Nomes Campos-->
 
-		
 
-			<th> Cód CNAE</th> <th>Risco</th> <th>Descrição</th>
+
+			<th> Cód CNAE</th>
+			<th>Risco</th>
+			<th>Descrição</th>
+			<th colspan="2">
+					<a href="novo_tst.php" style='text-decoration: none;'>Novo</a>
 
 		  </tr>
 			<?php
@@ -28,15 +41,28 @@
 			while($linha = mysqli_fetch_array($resultado)){
 				$resultado_risco = $bd->get_all('risco', "id_risco = '".$linha['id_risco']."'");
 				while($linha_risco = mysqli_fetch_array($resultado_risco)){
-					echo '<tr>';
-					echo "<td>".$linha['cnae']."</td> <td>".$linha_risco['risco'].'</td> <td>'.$linha['descricao'].'</td>';
-					echo "<td class='td'><a href='edita_tst.php?COD=".$linha['cnae'].">Edita</a></td><td class='td'> <a href='deleta_tst.php?COD=".$linha['cnae']." onclick='confirma()';>Deleta</a></td>";
-					echo '</tr>';
+
+					// var_dump($linha);
+					echo "<tr>
+							<td style='width: 10%;'>".
+								$linha['num_cnae']
+							."</td>
+							<td style='width: 10%;'>".
+								$linha_risco['risco'].
+							"</td>
+							<td style='width: 40%;'>".
+								$linha['descricao']
+							."</td>
+							<td class='td' style='width: 5%;'>
+								<a href='edita_tst.php?COD=".$linha['num_cnae']."'>Edita</a>
+							</td>
+							<td class='td' style='width: 5%;'>
+								<a href='deleta_tst.php?menu=cnae&COD=".$linha['num_cnae']."' onclick='confirma()'>Deleta</a>
+								</td>
+						</tr>";
 				}
 			}
 			?>
 		</table>
 	</body>
 </html>
-
-

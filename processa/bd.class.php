@@ -1,6 +1,6 @@
 
 <?php
-	// cadastra 
+	// cadastra
 // altera
 // seleciona
 	class bd{
@@ -10,11 +10,11 @@
 	var $endereco;
 	var $conexao;
 		function add_banco($usuario, $senha, $endereco = "localhost", $nome_bd){
-			$this->usuario = "$usuario";	
+			$this->usuario = "$usuario";
 			// var_dump($this->usuario);
 			$this->senha = "$senha";
-			$this->endereco = "$endereco";	
-			$this->nome_bd = "$nome_bd";		
+			$this->endereco = "$endereco";
+			$this->nome_bd = "$nome_bd";
 			$this->conexao = mysqli_connect($this->endereco, $this->usuario, $this->senha, $this->nome_bd) or die ("Erro ao conectar");
 			}
 		function insere($tabela, $dados, $campos = NULL){
@@ -74,7 +74,11 @@
 			$atualiza = mysqli_query($this->conexao, $consulta);
 			return $atualiza;
 		}
-		function deleta(){
+		function deleta($tabela, $where){
+			$consulta = "DELETE FROM ". $tabela." WHERE ".$where;
+			// echo $consulta;
+			$deleta = mysqli_query($this->conexao, $consulta);
+			return $deleta;
 
 		}
 		function query_sql(){
@@ -83,14 +87,14 @@
 	}
 	//Adicione os dados nessas variaveis para fazer a conexão no banco de dados
 	$usuario = "root";
-	$senha = "";
+	$senha = "1234";
 	$endereco = "localhost";
 	$nome_bd = "tst";
 
 	$bd = new bd();
 	$bd->add_banco($usuario, $senha, $endereco, $nome_bd);
 	// $a = $bd->get_all("carro");
-	// var_dump($a);	
+	// var_dump($a);
 
 	// $resultado = $bd->get_all("carro", "placa = '123-1re'");
 	// var_dump($resultado);
@@ -99,5 +103,3 @@
 	// var_dump($linha["modelo"]);
 	// }
 	//::::::::::::::::::::::::::::::::::::Testes::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::;
-
-
