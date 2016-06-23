@@ -12,7 +12,7 @@
 		</script>
 	</head>
 	<body>
-		<?php include "menu.php"; ?>	
+		<?php include "menu.php"; ?>
 		<p class="centraliza">
 		<a href="novo_tst.php" style='text-decoration: none;'>Novo</a>
 		<table style="width:50%">
@@ -25,11 +25,11 @@
 			while($linha = mysqli_fetch_array($resultado)){
 					echo "<tr>
 							<td>".
-								$linha['intervalo']
-							."</td> 
+								$linha['id_intervalo']
+							."</td>
 							<td>".
 								$linha['maximo']
-							."</td> 
+							."</td>
 							<td>".
 								$linha['minimo']
 							."</td>
@@ -37,7 +37,7 @@
 								<a href='edita_tst.php?COD=".$linha['id_intervalo']."'>Edita</a>
 							</td>
 							<td>
-								<a href='deleta_tst.php?COD=".$linha['id_intervalo']."' onclick='confirma()'>Deleta</a>
+								<a href='deleta_tst.php?menu=intervalo&COD=".$linha['id_intervalo']."' onclick='confirma()'>Deleta</a>
 							</td>
 						</tr>";
 				}
@@ -46,4 +46,3 @@
 		</table>
 	</body>
 </html>
-

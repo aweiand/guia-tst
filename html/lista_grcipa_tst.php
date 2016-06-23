@@ -2,10 +2,10 @@
 	<head>
 		<link rel="stylesheet" href="style.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
+		<?php require_once '../processa/bd.class.php'; ?>
 	</head>
 	<body>
-		<?php include "menu.php"; ?>	
+		<?php include "menu.php"; ?>
 		<p class="centraliza">
 		<a href="novo_tst.php" style='text-decoration: none;'>Novo</a>
 		<table style="width:50%">
@@ -32,10 +32,10 @@
 								$linha_intervalo['minimo']
 							."</td>
 							<td class='td'>
-								<a href='edita_tst.php?COD=".$linha['id_risco']."'>Edita</a>
+								<a href='edita_tst.php?COD=".$linha['cipa']."&COD2=".$linha['tipo']."'>Edita</a>
 							</td>
-							<td class='td'> 
-								<a href='deleta_tst.php?COD=".$linha['id_risco']."' onclick='confirma()'>Deleta</a>
+							<td class='td'>
+								<a href='deleta_tst.php?menu=grupo_cipa&cipa=".$linha['cipa']."&tipo=".$linha['tipo']."' onclick='confirma()'>Deleta</a>
 							</td>
 						</tr>";
 				}

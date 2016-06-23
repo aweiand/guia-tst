@@ -12,7 +12,7 @@
 		</script>
 	</head>
 	<body>
-		<?php include "menu.php"; ?>	
+		<?php include "menu.php"; ?>
 		<p class="centraliza">
 		<table>
 			<thead class="topo_lista">
@@ -22,12 +22,12 @@
 					</td>
 				</tr>
 			</thead>
-			
-		
-	
+
+
+
 		 <tr class="topo_tabela">
 		    <!--Nomes Campos-->
-			<th>CIPA</th> 
+			<th>CIPA</th>
 			<th>Descrição</th>
 			<th colspan="2">
 				<a href="novo_tst.php" style='text-decoration: none;'>Novo</a>
@@ -45,8 +45,8 @@
 								'<td class='td' style='width: 5%;'>
 									<a href='edita_tst.php?COD=".$linha['cipa']."'>Edita</a>
 								</td>
-								<td style='width: 5%;'> 
-									<a href='deleta_tst.php?COD=".$linha['cipa']."' onclick='confirma()'>Deleta</a>
+								<td style='width: 5%;'>
+									<a href='deleta_tst.php?menu=grupo&COD=".$linha['cipa']."&descricao=". $linha['descricao']."' onclick='confirma()'>Deleta</a>
 								</td>
 							</tr>";
 					}

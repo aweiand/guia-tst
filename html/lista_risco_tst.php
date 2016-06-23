@@ -29,7 +29,7 @@
 							."</td>
 							<td>".
 								$linha['risco']
-							."</td> 
+							."</td>
 							<td>".
 								$linha['descricao']
 							."</td>
@@ -37,7 +37,7 @@
 								<a href='edita_tst.php?COD=".$linha['id_risco']."'>Edita</a>
 							</td>
 							<td>
-								<a href='deleta_tst.php?COD=".$linha['id_risco']."' onclick='confirma()'>Deleta</a>
+								<a href='deleta_tst.php?menu=risco&COD=".$linha['id_risco']."' onclick='confirma()'>Deleta</a>
 							</td>
 						</tr>";
 				}

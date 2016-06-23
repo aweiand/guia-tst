@@ -12,7 +12,7 @@
 		</script>
 	</head>
 	<body>
-		<?php include "menu.php"; ?>	
+		<?php include "menu.php"; ?>
 		<p class="centraliza">
 		<a href="novo_tst.php" style='text-decoration: none;'>Novo</a>
 		<table style="width:50%">
@@ -25,16 +25,16 @@
 			while($linha = mysqli_fetch_array($resultado)){
 					echo "<tr>
 							<td>".
-								$linha['cnae']
+								$linha['num_cnae']
 							."</td>
 							<td>".
 								$linha['cipa']
 							."</td>
 							<td class='td'>
-								<a href='edita_tst.php?COD=".$linha['cipa']."&COD2=".$linha['cnae']."'>Edita</a>
+								<a href='edita_tst.php?COD=".$linha['cipa']."&COD2=".$linha['num_cnae']."'>Edita</a>
 							</td>
-							<td> 
-								<a href='deleta_tst.php?COD=".$linha['cipa']."&COD2=".$linha['cnae']."' onclick='onfirma()'>Deleta</a>
+							<td>
+								<a href='deleta_tst.php?menu=grupo_cnae&COD=".$linha['cipa']."&COD2=".$linha['num_cnae']."' onclick='onfirma()'>Deleta</a>
 							</td>
 						</tr>";
 				}

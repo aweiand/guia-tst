@@ -13,7 +13,7 @@
 		</script>
 	</head>
 	<body>
-		<?php include "menu.php"; ?>	
+		<?php include "menu.php"; ?>
 		<p class="centraliza">
 		<a href="novo_tst.php" style='text-decoration: none;'>Novo</a>
 		<table style="width:50%">
@@ -34,8 +34,8 @@
 							<td class='td'>
 								<a href='edita_tst.php?COD=".$linha['id_observacao']."'>Edita</a>
 							</td>
-							<td> 
-								<a href='deleta_tst.php?COD=".$linha['id_observacao']."' onclick='confirma()'>Deleta</a>
+							<td>
+								<a href='deleta_tst.php?menu=observacao&COD=".$linha['id_observacao']."' onclick='confirma()'>Deleta</a>
 							</td>
 						</tr>";
 				}
