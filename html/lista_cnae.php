@@ -12,6 +12,7 @@
 		</script>
 	</head>
 	<body>
+		<?php include "menu.php"; ?>	
 		<p class="centraliza">
 		<a href="novo_tst.php" style='text-decoration: none;'>Novo</a>
 	<table style="width:50%">
@@ -28,13 +29,25 @@
 			while($linha = mysqli_fetch_array($resultado)){
 				$resultado_risco = $bd->get_all('risco', "id_risco = '".$linha['id_risco']."'");
 				while($linha_risco = mysqli_fetch_array($resultado_risco)){
-					echo '<tr>';
-					echo "<td>".$linha['cnae']."</td> <td>".$linha_risco['risco'].'</td> <td>'.$linha['descricao'].'</td>';
-					echo '<td class="td"><a href="edita_tst.php?COD=$linha['cnae']">Edita</a></td><td class="td"> <a href="deleta_tst.php?COD=$linha['cnae']" onclick="confirma()">Deleta</a></td>';
-					echo '</tr>';
+					echo "<tr>
+							<td>".
+								$linha['cnae']
+							."</td>
+							<td>".
+								$linha_risco['risco'].
+							"</td>
+							<td>".
+								$linha['descricao']
+							."</td>
+							<td class='td'>
+								<a href='edita_tst.php?COD=".$linha['cnae']."'>Edita</a>
+							</td>
+							<td class='td'>
+								<a href='deleta_tst.php?COD=".$linha['cnae']."' onclick='confirma()'>Deleta</a>
+								</td>
+						</tr>";
 				}
 			}
 			?>
 		</table>
 	</body>
-</html>

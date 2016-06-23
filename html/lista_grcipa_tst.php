@@ -5,6 +5,7 @@
 
 	</head>
 	<body>
+		<?php include "menu.php"; ?>	
 		<p class="centraliza">
 		<a href="novo_tst.php" style='text-decoration: none;'>Novo</a>
 		<table style="width:50%">
@@ -17,10 +18,26 @@
 			while($linha = mysqli_fetch_array($resultado)){
 				$resultado_intervalo = $bd->get_all('intervalo', "id_intervalo = '".$linha['id_intervalo']."'");
 				while($linha_intervalo = mysqli_fetch_array($resultado_intervalo)){
-					echo '<tr>';
-					echo "<td>".$linha['cipa']."</td> <td>".$linha['tipo'].'</td><td>'.$linha_intervalo['maximo'].'</td><td>'.$linha_intervalo['minimo'].'</td>';
-					echo '<td class="td"><a href="edita_tst.php?COD=$idx">Edita</a></td><td class="td"> <a href="deleta_tst.php?COD=$idx" onclick="confirma()">Deleta</a></td>';
-					echo '</tr>';
+					echo "<tr>
+							<td>".
+								$linha['cipa']
+							."</td>
+							<td>".
+								$linha['tipo']
+							."</td>
+							<td>".
+								$linha_intervalo['maximo']
+							."</td>
+							<td>".
+								$linha_intervalo['minimo']
+							."</td>
+							<td class='td'>
+								<a href='edita_tst.php?COD=".$linha['id_risco']."'>Edita</a>
+							</td>
+							<td class='td'> 
+								<a href='deleta_tst.php?COD=".$linha['id_risco']."' onclick='confirma()'>Deleta</a>
+							</td>
+						</tr>";
 				}
 			}
 			?>

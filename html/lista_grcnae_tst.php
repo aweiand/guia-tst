@@ -12,6 +12,7 @@
 		</script>
 	</head>
 	<body>
+		<?php include "menu.php"; ?>	
 		<p class="centraliza">
 		<a href="novo_tst.php" style='text-decoration: none;'>Novo</a>
 		<table style="width:50%">
@@ -22,10 +23,20 @@
 		  <?php
 			$resultado = $bd->get_all('grupo_cnae');
 			while($linha = mysqli_fetch_array($resultado)){
-					echo '<tr>';
-					echo "<td>".$linha['cnae']."</td> <td>".$linha['cipa'].'</td>';
-					echo '<td class="td"><a href="edita_tst.php?COD=$linha['cipa']&&$linha['cnae']">Edita</a></td><td> <a href="deleta_tst.php?COD=$linha['cipa']&&$linha['cnae']" onclick="confirma()">Deleta</a></td>';
-					echo '</tr>';
+					echo "<tr>
+							<td>".
+								$linha['cnae']
+							."</td>
+							<td>".
+								$linha['cipa']
+							."</td>
+							<td class='td'>
+								<a href='edita_tst.php?COD=".$linha['cipa']."&COD2=".$linha['cnae']."'>Edita</a>
+							</td>
+							<td> 
+								<a href='deleta_tst.php?COD=".$linha['cipa']."&COD2=".$linha['cnae']."' onclick='onfirma()'>Deleta</a>
+							</td>
+						</tr>";
 				}
 			?>
 		  </tr>
