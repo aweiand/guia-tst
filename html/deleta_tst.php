@@ -41,6 +41,10 @@ switch ($_GET['COD']) {
 	$d=($db->deleta('grupo_cipa'[$_GET["COD"]]);
 	echo "excluido com sucesso!!";
 		break;
+
+	default :
+	echo "Esse iten não pode ser excluido!!"
+		break;
 }
 
 ?>
