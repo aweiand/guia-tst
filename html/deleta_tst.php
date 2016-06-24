@@ -1,5 +1,6 @@
 
 <?php
+
 	require_once '../processa/bd.class.php';
 	switch ($_GET['menu']) {
 		case 'cnae':

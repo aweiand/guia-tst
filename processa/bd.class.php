@@ -114,7 +114,7 @@
 
 	//Adicione os dados nessas variaveis para fazer a conexão no banco de dados
 	$usuario = "root";
-	$senha = "1234";
+	$senha = "";
 	$endereco = "localhost";
 	$nome_bd = "tst";
 

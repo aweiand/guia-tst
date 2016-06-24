@@ -1,47 +1,71 @@
+<?php require_once '../processa/bd.class.php' ?>
 <html>
 	<head>
-		<link rel="stylesheet" href="style.css">
+			<link rel="stylesheet" href="font-awesome-4.6.2/css/font-awesome.min.css" />
+			<link rel="stylesheet" href="style.css" />
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<?php require_once '../processa/bd.class.php'; ?>
 	</head>
-	<body>
+	<body class="fundo_home">
 		<?php include "menu.php"; ?>
 		<p class="centraliza">
-		<a href="novo_tst.php" style='text-decoration: none;'>Novo</a>
 		<table style="width:50%">
-		  <tr>
+		
+			<thead class="topo_lista">
+				<tr>
+					<td colspan="6">
+						<strong>Lista de CNAE<strong>
+					</td>
+				</tr>
+			</thead>
+			
+		  <tr class="topo_tabela">
+		  
 		    <!--Nomes Campos-->
-			<th>CIPA</th> <th>Tipo</th> <th>maximo</th><th>minimo</th>
+				<th style='color: #FFF;'>CIPA</th>
+				<th style='color: #FFF;'>Tipo</th> 
+				<th style='color: #FFF;'>maximo</th>
+				<th style='color: #FFF;'>minimo</th>
+			<th colspan="2">
+				<a href="novo_tst.php" style='text-decoration: none text-align:center' title='Adicionar um novo CNAE'>
+					<i class="fa fa-2x fa-plus-square-o fa-lg" style='color: black;'></i>
+				</a>
+			</th>
+				
 		  </tr>
 		  <?php
 			$resultado = $bd->get_all('grupo_cipa');
+				$cor = "#FFF";
 			while($linha = mysqli_fetch_array($resultado)){
 				$resultado_intervalo = $bd->get_all('intervalo', "id_intervalo = '".$linha['id_intervalo']."'");
 				while($linha_intervalo = mysqli_fetch_array($resultado_intervalo)){
+					
+						$cor == "#c7efc3" ? $cor = "#FFF" : $cor = "#c7efc3";
+						
 					echo "<tr>
-							<td>".
+							<td style='width: 10%;'>".
 								$linha['cipa']
 							."</td>
-							<td>".
+							<td style='width: 10%;'>".
 								$linha['tipo']
 							."</td>
-							<td>".
+							<td style='width: 20%;'>".
 								$linha_intervalo['maximo']
 							."</td>
-							<td>".
+							<td style='width: 20%;'>".
 								$linha_intervalo['minimo']
 							."</td>
-							<td class='td'>
+							<td class='td' style='width: 5%;'>
 								<a href='edita_tst.php?COD=".$linha['cipa']."&COD2=".$linha['tipo']."'>Edita</a>
 							</td>
-							<td class='td'>
+							<td class='td' style='width: 5%;'>
 								<a href='deleta_tst.php?menu=grupo_cipa&cipa=".$linha['cipa']."&tipo=".$linha['tipo']."' onclick='confirma()'>Deleta</a>
 							</td>
 						</tr>";
 				}
 			}
 			?>
-		  </tr>
+		  
 		</table>
 	</body>
 </html>
