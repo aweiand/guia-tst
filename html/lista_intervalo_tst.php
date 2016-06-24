@@ -28,6 +28,7 @@
 		<tr>
 		  </tr>
 		  <?php
+			$bd = new bd();
 			$resultado = $bd->get_all('intervalo');
 			$cor = "#FFF";
 			while($linha = mysqli_fetch_array($resultado)){

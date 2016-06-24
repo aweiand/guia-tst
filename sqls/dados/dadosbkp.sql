@@ -27,7 +27,7 @@ INSERT INTO intervalo (id_intervalo, minimo, maximo) VALUES (4, 501, 1000);
 INSERT INTO intervalo (id_intervalo, minimo, maximo) VALUES (5, 1001, 2000);
 INSERT INTO intervalo (id_intervalo, minimo, maximo) VALUES (6, 2001, 3500);
 INSERT INTO intervalo (id_intervalo, minimo, maximo) VALUES (7, 3501, 5000);
-INSERT INTO intervalo (id_intervalo, minimo, maximo) VALUES (8, 5000, 99999);
+INSERT INTO intervalo (id_intervalo, minimo, maximo) VALUES (8, 5001, 99999);
 INSERT INTO intervalo (id_intervalo, minimo, maximo) VALUES (9, 0, 19);
 INSERT INTO intervalo (id_intervalo, minimo, maximo) VALUES (10, 20, 29);
 INSERT INTO intervalo (id_intervalo, minimo, maximo) VALUES (11, 30, 50);
