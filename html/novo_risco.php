@@ -1,5 +1,3 @@
-novo_risco.php
-
 <html>
 	<head>
 		<link rel="stylesheet" href="style.css">
@@ -7,16 +5,25 @@ novo_risco.php
 
 	</head>
 	<body>
-		<form method="GET" action="">
-		Risco
-		<br />
-		<input type="text" name="risco"/>
-		<br />
-		Descrição
-		<br />
-		<input type="text" name="descricao"/>
-		
-		<br />
-		<button>Enviar</button>
+		<form method="GET" action="../processa/processa_grava.php">
+			Risco
+				<br />
+				<input type="number" name="risco" required="required"/>
+				<br />
+			Descrição
+				<br />
+				<input type="text" name="descricao" required="required"/>
+				<br />
+			<input type='hidden' name='menu' value='risco'/>
+			<button>
+				<?php
+					if($_GET['tipo'] == 'cadastra'){
+						echo 'Cadastrar';
+					}elseif($_GET['tipo'] == 'editar'){
+						echo 'Editar';
+					}
+				?>
+			</button>
+		</form>
 	</body>
 </html>

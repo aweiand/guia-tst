@@ -8,23 +8,23 @@
 		<!---->
 		<form method="GET" action="">
 			<p class="centraliza">
-			CNAE
-			(Preencha todos os campos!)
-			<br />
-			<br />
+				CNAE </br>
+				(Preencha todos os campos!)
+			</p>
+
 			Código
-			<br />
-			<input type="text" name="n" value="" required="required"/>
-			<br />
+				<br />
+				<input type="text" name="n" value="" required="required"/>
 			Denominação
-			<br />
-			<input type="text" name="n2" value="" required="required"/>
-			<br />
+				<br />
+				<br />
+				<input type="text" name="n2" value="" required="required"/>
+				<br />
 			GR
 			<br />
 			<input type="number" name="n3" value=""  required="required"/>
 			<br />
 			<br />
-			<a href="lista_cnae.php" style='text-decoration: none;'> 
+			<a href="lista_cnae.php" style='text-decoration: none;'>
 				<i class='fa fa-2x fa-check-square-o fa-lg' style='color:black;'></i>
 			<br />

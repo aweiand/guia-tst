@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+<?php
+  require_once 'bd.class.php';
+
+  var_dump( $bd->get_empregadoObrig('	WHERE id_emp_obg = 2'));
+=======
 teste.php
 
 <html>
@@ -14,3 +20,4 @@ teste.php
 		</form>
 	</body>
 </head>
+>>>>>>> 962870ee0976eafacbe3c3e2f5896a4de1854626

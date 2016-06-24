@@ -31,10 +31,14 @@
 			<th style='color: #FFF;'>Risco</th>
 			<th style='color: #FFF;'>Descrição</th>
 			<th colspan="2">
+<<<<<<< HEAD
+					<a href="novo_tst.php?tipo=cadastra" style='text-decoration: none;'>Novo</a>
+=======
 				<a href="novo_tst.php" style='text-decoration: none text-align:center' title='Adicionar um novo CNAE'>
 					<i class='fa fa-2x fa-plus-square-o fa-lg' style='color: black;'></i>
 				</a>
 			</th>
+>>>>>>> 962870ee0976eafacbe3c3e2f5896a4de1854626
 
 		 </tr>
 			<?php
@@ -59,9 +63,13 @@
 								$linha['descricao']
 							."</td>
 							<td class='td' style='width: 5%;'>
+<<<<<<< HEAD
+								<a href='../processa/novo.php?tipo=editar&num_cnae=".$linha['num_cnae'].'&id_risco= '.$linha_risco['risco'].""."'>Edita</a>
+=======
 								<a href='edita_tst.php?COD=".$linha['num_cnae']."'>
 									<i class='fa fa-1g fa-trash fa-lg' style='color:black' title='Excluir CNAE'></i>
 								</a>
+>>>>>>> 962870ee0976eafacbe3c3e2f5896a4de1854626
 							</td>
 							<td class='td' style='width: 5%;'>
 								<a href='deleta_tst.php?menu=cnae&COD=".$linha['num_cnae']."' onclick='confirma()'>
