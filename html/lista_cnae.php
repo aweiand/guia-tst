@@ -1,7 +1,7 @@
 <?php require_once '../processa/bd.class.php' ?>
 <html>
 	<head>
-		<link rel="stylesheet" href="/adrian/font-awesome-4.6.2/font-awesome-4.6.2/css/font-awesome.min.css">
+		<link rel="stylesheet" href="font-awesome-4.6.2/css/font-awesome.min.css">
 		<link rel="stylesheet" href="style.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<script>
