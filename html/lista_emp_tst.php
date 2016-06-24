@@ -1,6 +1,7 @@
 <?php  require_once '../processa/bd.class.php' ?>
 <html>
 	<head>
+		<link rel="stylesheet" href="/adrian/font-awesome-4.6.2/font-awesome-4.6.2/css/font-awesome.min.css">
 		<link rel="stylesheet" href="style.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<script>
@@ -11,7 +12,7 @@
 			}
 		</script>
 	</head>
-	<body>
+	<body class="fundo_home">
 		<?php include "menu.php"; ?>	
 		<p class="centraliza">
 		<table>
@@ -28,30 +29,56 @@
 
 
 
-		    <th> <style='width: 50%'>Empregado</th>
-			<th><style='width: 50%'>Descrição</th>
+		    <th> <style='width: 50% color: #FFF;'>Empregado</th>
+			<th> <style='width: 50% color: #FFF;'>Descrição</th>
 			<th colspan="2">
-			<a href="novo_tst.php" style='text-decoration: none;'> <style='width: 50%'>Novo</a>
+			<a href="novo_tst.php" style='text-decoration: none' title='Adicionar um novo CNAE> <style='width: 50%'>
+			<i class='fa fa-2x fa-plus-square-o fa-lg' style='color: black;'></i>
+			</a>
 			</th>
 		  </tr>
 			<?php
-			$resultado = $bd->get_all('empregado');
-			while($linha = mysqli_fetch_array($resultado)){
+			
+		
+				$cor = "#FFF";
+				$cor == "#c7efc3" ? $cor = "#FFF" : $cor = "#c7efc3";
 					echo "<tr>
-							<td>". 
-								$linha['empregado']
-							."</td>
-							<td>".
-								$linha['descricao']
-							."</td>
+							<td> 
+								dado1	
+								</td>
+							<td>
+								dado2
+							</td>
 							<td class='td'>
-								<a href='edita_tst.php?COD=".$linha['id_empregado']."'>Edita</a>
+								<a href='edita_tst.php?COD='>
+								<i class='fa fa-1g fa-trash fa-lg' style='color:black' title='Excluir Empregado'></i>
+								</a>
 							</td>
 							<td>
-								<a href='deleta_tst.php?COD=".$linha['id_empregado']."' onclick='confirma()'>Deleta</a>
+								<a href='deleta_tst.php?COD=' onclick='confirma()'>Deleta
+								<i class='fa fa-1g fa-pencil fa-lg' style='color:black' title='Editar Empregado'></i>
+								</a>
 							</td>
 						</tr>";
-				}
+						echo "<tr>
+							<td> 
+								dado1	
+								</td>
+							<td>
+								dado2
+							</td>
+							<td class='td'>
+								<a href='edita_tst.php?COD='>
+								<i class='fa fa-1g fa-trash fa-lg' style='color:black' title='Excluir Empregado'></i>
+								</a>
+							</td>
+							<td>
+								<a href='deleta_tst.php?COD=' onclick='confirma()'>Deleta
+								<i class='fa fa-1g fa-pencil fa-lg' style='color:black' title='Editar Empregado'></i>
+								</a>
+							</td>
+						</tr>";
+		
 			?>
 		  </tr>
 		</table>
