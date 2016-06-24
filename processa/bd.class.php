@@ -4,11 +4,14 @@
 // altera
 // seleciona
 	class bd{
-	var $nome_bd;
+	var $nome_bd ;
 	var $usuario;
-	var $senha;
+	var $senha ;
 	var $endereco;
 	var $conexao;
+		function __CONSTRUCT(){
+			$this->add_banco("root", "1234",'', "tst");
+		}
 		function add_banco($usuario, $senha, $endereco = "localhost", $nome_bd){
 			$this->usuario = "$usuario";
 			// var_dump($this->usuario);
@@ -22,6 +25,7 @@
 			if(is_null($campos)){
 				$consulta = "INSERT INTO $tabela VALUES($dados)";
 				$insere = mysqli_query($this->conexao, $consulta);
+				echo $consulta;
 			}else{
 				$consulta = "INSERT INTO ($campos) $tabela VALUES ($dados)";
 				$insere = mysqli_query($this->conexao, $consulta);
@@ -38,11 +42,12 @@
 		function get_all($tabela, $id = NULL){
 			if(is_null($id)){
 				// echo "teste<br>";
-				$bd = new bd;
+				// $bd = new bd;
 				$consulta = "SELECT * FROM $tabela";
 				// echo $consulta;
 				// echo "<br>";
 				$resultado = mysqli_query($this->conexao, $consulta);
+				return $resultado;
 			}else{
 				// echo "teste id";
 				$bd = new bd;
@@ -63,6 +68,7 @@
 				// echo "<br>";
 				$resultado = mysqli_query($this->conexao, $consulta);
 				$resultado = mysqli_fetch_array($resultado);
+				return $resultado;
 
 			}else{
 				// echo "teste id";
@@ -81,10 +87,11 @@
 			return $atualiza;
 		}
 
-		function deleta($tabela, $where){
-			$consulta = "DELETE FROM ". $tabela." WHERE ".$where;
+		function deleta($tabela, $id){
+			$consulta = "DELETE FROM ". $tabela." WHERE ".$id;
 			// echo $consulta;
 			$deleta = mysqli_query($this->conexao, $consulta);
+			// var_dump($deleta);
 			return $deleta;
 		}
 
@@ -96,28 +103,4 @@
 				echo $value;
 			}
 		}
-
-		function get_empregadoObrig($where){
-			$consulta = "
-				SELECT eo.id_emp_obg,eo.quantidade,r.risco,i.minimo,i.maximo,ep.descricao,obs.observacao FROM empregado_obrigatorio eo
-					INNER JOIN risco r ON (eo.id_risco=r.id_risco)
-						INNER JOIN intervalo i ON(eo.id_intervalo=i.id_intervalo)
-						INNER JOIN empregado ep ON (eo.id_empregado=ep.id_empregado)
-						LEFT OUTER JOIN observacao obs ON (eo.id_observacao=obs.id_observacao)".
-						$where;
-			$consulta_completa = mysqli_query($this->conexao, $consulta);
-			$consulta_completa = mysqli_fetch_array($consulta_completa);
-			return $consulta_completa;
-		}
-
 	}
-
-	//Adicione os dados nessas variaveis para fazer a conexão no banco de dados
-	$usuario = "root";
-	$senha = "";
-	$endereco = "localhost";
-	$nome_bd = "tst";
-
-	//Conecta ao banco
-	$bd = new bd();
-	$bd->add_banco($usuario, $senha, $endereco, $nome_bd);
