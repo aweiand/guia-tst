@@ -34,6 +34,7 @@
 			</th>
 		  </tr>
 		  <?php
+		  $bd = new bd();
 			$resultado = $bd->get_all('grupo_cnae');
 			$cor = "#FFF";
 			while($linha = mysqli_fetch_array($resultado)){
