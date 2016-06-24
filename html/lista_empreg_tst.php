@@ -13,7 +13,7 @@
 		</script>
 	</head>
 	<body class="fundo_home">
-		<?php?>?>?> include "menu.php"; ?>
+		<?php include "menu.php"; ?>
 		<p class="centraliza">
 		<table>
 			<thead class="topo_lista">
