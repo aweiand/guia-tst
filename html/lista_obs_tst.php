@@ -26,6 +26,7 @@
 			</thead>
 		  </tr>
 		  <?php
+			$bd = new bd();
 			$resultado = $bd->get_all('observacao');
 			while($linha = mysqli_fetch_array($resultado)){
 					echo "<tr>
