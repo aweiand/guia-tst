@@ -24,27 +24,26 @@
 				</tr>
 			</thead>
 
-
 		 <tr class="topo_tabela">
 		    <!--Nomes Campos-->
-
-
 
 			<th style='color: #FFF;'> Cód CNAE</th>
 			<th style='color: #FFF;'>Risco</th>
 			<th style='color: #FFF;'>Descrição</th>
 			<th colspan="2">
-					<a href="novo_tst.php" style='text-decoration: none text-align:center' title='Adicionar um novo CNAE'>
+				<a href="novo_tst.php" style='text-decoration: none text-align:center' title='Adicionar um novo CNAE'>
 					<i class='fa fa-2x fa-plus-square-o fa-lg' style='color: black;'></i>
-					</a>
+				</a>
+			</th>
 
-		  </tr>
+		 </tr>
 			<?php
 			$resultado = $bd->get_all('cnae');
 			$cor = "#FFF";
 			while($linha = mysqli_fetch_array($resultado)){
 				$resultado_risco = $bd->get_all('risco', "id_risco = '".$linha['id_risco']."'");
 				while($linha_risco = mysqli_fetch_array($resultado_risco)){
+
 					// var_dump($linha);
 
 					$cor == "#c7efc3" ? $cor = "#FFF" : $cor = "#c7efc3";
@@ -68,10 +67,11 @@
 								<a href='deleta_tst.php?menu=cnae&COD=".$linha['num_cnae']."' onclick='confirma()'>
 								<i class='fa fa-1g fa-pencil fa-lg' style='color:black' title='Editar CNAE'></i>
 								</a>
-								</td>
+							</td>
 						</tr>";
 				}
 			}
 			?>
 		</table>
 	</body>
+</html>
