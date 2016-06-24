@@ -51,12 +51,12 @@ table, td {
     border: 1px solid white;
     border-collapse: collapse;
 	width: 100%;
-	
+
 }
 
 th, td {
     padding: 20px;
-	
+
 	height: 50px;
 	border: 5px solid white;
 }
@@ -101,6 +101,14 @@ th, td {
 	padding: 5%;
 	color: #ffffff;
 	font-size: 300%;
+	text-align: center;
+}
+
+.topo_lista_min{
+	background-color:#566857;
+	padding: 5%;
+	color: #ffffff;
+	font-size: 200%;
 	text-align: center;
 }
 

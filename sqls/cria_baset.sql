@@ -1,4 +1,4 @@
-CREATE DATABASE tst DEFAULT CHARACTER set utf8;
+CREATE DATABASE tst DEFAULT CHARACTER set utf8 DEFAULT COLLATE utf8_general_ci;
 
 USE tst;
 
@@ -61,7 +61,7 @@ CREATE TABLE grupo_cipa(
 	id_intervalo INT(4)NOT NULL,
 	quantidade INT(2)NOT NULL,
 	
-	CONSTRAINT PrKgrupo_cipa PRIMARY KEY (cipa,tipo),
+	CONSTRAINT PrKgrupo_cipa PRIMARY KEY (cipa,tipo,id_intervalo),
 	CONSTRAINT FrKgrupo_cipa_grupo FOREIGN KEY (cipa) REFERENCES grupo (cipa),
 	CONSTRAINT FrKgrupo_cipa_intervalo FOREIGN KEY (id_intervalo) REFERENCES intervalo (id_intervalo)
 );

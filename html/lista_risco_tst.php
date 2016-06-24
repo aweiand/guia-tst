@@ -1,4 +1,6 @@
 <?php require_once '../processa/bd.class.php' ?>
+<?php require_once '../processa/tst.classe.php' ?>
+
 <html>
 	<head>
 		<link rel="stylesheet" href="style.css">
@@ -14,14 +16,15 @@
 	<body>
 		<?php include "menu.php"; ?>
 		<p class="centraliza">
-		<a href="novo_tst.php" style='text-decoration: none;'>Novo</a>
+		<a href="novo_risco.php?tipo=cadastra" style='text-decoration: none;'>Novo</a>
 		<table style="width:50%">
 		  <tr>
 		    <!--Nomes Campos-->
 			<th>id</th> <th>risco</th> <th>descrição</th>
 		  </tr>
 		  <?php
-			$resultado = $bd->get_all('risco');
+			$risco = new risco();
+			$resultado = $risco->get_allRisco();
 			while($linha = mysqli_fetch_array($resultado)){
 					echo "<tr>
 							<td>".
