@@ -33,7 +33,7 @@
 			<th>Risco</th>
 			<th>Descrição</th>
 			<th colspan="2">
-					<a href="novo_tst.php" style='text-decoration: none;'>Novo</a>
+					<a href="novo_tst.php?tipo=cadastra" style='text-decoration: none;'>Novo</a>
 
 		  </tr>
 			<?php
@@ -53,7 +53,7 @@
 								$linha['descricao']
 							."</td>
 							<td class='td' style='width: 5%;'>
-								<a href='edita_tst.php?COD=".$linha['num_cnae']."'>Edita</a>
+								<a href='../processa/novo.php?tipo=editar&num_cnae=".$linha['num_cnae'].'&id_risco= '.$linha_risco['risco'].""."'>Edita</a>
 							</td>
 							<td class='td' style='width: 5%;'>
 								<a href='deleta_tst.php?menu=cnae&COD=".$linha['num_cnae']."' onclick='confirma()'>Deleta</a>

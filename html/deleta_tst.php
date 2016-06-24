@@ -5,7 +5,6 @@
 		case 'cnae':
 			$bd->deleta('cnae', "num_cnae =". $_GET["COD"]);
 			echo "Excluído com sucesso!!";
-
 			break;
 
 		case 'risco':
@@ -42,6 +41,7 @@
 			$bd->deleta('grupo_cipa', 'cipa = "'.$_GET["cipa"].'" AND tipo = '.$_GET['tipo']);
 			echo "Excluído com sucesso!!";
 			break;
+
 	}
 
 ?>
