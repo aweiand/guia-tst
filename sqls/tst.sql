@@ -26,6 +26,10 @@ SET time_zone = "+00:00";
 -- Estrutura da tabela `cnae`
 --
 
+CREATE DATABASE tst DEFAULT CHARACTER set utf8 DEFAULT COLLATE utf8_general_ci;
+
+USE tst;
+
 CREATE TABLE IF NOT EXISTS `cnae` (
   `num_cnae` char(5) NOT NULL,
   `id_risco` int(1) NOT NULL,
