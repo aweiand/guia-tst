@@ -10,11 +10,13 @@
 				<br />
 				<input type="number" name="risco" required="required"/>
 				<br />
+				<br/>
 			Descrição
 				<br />
 				<input type="text" name="descricao" required="required"/>
 				<br />
 			<input type='hidden' name='menu' value='risco'/>
+				<br/>
 			<button>
 				<?php
 					if($_GET['tipo'] == 'cadastra'){

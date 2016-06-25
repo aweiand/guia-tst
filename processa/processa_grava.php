@@ -1,21 +1,19 @@
 <?php
 	require_once 'bd.class.php';
 	require_once 'tst.classe.php';
-
-
-	/*//grava form cnae
-	$bd->insere('cnae', "$_GET['cnae'], $_GET['id_risco'], $_GET['descricao']");
-
-	//grava form risco
-	$bd->insere('risco', " '', $_GET['risco'], $_GET['descricao'] " );
-
-	//grava form empregado
-	$bd->insere('empregado', );
-	*/
+	
+	$risco = new risco()
+	if($_GET['tipo'] == 'cadastrar'){
 	switch($_GET['menu']){
 			case 'risco':
-				$risco = new risco();
 				$risco->set_risco($_GET['risco'], $_GET['descricao']);
 				$risco->grava_bd_risco();
 				echo 'Cadastro com sucesso!';
+	}
+	}elseif($_GET['tipo'] == 'editar'){
+		switch($_GET['menu']){
+				case 'risco':
+				$risco->set_risco($_GET['risco'], $_GET['descricao']);
+				$risco->atualiza_risco($_GET['id_risco']);
+		}
 	}

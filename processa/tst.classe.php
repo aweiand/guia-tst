@@ -1,5 +1,9 @@
 <?php
 	require_once 'bd.class.php';
+
+	/*
+	* ------------------------------------------------risco----------------------------------------
+	*/
 	class risco extends bd{
 		private $tabela = 'risco';
 		private $id_risco;
@@ -33,6 +37,44 @@
 			return $retorno;
 		}
 	}
+	//
+	//---------------------------------------------------cnae-------------------------------------------
+	//
+	class cnae extends risco{
+		private $tabela = 'cnae';
+		private $num_cnae;
+		private $id_risco;
+		private $descricao;
+
+		function __CONSTRUCT(){
+			bd::__CONSTRUCT();
+		}
+		function set_cnae($num_cnae, $id_risco, $descricao){
+			$this->num_cnae = $num_cnae;
+			$this->descricao = "'".$descricao."'";
+			$this->id_risco = $id_risco;
+		}
+		function grava_bd_risco(){
+			bd::insere($this->tabela, $this->id_risco.','.$this->risco.','.$this->descricao);
+		}
+		function get_allRisco(){
+			$dados = bd::get_all('risco');
+			return $dados;
+		}
+		function get_oneRisco($id_risco){
+			$dados = bd::get_all('risco', 'id_risco = '. $id_risco);
+			return $dados;
+		}
+		function atualiza_risco($id_risco){
+			bd::atualiza($this->tabela, 'id_risco = '$this->id_risco.', risco = '.$this->risco.', descricao = '.$this->descricao, 'id_risco = '. $id_risco);
+		}
+		function deleta_risco($id_risco){
+			$retorno = bd::deleta($this->tabela,'id_risco = '. $id_risco);
+			return $retorno;
+		}
+	}
+
+
 	//------------------------------------------------------
 	/*class cnae extends risco{
 		private $codigo;
@@ -140,3 +182,13 @@
 		}
 	} */
 	//------------------------------------------------------------------
+
+
+	function edita_cadastra($menu){
+		if($menu == 'cadastra'){
+			echo 'Cadastrar';
+		}elseif($menu == 'editar'){
+			echo 'Editar';
+		}
+	}
+	?>
