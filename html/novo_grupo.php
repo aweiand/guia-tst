@@ -11,7 +11,7 @@ novo_grupo.php
 
 		Descrição
 		<br />
-		<input type="text" name="descricao"/>
+		<input type="text" name="descricao"/></textarea>
 		
 		<br />
 		<button>Enviar</button>

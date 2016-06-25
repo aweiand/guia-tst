@@ -12,7 +12,7 @@
 				<br />
 			Descrição
 				<br />
-				<input type="text" name="descricao" required="required"/>
+				<input type="text" name="descricao" required="required"/></textarea>
 				<br />
 			<input type='hidden' name='menu' value='risco'/>
 			<button>
