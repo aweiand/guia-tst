@@ -11,7 +11,7 @@ nova_obs.php
 
 		Observação
 		<br />
-		<input type="text" name="observacao"/>
+		<input type="text" name="observacao"/></textarea>
 		
 		<br />
 		<button>Enviar</button>
