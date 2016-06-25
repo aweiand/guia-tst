@@ -20,7 +20,7 @@
 				<tr>
 					<td colspan="3">
 						<strong>Empregado<strong>
-							<a href="novo_tst.php" style='text-decoration: none text-align:center ' title='Adicionar um novo CNAE'>
+							<a href="novo_empregado.php" style='text-decoration: none text-align:center ' title='Adicionar um novo CNAE'>
 							<i class='fa fa-1g fa-plus-square-o fa-lg' style='color: black; float:right'></i>
 							</a>
 					</td>

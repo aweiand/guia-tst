@@ -1,8 +1,9 @@
 <?php require_once '../processa/bd.class.php' ?>
 <?php require_once '../processa/tst.classe.php' ?>
-
+<?php require_once '../processa/bd.class.php' ?>
 <html>
 	<head>
+		<link rel="stylesheet" href="font-awesome-4.6.2/css/font-awesome.min.css">
 		<link rel="stylesheet" href="style.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<script>
@@ -13,20 +14,37 @@
 			}
 		</script>
 	</head>
-	<body>
+	<body class="fundo_home">
 		<?php include "menu.php"; ?>
 		<p class="centraliza">
-		<a href="novo_risco.php?tipo=cadastra" style='text-decoration: none;'>Novo</a>
-		<table style="width:50%">
-		  <tr>
+			<table>
+			<thead class="topo_lista">
+				<tr>
+					<td colspan="5">
+						<strong>Lista de CNAE<strong>
+					</td>
+				</tr>
+			</thead>
+		  <tr class="topo_tabela">
 		    <!--Nomes Campos-->
-			<th>id</th> <th>risco</th> <th>descrição</th>
+			<th style='color: #FFF;'>Id</th>
+			<th style='color: #FFF;'>Risco</th>
+			<th style='color: #FFF;'>Descrição</th>
+			<th colspan="2">
+				<a href="novo_risco.php" style='text-decoration: none text-align:center' title='Adicionar'>
+					<i class='fa fa-2x fa-plus-square-o fa-lg' style='color: black;'></i>
+				</a>
+			</th>
+
 		  </tr>
 		  <?php
 			$risco = new risco();
 			$resultado = $risco->get_allRisco();
+			$cor = "#FFF";
 			while($linha = mysqli_fetch_array($resultado)){
-					echo "<tr>
+				$cor == "#c7efc3" ? $cor = "#FFF" : $cor = "#c7efc3";
+				
+					echo "<tr style='background-color: $cor;' >
 							<td>".
 								$linha['id_risco']
 							."</td>
@@ -37,10 +55,14 @@
 								$linha['descricao']
 							."</td>
 							<td class='td'>
-								<a href='edita_tst.php?COD=".$linha['id_risco']."'>Edita</a>
+								<a href='edita_tst.php?COD=".$linha['id_risco']."'>
+								<i class='fa fa-1g fa-trash fa-lg' style='color:black' title='Excluir'></i>
+								</a>
 							</td>
 							<td>
-								<a href='deleta_tst.php?menu=risco&COD=".$linha['id_risco']."' onclick='confirma()'>Deleta</a>
+								<a href='deleta_tst.php?menu=risco&COD=".$linha['id_risco']."' onclick='confirma()'>
+								<i class='fa fa-1g fa-pencil fa-lg' style='color:black' title='Editar'></i>
+								</a>
 							</td>
 						</tr>";
 				}
