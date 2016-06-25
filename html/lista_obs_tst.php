@@ -1,7 +1,7 @@
-
 <?php require_once '../processa/bd.class.php' ?>
 <html>
 	<head>
+		<link rel="stylesheet" href="font-awesome-4.6.2/css/font-awesome.min.css">
 		<link rel="stylesheet" href="style.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<script>
@@ -12,16 +12,21 @@
 			}
 		</script>
 	</head>
-	<body>
+	<body class="fundo_home">
 		<?php include "menu.php"; ?>
 		<p class="centraliza">
-		<a href="novo_tst.php" style='text-decoration: none;'>Novo</a>
-		<table style="width:50%">
-		  <tr>
-		    <!--Nomes Campos-->
-			<th>id</th> <th>observação</th>
+			<table>
+				<thead class="topo_lista_min">
+					<tr>
+						<th>ID</th> <th>Observação</th><th colspan="2">
+							<a href="novo_tst.php" style='text-decoration: none text-align:center ' title='Adicionar um novo CNAE'>
+						<i class='fa fa-1g fa-plus-square-o fa-lg' style='color: black; '></i>
+						</a>
+					</th>
+			</thead>
 		  </tr>
 		  <?php
+			$bd = new bd();
 			$resultado = $bd->get_all('observacao');
 			while($linha = mysqli_fetch_array($resultado)){
 					echo "<tr>
