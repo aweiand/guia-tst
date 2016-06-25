@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: 24-Jun-2016 às 06:25
+-- Generation Time: 25-Jun-2016 às 01:10
 -- Versão do servidor: 5.6.17
 -- PHP Version: 5.5.12
 
@@ -19,6 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `tst`
 --
+CREATE DATABASE IF NOT EXISTS `tst` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `tst`;
 
 -- --------------------------------------------------------
 
@@ -2894,7 +2896,7 @@ INSERT INTO `intervalo` (`id_intervalo`, `minimo`, `maximo`) VALUES
 (5, 1001, 2000),
 (6, 2001, 3500),
 (7, 3501, 5000),
-(8, 5000, 99999),
+(8, 5001, 99999),
 (9, 0, 19),
 (10, 20, 29),
 (11, 30, 50),

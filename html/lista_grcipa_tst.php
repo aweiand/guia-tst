@@ -9,7 +9,7 @@
 	<body class="fundo_home">
 		<?php include "menu.php"; ?>
 		<p class="centraliza">
-		<table style="width:50%">
+		<table style="width:100%">
 		
 			<thead class="topo_lista">
 				<tr>
@@ -42,7 +42,7 @@
 					
 						$cor == "#c7efc3" ? $cor = "#FFF" : $cor = "#c7efc3";
 						
-					echo "<tr>
+					echo "<tr style='background-color: $cor;'>
 							<td style='width: 10%;'>".
 								$linha['cipa']
 							."</td>
@@ -56,10 +56,14 @@
 								$linha_intervalo['minimo']
 							."</td>
 							<td class='td' style='width: 5%;'>
-								<a href='edita_tst.php?COD=".$linha['cipa']."&COD2=".$linha['tipo']."'>Edita</a>
+								<a href='edita_tst.php?COD=".$linha['cipa']."&COD2=".$linha['tipo']."'>
+								<i class='fa fa-1g fa-trash fa-lg' style='color:black' title='Excluir CNAE'></i>
+								</a>
 							</td>
 							<td class='td' style='width: 5%;'>
-								<a href='deleta_tst.php?menu=grupo_cipa&cipa=".$linha['cipa']."&tipo=".$linha['tipo']."' onclick='confirma()'>Deleta</a>
+								<a href='deleta_tst.php?menu=grupo_cipa&cipa=".$linha['cipa']."&tipo=".$linha['tipo']."' onclick='confirma()'>
+								<i class='fa fa-1g fa-pencil fa-lg' style='color:black' title='Editar CNAE'></i>
+								</a>
 							</td>
 						</tr>";
 				}

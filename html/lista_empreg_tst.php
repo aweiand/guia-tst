@@ -13,7 +13,7 @@
 		</script>
 	</head>
 	<body class="fundo_home">
-		<?php?>?>?> include "menu.php"; ?>
+		<?php include "menu.php"; ?>
 		<p class="centraliza">
 		<table>
 			<thead class="topo_lista">
@@ -27,6 +27,7 @@
 				</tr>
 			</thead>
 				<?php
+				$bd = new bd();
 				$resultado = $bd->get_all('empregado');
 				$cor = "#FFF";
 				while($linha = mysqli_fetch_array($resultado)){
