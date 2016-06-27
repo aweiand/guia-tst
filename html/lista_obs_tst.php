@@ -19,7 +19,7 @@
 				<thead class="topo_lista_min">
 					<tr>
 						<th>ID</th> <th>Observação</th><th colspan="2">
-							<a href="novo_tst.php" style='text-decoration: none text-align:center ' title='Adicionar um novo CNAE'>
+							<a href="novo_obs.php" style='text-decoration: none text-align:center ' title='Adicionar um novo CNAE'>
 						<i class='fa fa-1g fa-plus-square-o fa-lg' style='color: black; '></i>
 						</a>
 					</th>

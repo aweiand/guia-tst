@@ -2,7 +2,7 @@
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 			<link rel="stylesheet" href="style.css">
-			<link rel="stylesheet" href="/adrian/font-awesome-4.6.2/font-awesome-4.6.2/css/font-awesome.min.css">
+			<link rel="stylesheet" href="font-awesome-4.6.2/css/font-awesome.min.css">
 		<title>Pesquisa CNAE</title>
 	</head>
 	<body class="fundo_home">

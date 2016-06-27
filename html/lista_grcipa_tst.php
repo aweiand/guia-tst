@@ -27,7 +27,7 @@
 				<th style='color: #FFF;'>maximo</th>
 				<th style='color: #FFF;'>minimo</th>
 			<th colspan="2">
-				<a href="novo_tst.php" style='text-decoration: none text-align:center' title='Adicionar um novo CNAE'>
+				<a href="novo_grupo_cipa.php" style='text-decoration: none text-align:center' title='Adicionar um novo CNAE'>
 					<i class="fa fa-2x fa-plus-square-o fa-lg" style='color: black;'></i>
 				</a>
 			</th>

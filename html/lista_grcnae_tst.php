@@ -28,7 +28,7 @@
 			<th style='color: #FFF;'>CNAE</th>
 			<th style='color: #FFF;'>CIPA</th>
 			<th colspan="2">
-				<a href="novo_tst.php" style='text-decoration: none text-align:center' title='Novo'>
+				<a href="novo_grupo_cnae.php" style='text-decoration: none text-align:center' title='Novo'>
 					<i class='fa fa-2x fa-plus-square-o fa-lg' style='color: black;'></i>
 				</a>
 			</th>
