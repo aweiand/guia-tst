@@ -50,44 +50,33 @@
 			bd::__CONSTRUCT();
 		}
 		function set_cnae($num_cnae, $id_risco, $descricao){
-			$this->num_cnae = $num_cnae;
+			$this->num_cnae = "'".$num_cnae."'";
 			$this->descricao = "'".$descricao."'";
 			$this->id_risco = $id_risco;
 		}
-		function grava_bd_risco(){
-			bd::insere($this->tabela, $this->id_risco.','.$this->risco.','.$this->descricao);
+		function grava_bd_cnae(){
+			$retorno = bd::insere($this->tabela, $this->num_cnae.','.$this->id_risco.','.$this->descricao);
+			var_dump($retorno);
 		}
-		function get_allRisco(){
-			$dados = bd::get_all('risco');
+		function get_allCnae(){
+			$dados = bd::get_all('cnae');
 			return $dados;
 		}
-		function get_oneRisco($id_risco){
-			$dados = bd::get_all('risco', 'id_risco = '. $id_risco);
+		function get_oneCnae($num_cnae){
+			$dados = bd::get_all('cnae', 'num_cnae = '. $num_cnae);
 			return $dados;
 		}
-		function atualiza_risco($id_risco){
-			bd::atualiza($this->tabela, 'id_risco = '$this->id_risco.', risco = '.$this->risco.', descricao = '.$this->descricao, 'id_risco = '. $id_risco);
+		function atualiza_cnae($num_cnae){
+			$retorno = 	bd::atualiza($this->tabela, 'num_cnae = ' . $this->num_cnae.', id_risco = '.$this->id_risco.', descricao = '.$this->descricao, 'num_cnae = '." '".$num_cnae."' ");
+			return $retorno;
 		}
-		function deleta_risco($id_risco){
-			$retorno = bd::deleta($this->tabela,'id_risco = '. $id_risco);
+		function deleta_cnae($num_cnae){
+			$retorno = bd::deleta($this->tabela, 'num_cnae = '. $num_cnae);
 			return $retorno;
 		}
 	}
 
 
-	//------------------------------------------------------
-	/*class cnae extends risco{
-		private $codigo;
-		private $descricao;
-
-		function cria_cnae ($cod, $desc){
-			$this->codigo = cod;
-			$this->descricao = desc;
-		}
-		function set_risco(){
-
-		}
-	}
 	//--------------------------------------------------------------------
 	class empregado extends risco{
 		private $descricao_empregado;
@@ -180,15 +169,22 @@
 		function gettipo_efe(){
 			return $this->tipo_efe;
 		}
-	} */
+	}
 	//------------------------------------------------------------------
 
 
 	function edita_cadastra($menu){
-		if($menu == 'cadastra'){
-			echo 'Cadastrar';
+		if($menu == 'cadastrar'){
+			return 'Cadastrar';
 		}elseif($menu == 'editar'){
-			echo 'Editar';
+			return 'Editar';
+		}
+	}
+
+
+	function value_edita($tipo, $value){
+		if($tipo == 'editar'){
+			return $value;
 		}
 	}
 	?>

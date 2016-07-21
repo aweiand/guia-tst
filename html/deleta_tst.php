@@ -1,7 +1,7 @@
 <?php
 
-	require_once '../processa/bd.class.php';
-  require_once '../processa/tst.classe.php';
+	require_once '../processa/classes/bd.class.php';
+  require_once '../processa/classes/risco.class.php';
 	function confirma_deleta($retorno){
 		if($retorno == true){
 			echo "Excluído com sucesso!!";
@@ -11,15 +11,18 @@
 	}
 	switch ($_GET['menu']) {
 		case 'cnae':
-			$retorno = $bd->deleta('cnae', "num_cnae =". $_GET["COD"]);
+			$cnae = new cnae();
+			$retorno = $cnae->deleta('cnae', "num_cnae =". $_GET['num_cnae']);
 			var_dump($retorno);
 			confirma_deleta($retorno);
 			break;
 
 		case 'risco':
       $risco = new risco();
-			$retorno = $risco->deleta_risco($_GET["COD"]);
+			$retorno = $risco->deleta_risco($_GET["id_risco"]);
 			confirma_deleta($retorno);
+			echo "<a href='../html/lista_risco_tst.php' > Listar </a>";
+
 			break;
 
 		case 'observacao':

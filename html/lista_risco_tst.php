@@ -1,6 +1,7 @@
-<?php require_once '../processa/bd.class.php' ?>
-<?php require_once '../processa/tst.classe.php' ?>
-<?php require_once '../processa/bd.class.php' ?>
+<?php
+	require_once '../processa/classes/bd.class.php';
+	require_once '../processa/classes/risco.class.php';
+?>
 <html>
 	<head>
 		<link rel="stylesheet" href="font-awesome-4.6.2/css/font-awesome.min.css">
@@ -31,7 +32,7 @@
 			<th style='color: #FFF;'>Risco</th>
 			<th style='color: #FFF;'>Descrição</th>
 			<th colspan="2">
-				<a href="novo_risco.php" style='text-decoration: none text-align:center' title='Adicionar'>
+				<a href="novo_risco.php?tipo=cadastra" style='text-decoration: none text-align:center' title='Adicionar'>
 					<i class='fa fa-2x fa-plus-square-o fa-lg' style='color: black;'></i>
 				</a>
 			</th>
@@ -43,7 +44,7 @@
 			$cor = "#FFF";
 			while($linha = mysqli_fetch_array($resultado)){
 				$cor == "#c7efc3" ? $cor = "#FFF" : $cor = "#c7efc3";
-				
+
 					echo "<tr style='background-color: $cor;' >
 							<td>".
 								$linha['id_risco']
@@ -55,12 +56,12 @@
 								$linha['descricao']
 							."</td>
 							<td class='td'>
-								<a href='edita_tst.php?COD=".$linha['id_risco']."'>
+								<a href='deleta_tst.php?menu=risco&id_risco=".$linha['id_risco']."'>
 								<i class='fa fa-1g fa-trash fa-lg' style='color:black' title='Excluir'></i>
 								</a>
 							</td>
 							<td>
-								<a href='deleta_tst.php?menu=risco&COD=".$linha['id_risco']."' onclick='confirma()'>
+								<a href='novo_risco.php?tipo=editar&menu=risco&id_risco=".$linha['id_risco'].'&risco='.$linha['risco'].'&descricao='.$linha['descricao']."'>
 								<i class='fa fa-1g fa-pencil fa-lg' style='color:black' title='Editar'></i>
 								</a>
 							</td>

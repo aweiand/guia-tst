@@ -1,4 +1,4 @@
-<?php require_once '../processa/bd.class.php' ?>
+ <?php require_once '../processa/tst.classe.php' ?>
 <html>
 	<head>
 		<link rel="stylesheet" href="font-awesome-4.6.2/css/font-awesome.min.css">
@@ -31,13 +31,19 @@
 			<th style='color: #FFF;'>Risco</th>
 			<th style='color: #FFF;'>Descrição</th>
 			<th colspan="2">
-				<a href="novo_tst.php" style='text-decoration: none text-align:center' title='Adicionar um novo CNAE'>
+				<a href="novo_cnae.php?tipo=cadastrar&menu=cnae" style='text-decoration: none text-align:center' title='Adicionar um novo CNAE'>
 					<i class='fa fa-2x fa-plus-square-o fa-lg' style='color: black;'></i>
 				</a>
 			</th>
 
 		 </tr>
 			<?php
+			if(@$_GET['deleta'] == 'sim'){
+				$cnae = new cnae();
+				$retorno = $cnae->deleta('cnae', "num_cnae =". $_GET['num_cnae']);
+				// / var_dump($retorno);
+				// confirma_deleta($retorno);
+			}
 			$bd = new bd();
 			$resultado = $bd->get_all('cnae');
 			$cor = "#FFF";
@@ -60,12 +66,12 @@
 								$linha['descricao']
 							."</td>
 							<td class='td' style='width: 5%;'>
-								<a href='edita_tst.php?COD=".$linha['num_cnae']."'>
+								<a href='lista_cnae.php?deleta=sim&num_cnae=".$linha['num_cnae']."' onclick='confirma()'>
 									<i class='fa fa-1g fa-trash fa-lg' style='color:black' title='Excluir CNAE'></i>
 								</a>
 							</td>
 							<td class='td' style='width: 5%;'>
-								<a href='deleta_tst.php?menu=cnae&COD=".$linha['num_cnae']."' onclick='confirma()'>
+								<a href='novo_cnae.php?tipo=editar&menu=cnae&num_cnae=".$linha['num_cnae'].'&dados='.$linha['num_cnae'].'()'.$linha_risco['risco'].'()'.$linha['descricao']."' >
 								<i class='fa fa-1g fa-pencil fa-lg' style='color:black' title='Editar CNAE'></i>
 								</a>
 							</td>

@@ -1,4 +1,4 @@
-
+	
 <?php
 	// cadastra
 // altera
@@ -10,7 +10,7 @@
 	var $endereco;
 	var $conexao;
 		function __CONSTRUCT(){
-			$this->add_banco("root", "",'', "tst");
+			$this->add_banco("root", "1234",'', "tst");
 		}
 		function add_banco($usuario, $senha, $endereco = "localhost", $nome_bd){
 			$this->usuario = "$usuario";
@@ -25,7 +25,8 @@
 			if(is_null($campos)){
 				$consulta = "INSERT INTO $tabela VALUES($dados)";
 				$insere = mysqli_query($this->conexao, $consulta);
-				echo $consulta;
+				// echo $consulta;
+				return $insere;
 			}else{
 				$consulta = "INSERT INTO ($campos) $tabela VALUES ($dados)";
 				$insere = mysqli_query($this->conexao, $consulta);
@@ -82,7 +83,8 @@
 		}
 
 		function atualiza($tabela, $campos, $where){
-			$consulta = "UPDATE carro SET $campos WHERE $where";
+			$consulta = "UPDATE $tabela SET $campos WHERE $where";
+			var_dump($consulta);
 			$atualiza = mysqli_query($this->conexao, $consulta);
 			return $atualiza;
 		}
@@ -98,9 +100,6 @@
 		function query_sql(){
 		}
 
-		function value_edita($tipo, $value){
-			if($tipo == 'editar'){
-				echo $value;
-			}
-		}
+
+
 	}
