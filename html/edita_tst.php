@@ -1,7 +1,7 @@
 
 <html>
 	<head>
-	<link rel="stylesheet" href="/adrian/font-awesome-4.6.2/font-awesome-4.6.2/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../font-awesome-4.6.2//css/font-awesome.min.css">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Cadastro</title>
 	</head>
@@ -26,7 +26,7 @@
 			<input type="number" name="" value=""  required="required"/>
 			<br />
 			<br />
-			<a href="lista_cnae.php" style='text-decoration: none;'> 
+			<a href="lista_cnae.php" style='text-decoration: none;'>
 				<i class='fa fa-2x fa-check-square-o fa-lg' style='color:black;'></i>
 			<br />
 		</form>

@@ -1,5 +1,4 @@
 <?php
-	require_once '../processa/classes/bd.class.php';
 	require_once '../processa/classes/risco.class.php';
 ?>
 <html>

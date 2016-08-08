@@ -1,16 +1,16 @@
-<?php require_once '../processa/bd.class.php' ?>
+<?php require_once '../processa/classes/grupo_cipa.class.php' ?>
 <html>
 	<head>
-			<link rel="stylesheet" href="font-awesome-4.6.2/css/font-awesome.min.css" />
-			<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="font-awesome-4.6.2/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="style.css" />
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<?php require_once '../processa/bd.class.php'; ?>
+		<?php require_once '../processa/classes/bd.class.php'; ?>
 	</head>
 	<body class="fundo_home">
 		<?php include "menu.php"; ?>
 		<p class="centraliza">
 		<table style="width:100%">
-		
+
 			<thead class="topo_lista">
 				<tr>
 					<td colspan="6">
@@ -18,12 +18,12 @@
 					</td>
 				</tr>
 			</thead>
-			
+
 		  <tr class="topo_tabela">
-		  
+
 		    <!--Nomes Campos-->
 				<th style='color: #FFF;'>CIPA</th>
-				<th style='color: #FFF;'>Tipo</th> 
+				<th style='color: #FFF;'>Tipo</th>
 				<th style='color: #FFF;'>maximo</th>
 				<th style='color: #FFF;'>minimo</th>
 			<th colspan="2">
@@ -31,7 +31,7 @@
 					<i class="fa fa-2x fa-plus-square-o fa-lg" style='color: black;'></i>
 				</a>
 			</th>
-				
+
 		  </tr>
 		  <?php
 			$resultado = $bd->get_all('grupo_cipa');
@@ -39,9 +39,9 @@
 			while($linha = mysqli_fetch_array($resultado)){
 				$resultado_intervalo = $bd->get_all('intervalo', "id_intervalo = '".$linha['id_intervalo']."'");
 				while($linha_intervalo = mysqli_fetch_array($resultado_intervalo)){
-					
+
 						$cor == "#c7efc3" ? $cor = "#FFF" : $cor = "#c7efc3";
-						
+
 					echo "<tr style='background-color: $cor;'>
 							<td style='width: 10%;'>".
 								$linha['cipa']
@@ -69,7 +69,7 @@
 				}
 			}
 			?>
-		  
+
 		</table>
 	</body>
 </html>
