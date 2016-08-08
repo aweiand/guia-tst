@@ -26,6 +26,7 @@ body {
   border-style: solid;
 }
 
+
 .cabecalho{
   position: relative;
   /*text-align: left;*/
@@ -50,13 +51,13 @@ body {
 table, td {
     border: 1px solid white;
     border-collapse: collapse;
-	width: 100%;
+		width: 100%;
 
 }
 
-th, td {
-    padding: 20px;
 
+th, td {
+  padding: 20px;
 	height: 50px;
 	border: 5px solid white;
 }
@@ -96,6 +97,12 @@ th, td {
 	margin: auto;
 }
 
+.logo_resultado{
+	width:15%;
+	height: auto;
+	margin: auto;
+}
+
 .topo_lista{
 	background-color:#566857;
 	padding: 5%;
@@ -116,4 +123,15 @@ th, td {
 	background-color:#566857;
 	padding: 20px;
 	width: 200%;
+}
+
+
+.tbl-consulta {
+	width: 50%;
+	border: 1px solid black;
+	margin: 0 auto;
+	position: relative;
+	font-size: 20px;
+	box-shadow: 3px 2px 1px #999999;
+	border-radius: 10px;
 }

@@ -1,4 +1,4 @@
-<?php  require_once '../processa/bd.class.php' ?>
+<?php  require_once '../processa/classes/bd.class.php' ?>
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />

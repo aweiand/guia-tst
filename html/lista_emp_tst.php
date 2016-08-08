@@ -1,7 +1,7 @@
-<?php  require_once '../processa/bd.class.php' ?>
+<?php require_once '../processa/classes/empregado.class.php' ?>
 <html>
 	<head>
-		<link rel="stylesheet" href="/adrian/font-awesome-4.6.2/font-awesome-4.6.2/css/font-awesome.min.css">
+		<link rel="stylesheet" href="font-awesome-4.6.2/css/font-awesome.min.css">
 		<link rel="stylesheet" href="style.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<script>
@@ -13,7 +13,7 @@
 		</script>
 	</head>
 	<body class="fundo_home">
-		<?php include "menu.php"; ?>	
+		<?php include "menu.php"; ?>
 		<p class="centraliza">
 		<table>
 			<thead class="topo_lista">
@@ -23,7 +23,7 @@
 					</td>
 				</tr>
 			</thead>
-	
+
 		   <tr class="topo_tabela">
 		    <!--Nomes Campos-->
 
@@ -38,13 +38,13 @@
 			</th>
 		  </tr>
 			<?php
-			
-		
+
+
 				$cor = "#FFF";
 				$cor == "#c7efc3" ? $cor = "#FFF" : $cor = "#c7efc3";
 					echo "<tr>
-							<td> 
-								dado1	
+							<td>
+								dado1
 								</td>
 							<td>
 								dado2
@@ -61,8 +61,8 @@
 							</td>
 						</tr>";
 						echo "<tr>
-							<td> 
-								dado1	
+							<td>
+								dado1
 								</td>
 							<td>
 								dado2
@@ -78,7 +78,7 @@
 								</a>
 							</td>
 						</tr>";
-		
+
 			?>
 		  </tr>
 		</table>

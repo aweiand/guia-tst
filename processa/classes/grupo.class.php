@@ -1,6 +1,5 @@
-	
 <?php
-	// cadastra
+// cadastra
 // altera
 // seleciona
 	class bd{
