@@ -1,39 +1,82 @@
 
 <?php
-	// cadastra
-// altera
-// seleciona
-	class bd{
-	var $nome_bd ;
-	var $usuario;
-	var $senha ;
-	var $endereco;
-	var $conexao;
-		function __CONSTRUCT(){
-			$this->add_banco("root", "1234",'', "tst");
-		}
-		function add_banco($usuario, $senha, $endereco = "localhost", $nome_bd){
-			$this->usuario = "$usuario";
-			// var_dump($this->usuario);
-			$this->senha = "$senha";
-			$this->endereco = "$endereco";
-			$this->nome_bd = "$nome_bd";
-			$this->conexao = mysqli_connect($this->endereco, $this->usuario, $this->senha, $this->nome_bd) or die ("Erro ao conectar");
-			}
+/*
+*Classe para auxiliar a utilizar banco de dados.
+*Criado com mysqli usando estilo orientado a objetos.
+*Insere = ok
+*Deleta = ok
+*Atualiza = ok 
+*consulta = 
+*/
 
-		function insere($tabela, $dados, $campos = NULL){
-			if(is_null($campos)){
-				$consulta = "INSERT INTO $tabela VALUES($dados)";
-				$insere = mysqli_query($this->conexao, $consulta);
-				// echo $consulta;
-				return $insere;
+	class bd extends mysqli{
+	private $nome_bd;
+	private $usuario;
+	private $senha;
+	private $endereco;
+	private $conexao;
+
+		function __CONSTRUCT($host, $user, $pass, $db){
+			parent::__CONSTRUCT($host, $user, $pass, $db);
+			//Verifica se a conexão funcionou
+			if(mysqli_connect_error()){
+				die('Erro de conexão ('.mysqli_connect_errno().')'.mysqli_connect_error());
+			}
+		}
+		//faz uma consulta sql ao banco personalizada. É preciso digitar todo a consulta.
+		function consulta_sql($sql){
+			$resultado = parent::query($sql);
+			if($resultado == FALSE){
+				$resultado = 'Erro ao processar';
+				echo $resultado;
+			}
+			parent::close();
+    		return $resultado;
+		}
+
+		//Função para inserir dados ao banco de dados. o atributo dados deve ser passado como array. Ex: $dados ["campo" => "dados", "nome" => 'Tiago'].
+		//O atributo $campo serve para indicar se haverá campos, para tal indique como TRUE para adicionado dessa forma;
+		function insere($tabela, $dados, $campos = FALSE){
+			
+			foreach($dados as $campo => $dado){
+				$campos_bd[] = $campo;
+				$dados_bd[] = $dado;
+			}
+			$campos_bd = '( '.implode(', ', $campos_bd).' )';
+			$dados_bd = '( '.implode(', ', $dados_bd).' )';
+			if($campos === FALSE){
+				$consulta = "INSERT INTO $tabela VALUES $dados_bd";				
 			}else{
-				$consulta = "INSERT INTO ($campos) $tabela VALUES ($dados)";
-				$insere = mysqli_query($this->conexao, $consulta);
+				$consulta = "INSERT INTO $tabela $campos_bd  VALUES $dados_bd";
 			}
+			$resultado = $this->consulta_sql($consulta);
+			return $resultado;
+		}
+		function atualiza($tabela, $campos, $where){
+			foreach($campos  as $campo => $dado){
+				$dados[] = $campo.' = '.$dado;
+			}
+			foreach ($where as  $id => $id2) {
+				$where2[] = $id.' = '.$id2;
+			}			
+			$dados = implode(', ', $dados);
+			$where2 = implode(' ', $where2);	
+			$consulta = "UPDATE $tabela SET $dados WHERE $where2";
+			$resultado = $this->consulta_sql($consulta);			
+			return $resultado;			
+		}
+		//Função para deletar, passar o nome da tabela e a identificação
+		function deleta($tabela, $where){
+			foreach($where  as $campo => $dado){
+				$where2[] = $campo.' = '.$dado;
+			}
+			$where2 = implode(' ', $where2);
+			$consulta = "DELETE FROM $tabela WHERE $where2";
+			$resultado = $this->consulta_sql($consulta);
+			return $resultado;
 		}
 
-		 function get_one($tabela, $id = NULL){
+		function get_one($tabela, $id = NULL){
 				 $resultado = $this->get_all($tabela, $id);
 				 $linha = mysqli_fetch_array($resultado);
 				//  var_dump($linha);
@@ -42,21 +85,11 @@
 
 		function get_all($tabela, $id = NULL){
 			if(is_null($id)){
-				// echo "teste<br>";
-				// $bd = new bd;
 				$consulta = "SELECT * FROM $tabela";
-				// echo $consulta;
-				// echo "<br>";
-				$resultado = mysqli_query($this->conexao, $consulta);
-				return $resultado;
 			}else{
-				// echo "teste id";
-				$bd = new bd;
 				$consulta = "SELECT * FROM $tabela WHERE $id";
-				// echo $consulta;
-				// echo $this->conexao;
-				$resultado = mysqli_query($this->conexao, $consulta);
 			}
+			$resultado = $this->consulta_sql($consulta);
 			return $resultado;
 		}
 
@@ -81,28 +114,37 @@
 			}
 			return $resultado;
 		}
-
-		function atualiza($tabela, $campos, $where){
-			$consulta = "UPDATE $tabela SET $campos WHERE $where";
-			// var_dump($consulta);
-			$atualiza = mysqli_query($this->conexao, $consulta);
-			return $atualiza;
-		}
-
-		function deleta($tabela, $id){
-			$consulta = "DELETE FROM ". $tabela." WHERE ".$id;
-			// echo $consulta;
-			$deleta = mysqli_query($this->conexao, $consulta);
-			// var_dump($deleta);
-			return $deleta;
-		}
+		
+		//Adiciona aspas ao dado enviado.
 		function aspas($dado){
 			return "'".$dado."'";
 		}
 
-		function query_sql(){
-		}
-
-
-
 	}
+
+//Adicione aqui as configurações para o banco de dados
+//local do servidor
+$host = 'localhost';
+//usuario
+$user = 'root';
+//senha
+$pass = '';
+//nome do banco de dados
+
+//Nome do banco de dados
+$db = 'tst';
+$bd = new bd($host, $user, $pass, $db);
+
+//:::::::::::::::::::::::::::::::::::::::::::::::::teste:::::::::::::::::::::::::::::::::::::::::::::::::::::
+//$nome = 'oioi';
+//$where = ['id' => '27'];
+//$tabela = 'geral';
+//$dados = ['nome' => "'$nome'", 'telefone' => "'oioi'"];
+//$banco->insere('geral', $dados, TRUE);
+//$banco->atualiza('geral', $dados, ['id' => 4]);
+//$banco->deleta($tabela, $where);
+
+//$resultado = $bd->get_all('risco');
+//while($linha = mysqli_fetch_array($resultado)){
+	//echo $linha['descricao'];
+//}

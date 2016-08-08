@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 <?php require_once '../processa/classes/risco.class.php';?>
 <html>
+=======
+<?php
+	require_once '../processa/classes/risco.class.php';
+?>
+<html>
+>>>>>>> f3d66cb6d697830bfa6a99c92715ec5dfc47d3aa
 	<head>
 		<link rel="stylesheet" href="font-awesome-4.6.2/css/font-awesome.min.css">
 		<link rel="stylesheet" href="style.css">
@@ -29,6 +36,7 @@
 			<th style='color: #FFF;'>Risco</th>
 			<th style='color: #FFF;'>Descrição</th>
 			<th colspan="2">
+				<!-- Botão para adicionar novo risco -->
 				<a href="novo_risco.php?tipo=cadastra" style='text-decoration: none text-align:center' title='Adicionar'>
 					<i class='fa fa-2x fa-plus-square-o fa-lg' style='color: black;'></i>
 				</a>
@@ -36,7 +44,6 @@
 
 		  </tr>
 		  <?php
-			$risco = new risco();
 			$resultado = $risco->get_allRisco();
 			$cor = "#FFF";
 			while($linha = mysqli_fetch_array($resultado)){
