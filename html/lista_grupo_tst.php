@@ -1,9 +1,9 @@
 <?php  require_once '../processa/classes/bd.class.php' ?>
 <html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<link rel="stylesheet" href="font-awesome-4.6.2/css/font-awesome.min.css">
 		<link rel="stylesheet" href="style.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<script>
 			function confirma(){
 				if (!confirm('Deseja Excluir')){

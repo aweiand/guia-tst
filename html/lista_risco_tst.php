@@ -1,6 +1,4 @@
-<?php
-	require_once '../processa/classes/risco.class.php';
-?>
+<?php require_once '../processa/classes/risco.class.php';?>
 <html>
 	<head>
 		<link rel="stylesheet" href="font-awesome-4.6.2/css/font-awesome.min.css">
