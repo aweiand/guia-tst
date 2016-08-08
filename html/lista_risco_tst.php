@@ -32,6 +32,7 @@
 			<th style='color: #FFF;'>Risco</th>
 			<th style='color: #FFF;'>Descrição</th>
 			<th colspan="2">
+				<!-- Botão para adicionar novo risco -->
 				<a href="novo_risco.php?tipo=cadastra" style='text-decoration: none text-align:center' title='Adicionar'>
 					<i class='fa fa-2x fa-plus-square-o fa-lg' style='color: black;'></i>
 				</a>
@@ -39,7 +40,6 @@
 
 		  </tr>
 		  <?php
-			$risco = new risco();
 			$resultado = $risco->get_allRisco();
 			$cor = "#FFF";
 			while($linha = mysqli_fetch_array($resultado)){

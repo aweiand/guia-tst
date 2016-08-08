@@ -7,39 +7,40 @@
 		private $id_risco;
 		private $descricao;
 
-		function __CONSTRUCT(){
-			bd::__CONSTRUCT();
+		function __CONSTRUCT($host, $user, $pass, $db){
+			bd::__CONSTRUCT($host, $user, $pass, $db);
 		}
 
 		function set_cnae($num_cnae, $id_risco, $descricao){
-			$this->num_cnae = "'".$num_cnae."'";
-			$this->descricao = "'".$descricao."'";
+			$this->num_cnae = "'$num_cnae'";
+			$this->descricao = "'$descricao'";
 			$this->id_risco = $id_risco;
 		}
 
-		function grava_bd_cnae(){
-			$retorno = bd::insere($this->tabela, $this->num_cnae.','.$this->id_risco.','.$this->descricao);
-			var_dump($retorno);
+		function insere_cnae(){
+			$dados = ['num_cnae' => $this->cnae, 'id_risco' => $this->id_risco, 'descricao' => $this->descricao]
+			$resultado = bd::insere($this->tabela, $dados, TRUE);
+			var_dump($resultado);
 		}
 
 		function get_allCnae(){
-			$dados = bd::get_all('cnae');
-			return $dados;
-		}
-
-		function get_oneCnae($num_cnae){
-			$dados = bd::get_all('cnae', 'num_cnae = '. $num_cnae);
-			return $dados;
+			$consulta = "SELECT c.num_cnae, c.descricao, r.risco FROM cnae c
+				INNER JOIN risco r ON (c.id_risco=r.id_risco)"
+			$resultado = bd::consulta_sql($consulta);
+			return $resultado;
 		}
 
 		function atualiza_cnae($num_cnae){
-			$retorno = 	bd::atualiza($this->tabela, 'num_cnae = ' . $this->num_cnae.', id_risco = '.$this->id_risco.', descricao = '.$this->descricao, 'num_cnae = '." '".$num_cnae."' ");
-			return $retorno;
+			$dados = ['num_cnae' => $this->cnae, 'id_risco' => $this->id_risco, 'descricao' => $this->descricao]
+			$where = ['num_cnae' => $num_cnae];
+			$resultado = bd::atualiza($this->tabela,$dados, $where);
+			return $resultado;
 		}
 
 		function deleta_cnae($num_cnae){
-			$retorno = bd::deleta($this->tabela, 'num_cnae = '. $num_cnae);
-			return $retorno;
+			$where = ['num_cnae' => $num_cnae];
+			$resultado = bd::deleta($this->tabela, $where);
+			return $resultado;
 		}
 
 		function apresenta_cnae($cnae){
@@ -53,3 +54,4 @@
 			return $result;
 		}
 	}
+$cnae = new cnae($host, $user, $pass, $db);

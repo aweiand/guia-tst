@@ -1,4 +1,4 @@
-<?php require_once '../processa/bd.class.php' ?>
+<?php require_once '../processa/classes/bd.class.php' ?>
 <html>
 	<head>
 		<link rel="stylesheet" href="font-awesome-4.6.2/css/font-awesome.min.css">
@@ -26,7 +26,6 @@
 			</thead>
 		  </tr>
 		  <?php
-			$bd = new bd();
 			$resultado = $bd->get_all('observacao');
 			while($linha = mysqli_fetch_array($resultado)){
 					echo "<tr>
