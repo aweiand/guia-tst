@@ -1,5 +1,9 @@
 <?php require_once '../processa/classes/risco.class.php';?>
 <html>
+<<<<<<< HEAD
+
+=======
+>>>>>>> 0de6ae5449f8ed1f8d1c458c53526fc63ff65398
 	<head>
 		<link rel="stylesheet" href="font-awesome-4.6.2/css/font-awesome.min.css">
 		<link rel="stylesheet" href="style.css">
