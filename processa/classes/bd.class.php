@@ -72,6 +72,7 @@
 			}
 			$where2 = implode(' ', $where2);
 			$consulta = "DELETE FROM $tabela WHERE $where2";
+			// echo $consulta;
 			$resultado = $this->consulta_sql($consulta);
 			return $resultado;
 		}
@@ -87,7 +88,11 @@
 			if(is_null($id)){
 				$consulta = "SELECT * FROM $tabela";
 			}else{
-				$consulta = "SELECT * FROM $tabela WHERE $id";
+				foreach($id  as $campo => $dado){
+					$where[] = $campo.' = '.$dado;
+					$where = implode(' ', $where);
+				}
+				$consulta = "SELECT * FROM $tabela WHERE $where";
 			}
 			$resultado = $this->consulta_sql($consulta);
 			return $resultado;

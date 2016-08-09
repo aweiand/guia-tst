@@ -3,8 +3,9 @@
 $progresso = [
 'risco' = 'ok',
 'observacao' = 'ok',
-'cnae' = '',
+'cnae' = 'ok',
 'empregado' = 'ok',
 'intervalo' => 'ok',
+''
 
 ]

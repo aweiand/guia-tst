@@ -9,7 +9,7 @@
 	var $endereco;
 	var $conexao;
 		function __CONSTRUCT(){
-			$this->add_banco("root", "1234",'', "tst");
+			$this->add_banco("root", "",'', "tst");
 		}
 		function add_banco($usuario, $senha, $endereco = "localhost", $nome_bd){
 			$this->usuario = "$usuario";
