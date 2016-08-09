@@ -1,12 +1,6 @@
-<<<<<<< HEAD
 <?php require_once '../processa/classes/risco.class.php';?>
 <html>
-=======
-<?php
-	require_once '../processa/classes/risco.class.php';
-?>
-<html>
->>>>>>> f3d66cb6d697830bfa6a99c92715ec5dfc47d3aa
+
 	<head>
 		<link rel="stylesheet" href="font-awesome-4.6.2/css/font-awesome.min.css">
 		<link rel="stylesheet" href="style.css">

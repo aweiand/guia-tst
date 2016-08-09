@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php require_once '../processa/classes/bd.class.php' ?>
-=======
-<?php require_once '../processa/classes/bd.class.php' ?>
->>>>>>> f0811d48ffb940a61261c964acc474743015e47d
 <html>
 	<head>
 		<link rel="stylesheet" href="font-awesome-4.6.2/css/font-awesome.min.css">
