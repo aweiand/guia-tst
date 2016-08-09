@@ -97,9 +97,10 @@ th, td {
 }
 
 .logo_resultado{
-	width:15%;
+	width:30%;
 	height: auto;
 	margin: auto;
+	float: right;;
 }
 
 .topo_lista{
@@ -130,6 +131,7 @@ th, td {
 	border: 1px solid black;
 	margin: 0 auto;
 	position: relative;
+	top: 20px;
 	font-size: 20px;
 	box-shadow: 3px 2px 1px #999999;
 	border-radius: 10px;
