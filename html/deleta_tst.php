@@ -1,7 +1,8 @@
 <?php
 
-require_once '../processa/classes/bd.class.php';
 require_once '../processa/classes/risco.class.php';
+require_once '../processa/classes/cnae.class.php';
+
 function confirma_deleta($retorno){
 	if($retorno == true){
 		echo "Excluído com sucesso!!";
@@ -11,10 +12,8 @@ function confirma_deleta($retorno){
 }
 switch ($_GET['menu']) {
 	case 'cnae':
-		$cnae = new cnae();
-		$retorno = $cnae->deleta('cnae', "num_cnae =". $_GET['num_cnae']);
-		var_dump($retorno);
-		confirma_deleta($retorno);
+		$cnae->deleta_cnae("'".$_GET['num_cnae']."'");
+		echo "<a href='../html/lista_cnae.php' > Listar </a>";
 		break;
 
 	case 'risco':

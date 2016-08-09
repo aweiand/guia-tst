@@ -1,4 +1,6 @@
-<?php require_once '../processa/classes/cnae.class.php' ?>
+<?php require_once '../processa/classes/cnae.class.php';
+	require_once '../processa/classes/risco.class.php'
+ ?>
 <html>
 	<head>
 		<link rel="stylesheet" href="font-awesome-4.6.2/css/font-awesome.min.css">
@@ -38,18 +40,16 @@
 
 		 </tr>
 			<?php
-			if(@$_GET['deleta'] == 'sim'){
-				$cnae = new cnae();
-				$retorno = $cnae->deleta('cnae', "num_cnae =". $_GET['num_cnae']);
+			//if(@$_GET['deleta'] == 'sim'){
+			//	$cnae->deleta($_GET['num_cnae']);
 				// / var_dump($retorno);
 				// confirma_deleta($retorno);
-			}
-			$bd = new bd();
-			$resultado = $bd->get_all('cnae');
+			//}
+			$resultado = $cnae->get_allCnae();
 			$cor = "#FFF";
 			while($linha = mysqli_fetch_array($resultado)){
-				$resultado_risco = $bd->get_all('risco', "id_risco = '".$linha['id_risco']."'");
-				while($linha_risco = mysqli_fetch_array($resultado_risco)){
+				//$resultado_risco = $risco->get_oneRisco("id_risco = '".$linha['id_risco']."'");
+				//while($linha_risco = mysqli_fetch_array($resultado_risco)){
 
 					// var_dump($linha);
 
@@ -60,23 +60,23 @@
 								$linha['num_cnae']
 							."</td>
 							<td style='width: 10%;'>".
-								$linha_risco['risco'].
+								$linha['risco'].
 							"</td>
 							<td style='width: 40%;'>".
 								$linha['descricao']
 							."</td>
 							<td class='td' style='width: 5%;'>
-								<a href='lista_cnae.php?deleta=sim&num_cnae=".$linha['num_cnae']."' onclick='confirma()'>
+								<a href='deleta_tst.php?menu=cnae&deleta=sim&num_cnae=".$linha['num_cnae']."' onclick='confirma()'>
 									<i class='fa fa-1g fa-trash fa-lg' style='color:black' title='Excluir CNAE'></i>
 								</a>
 							</td>
 							<td class='td' style='width: 5%;'>
-								<a href='novo_cnae.php?tipo=editar&menu=cnae&num_cnae=".$linha['num_cnae'].'&dados='.$linha['num_cnae'].'()'.$linha_risco['risco'].'()'.$linha['descricao']."' >
+								<a href='novo_cnae.php?tipo=editar&menu=cnae&num_cnae=".$linha['num_cnae'].'&dados='.$linha['num_cnae'].'()'.$linha['risco'].'()'.$linha['descricao']."' >
 								<i class='fa fa-1g fa-pencil fa-lg' style='color:black' title='Editar CNAE'></i>
 								</a>
 							</td>
 						</tr>";
-				}
+				// }
 			}
 			?>
 		</table>

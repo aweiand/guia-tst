@@ -1,7 +1,7 @@
 <?php
 	require_once 'bd.class.php';
 
-	class cnae extends risco{
+	class cnae extends bd{
 		private $tabela = 'cnae';
 		private $num_cnae;
 		private $id_risco;
@@ -18,22 +18,21 @@
 		}
 
 		function insere_cnae(){
-			$dados = ['num_cnae' => $this->cnae, 'id_risco' => $this->id_risco, 'descricao' => $this->descricao]
+			$dados = ['num_cnae' => $this->num_cnae, 'id_risco' => $this->id_risco, 'descricao' => $this->descricao];
 			$resultado = bd::insere($this->tabela, $dados, TRUE);
-			var_dump($resultado);
 		}
 
 		function get_allCnae(){
 			$consulta = "SELECT c.num_cnae, c.descricao, r.risco FROM cnae c
-				INNER JOIN risco r ON (c.id_risco=r.id_risco)"
+				INNER JOIN risco r ON (c.id_risco=r.id_risco)";
 			$resultado = bd::consulta_sql($consulta);
 			return $resultado;
 		}
 
 		function atualiza_cnae($num_cnae){
-			$dados = ['num_cnae' => $this->cnae, 'id_risco' => $this->id_risco, 'descricao' => $this->descricao]
+			$dados = ['num_cnae' => $this->num_cnae, 'id_risco' => $this->id_risco, 'descricao' => $this->descricao];
 			$where = ['num_cnae' => $num_cnae];
-			$resultado = bd::atualiza($this->tabela,$dados, $where);
+			$resultado = bd::atualiza($this->tabela, $dados, $where);
 			return $resultado;
 		}
 
