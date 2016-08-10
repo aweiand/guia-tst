@@ -1,6 +1,6 @@
 <ul class="menu-lateral">
 		<li class="item-menu">
-			<a href="pesquisa_tst.php"><b>Home</b></a>
+			<a href="../index.php"><b>Home</b></a>
 		</li>
 		<li>
 			<a href="lista_cnae.php" style='text-decoration: none;'> CNAE</a>

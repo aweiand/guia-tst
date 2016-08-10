@@ -1,18 +1,18 @@
 <html>
 	<head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-			<link rel="stylesheet" href="style.css">
-			<link rel="stylesheet" href="font-awesome-4.6.2/css/font-awesome.min.css">
+			<link rel="stylesheet" href="html/style.css">
+			<link rel="stylesheet" href="html/font-awesome-4.6.2/css/font-awesome.min.css">
 		<title>Pesquisa CNAE</title>
 	</head>
 	<body class="fundo_home">
 
-		<form  class="home" method="GET" action="result_tst.php">
+		<form  class="home" method="GET" action="html/result_tst.php">
 
-			<img class="logo" src="img/logo1.png" alt="logo">
+			<img class="logo" src="html/img/logo1.png" alt="logo">
 
 			<div class="engrenagem">
-				<a href="cadastro_tst.php">
+				<a href="html/cadastro_tst.php">
 				<i class="fa fa-2x fa-cog" aria-hidden="true" style='color:black;'></i>
 			</a>
 			</div>
