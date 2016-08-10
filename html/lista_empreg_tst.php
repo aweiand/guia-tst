@@ -27,7 +27,6 @@
 				</tr>
 			</thead>
 				<?php
-				$bd = new bd();
 				$resultado = $bd->get_all('empregado');
 				$cor = "#FFF";
 				while($linha = mysqli_fetch_array($resultado)){

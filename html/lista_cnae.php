@@ -1,4 +1,5 @@
-<?php require_once '../processa/classes/cnae.class.php';
+<?php
+	require_once '../processa/classes/cnae.class.php';
 	require_once '../processa/classes/risco.class.php'
  ?>
 <html>
@@ -76,7 +77,6 @@
 								</a>
 							</td>
 						</tr>";
-				// }
 			}
 			?>
 		</table>

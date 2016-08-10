@@ -20,15 +20,12 @@
 				<tr>
 					<th>Intervalo</th> <th>Máximo</th> <th>Mínimo</th> <th colspan="2">
 						<a href="novo_intervalo.php" style='text-decoration: none text-align:center ' title='Adicionar um novo CNAE'>
-					<i class='fa fa-1g fa-plus-square-o fa-lg' style='color: black; '></i>
-					</a>
+							<i class='fa fa-1g fa-plus-square-o fa-lg' style='color: black; '></i>
+						</a>
 				</th>
 					</tr>
 			</thead>
-		<tr>
-		  </tr>
 		  <?php
-			$bd = new bd();
 			$resultado = $bd->get_all('intervalo');
 			$cor = "#FFF";
 			while($linha = mysqli_fetch_array($resultado)){

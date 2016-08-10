@@ -4,7 +4,13 @@
 		<link rel="stylesheet" href="font-awesome-4.6.2/css/font-awesome.min.css" />
 		<link rel="stylesheet" href="style.css" />
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<?php require_once '../processa/classes/bd.class.php'; ?>
+		<script>
+			function confirma(){
+				if (!confirm('Deseja Excluir')){
+					return false;
+				}
+			}
+		</script>
 	</head>
 	<body class="fundo_home">
 		<?php include "menu.php"; ?>
@@ -14,13 +20,11 @@
 			<thead class="topo_lista">
 				<tr>
 					<td colspan="6">
-						<strong>Lista de CNAE<strong>
+						<strong>Lista de CIPA<strong>
 					</td>
 				</tr>
 			</thead>
-
 		  <tr class="topo_tabela">
-
 		    <!--Nomes Campos-->
 				<th style='color: #FFF;'>CIPA</th>
 				<th style='color: #FFF;'>Tipo</th>
@@ -31,7 +35,6 @@
 					<i class="fa fa-2x fa-plus-square-o fa-lg" style='color: black;'></i>
 				</a>
 			</th>
-
 		  </tr>
 		  <?php
 			$resultado = $bd->get_all('grupo_cipa');

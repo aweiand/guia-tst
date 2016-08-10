@@ -35,7 +35,6 @@
 				</th>
 			  </tr>
 				 <?php
-					$bd = new bd();
 					$resultado = $bd->get_all('grupo');
 					$cor = "#FFF";
 					while($linha = mysqli_fetch_array($resultado)){

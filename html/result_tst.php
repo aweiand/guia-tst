@@ -164,7 +164,7 @@
 
       <tr>
         <td colspan="3">
-          <a style="float: right;" href="pesquisa_tst.php">
+          <a style="float: right;" href="../index.php">
           <i  style="float: right;" class="fa fa-3x fa-check-square-o fa-lg"></i>
       	</a>
         </td>

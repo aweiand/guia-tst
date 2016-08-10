@@ -17,18 +17,20 @@
 		<p class="centraliza">
 			<table>
 				<thead class="topo_lista_min">
-					<tr>
-						<th>ID</th> <th>Observação</th><th colspan="2">
+					<tr class="topo_tabela">
+						<th>ID</th> <th>Observação</th> <th colspan="2">
 							<a href="novo_obs.php" style='text-decoration: none text-align:center ' title='Adicionar um novo CNAE'>
-						<i class='fa fa-1g fa-plus-square-o fa-lg' style='color: black; '></i>
-						</a>
+								<i class='fa fa-1g fa-plus-square-o fa-lg' style='color: black; '></i>
+							</a>
 					</th>
+				</tr>
 			</thead>
-		  </tr>
 		  <?php
 			$resultado = $bd->get_all('observacao');
+			$cor = "#FFF";
 			while($linha = mysqli_fetch_array($resultado)){
-					echo "<tr>
+				$cor == "#c7efc3" ? $cor = "#FFF" : $cor = "#c7efc3";
+					echo "<tr tr style='background-color: $cor;' >
 							<td>".
 								$linha['id_observacao']
 							."</td>
@@ -44,7 +46,6 @@
 						</tr>";
 				}
 			?>
-		  </tr>
 		</table>
 	</body>
 </html>

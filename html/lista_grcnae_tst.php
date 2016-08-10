@@ -34,11 +34,12 @@
 			</th>
 		  </tr>
 		  <?php
-		  $bd = new bd();
 			$resultado = $bd->get_all('grupo_cnae');
 			$cor = "#FFF";
 			while($linha = mysqli_fetch_array($resultado)){
+
 				$cor == "#c7efc3" ? $cor = "#FFF" : $cor = "#c7efc3";
+
 					echo "<tr style='background-color: $cor;' >
 							<td style='width: 40%;'>".
 								$linha['num_cnae']

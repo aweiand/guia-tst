@@ -26,24 +26,21 @@
 
 		   <tr class="topo_tabela">
 		    <!--Nomes Campos-->
-
-
-
-		    <th> <style='width: 50% color: #FFF;'>Empregado</th>
-			<th> <style='width: 50% color: #FFF;'>Descrição</th>
+		  <th style='width: 50% color: #FFF;'>Empregado</th>
+			<th style='width: 50% color: #FFF;'>Descrição</th>
 			<th colspan="2">
-			<a href="novo_tst.php" style='text-decoration: none' title='Adicionar um novo CNAE> <style='width: 50%'>
+			<a href="novo_tst.php" style="text-decoration: none; width: 50%;" title="Adicionar um novo CNAE">
 			<i class='fa fa-2x fa-plus-square-o fa-lg' style='color: black;'></i>
 			</a>
 			</th>
 		  </tr>
 			<?php
-
-
+				$resultado = $bd->get_all('empregado');
 				$cor = "#FFF";
+				while($linha = mysqli_fetch_array($resultado)){
 				$cor == "#c7efc3" ? $cor = "#FFF" : $cor = "#c7efc3";
-					echo "<tr>
-							<td>
+					echo "<tr style='background-color: $cor;'>
+							<td style='width: 60%;'>
 								dado1
 								</td>
 							<td>
@@ -78,9 +75,8 @@
 								</a>
 							</td>
 						</tr>";
-
+				}
 			?>
-		  </tr>
 		</table>
 	</body>
 </html>
