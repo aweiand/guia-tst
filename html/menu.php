@@ -40,7 +40,7 @@
     font-size: 14pt;
     transition: all .1s linear;
     color: #333; /*Cor de cada opção de menu*/
-    border-bottom: 2px solid #222;
+    border-bottom: 6px solid #222;
     opacity: 0;
     margin-top: 20px;
   }
