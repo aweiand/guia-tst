@@ -1,11 +1,10 @@
-<?php
-	require_once '../processa/classes/cnae.class.php';
-	require_once '../processa/classes/risco.class.php'
- ?>
+
 <html>
 	<head>
-		<link rel="stylesheet" href="font-awesome-4.6.2/css/font-awesome.min.css">
-		<link rel="stylesheet" href="style.css">
+		<?php require_once '../../processa/classes/cnae.class.php';
+			require_once '../../processa/classes/risco.class.php' ?>
+		<link rel="stylesheet" href="../estilos/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="../estilos/style.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<script>
 			function confirma(){

@@ -41,13 +41,12 @@ switch ($_GET['menu']) {
 		break;
 
 	case 'grupo':
-		$bd->deleta('grupo', 'cipa = "'.$_GET["COD"].'" AND descricao = "'.$_GET['descricao'] .'"');
-		echo "Excluído com sucesso!!";
+		$grupo->deleta_grupo($_GET["COD"]);
+		//echo "Excluído com sucesso!!";
 		break;
 
 	case 'grupo_cipa':
-		$bd->deleta('grupo_cipa', 'cipa = "'.$_GET["cipa"].'" AND tipo = '.$_GET['tipo']);
-		echo "Excluído com sucesso!!";
+		$grupo->deleta_grupoCipa($_GET['cipa'], $_GET['tipo'], $_GET['id_intervalo'] );
 		break;
 
 }

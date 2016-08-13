@@ -1,8 +1,8 @@
-<?php  require_once '../processa/classes/bd.class.php' ?>
 <html>
 	<head>
-		<link rel="stylesheet" href="font-awesome-4.6.2/css/font-awesome.min.css">
-		<link rel="stylesheet" href="style.css">
+		<?php  require_once '../../processa/classes/grupo.class.php' ?>
+		<link rel="stylesheet" href="../estilos/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="../estilos/style.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<script>
 			function confirma(){
@@ -29,7 +29,7 @@
 				<th style='color: #FFF;'>CIPA</th>
 				<th style='color: #FFF;'>Descrição</th>
 				<th colspan="2">
-					<a href="novo_grupo.php" style='text-decoration: none text-align:center' title='Adicionar um novo CNAE'>
+					<a href="novo_grupo.php?tipo=cadastrar" style='text-decoration: none text-align:center' title='Adicionar um novo CNAE'>
 						<i class='fa fa-2x fa-plus-square-o fa-lg' style='color: black;'></i>
 					</a>
 				</th>

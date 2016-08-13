@@ -6,8 +6,8 @@
 		private $id_empregado = '';
 		private $descricao;
 
-		function __CONSTRUCT(){
-			bd::__CONSTRUCT();
+		function __CONSTRUCT($host, $user, $pass, $db){
+			bd::__CONSTRUCT($host, $user, $pass, $db);
 		}
 
 		function set_empregado($descricao ,$id_empregado = ''){
@@ -16,7 +16,7 @@
 		}
 
 		function insere_empregado(){
-			$dados = ['id_empregado' = $this->id_empregado, 'descricao' = $this->descricao];
+			$dados = ['id_empregado' => $this->id_empregado, 'descricao' => $this->descricao];
 			$retorno = bd::insere($this->tabela, $dados);
 			var_dump($retorno);
 		}
@@ -26,8 +26,8 @@
 			return $resultado;
 		}
 		function atualiza_empregado($id_empregado){
-			$dados = ['descricao' = $this->descricao];
-			$where = ['id_empregado' = $this->id_empregado];
+			$dados = ['descricao' => $this->descricao];
+			$where = ['id_empregado' => $this->id_empregado];
 			$retorno = 	bd::atualiza($this->tabela,$dados, $where);
 			return $retorno;
 		}

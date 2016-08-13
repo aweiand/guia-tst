@@ -5,7 +5,7 @@ $progresso = [
 'observacao' = 'ok',
 'cnae' = 'ok',
 'empregado' = 'ok',
-'intervalo' => 'ok',
+'intervaalo' => 'ok',
 ''
 
 ]
