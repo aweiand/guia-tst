@@ -1,22 +1,21 @@
-
 <html>
-	<head>
-		<?php require_once '../../processa/classes/cnae.class.php';
-			require_once '../../processa/classes/risco.class.php' ?>
-		<link rel="stylesheet" href="../estilos/font-awesome/css/font-awesome.min.css">
-		<link rel="stylesheet" href="../estilos/style.css">
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<script>
-			function confirma(){
-				if (!confirm('Deseja Excluir')){
-					return false;
-				}
+<head>
+	<?php require_once '../../processa/classes/cnae.class.php';
+				require_once '../../processa/classes/risco.class.php' ?>
+	<link rel="stylesheet" href="../estilos/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../estilos/style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script>
+		function confirma(){
+			if (!confirm('Deseja Excluir')){
+				return false;
 			}
-		</script>
-	</head>
-	<body class="fundo_home">
-		<?php include "menu.php"; ?>
-		<p class="centraliza">
+		}
+	</script>
+</head>
+<body class="fundo_home">
+	<?php include "menu.php"; ?>
+	<p class="centraliza">
 		<table>
 			<thead class="topo_lista">
 				<tr>
@@ -25,39 +24,25 @@
 					</td>
 				</tr>
 			</thead>
-
-		 <tr class="topo_tabela">
-		    <!--Nomes Campos-->
-
-			<th style='color: #FFF;'> Cód CNAE</th>
-			<th style='color: #FFF;'>Risco</th>
-			<th style='color: #FFF;'>Descrição</th>
-			<th colspan="2">
-				<a href="novo_cnae.php?tipo=cadastrar&menu=cnae" style='text-decoration: none text-align:center' title='Adicionar um novo CNAE'>
-					<i class='fa fa-2x fa-plus-square-o fa-lg' style='color: black;'></i>
-				</a>
-			</th>
-
-		 </tr>
+			<!--Nomes Campos-->
+			<tr class="topo_tabela">
+				<th style='color: #FFF;'> Cód CNAE</th>
+				<th style='color: #FFF;'>Risco</th>
+				<th style='color: #FFF;'>Descrição</th>
+				<th colspan="2">
+					<a href="novo_cnae.php?tipo=cadastrar&menu=cnae" style='text-decoration: none text-align:center' title='Adicionar um novo CNAE'>
+						<i class='fa fa-2x fa-plus-square-o fa-lg' style='color: black;'></i>
+					</a>
+				</th>
+			</tr>
 			<?php
-			//if(@$_GET['deleta'] == 'sim'){
-			//	$cnae->deleta($_GET['num_cnae']);
-				// / var_dump($retorno);
-				// confirma_deleta($retorno);
-			//}
 			$resultado = $cnae->get_allCnae();
 			$cor = "#FFF";
-			while($linha = mysqli_fetch_array($resultado)){
-				//$resultado_risco = $risco->get_oneRisco("id_risco = '".$linha['id_risco']."'");
-				//while($linha_risco = mysqli_fetch_array($resultado_risco)){
-
-					// var_dump($linha);
-
-					$cor == "#c7efc3" ? $cor = "#FFF" : $cor = "#c7efc3";
-
-					echo "<tr style='background-color: $cor;' >
-							<td style='width: 10%;'>".
-								$linha['num_cnae']
+			while($linha = mysqli_fetch_array($resultado)):
+				$cor == "#c7efc3" ? $cor = "#FFF" : $cor = "#c7efc3"; ?>
+				<tr style='background-color: <?php echo $cor ?>;' >
+					<td style='width: 10%;'>
+							<?php	$linha['num_cnae'] ?>
 							."</td>
 							<td style='width: 10%;'>".
 								$linha['risco'].
@@ -76,8 +61,8 @@
 								</a>
 							</td>
 						</tr>";
-			}
-			?>
+			<?php endwhile; ?>
 		</table>
-	</body>
+	</p>
+</body>
 </html>

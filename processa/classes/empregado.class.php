@@ -21,7 +21,7 @@
 			var_dump($retorno);
 		}
 
-		function get_allCnae(){
+		function get_allEmpregado(){
 			$resultado = bd::get_all($this->tabela);
 			return $resultado;
 		}

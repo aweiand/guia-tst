@@ -15,68 +15,45 @@
 	<body class="fundo_home">
 		<?php include "menu.php"; ?>
 		<p class="centraliza">
-		<table>
-			<thead class="topo_lista">
-				<tr>
-					<td colspan="4">
-						<strong>Lista de Grupos<strong>
-					</td>
-				</tr>
-			</thead>
-
-		   <tr class="topo_tabela">
-		    <!--Nomes Campos-->
-		  <th style='width: 50% color: #FFF;'>Empregado</th>
-			<th style='width: 50% color: #FFF;'>Descrição</th>
-			<th colspan="2">
-			<a href="novo_tst.php" style="text-decoration: none; width: 50%;" title="Adicionar um novo CNAE">
-			<i class='fa fa-2x fa-plus-square-o fa-lg' style='color: black;'></i>
-			</a>
-			</th>
-		  </tr>
-			<?php
-				$resultado = $bd->get_all('empregado');
+			<table>
+				<thead class="topo_lista">
+					<tr>
+						<td colspan="4">
+							<strong>Lista empregados<strong>
+						</td>
+					</tr>
+				</thead>
+				<!--Nomes Campos-->
+				<tr class="topo_tabela">
+					<th style='width: 50% color: #FFF;'>Descrição</th>
+					<th colspan="2">
+						<a href="../form_novo/empregado.php" style="text-decoration: none; width: 50%;" title="Adicionar um novo CNAE">
+							<i class='fa fa-2x fa-plus-square-o fa-lg' style='color: black;'></i>
+						</a>
+					</th>
+			  </tr>
+				<?php
+				$resultado = $empregado->get_allEmpregado();
 				$cor = "#FFF";
-				while($linha = mysqli_fetch_array($resultado)){
-				$cor == "#c7efc3" ? $cor = "#FFF" : $cor = "#c7efc3";
-					echo "<tr style='background-color: $cor;'>
+				while($linha = mysqli_fetch_array($resultado)):
+					$cor == "#c7efc3" ? $cor = "#FFF" : $cor = "#c7efc3"; ?>
+						<tr style='background-color: <?php echo $cor ?>;' >
 							<td style='width: 60%;'>
-								dado1
-								</td>
-							<td>
-								dado2
+								<?php echo $linha['descricao']; ?>
 							</td>
-							<td class='td'>
-								<a href='edita_tst.php?COD='>
-								<i class='fa fa-1g fa-trash fa-lg' style='color:black' title='Excluir Empregado'></i>
+							<td class='td'  style='width: 5%;'>
+										<a href='../../processa/processos/deleta.php' onclick='confirma()'>
+										<i class='fa fa-1g fa-trash fa-lg' style='color:black' title='Excluir Empregado'></i>
+										</a>
+							</td>
+							<td class='td'  style='width: 5%;'>
+								<a href='../../processa/processos/editar.php' >
+									<i class='fa fa-1g fa-pencil fa-lg' style='color:black' title='Editar Empregado'></i>
 								</a>
 							</td>
-							<td>
-								<a href='deleta_tst.php?COD=' onclick='confirma()'>Deleta
-								<i class='fa fa-1g fa-pencil fa-lg' style='color:black' title='Editar Empregado'></i>
-								</a>
-							</td>
-						</tr>";
-						echo "<tr>
-							<td>
-								dado1
-								</td>
-							<td>
-								dado2
-							</td>
-							<td class='td'>
-								<a href='edita_tst.php?COD='>
-								<i class='fa fa-1g fa-trash fa-lg' style='color:black' title='Excluir Empregado'></i>
-								</a>
-							</td>
-							<td>
-								<a href='deleta_tst.php?COD=' onclick='confirma()'>Deleta
-								<i class='fa fa-1g fa-pencil fa-lg' style='color:black' title='Editar Empregado'></i>
-								</a>
-							</td>
-						</tr>";
-				}
-			?>
-		</table>
+						</tr>
+					<?php endwhile; ?>
+			</table>
+	</p>
 	</body>
 </html>
