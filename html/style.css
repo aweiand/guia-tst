@@ -1,4 +1,3 @@
-
 body {
 		margin: 0px;
 }
@@ -26,7 +25,6 @@ body {
   font-size: 20px;
   border-style: solid;
 }
-
 
 .cabecalho{
   position: relative;
@@ -124,4 +122,72 @@ th, td {
 	background-color:#566857;
 	padding: 20px;
 	width: 200%;
+}
+.cabecalho-result{
+	width: 60%;
+	margin: auto;
+	position: relative;
+	top: 20px;
+	font-size: 20px;
+	box-shadow: 3px 2px 1px #999999;
+}
+.cabecalho-result td{
+	background-color: #ffffff;
+	font-size: 30;
+	text-align: center;
+}
+
+.tabela1 {
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		width: 60%;
+		margin: auto;
+		box-shadow: 3px 2px 1px #999999;
+}
+.tabela1 i {
+	color: black;
+}
+.tabela1 td{
+		/*border: 1px solid #ddd;*/
+		padding: 8px;
+}
+.tabela1 tr, .tabela1 td {
+	background-color: #f2f2f2;
+	font-size: 20;
+}
+.tabela2 {
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		width: 60%;
+		margin: auto;
+		box-shadow: 3px 2px 1px #999999;
+}
+.tabela2 td{
+		border: 1px solid #ddd;
+		padding: 8px;
+}
+
+.tabela2 tr:hover {background-color: #ddd;}
+.tabela2 tr {
+	background-color: #f2f2f2;
+	border-bottom-color: #566857;
+	border-bottom-style: solid;
+	border-bottom-width: 5pt;
+	font-size: 20;
+}
+.tabela3 {
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		width: 60%;
+		margin: auto;
+		box-shadow: 3px 2px 1px #999999;
+}
+.tabela3 td{
+		border: 1px solid #ddd;
+		padding: 8px;
+		text-align: center;
+}
+.tabela3 tr, .tabela3 td {
+	background-color: #f2f2f2;
+	font-size: 20;
+}
+.td-borda{
+	border: 5pt solid #566857;
 }
