@@ -1,3 +1,4 @@
+
 body {
 		margin: 0px;
 }
@@ -123,16 +124,4 @@ th, td {
 	background-color:#566857;
 	padding: 20px;
 	width: 200%;
-}
-
-
-.tbl-consulta {
-	width: 50%;
-	border: 1px solid black;
-	margin: 0 auto;
-	position: relative;
-	top: 20px;
-	font-size: 20px;
-	box-shadow: 3px 2px 1px #999999;
-	border-radius: 10px;
 }
