@@ -18,7 +18,7 @@
     <table class="cabecalho-result">
 
       <tr>
-        <td class="td-result" colspan="3">
+        <td colspan="3">
           <div>
           <img class="logo_resultado" src="img/logo1.png" alt="logo" />
           <a href="../index.php"></a>
@@ -29,7 +29,7 @@
     			</a>
     		  </div>
         </td>
-      </tr> 
+      </tr>
       <tr>
         <td colspan="3"><h3>CNAE</h3> 000-000-00</td>
 			</tr>

@@ -18,14 +18,14 @@
     <table class="cabecalho-result">
 
       <tr>
-        <td class="td-result" colspan="3">
+        <td colspan="3">
           <div>
           <img class="logo_resultado" src="img/logo1.png" alt="logo" />
           <a href="../index.php"></a>
           </div>
-          <div class="engrenagem">
-    			<a href="cadastro.php">
-    			<i class="fa fa-2x fa-cog" aria-hidden="true" style='color:black;' title='Configurações do sistema'></i>
+          <div class="check">
+    			<a href="../index.php">
+    			<i class="fa fa-2x fa-check-square-o fa-lg" title='Pesquisar novo CNAE'></i>
     			</a>
     		  </div>
         </td>
@@ -98,15 +98,6 @@
 				<td colspan="3">Suplente</td>
 				<td>1</td>
 			</tr>
-    </table>
-    <table class="tabela1">
-      <tr>
-        <td colspan="4">
-          <a style="float: right;" href="../index.php">
-          <i  style="float: right;" class="fa fa-3x fa-check-square-o fa-lg" title='Pesquisar novo CNAE'></i>
-      	  </a>
-        </td>
-      </tr>
     </table>
   </body>
 </html>

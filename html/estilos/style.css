@@ -83,7 +83,7 @@ th, td {
 	background-color: #c9c0c8;
 }
 
-.engrenagem{
+.check, .engrenagem{
 	float:left;
 	margin-left:1%;
 	margin-top: 1%;
@@ -143,7 +143,7 @@ th, td {
 		margin: auto;
 		box-shadow: 3px 2px 1px #999999;
 }
-.tabela1 i {
+.check i {
 	color: black;
 }
 .tabela1 td{
