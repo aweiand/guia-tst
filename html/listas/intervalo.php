@@ -30,7 +30,7 @@
 			$cor = "#FFF";
 			while($linha = mysqli_fetch_array($resultado)){
 			$cor == "#c7efc3" ? $cor = "#FFF" : $cor = "#c7efc3";
-					echo "<tr tr style='background-color: $cor;'>
+					echo "<tr style='background-color: $cor;'>
 							<td style='width: 60%;'>".
 								$linha['id_intervalo']
 							."</td>

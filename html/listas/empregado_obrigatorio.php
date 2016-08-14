@@ -37,12 +37,12 @@
 									."</td>
 									<td class='td' style='width: 5%;'>
 										<a href='edita_tst.php?COD=".$linha['id_empregado']."'>
-										<i class='fa fa-1g fa-trash fa-lg' style='color:black' title='Excluir CNAE'></i>
+										<i class='fa fa-1g fa-pensil fa-lg' style='color:black' title='Excluir CNAE'></i>
 										</a>
 									</td>
 									<td class='td' style='width: 5%;'>
 										<a href='deleta_tst.php?menu=empregado&COD=".$linha['id_empregado']."' onclick='confirma()'>
-										<i class='fa fa-1g fa-pencil fa-lg' style='color:black' title='Editar CNAE'></i>
+										<i class='fa fa-1g fa-trah fa-lg' style='color:black' title='Editar CNAE'></i>
 										</a>
 									</td>
 							</tr>";

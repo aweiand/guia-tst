@@ -38,15 +38,15 @@
 			<?php
 			$resultado = $cnae->get_allCnae();
 			$cor = "#FFF";
-			while($linha = mysqli_fetch_array($resultado)):
-				$cor == "#c7efc3" ? $cor = "#FFF" : $cor = "#c7efc3"; ?>
-				<tr style='background-color: <?php echo $cor ?>;' >
-					<td style='width: 10%;'>
-							<?php	$linha['num_cnae'] ?>
+			while($linha = mysqli_fetch_array($resultado)){
+			$cor == "#c7efc3" ? $cor = "#FFF" : $cor = "#c7efc3";
+					echo "<tr style='background-color: $cor;' >
+							<td style='width: 10%;'>".
+								$linha['num_cnae']
 							."</td>
 							<td style='width: 10%;'>".
-								$linha['risco'].
-							"</td>
+								$linha['risco']
+							."</td>
 							<td style='width: 40%;'>".
 								$linha['descricao']
 							."</td>
@@ -61,8 +61,8 @@
 								</a>
 							</td>
 						</tr>";
-			<?php endwhile; ?>
+			}
+						?>
 		</table>
-	</p>
 </body>
 </html>
