@@ -60,21 +60,21 @@
 </style>
 <body>
       <input type="checkbox" id="check">
-      <label id="icone" for="check"><img src="img/icone.png"/></label>
+      <label id="icone" for="check"><img src="../img/icone.png"/></label>
 
       <div class="barra">
 
         <nav>
-          <a href="../index.php"><div class="link">Home</div></a>
-          <a href="lista_cnae.php"><div class="link">CNAE</div></a>
-          <a href="lista_empreg_tst.php"><div class="link">Empregado</div></a>
-          <a href="lista_emp_tst.php"><div class="link">Empregado Obrigatório</div></a>
-          <a href="lista_intervalo_tst.php"><div class="link">Intervalos</div></a>
-          <a href="lista_obs_tst.php"><div class="link">Observação</div></a>
-          <a href="lista_grcnae_tst.php"><div class="link">Grupo CNAE</div></a>
-          <a href="lista_grcipa_tst.php"><div class="link">Grupo CIPA</div></a>
-          <a href="lista_grupo_tst.php"><div class="link">Grupo</div></a>
-          <a href="lista_risco_tst.php"><div class="link">Risco</div></a>
+          <a href="../../index.php"><div class="link">Home</div></a>
+          <a href="cnae.php"><div class="link">CNAE</div></a>
+          <a href="empregado.php"><div class="link">Empregado</div></a>
+          <a href="empregado_obrigatorio.php"><div class="link">Empregado Obrigatório</div></a>
+          <a href="grupo.php"><div class="link">Grupo</div></a>
+          <a href="grupo_cipa.php"><div class="link">Grupo CIPA</div></a>
+          <a href="grupo_cnae.php"><div class="link">Grupo CNAE</div></a>
+          <a href="intervalo.php"><div class="link">Intervalos</div></a>
+          <a href="observacao.php"><div class="link">Observação</div></a>
+          <a href="risco.php"><div class="link">Risco</div></a>
         </nav>
 
       </div>

@@ -9,7 +9,7 @@
 			<a href="lista_empreg_tst.php" style='text-decoration: none;'> Empregado</a>
 		</li>
 		<li>
-			<a href="lista_emp_tst.php" style='text-decoration: none;'> Empregados Obrigatórios</a>
+			<a href="lista_empreg_tst.php" style='text-decoration: none;'> Empregados Obrigatórios</a>
 		</li>
 		<li>
 			<a href="lista_intervalo_tst.php" style='text-decoration: none;'> Intervalo</a>

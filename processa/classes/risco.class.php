@@ -20,7 +20,7 @@
 			return $resultado;
 		}
 		function get_allRisco(){
-			$dados = bd::get_all('risco');
+			$dados = bd::get_all($this->tabela);
 			return $dados;
 		}
 		function get_oneRisco($id_risco){

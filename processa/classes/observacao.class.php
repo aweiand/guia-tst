@@ -1,7 +1,7 @@
 <?php
 require_once 'bd.class.php';
 //---------------------------------------------------------
-class obs extends bd{
+class observacao extends bd{
 	private $tabala = 'observacao';
 	private $observacao;
 	private $id_observacao = '';
@@ -33,5 +33,5 @@ class obs extends bd{
 		return $resultado;
 	}
 }
-$observacao = new risco($host, $user, $pass, $db);
+$observacao = new observacao($host, $user, $pass, $db);
 ?>

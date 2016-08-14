@@ -29,7 +29,7 @@
     			</a>
     		  </div>
         </td>
-      </tr>
+      </tr> 
       <tr>
         <td colspan="3"><h3>CNAE</h3> 000-000-00</td>
 			</tr>
