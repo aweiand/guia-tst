@@ -1,9 +1,9 @@
 <html>
 	<head>
 		<?php
-			require_once '../processa/classes/cnae.class.php';
-			require_once '../processa/classes/utils.class.php';
-			require_once '../processa/classes/risco.class.php';
+			require_once '../../processa/classes/utils.class.php';
+			require_once '../../processa/classes/empregado.obrigatorio.class.php';
+			require_once '../../processa/classes/risco.class.php';
 		?>
 		<link rel="stylesheet" href="style.css">
 		<meta http-equiv="Content-Type" content="text/html; chaset=utf-8" />

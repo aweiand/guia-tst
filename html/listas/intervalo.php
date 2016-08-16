@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<?php  require_once '../../processa/classes/intervalo.class.php' ?>
+		<?php require_once '../../processa/classes/intervalo.class.php' ?>
 		<link rel="stylesheet" href="../estilos/font-awesome/css/font-awesome.min.css">
 		<link rel="stylesheet" href="../estilos/style.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -19,7 +19,7 @@
 			<thead class="topo_lista_min">
 				<tr>
 					<th>Intervalo</th> <th>Máximo</th> <th>Mínimo</th> <th colspan="2">
-						<a href="novo_intervalo.php" style='text-decoration: none text-align:center ' title='Adicionar um novo CNAE'>
+						<a href="../form_novo/intervalo.php" style='text-decoration: none text-align:center ' title='Adicionar um novo CNAE'>
 							<i class='fa fa-1g fa-plus-square-o fa-lg' style='color: black; '></i>
 						</a>
 				</th>

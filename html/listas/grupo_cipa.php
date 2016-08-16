@@ -31,7 +31,7 @@
 				<th style='color: #FFF;'>maximo</th>
 				<th style='color: #FFF;'>minimo</th>
 			<th colspan="2">
-				<a href="novo_grupo_cipa.php" style='text-decoration: none text-align:center' title='Adicionar um novo CNAE'>
+				<a href="../form_novo/grupo_cipa.php" style='text-decoration: none text-align:center' title='Adicionar um novo CNAE'>
 					<i class="fa fa-2x fa-plus-square-o fa-lg" style='color: black;'></i>
 				</a>
 			</th>
@@ -40,8 +40,8 @@
 			$resultado = $bd->get_all('grupo_cipa');
 				$cor = "#FFF";
 			while($linha = mysqli_fetch_array($resultado)){
+				//while($linha_intervalo = mysqli_fetch_array($resultado_intervalo)){
 				$resultado_intervalo = $bd->get_all('intervalo', "id_intervalo = '".$linha['id_intervalo']."'");
-				while($linha_intervalo = mysqli_fetch_array($resultado_intervalo)){
 
 						$cor == "#c7efc3" ? $cor = "#FFF" : $cor = "#c7efc3";
 
@@ -69,7 +69,7 @@
 								</a>
 							</td>
 						</tr>";
-				}
+				//}
 			}
 			?>
 

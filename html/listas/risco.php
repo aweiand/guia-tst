@@ -30,7 +30,7 @@
 			<th style='color: #FFF;'>Descrição</th>
 			<th colspan="2">
 				<!-- Botão para adicionar novo risco -->
-				<a href="novo_risco.php?tipo=cadastra" style='text-decoration: none text-align:center' title='Adicionar'>
+				<a href="../form_novo/risco.php?tipo=cadastra" style='text-decoration: none text-align:center' title='Adicionar'>
 					<i class='fa fa-2x fa-plus-square-o fa-lg' style='color: black;'></i>
 				</a>
 			</th>

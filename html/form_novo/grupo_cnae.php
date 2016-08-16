@@ -2,9 +2,13 @@ novo_grupo_cnae.php
 
 <html>
 	<head>
+		<?php
+			require_once '../../processa/classes/cnae.class.php';
+			require_once '../../processa/classes/utils.class.php';
+			require_once '../../processa/classes/risco.class.php';
+		?>
 		<link rel="stylesheet" href="style.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
 	</head>
 	<body>
 		<form method="GET" action="">
@@ -21,7 +25,7 @@ novo_grupo_cnae.php
 				<option value="">numero do cnae</option>
 		</select>
 		<br />
-	
+
 		<button>Enviar</button>
 	</body>
 </html>

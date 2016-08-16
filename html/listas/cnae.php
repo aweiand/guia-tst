@@ -1,7 +1,8 @@
 <html>
 <head>
 	<?php require_once '../../processa/classes/cnae.class.php';
-				require_once '../../processa/classes/risco.class.php' ?>
+				require_once '../../processa/classes/risco.class.php'
+				 ?>
 	<link rel="stylesheet" href="../estilos/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="../estilos/style.css">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -30,7 +31,7 @@
 				<th style='color: #FFF;'>Risco</th>
 				<th style='color: #FFF;'>Descrição</th>
 				<th colspan="2">
-					<a href="novo_cnae.php?tipo=cadastrar&menu=cnae" style='text-decoration: none text-align:center' title='Adicionar um novo CNAE'>
+					<a href="../form_novo/cnae.php?tipo=cadastrar&menu=cnae" style='text-decoration: none text-align:center' title='Adicionar um novo CNAE'>
 						<i class='fa fa-2x fa-plus-square-o fa-lg' style='color: black;'></i>
 					</a>
 				</th>

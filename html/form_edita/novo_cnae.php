@@ -1,10 +1,12 @@
 <html>
 	<head>
-		<?php require_once '../processa/classes/cnae.class.php';
+		<?php
+			require_once '../processa/classes/cnae.class.php';
 			require_once '../processa/classes/utils.class.php';
-			require_once '../processa/classes/risco.class.php'; ?>
-	<link rel="stylesheet" href="font-awesome-4.6.2/css/font-awesome.min.css">
-	<link rel="stylesheet" href="style.css">
+			require_once '../processa/classes/risco.class.php';
+	 	?>
+	<link rel="stylesheet" href="../estilos/font-awesome-4.6.2/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../estilos/style.css">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Cadastro</title>
 	</head>
@@ -15,7 +17,7 @@
 			@$dados = explode("()", $dados);
 			// echo $dados[1];
 		?>
-		<form class="home" method="GET" action="../processa/processa_grava.php">
+		<form class="home" method="GET" action="../../processa/processa_grava.php">
 			<br><label><b>CNAE (Preencha todos os campos!)</b></label><br>
 			<p>Código</p>
 				<input type="text" name="num_cnae" value=" <?php echo @value_edita($_GET['tipo'], $dados[0]); ?> " required="required"/>

@@ -19,8 +19,8 @@
 			<thead class="topo_lista">
 				<tr>
 					<td colspan="3">
-						<strong>Empregado<strong>
-							<a href="novo_empregado.php" style='text-decoration: none text-align:center ' title='Adicionar um novo CNAE'>
+						<strong>Empregado Obrigatório<strong>
+							<a href="../form_novo/empregado_obrigatorio.php" style='text-decoration: none text-align:center ' title='Adicionar um novo CNAE'>
 							<i class='fa fa-1g fa-plus-square-o fa-lg' style='color: black; float:right'></i>
 							</a>
 					</td>
@@ -36,13 +36,13 @@
 										$linha['descricao']
 									."</td>
 									<td class='td' style='width: 5%;'>
-										<a href='edita_tst.php?COD=".$linha['id_empregado']."'>
+										<a href='form_edita/cnae.php?COD=".$linha['id_empregado']."'>
 										<i class='fa fa-1g fa-pensil fa-lg' style='color:black' title='Excluir CNAE'></i>
 										</a>
 									</td>
 									<td class='td' style='width: 5%;'>
 										<a href='deleta_tst.php?menu=empregado&COD=".$linha['id_empregado']."' onclick='confirma()'>
-										<i class='fa fa-1g fa-trah fa-lg' style='color:black' title='Editar CNAE'></i>
+										<i class='fa fa-1g fa-trash fa-lg' style='color:black' title='Editar CNAE'></i>
 										</a>
 									</td>
 							</tr>";

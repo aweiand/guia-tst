@@ -2,33 +2,36 @@
 
 <html>
 	<head>
-		<link rel="stylesheet" href="style.css">
+		<?php
+			require_once '../../processa/classes/cnae.class.php';
+			require_once '../../processa/classes/utils.class.php';
+			require_once '../../processa/classes/risco.class.php';
+		?>
+		<link rel="stylesheet" href="../estilos/style.css">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
 	</head>
-	<body>
-		<form method="GET" action="">
-		Cipa
-		<br />
-		<select name="cipa" required="required"/>
+
+	<body class="fundo_home">
+
+		<form class="home" method="GET" action="">
+
+			<br><label><b>CIPA</b></label><br>
+				<select name="cipa" required="required"/>
 				<option value="">cipa</option>
-		</select>
-		<br />
-		tipo
-		<br />
-		<input type="text" name="tipo" required="required"/>
-		<br />
-		intervalo
-		<br />
-		<select name="id_intervalo" required="required"/>
-				<option value="">id intervalo</option>
-		</select>
-		<br />
-		Quantidade
-		<br />
-		<textarea name="quantidade" required="required" />
-		
-		<br />
-		<button>Enviar</button>
+			</select><br>
+
+			<br><label><b>Tipo</b></label><br>
+				<input type="text" name="tipo" required="required"/><br>
+
+			<br><label><b>Intervalo</b></label><br>
+				<select name="id_intervalo" required="required"/>
+				<option value="">Id Intervalo</option>
+				</select><br>
+
+			<br><label><b>Quantidade</b></label><br>
+				<textarea name="quantidade" required="required"></textarea><br>
+
+			<br><button>Enviar</button><br><br><br>
+
 	</body>
 </html>
