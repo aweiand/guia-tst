@@ -3,7 +3,7 @@ require_once 'bd.class.php';
 class grupo extends bd{
 	private $tabela = 'grupo';
 	private $cipa;
-	private $descricao;	
+	private $descricao;
 
 	function __CONSTRUCT($host, $user, $pass, $db){
 		bd::__CONSTRUCT($host, $user, $pass, $db);
@@ -19,7 +19,12 @@ class grupo extends bd{
 		$resultado = bd::insere($this->tabela, $dados);
 		return $resultado;
 	}
-
+	function getNumeroCnaeECipa(){
+		bd::consulta_sql('SELECT cn.num_cnae, ci.cipa FROM grupo_cnae gc
+			INNER JOIN grupo ci ON (gc.cipa=ci.cipa)
+			INNER JOIN cnae cn ON (gc.num_cnae=cn.num_cnae)
+');
+	}
 	function get_allGrupo(){
 		$resultado = bd::get_all($this->tabela);
 		return $resultado;

@@ -1,37 +1,36 @@
 <html>
-	<head>
-		<?php
-			require_once '../processa/classes/cnae.class.php';
-			require_once '../processa/classes/utils.class.php';
-			require_once '../processa/classes/risco.class.php';
-		?>
-		<link rel="stylesheet" href="style.css">
-		<meta http-equiv="Content-Type" content="text/html; chaset=utf-8" />
-	</head>
-	<body class="fundo_home">
-		<form class="home" method="GET" action="../processa/processa_grava.php">
-			<br><label><b>Risco</b></label><br>
-				<select name="id_risco" required="required"/>
-				<option value="">id risco</option>
-				</select><br>
-
-			<br><label><b>Intervalo</b></label><br>
-				<select name="id_intervalo" required="required"/>
-				<option value="">id intervalo</option>
-				</select><br>
-
-			<br><label><b>Empregado</b></label><br>
-				<select name="id_empregado" required="required"/>
-				<option value="">id empregado</option>
-				</select><br>
-
-			<br><label><b>Observação</b></label><br>
-				<select name="id_observacao" required="required"/>
-				<option value="">id observação</option>
-				</select><br>
-
-			<br><label><b>Quantidade</b></label><br>
-				<textarea name="quantidade" required="required"></textarea><br><br>
-			<button>Enviar</button><br><br>
-	</body>
+<head>
+	<link rel="stylesheet" href="../estilos/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../estilos/style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Cadastro Empregado Ori</title>
+</head>
+<body class="fundo_home">
+	<div class="home">
+		<!--  Botão voltar-->
+		<div class="engrenagem">
+			<a href="../listas/" style='text-decoration: none;'>
+				<i class='fa fa-chevron-left' style='color:black;'></i>
+			</a>
+		</div>
+		<!-- Formulario  -->
+		<form  method="GET" action="../../processa/processa_grava.php">
+		</br><label><b>Empregado Obrigatório (Preencha todos os campos!)</b></label>
+			<p>Risco</p>
+				<input type="text" name="num_cnae" required="required"/>
+			<p>Intervalo</p>
+				<textarea name="descricao" required="required"></textarea>
+			<p>Empregado</p>
+				<select name='id_risco' selected='selecionado'=>
+					<?php	$resultado = $risco->get_allRisco();
+					while($linha = mysqli_fetch_array($resultado)):
+						echo "<option value=".$linha['id_risco'].">". $linha['risco']." </option> ";
+					endwhile; ?>
+				</select>
+				<!-- Campo para enviar para o arquivo de cadatro para identificar qual tabela inserir -->
+			<input type='hidden' name='menu' value='cnae' />
+			<p><button>Cadastrar</button></p><br>
+		</form>
+	</div>
+</body>
 </html>

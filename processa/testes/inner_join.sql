@@ -10,4 +10,6 @@ SELECT eo.id_emp_obg,eo.quantidade,r.risco,i.minimo,i.maximo,ep.descricao,obs.ob
 SELECT c.num_cnae, c.descricao, r.risco FROM cnae c
 	INNER JOIN risco r ON (c.id_risco=r.id_risco)
 
-
+SELECT cn.num_cnae, ci.cipa FROM grupo_cnae gc
+	INNER JOIN grupo ci ON (gc.cipa=ci.cipa)
+	INNER JOIN cnae cn ON (gc.num_cnae=cn.num_cnae)
