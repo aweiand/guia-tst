@@ -34,6 +34,13 @@
 
             return $resultado;
         }
+        public function get_oneCnae($numero_cnae)
+        {
+          $consulta = "SELECT c.num_cnae, c.descricao, r.risco, c.id_risco   FROM cnae c
+            INNER JOIN risco r ON (c.id_risco=r.id_risco) WHERE num_cnae = '$numero_cnae' ";
+          $resultado = bd::consulta_sql($consulta);
+            return $resultado;
+        }
 
         public function atualiza_cnae($num_cnae)
         {
