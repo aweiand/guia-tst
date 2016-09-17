@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_names">
+        <item value="0#50">0 a 50</item>
+        <item value="0#50">50 a 100</item>
+        <item value="0#50">100 a 150</item>
+        <item value="0#50">150 a 200</item>
+        <item value="0#50">Mais de 200</item>
+    </string-array>
+
+    <string-array name="array_name_values">
+        <item>0#50</item>
+        <item>50#100</item>
+        <item>100#150</item>
+        <item>150#200</item>
+        <item>200#+</item>
+    </string-array>
+</resources>
