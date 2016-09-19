@@ -16,17 +16,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/inptCnae"
-        android:layout_marginTop="41dp"
         android:width="300dp"
-        android:layout_centerHorizontal="true"
-        android:text="46141" />
+        android:text="46141"
+        android:layout_marginBottom="23dp"
+        android:layout_above="@+id/textView3"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Consultar"
         android:id="@+id/btnConsultar"
-        android:layout_centerVertical="true"
+        android:layout_marginBottom="135dp"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
     <TextView
@@ -35,7 +37,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Número CNAE"
         android:id="@+id/textView2"
-        android:layout_alignParentTop="true"
+        android:layout_above="@+id/inptCnae"
         android:layout_alignLeft="@+id/inptCnae"
         android:layout_alignStart="@+id/inptCnae" />
 
@@ -45,11 +47,10 @@
         android:id="@+id/spinner"
         android:drawSelectorOnTop="true"
         android:entries="@array/array_names"
-        android:entryValues="@array/array_name_values"
+        android:layout_marginBottom="33dp"
         android:layout_above="@+id/btnConsultar"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginBottom="31dp" />
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -60,5 +61,17 @@
         android:layout_above="@+id/spinner"
         android:layout_alignLeft="@+id/inptCnae"
         android:layout_alignStart="@+id/inptCnae" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@mipmap/logo1"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/inptCnae"
+        android:layout_alignEnd="@+id/inptCnae"
+        android:layout_above="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
 
 </RelativeLayout>

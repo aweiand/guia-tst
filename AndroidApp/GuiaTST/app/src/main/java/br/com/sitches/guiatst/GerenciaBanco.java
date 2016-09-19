@@ -10,6 +10,7 @@ import org.apache.commons.io.IOUtils;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -91,13 +92,14 @@ public class GerenciaBanco extends SQLiteOpenHelper {
         Log.d("GUIA-TST", "Registros Inseridos na Base!");
     }
 
-    public List<EmpregadoObrigatorio> getDataByCnaeFuncionario(String cnae, String minimo, String maximo){
+    public ArrayList<EmpregadoObrigatorio> getDataByCnaeFuncionario(String cnae, String minimo, String maximo){
         SQLiteDatabase db = getWritableDatabase();
-        List<EmpregadoObrigatorio> listaEmpregadoObr = null;
+        ArrayList<EmpregadoObrigatorio> listaEmpregadoObr = new ArrayList<EmpregadoObrigatorio>();
         Cursor cursor;
         Log.d("GUIA-TST", "Cheguei Aqui");
 
-        cursor = db.rawQuery("SELECT * " +
+        cursor = db.rawQuery("SELECT c.num_cnae as cnae, c.descricao as cnae_desc, eo.quantidade, " +
+                                " r.risco, i.minimo, i.maximo, e.descricao ,o.observacao " +
                                 " FROM empregado_obrigatorio eo " +
                                     " INNER JOIN cnae c ON (eo.id_risco = c.id_risco) " +
                                     " INNER JOIN risco r ON (c.id_risco = r.id_risco) " +
@@ -112,22 +114,23 @@ public class GerenciaBanco extends SQLiteOpenHelper {
 
         if( cursor != null ) {
             while (cursor.moveToNext()) {
-                EmpregadoObrigatorio empregadoObrigatorio;
-                empregadoObrigatorio = new EmpregadoObrigatorio(
+                EmpregadoObrigatorio empregadoObrigatorio = new EmpregadoObrigatorio(
+                        cursor.getString(cursor.getColumnIndex("cnae")),
+                        cursor.getString(cursor.getColumnIndex("cnae_desc")),
                         cursor.getString(cursor.getColumnIndex("risco")),
                         cursor.getString(cursor.getColumnIndex("minimo")),
                         cursor.getString(cursor.getColumnIndex("maximo")),
-                        cursor.getString(cursor.getColumnIndex("empregado")),
+                        cursor.getString(cursor.getColumnIndex("descricao")),
                         cursor.getString(cursor.getColumnIndex("observacao")),
                         cursor.getString(cursor.getColumnIndex("quantidade"))
                 );
 
                 listaEmpregadoObr.add(empregadoObrigatorio);
             }
-            cursor.close();
         } else {
             Log.d("GUIA-TST", "O select retornou vazio..");
         }
+        cursor.close();
 
         return listaEmpregadoObr;
     }

@@ -1,5 +1,7 @@
 package br.com.sitches.guiatst;
 
+import android.app.Fragment;
+import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -16,6 +18,7 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity
@@ -48,12 +51,24 @@ public class MainActivity extends AppCompatActivity
                 EditText cnae = (EditText) findViewById(R.id.inptCnae);
                 Spinner funcs = (Spinner) findViewById(R.id.spinner);
 
-                Log.d("GUIA-TST", "Selecionados!");
-                Log.d("GUIA-TST", cnae.getText().toString());
-                Log.d("GUIA-TST", funcs.getSelectedItem().toString());
+                String minimo = funcs.getSelectedItem().toString().split("-")[0];
+                String maximo = funcs.getSelectedItem().toString().split("-")[1];
 
-                List<EmpregadoObrigatorio> dataByCnaeFuncionario = gerenciaBanco.getDataByCnaeFuncionario(cnae.getText().toString(), "50", "100");
+                ArrayList<EmpregadoObrigatorio> dataByCnaeFuncionario = gerenciaBanco.getDataByCnaeFuncionario(cnae.getText().toString(), minimo, maximo);
                 Toast.makeText(v.getContext(), dataByCnaeFuncionario.get(0).getRisco(), Toast.LENGTH_LONG).show();
+
+//                TODO :: Abir o fragmento no resultado e enviar os dados.
+// Create new fragment and transaction
+                Fragment newFragment = new RestuladoConsulta();
+                FragmentTransaction transaction = getFragmentManager().beginTransaction();
+
+// Replace whatever is in the fragment_container view with this fragment,
+// and add the transaction to the back stack if needed
+                transaction.replace(R.id.fragmentos, newFragment);
+                transaction.addToBackStack(null);
+
+// Commit the transaction
+                transaction.commit();
             }
         });
     }

@@ -6,6 +6,8 @@ import android.os.Bundle;
  * Created by aweiand on 24/06/16.
  */
 public class EmpregadoObrigatorio {
+    private String cnae;
+    private String desc_cnae;
     private String risco;
     private String intervalo_minimo;
     private String intervalo_maximo;
@@ -17,7 +19,9 @@ public class EmpregadoObrigatorio {
 
     }
 
-    public EmpregadoObrigatorio(String risco, String intervalo_minimo, String intervalo_maximo, String empregado, String observacao, String quantidade) {
+    public EmpregadoObrigatorio(String cnae, String desc_cnae, String risco, String intervalo_minimo, String intervalo_maximo, String empregado, String observacao, String quantidade) {
+        this.cnae = cnae;
+        this.desc_cnae = desc_cnae;
         this.risco = risco;
         this.intervalo_minimo = intervalo_minimo;
         this.intervalo_maximo = intervalo_maximo;
@@ -74,4 +78,19 @@ public class EmpregadoObrigatorio {
         this.quantidade = quantidade;
     }
 
+    public String getDesc_cnae() {
+        return desc_cnae;
+    }
+
+    public void setDesc_cnae(String desc_cnae) {
+        this.desc_cnae = desc_cnae;
+    }
+
+    public String getCnae() {
+        return cnae;
+    }
+
+    public void setCnae(String cnae) {
+        this.cnae = cnae;
+    }
 }
