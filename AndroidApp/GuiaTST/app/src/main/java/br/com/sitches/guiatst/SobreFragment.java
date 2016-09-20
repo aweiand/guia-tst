@@ -7,15 +7,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+public class SobreFragment extends Fragment {
 
-public class Cnae_Fragment extends Fragment {
-
-    public static Cnae_Fragment newInstance(String param1, String param2) {
-        Cnae_Fragment fragment = new Cnae_Fragment();
+    public static SobreFragment newInstance(String param1, String param2) {
+        SobreFragment fragment = new SobreFragment();
         return fragment;
     }
 
-    public Cnae_Fragment() {
+    public SobreFragment() {
         // Required empty public constructor
     }
 
@@ -28,7 +27,7 @@ public class Cnae_Fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_cnae, container, false);
+        return inflater.inflate(R.layout.fragment_sobre, container, false);
     }
 
     @Override

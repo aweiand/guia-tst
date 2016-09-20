@@ -2,20 +2,34 @@ package br.com.sitches.guiatst;
 
 import android.app.Activity;
 import android.app.Fragment;
+import android.content.Context;
+import android.net.Uri;
 import android.os.Bundle;
+import android.support.design.widget.NavigationView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Spinner;
 
 
-public class Cnae_Fragment extends Fragment {
+/**
+ * A simple {@link Fragment} subclass.
+ * Activities that contain this fragment must implement the
+ * {@link HomeFragment.OnFragmentInteractionListener} interface
+ * to handle interaction events.
+ * Use the {@link HomeFragment#newInstance} factory method to
+ * create an instance of this fragment.
+ */
+public class HomeFragment extends Fragment {
 
-    public static Cnae_Fragment newInstance(String param1, String param2) {
-        Cnae_Fragment fragment = new Cnae_Fragment();
+    public static HomeFragment newInstance(String param1, String param2) {
+        HomeFragment fragment = new HomeFragment();
         return fragment;
     }
 
-    public Cnae_Fragment() {
+    public HomeFragment() {
         // Required empty public constructor
     }
 
@@ -28,7 +42,7 @@ public class Cnae_Fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_cnae, container, false);
+        return inflater.inflate(R.layout.fragment_home, container, false);
     }
 
     @Override
@@ -40,4 +54,5 @@ public class Cnae_Fragment extends Fragment {
     public void onDetach() {
         super.onDetach();
     }
+
 }

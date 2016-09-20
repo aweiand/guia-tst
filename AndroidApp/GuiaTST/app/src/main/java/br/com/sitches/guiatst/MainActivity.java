@@ -9,22 +9,20 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     GerenciaBanco gerenciaBanco = null;
+    ArrayList<EmpregadoObrigatorio> empregadoObrigatorios;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,33 +42,7 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        Button btnConsulta = (Button) findViewById(R.id.btnConsultar);
-        btnConsulta.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                EditText cnae = (EditText) findViewById(R.id.inptCnae);
-                Spinner funcs = (Spinner) findViewById(R.id.spinner);
-
-                String minimo = funcs.getSelectedItem().toString().split("-")[0];
-                String maximo = funcs.getSelectedItem().toString().split("-")[1];
-
-                ArrayList<EmpregadoObrigatorio> dataByCnaeFuncionario = gerenciaBanco.getDataByCnaeFuncionario(cnae.getText().toString(), minimo, maximo);
-                Toast.makeText(v.getContext(), dataByCnaeFuncionario.get(0).getRisco(), Toast.LENGTH_LONG).show();
-
-//                TODO :: Abir o fragmento no resultado e enviar os dados.
-// Create new fragment and transaction
-                Fragment newFragment = new RestuladoConsulta();
-                FragmentTransaction transaction = getFragmentManager().beginTransaction();
-
-// Replace whatever is in the fragment_container view with this fragment,
-// and add the transaction to the back stack if needed
-                transaction.replace(R.id.fragmentos, newFragment);
-                transaction.addToBackStack(null);
-
-// Commit the transaction
-                transaction.commit();
-            }
-        });
+        displayView(R.id.nav_home);
     }
 
     @Override
@@ -108,25 +80,64 @@ public class MainActivity extends AppCompatActivity
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
-        int id = item.getItemId();
+        displayView(item.getItemId());
+        return true;
+    }
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+    public void displayView(int id) {
+        Fragment fragment = new HomeFragment();
+        String title = getString(R.string.app_name);
 
-        } else if (id == R.id.nav_slideshow) {
+        switch (id){
+            case R.id.nav_home:
+                fragment = new HomeFragment();
+                title = getString(R.string.app_name);
+                break;
 
-        } else if (id == R.id.nav_manage) {
+            case R.id.nav_cnae:
+                fragment = new Cnae_Fragment();
+                title = getString(R.string.app_name);
+                break;
 
-        } else if (id == R.id.nav_share) {
+            case R.id.nav_sobre:
+                fragment = new SobreFragment();
+                title = getString(R.string.app_name);
+                break;
+        }
 
-        } else if (id == R.id.nav_send) {
-
+        if (fragment != null) {
+            FragmentTransaction ft = getFragmentManager().beginTransaction();
+            ft.replace(R.id.fragmentos, fragment);
+            getSupportActionBar().setTitle(title);
+            ft.commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
-        return true;
+    }
+
+    public void BtnConsultaClick(View view) {
+        EditText cnae = (EditText) findViewById(R.id.inptCnae);
+        Spinner funcs = (Spinner) findViewById(R.id.spinner);
+
+        String minimo = funcs.getSelectedItem().toString().split("-")[0];
+        String maximo = funcs.getSelectedItem().toString().split("-")[1];
+
+        empregadoObrigatorios = gerenciaBanco.getDataByCnaeFuncionario(cnae.getText().toString(), minimo, maximo);
+        if (empregadoObrigatorios.size() >0) {
+            Fragment fragment = new RestuladoConsulta();
+            FragmentTransaction ft = getFragmentManager().beginTransaction();
+            ft.replace(R.id.fragmentos, fragment);
+            getSupportActionBar().setTitle("Resultado Consulta");
+            ft.commit();
+            DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+            drawer.closeDrawer(GravityCompat.START);
+        } else {
+            Toast.makeText(view.getContext(), "Nenhum resultado encontrado...", Toast.LENGTH_LONG).show();
+        }
+    }
+
+    public ArrayList<EmpregadoObrigatorio> getEmpregadoObrFiltrado(){
+        return empregadoObrigatorios;
     }
 }
