@@ -19,7 +19,7 @@ import java.util.jar.Manifest;
 public class RestuladoConsulta extends Fragment {
 
     public ArrayList<EmpregadoObrigatorio> empregadoObrigatorios;
-    public String teste;
+    public ArrayList<EmpregadoCipa> empregadoCipas;
 
     public static RestuladoConsulta newInstance(ArrayList<EmpregadoObrigatorio> empregadoObrigatorios) {
         RestuladoConsulta fragment = new RestuladoConsulta();
@@ -43,6 +43,7 @@ public class RestuladoConsulta extends Fragment {
 
         MainActivity mainActivity = (MainActivity) getActivity();
         empregadoObrigatorios = mainActivity.getEmpregadoObrFiltrado();
+        empregadoCipas = mainActivity.getEmpregadoCipas();
 
         TextView txt_cnae = (TextView) view.findViewById(R.id.txt_cnae);
         txt_cnae.setText(empregadoObrigatorios.get(0).getCnae());
@@ -53,11 +54,17 @@ public class RestuladoConsulta extends Fragment {
         TextView txt_cnae_desc = (TextView) view.findViewById(R.id.txt_desc_cnae);
         txt_cnae_desc.setText(empregadoObrigatorios.get(0).getDesc_cnae());
 
-//        TODO criar textos dinamicamente de acordo com o resultado
         LinearLayout GridEmpregados = (LinearLayout) view.findViewById(R.id.GridEmpregados);
         for (EmpregadoObrigatorio empregado: empregadoObrigatorios) {
             TextView emp1 = new TextView(mainActivity);
             emp1.setText(empregado.getEmpregado() + " Com " + empregado.getQuantidade() + " Empregados");
+            emp1.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+            GridEmpregados.addView(emp1);
+        }
+
+        for (EmpregadoCipa empregadoCi: empregadoCipas) {
+            TextView emp1 = new TextView(mainActivity);
+            emp1.setText(empregadoCi.getTipo()  + empregadoCi.getQuantidade() + " Empregados");
             emp1.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT));
             GridEmpregados.addView(emp1);
         }

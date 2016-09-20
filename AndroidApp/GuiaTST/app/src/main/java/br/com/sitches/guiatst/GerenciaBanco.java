@@ -92,7 +92,7 @@ public class GerenciaBanco extends SQLiteOpenHelper {
         Log.d("GUIA-TST", "Registros Inseridos na Base!");
     }
 
-    public ArrayList<EmpregadoObrigatorio> getDataByCnaeFuncionario(String cnae, String minimo, String maximo){
+    public ArrayList<EmpregadoObrigatorio> getDataByCnaeFuncionario(String cnae, String funcionarios){
         SQLiteDatabase db = getWritableDatabase();
         ArrayList<EmpregadoObrigatorio> listaEmpregadoObr = new ArrayList<EmpregadoObrigatorio>();
         Cursor cursor;
@@ -107,7 +107,7 @@ public class GerenciaBanco extends SQLiteOpenHelper {
                                     " INNER JOIN empregado e ON (eo.id_empregado = e.id_empregado) " +
                                     " LEFT OUTER JOIN observacao o ON (eo.id_observacao = o.id_observacao) " +
                                 " WHERE c.num_cnae = " + cnae + " AND " +
-                                    " (i.minimo >= " + minimo + " AND i.maximo <= "+ maximo + ") ", null);
+                                    " (i.minimo <= " + funcionarios + " AND i.maximo >= "+ funcionarios + ") ", null);
 
         Log.d("GUIA-TST", "Agora Aqui, depois do SELECT");
 
@@ -133,6 +133,40 @@ public class GerenciaBanco extends SQLiteOpenHelper {
         cursor.close();
 
         return listaEmpregadoObr;
+    }
+
+    public ArrayList<EmpregadoCipa> getDataByCnaeCipa(String cnae, String funcionarios){
+        SQLiteDatabase db = getWritableDatabase();
+        ArrayList<EmpregadoCipa> listaEmpregadoCipa = new ArrayList<EmpregadoCipa>();
+        Cursor cursor;
+        Log.d("GUIA-TST", "Cheguei Aqui");
+
+        cursor = db.rawQuery("SELECT gc.cipa, gc.tipo, gc.quantidade " +
+                " FROM grupo_cipa gc " +
+                " INNER JOIN grupo_cnae gcn ON (gc.cipa = gcn.cipa) " +
+                " INNER JOIN intervalo i ON (gc.id_intervalo = i.id_intervalo) " +
+                " WHERE gcn.num_cnae = " + cnae + " AND " +
+                " (i.minimo <= " + funcionarios + " AND i.maximo >= "+ funcionarios + ") ", null);
+
+        Log.d("GUIA-TST", "Agora Aqui, depois do SELECT");
+
+
+        if( cursor != null ) {
+            while (cursor.moveToNext()) {
+                EmpregadoCipa empregadoCipa = new EmpregadoCipa(
+                        cursor.getString(cursor.getColumnIndex("cipa")),
+                        cursor.getString(cursor.getColumnIndex("tipo")),
+                        cursor.getString(cursor.getColumnIndex("quantidade"))
+                );
+
+                listaEmpregadoCipa.add(empregadoCipa);
+            }
+        } else {
+            Log.d("GUIA-TST", "O select retornou vazio..");
+        }
+        cursor.close();
+
+        return listaEmpregadoCipa;
     }
 
 }

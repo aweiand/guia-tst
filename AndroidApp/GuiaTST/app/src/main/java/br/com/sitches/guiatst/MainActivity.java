@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity
 
     GerenciaBanco gerenciaBanco = null;
     ArrayList<EmpregadoObrigatorio> empregadoObrigatorios;
+    ArrayList<EmpregadoCipa> empregadoCipas;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -118,13 +119,12 @@ public class MainActivity extends AppCompatActivity
 
     public void BtnConsultaClick(View view) {
         EditText cnae = (EditText) findViewById(R.id.inptCnae);
-        Spinner funcs = (Spinner) findViewById(R.id.spinner);
+        EditText funcionarios = (EditText) findViewById(R.id.funcionarios);
 
-        String minimo = funcs.getSelectedItem().toString().split("-")[0];
-        String maximo = funcs.getSelectedItem().toString().split("-")[1];
+        empregadoObrigatorios = gerenciaBanco.getDataByCnaeFuncionario(cnae.getText().toString(), funcionarios.getText().toString());
+        empregadoCipas = gerenciaBanco.getDataByCnaeCipa(cnae.getText().toString(), funcionarios.getText().toString());
 
-        empregadoObrigatorios = gerenciaBanco.getDataByCnaeFuncionario(cnae.getText().toString(), minimo, maximo);
-        if (empregadoObrigatorios.size() >0) {
+        if (empregadoObrigatorios.size() > 0 && empregadoCipas.size() > 0) {
             Fragment fragment = new RestuladoConsulta();
             FragmentTransaction ft = getFragmentManager().beginTransaction();
             ft.replace(R.id.fragmentos, fragment);
@@ -138,6 +138,10 @@ public class MainActivity extends AppCompatActivity
     }
 
     public ArrayList<EmpregadoObrigatorio> getEmpregadoObrFiltrado(){
-        return empregadoObrigatorios;
+        return this.empregadoObrigatorios;
+    }
+
+    public ArrayList<EmpregadoCipa> getEmpregadoCipas(){
+        return this.empregadoCipas;
     }
 }

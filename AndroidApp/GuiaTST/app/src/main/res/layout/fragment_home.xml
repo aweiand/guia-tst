@@ -23,19 +23,9 @@
             android:id="@+id/inptCnae"
             android:width="300dp"
             android:text="46141"
-            android:layout_marginBottom="23dp"
-            android:layout_above="@+id/textView3"
-            android:layout_centerHorizontal="true" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Consultar"
-            android:id="@+id/btnConsultar"
-            android:layout_marginBottom="135dp"
-            android:layout_alignParentBottom="true"
-            android:onClick="BtnConsultaClick"
-            android:layout_centerHorizontal="true" />
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:inputType="text" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -43,20 +33,8 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Número CNAE"
             android:id="@+id/textView2"
-            android:layout_above="@+id/inptCnae"
-            android:layout_alignLeft="@+id/inptCnae"
+            android:layout_below="@+id/imageView2"
             android:layout_alignStart="@+id/inptCnae" />
-
-        <Spinner
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/spinner"
-            android:drawSelectorOnTop="true"
-            android:entries="@array/array_names"
-            android:layout_marginBottom="33dp"
-            android:layout_above="@+id/btnConsultar"
-            android:layout_alignLeft="@+id/textView3"
-            android:layout_alignStart="@+id/textView3" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -64,21 +42,41 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Número de Funcionários"
             android:id="@+id/textView3"
-            android:layout_above="@+id/spinner"
-            android:layout_alignLeft="@+id/inptCnae"
-            android:layout_alignStart="@+id/inptCnae" />
+            android:layout_below="@+id/inptCnae"
+            android:layout_alignStart="@+id/inptCnae"
+            android:layout_marginTop="26dp" />
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
             android:id="@+id/imageView2"
             android:src="@mipmap/logo1"
             android:layout_alignParentTop="true"
             android:layout_alignRight="@+id/inptCnae"
             android:layout_alignEnd="@+id/inptCnae"
-            android:layout_above="@+id/textView2"
             android:layout_alignLeft="@+id/textView2"
-            android:layout_alignStart="@+id/textView2" />
+            android:layout_alignStart="@+id/textView2"
+            android:contentDescription="Guia-TST" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/funcionarios"
+            android:width="300dp"
+            android:text="50"
+            android:layout_below="@+id/textView3"
+            android:layout_alignStart="@+id/textView3"
+            android:inputType="text" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Consultar"
+            android:id="@+id/btnConsultar"
+            android:onClick="BtnConsultaClick"
+            android:layout_below="@+id/funcionarios"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp" />
 
     </RelativeLayout>
 </FrameLayout>
