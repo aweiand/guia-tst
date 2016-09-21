@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_names">
+        <item>0-19</item>
+        <item>20-29</item>
+        <item>30-50</item>
+        <item>51-80</item>
+        <item>50-100</item>
+        <item>81-100</item>
+        <item>101-120</item>
+        <item>101-250</item>
+        <item>121-140</item>
+        <item>141-300</item>
+        <item>251-500</item>
+        <item>301-500</item>
+        <item>501-1000</item>
+        <item>1001-2000</item>
+        <item>1001-2500</item>
+        <item>2001-3500</item>
+        <item>2501-5000</item>
+        <item>3501-5000</item>
+        <item>5001-10000</item>
+        <item>5001-99999</item>
+        <item>10001-99999</item>
+    </string-array>
+</resources>

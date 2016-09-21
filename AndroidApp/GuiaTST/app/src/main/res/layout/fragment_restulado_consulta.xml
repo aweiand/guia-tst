@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.sitches.guiatst.RestuladoConsulta">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/txt_cnae"
+            android:layout_marginLeft="27dp"
+            android:layout_alignTop="@+id/textView5"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="CNAE"
+            android:id="@+id/textView5"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/txt_cnae"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Risco"
+            android:id="@+id/textView4"
+            android:layout_marginTop="22dp"
+            android:layout_below="@+id/txt_cnae"
+            android:layout_alignStart="@+id/textView5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/txt_risco"
+            android:layout_marginLeft="27dp"
+            android:layout_alignBottom="@+id/textView4"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Descrição do CNAE"
+            android:id="@+id/textView6"
+            android:layout_marginTop="34dp"
+            android:layout_below="@+id/textView4"
+            android:layout_alignStart="@+id/textView4" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/txt_desc_cnae"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="32dp"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentStart="true" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/txt_desc_cnae"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="60dp"
+            android:id="@+id/GridEmpregados"></LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>
