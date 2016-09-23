@@ -46,15 +46,15 @@
       <tr>
 				<td colspan="1">Descrição</td>
 				<td colspan="1">Risco</td>
-        <td class="td-borda"><?php echo $DadosTabelaNR4['risco'] ?></td>
+        <td class="td-borda"><?php echo utf8_encode($DadosTabelaNR4['risco']) ?></td>
 			</tr>
 
       <tr>
-				<td class="td-borda" colspan="3"> <?php echo $DadosTabelaNR4['cnae_descricao']; ?></td>
+				<td class="td-borda" colspan="3"> <?php echo utf8_encode($DadosTabelaNR4['cnae_descricao']); ?></td>
 			</tr>
 
       <tr>
-			<?php echo '<td colspan="3">Intervalo de funcionários '.$DadosTabelaNR4['minimo'].' à '.$DadosTabelaNR4['maximo'].'</td>'  ?>
+			<?php echo '<td colspan="3">Intervalo de funcionários '.utf8_encode($DadosTabelaNR4['minimo']).' à '.utf8_encode($DadosTabelaNR4['maximo']).'</td>'  ?>
 			</tr>
     </table>
     <br>
@@ -62,8 +62,8 @@
       <?php
       while ($dados_tabela_EmpregadoObrigatorio = mysqli_fetch_array($resultado_consulta_nr4)):
         echo "<tr>
-        				<td colspan='2'>". $dados_tabela_EmpregadoObrigatorio['descricao'] ."</td>
-        				<td> ".$dados_tabela_EmpregadoObrigatorio['quantidade']." </td>
+        				<td colspan='2'>". utf8_encode($dados_tabela_EmpregadoObrigatorio['descricao']) ."</td>
+        				<td> ".utf8_encode($dados_tabela_EmpregadoObrigatorio['quantidade'])." </td>
         			</tr>";
 
       endwhile;
@@ -81,7 +81,7 @@
         <?php $DadosCipa = $resultadoGuia->getResultadoTabelaNR5($numero_cnae, $numero_empregados);
         $DadoCipaTratado = mysqli_fetch_assoc($DadosCipa);
         ?>
-				<td colspan="3">Grupo <?php echo $DadoCipaTratado['cipa'].' '.$DadoCipaTratado['descricao'] ?></td>
+				<td colspan="3">Grupo <?php echo utf8_encode($DadoCipaTratado['cipa']).' '.utf8_encode($DadoCipaTratado['descricao']) ?></td>
 			</tr>
     </table>
     <table class="tabela2">
@@ -91,21 +91,16 @@
          if($dados_cipa['tipo'] === '1'):
           echo "<tr>
                   <td colspan='3'> Efetivo</td>
-                  <td>".$dados_cipa['quantidade'].'</td>
+                  <td>".utf8_encode($dados_cipa['quantidade']).'</td>
                 </tr>';
           elseif($dados_cipa['tipo'] === '0'):
           echo "<tr>
                   <td colspan='3'> Suplente</td>
-                  <td>".$dados_cipa['quantidade'].'</td>
+                  <td>".utf8_encode($dados_cipa['quantidade']).'</td>
                 </tr>';
           endif;
          endwhile;
-
-
         ?>
-
-
-
     </table>
   </body>
 </html>
