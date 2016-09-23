@@ -44,13 +44,13 @@
 
 					echo "<tr style='background-color: $cor;' >
 							<td>".
-								$linha['id_risco']
+								utf8_encode($linha['id_risco'])
 							."</td>
 							<td>".
-								$linha['risco']
+								utf8_encode($linha['risco'])
 							."</td>
 							<td>".
-								$linha['descricao']
+								utf8_encode($linha['descricao'])
 							."</td>
 							<td class='td'>
 								<a href='deleta_tst.php?menu=risco&id_risco=".$linha['id_risco']."'>

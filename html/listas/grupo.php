@@ -41,7 +41,7 @@
 						$cor == "#c7efc3" ? $cor = "#FFF" : $cor = "#c7efc3";
 						echo "<tr style='background-color: $cor;' >
 									<td style='width: 10%;'>".
-										$linha['cipa']
+										utf8_encode($linha['cipa'])
 									."</td>
 									<td style='width: 80%;'>".
 										utf8_encode($linha['descricao'])

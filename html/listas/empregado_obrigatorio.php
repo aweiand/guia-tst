@@ -33,7 +33,7 @@
 				$cor == "#c7efc3" ? $cor = "#FFF" : $cor = "#c7efc3";
 						echo "<tr style='background-color: $cor;' >
 									<td  style='width: 60%;'>".
-										$linha['descricao']
+										utf8_encode($linha['descricao'])
 									."</td>
 									<td class='td' style='width: 5%;'>
 										<a href='form_edita/cnae.php?COD=".$linha['id_empregado']."'>
