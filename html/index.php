@@ -19,6 +19,7 @@
   $numero_cnae = $_GET['num_cnae'];
 
   $resultado_consulta_nr4 = $resultadoGuia->getResultadoTabelaNR4($numero_cnae, $numero_empregados);
+  $resultado_consulta_nr4_empregado = $resultadoGuia->getResultadoTabelaNR4($numero_cnae, $numero_empregados);
   $DadosTabelaNR4 = $resultado_consulta_nr4->fetch_array();
 
   ?>
@@ -32,7 +33,7 @@
           </div>
           <div class="check">
     			<a href="../index.php">
-    			<i class="fa fa-2x fa-check-square-o fa-lg" title='Pesquisar novo CNAE'></i>
+    			<i class="fa fa-2x fa-arrow-left fa-lg" title='Pesquisar novo CNAE'></i>
     			</a>
     		  </div>
         </td>
@@ -60,7 +61,7 @@
     <br>
     <table class="tabela2">
       <?php
-      while ($dados_tabela_EmpregadoObrigatorio = mysqli_fetch_array($resultado_consulta_nr4)):
+      while ($dados_tabela_EmpregadoObrigatorio = mysqli_fetch_array($resultado_consulta_nr4_empregado)):
         echo "<tr>
         				<td colspan='2'>". utf8_encode($dados_tabela_EmpregadoObrigatorio['descricao']) ."</td>
         				<td> ".utf8_encode($dados_tabela_EmpregadoObrigatorio['quantidade'])." </td>
@@ -88,12 +89,12 @@
       <?php
       $DadosCipa = $resultadoGuia->getResultadoTabelaNR5($numero_cnae, $numero_empregados);
       while($dados_cipa = mysqli_fetch_array($DadosCipa)):
-         if($dados_cipa['tipo'] === '1'):
+         if($dados_cipa['tipo'] === '0'):
           echo "<tr>
                   <td colspan='3'> Efetivo</td>
                   <td>".utf8_encode($dados_cipa['quantidade']).'</td>
                 </tr>';
-          elseif($dados_cipa['tipo'] === '0'):
+          elseif($dados_cipa['tipo'] === '1'):
           echo "<tr>
                   <td colspan='3'> Suplente</td>
                   <td>".utf8_encode($dados_cipa['quantidade']).'</td>
@@ -102,5 +103,6 @@
          endwhile;
         ?>
     </table>
+    <br><br><br>
   </body>
 </html>

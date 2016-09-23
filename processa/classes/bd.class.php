@@ -146,7 +146,7 @@ $host = 'localhost';
 //usuario
 $user = 'root';
 //senha
-$pass = '1234';
+$pass = 'wanrltwaez';
 //nome do banco de dados
 
 //Nome do banco de dados

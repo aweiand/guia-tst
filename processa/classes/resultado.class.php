@@ -13,7 +13,7 @@
       			INNER JOIN intervalo i ON ($numero_empregados>=i.minimo AND $numero_empregados<=i.maximo)
       			INNER JOIN empregado_obrigatorio eo ON(eo.id_risco=r.id_risco AND eo.id_intervalo=i.id_intervalo)
       			INNER JOIN empregado e ON (e.id_empregado=eo.id_empregado)
-      			WHERE num_cnae = '$numero_cnae' ";
+      			WHERE num_cnae = '$numero_cnae' ORDER BY e.descricao";
       $resultadoConsulta = bd::consulta_sql($consulta_sql);
       return $resultadoConsulta;
     }
