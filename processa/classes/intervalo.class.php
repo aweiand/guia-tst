@@ -24,6 +24,12 @@ class intervalo extends bd{
 		$dados = bd::get_all('intervalo');
 		return $dados;
 	}
+	//essa funcao é um select para pegar somente os intervalos da tabela nr4
+	function get_allintervalo_nr4(){
+		$consulta_sql = "SELECT * FROM $this->tabela WHERE id_intervalo<9";
+		$dados = bd::consulta_sql($consulta_sql);
+		return $dados;
+	}
 	function atualiza_intervalo($id_intervalo){
 		$campos = ['maximo' => $this->maximo, 'minimo' => $this->minimo];
 		$where = ['intervalo.id_intervalo' => $id_intervalo];

@@ -39,7 +39,7 @@
 					$cor == "#c7efc3" ? $cor = "#FFF" : $cor = "#c7efc3"; ?>
 						<tr style='background-color: <?php echo $cor ?>;' >
 							<td style='width: 60%;'>
-								<?php echo $linha['descricao']; ?>
+								<?php echo utf8_encode($linha['descricao']); ?>
 							</td>
 							<td class='td'  style='width: 5%;'>
 										<a href='../../processa/processos/deleta.php' onclick='confirma()'>

@@ -27,14 +27,26 @@ class empregado_obrigatorio extends bd{
 		return $resultado;
 	}
 	function get_allempregadoObrigatorio(){
-		$dados = bd::get_all($this->tabela);
-		return $dados;
+		$consulta_sql = "SELECT eo.id_emp_obg,eo.quantidade,r.risco,i.minimo,i.maximo,ep.descricao,obs.observacao FROM empregado_obrigatorio eo
+			INNER JOIN risco r ON (eo.id_risco=r.id_risco)
+		    INNER JOIN intervalo i ON(eo.id_intervalo=i.id_intervalo)
+		    INNER JOIN empregado ep ON (eo.id_empregado=ep.id_empregado)
+		    LEFT OUTER JOIN observacao obs ON (eo.id_observacao=obs.id_observacao)";
+		$resultado = bd::consulta_sql($consulta_sql);
+		return $resultado;
 	}
-	/*
-	function get_oneRisco($id_risco){
-		$dados = bd::get_all('risco', 'id_risco = '. $id_risco);
-		return $dados;
-	}*/
+	function get_oneEmpregadoObrigatorio($id_risco, $id_intervalo){
+		$consulta_sql = "SELECT eo.id_emp_obg,eo.quantidade,r.risco,i.minimo,i.maximo,ep.descricao,obs.observacao FROM empregado_obrigatorio eo
+					INNER JOIN risco r ON (eo.id_risco=r.id_risco)
+						INNER JOIN intervalo i ON(eo.id_intervalo=i.id_intervalo)
+						INNER JOIN empregado ep ON (eo.id_empregado=ep.id_empregado)
+						LEFT OUTER JOIN observacao obs ON (eo.id_observacao=obs.id_observacao)
+						WHERE eo.id_risco = $id_risco AND eo.id_intervalo = $id_intervalo ORDER BY descricao";
+		$resultado = bd::consulta_sql($consulta_sql);
+		return $resultado;
+	}
+
+
 	function deleta_empregadoObrigatorio($id_emp_obg){
 		$where = ['id_emp_obg' => $id_emp_obg];
 		$retorno = bd::deleta($this->tabela,$where);

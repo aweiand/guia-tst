@@ -54,7 +54,7 @@
   #check:checked ~ .barra nav a .link{
     opacity: 1;
     margin-top: 0;
-    transition-delay: .2s;
+    transition-delay: .0s;
     }
 
 </style>

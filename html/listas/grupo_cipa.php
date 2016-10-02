@@ -47,16 +47,16 @@
 
 					echo "<tr style='background-color: $cor;'>
 							<td style='width: 10%;'>".
-								$linha['cipa']
+								utf8_encode($linha['cipa'])
 							."</td>
 							<td style='width: 10%;'>".
-								$linha['tipo']
+								utf8_encode($linha['tipo'])
 							."</td>
 							<td style='width: 20%;'>".
-								$linha_intervalo['maximo']
+								utf8_encode($linha_intervalo['maximo'])
 							."</td>
 							<td style='width: 20%;'>".
-								$linha_intervalo['minimo']
+								utf8_encode($linha_intervalo['minimo'])
 							."</td>
 							<td class='td' style='width: 5%;'>
 								<a href='edita_tst.php?COD=".$linha['cipa']."&COD2=".$linha['tipo']."'>

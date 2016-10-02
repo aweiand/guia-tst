@@ -32,13 +32,13 @@
 			$cor == "#c7efc3" ? $cor = "#FFF" : $cor = "#c7efc3";
 					echo "<tr style='background-color: $cor;'>
 							<td style='width: 60%;'>".
-								$linha['id_intervalo']
+								utf8_encode($linha['id_intervalo'])
 							."</td>
 							<td>".
-								$linha['maximo']
+								utf8_encode($linha['maximo'])
 							."</td>
 							<td>".
-								$linha['minimo']
+								utf8_encode($linha['minimo'])
 							."</td>
 							<td class='td'>
 								<a href='edita_tst.php?COD=".$linha['id_intervalo']."'>Edita</a>

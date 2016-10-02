@@ -43,13 +43,13 @@
 			$cor == "#c7efc3" ? $cor = "#FFF" : $cor = "#c7efc3";
 					echo "<tr style='background-color: $cor;' >
 							<td style='width: 10%;'>".
-								$linha['num_cnae']
+								utf8_encode($linha['num_cnae'])
 							."</td>
 							<td style='width: 10%;'>".
-								$linha['risco']
+								utf8_encode($linha['risco'])
 							."</td>
 							<td style='width: 40%;'>".
-								$linha['descricao']
+								utf8_encode($linha['descricao'])
 							."</td>
 							<td class='td' style='width: 5%;'>
 								<a href='deleta_tst.php?menu=cnae&deleta=sim&num_cnae=".$linha['num_cnae']."' onclick='confirma()'>
@@ -62,7 +62,7 @@
 								</a>
 							</td>
 						</tr>";
-			}x
+			}
 						?>
 		</table>
 </body>

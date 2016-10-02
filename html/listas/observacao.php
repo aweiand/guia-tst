@@ -32,10 +32,10 @@
 				$cor == "#c7efc3" ? $cor = "#FFF" : $cor = "#c7efc3";
 					echo "<tr tr style='background-color: $cor;' >
 							<td>".
-								$linha['id_observacao']
+								utf8_encode($linha['id_observacao'])
 							."</td>
 							<td>".
-								$linha['observacao']
+								utf8_encode($linha['observacao'])
 							."</td>
 							<td class='td'>
 								<a href='edita_tst.php?COD=".$linha['id_observacao']."'>Edita</a>

@@ -28,13 +28,12 @@
         //faz uma consulta sql ao banco personalizada. É preciso digitar todo a consulta.
         public function consulta_sql($sql)
         {
+              // echo $sql.'</br>';
             $resultado = parent::query($sql);
             if ($resultado == false) {
                 $resultado = 'Erro ao processar';
                 echo $resultado;
             }
-            parent::close();
-
             return $resultado;
         }
 
@@ -147,23 +146,9 @@ $host = 'localhost';
 //usuario
 $user = 'root';
 //senha
-$pass = '';
+$pass = 'wanrltwaez';
 //nome do banco de dados
 
 //Nome do banco de dados
 $db = 'tst';
 $bd = new bd($host, $user, $pass, $db);
-
-//:::::::::::::::::::::::::::::::::::::::::::::::::teste:::::::::::::::::::::::::::::::::::::::::::::::::::::
-//$nome = 'oioi';
-//$where = ['id' => '27'];
-//$tabela = 'geral';
-//$dados = ['nome' => "'$nome'", 'telefone' => "'oioi'"];
-//$banco->insere('geral', $dados, TRUE);
-//$banco->atualiza('geral', $dados, ['id' => 4]);
-//$banco->deleta($tabela, $where);
-
-//$resultado = $bd->get_all('risco');
-//while($linha = mysqli_fetch_array($resultado)){
-    //echo $linha['descricao'];
-//}

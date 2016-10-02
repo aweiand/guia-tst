@@ -42,10 +42,10 @@
 
 					echo "<tr style='background-color: $cor;' >
 							<td style='width: 40%;'>".
-								$linha['num_cnae']
+								utf8_encode($linha['num_cnae'])
 							."</td>
 							<td style='width: 40%;'>".
-								$linha['cipa']
+								utf8_encode($linha['cipa'])
 							."</td>
 							<td class='td' style='width: 10%;'>
 								<a href='edita_tst.php?COD=".$linha['cipa']."&COD2=".$linha['num_cnae']."'>
