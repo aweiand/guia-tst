@@ -1,13 +1,13 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="br.com.sitches.guiatst.Cnae_Fragment">
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".fragments.Cnae_Fragment">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/my_f_recycler_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:scrollbars="vertical">
     </android.support.v7.widget.RecyclerView>
 

@@ -13,10 +13,16 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.Spinner;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+
+import br.com.sitches.guiatst.fragments.Cnae_Fragment;
+import br.com.sitches.guiatst.fragments.HomeFragment;
+import br.com.sitches.guiatst.fragments.RestuladoConsulta;
+import br.com.sitches.guiatst.fragments.SobreFragment;
+import br.com.sitches.guiatst.models.EmpregadoCipa;
+import br.com.sitches.guiatst.models.EmpregadoObrigatorio;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -71,9 +77,9 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
+//        if (id == R.id.action_settings) {
+//            return true;
+//        }
 
         return super.onOptionsItemSelected(item);
     }

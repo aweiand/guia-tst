@@ -11,7 +11,10 @@ import org.apache.commons.io.IOUtils;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.List;
+
+import br.com.sitches.guiatst.models.Cnae_Model;
+import br.com.sitches.guiatst.models.EmpregadoCipa;
+import br.com.sitches.guiatst.models.EmpregadoObrigatorio;
 
 /**
  * Created by aweiand on 10/12/15.
@@ -168,5 +171,34 @@ public class GerenciaBanco extends SQLiteOpenHelper {
 
         return listaEmpregadoCipa;
     }
+
+    public ArrayList<Cnae_Model> getAllCNAE(){
+        SQLiteDatabase db = getWritableDatabase();
+        ArrayList<Cnae_Model> cnae_models = new ArrayList<Cnae_Model>();
+        Cursor cursor;
+        Log.d("GUIA-TST", "Cheguei Aqui");
+
+        cursor = db.rawQuery("SELECT * FROM cnae", null);
+
+        Log.d("GUIA-TST", "Agora Aqui, depois do SELECT");
+
+        if( cursor != null ) {
+            while (cursor.moveToNext()) {
+                Cnae_Model cnae_model = new Cnae_Model(
+                        cursor.getString(cursor.getColumnIndex("num_cnae")),
+                        cursor.getString(cursor.getColumnIndex("descricao")),
+                        cursor.getString(cursor.getColumnIndex("id_risco"))
+                );
+
+                cnae_models.add(cnae_model);
+            }
+        } else {
+            Log.d("GUIA-TST", "O select retornou vazio..");
+        }
+        cursor.close();
+
+        return cnae_models;
+    }
+
 
 }
